@@ -1,0 +1,17 @@
+<div class="news">
+  <h3><b>latest blog posts</b></h3>
+  <hr>
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+      {% assign posts = site.posts %}
+      {% for post in posts limit: site.posts_limit %}
+        <tr>
+          <td scope="row"><strong>{{ post.date | date: "%b %-d, %Y" }}</strong></td>
+          <td>
+              <a class="news-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </td>
+        </tr>
+      {% endfor %}
+      </table>
+    </div>
+</div>
