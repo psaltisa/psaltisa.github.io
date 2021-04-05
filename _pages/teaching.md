@@ -45,7 +45,7 @@ A course for engineering students. Oscillations and waves, interference; electro
 
 ---
 
-#### [ASTRON 2B03: The Big Questions](http://academiccalendars.romcmaster.ca/preview_course_nopop.php?catoid=13&coid=101479){:target="\_blank"}
+#### [ASTRON 2B03: The Big Questions](https://academiccalendars.romcmaster.ca/preview_course_nopop.php?catoid=41&coid=214717){:target="\_blank"}
 Ultimate questions in modern science are surveyed with emphasis on physical sciences: origin of space-time, elements and structure in the cosmos (stars, planets, galaxies).
 
 <i class="fas fa-chalkboard-teacher"></i>&nbsp; Leading tutorials.

@@ -239,6 +239,7 @@ footer.sticky-bottom {
     color: var(--global-theme-color);
     font-size: 5rem;
   }
+  
 }
 
 .post-list {
@@ -271,6 +272,7 @@ footer.sticky-bottom {
     background-color: var(--global-theme-color);
   }
 }
+
 
 
 // Distill
@@ -368,7 +370,7 @@ footer.sticky-bottom {
         a {
           border-bottom: 1px dashed var(--global-theme-color);
           &:hover {
-              border-bottom-style: solid;
+              border-bottom: 0px;
               text-decoration: none;
           }
         }
@@ -433,6 +435,7 @@ footer.sticky-bottom {
 // Rouge Color Customization
 code {
   color: var(--global-theme-color);
+  
 }
 // Transitioning Themes
 html.transition,

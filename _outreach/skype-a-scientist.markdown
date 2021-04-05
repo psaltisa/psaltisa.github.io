@@ -11,26 +11,30 @@ importance: 2
  </center>
  <br/>
 
-[Skype a Scientist](https://www.skypeascientist.com/){:target="\_blank"}  is a nonprofit educational organization based in Willimantic, Connecticut that enables scientists to video conference with students in classrooms. It began as an informal program in 2017, founded by [Sarah McAnulty](https://sarahmcanulty.weebly.com/){:target="\_blank"} while she was a graduate student at the University of Connecticut. As of 2019, almost 15,000 classrooms and over 7,000 scientists from a total of 43 countries had participated in video conferencing sessions.
+[Skype a Scientist](https://www.skypeascientist.com/){:target="\_blank"}  is a nonprofit educational organization based in Willimantic, Connecticut that enables scientists to video conference with students in classrooms. It began as an informal program in 2017, founded by [Sarah McAnulty](https://sarahmcanulty.weebly.com/){:target="\_blank"} while she was a graduate student at the University of Connecticut. As of 2019, almost 15,000 classrooms and over 7,000 scientists from a total of 43 countries had participated in video conferencing sessions. Below you can find previous sessions with K-12 students.
 
 ---
+<div class="publications">
+    <div class="table-responsive">
+      <table class="table table-hover table-borderless">
+        {% assign skype = site.data.skype  %}
+      {% for item in skype %}
+        <tr>
+          <td>
+           {{ item.school }}
+          </td>
+          <td>
+           <a href="{{ item.page }}" target="_blank"> Grade {{ item.grade }}</a>
+          </td>
+          <td  style="width: 15%"><strong>{{ item.date | date: "%m/ %Y" }}</strong></td>
+        </tr>
+      {% endfor %}
+      </table>
+    </div>
+</div>
 
-### **2019**
- <ul>
-  <li>Don Jeter Elementary, TX, USA (Grade 4)</li>
-  <li>Baldwinsville Central School District, NY, USA (Grade 9)</li>
-  <li>Madison Middle School, OH, USA (Grade 5)</li>
-  <li>Paxon Hollow Middle School, PA, USA (Grade 6)</li>
-</ul> 
 
-### **2020**
- <ul>
-  <li>John Knox Christian School, ON, Canada</li>
-  <li>Robious Middle School, VA, USA (Grade 6-7)</li>
-  <li>William J. Johnston Middle School CT, USA (Grade 8)</li>
-  <li>McAlpine Elementary School NC, USA (Grade 3)</li>
-</ul> 
-
+<br>
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-7 mt-3 mt-md-0">

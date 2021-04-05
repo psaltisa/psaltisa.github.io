@@ -6,6 +6,14 @@ description:
 nav: true
 ---
 
+When I am not exploring the origin of the elements, in a lab or in front of a computer screen,
+I am making science accessible to a wider audience, by participating in several science communication 
+initiatives worldwide. This experience has enabled me to share my passion about science with the 
+public, with a focus on children, the next generation of scientists. Below you can learn more 
+about the initiatives I am involved in. In case you are interested in collaborating on a
+science communication project, feel free to [contact me](mailto:{{site.email}}).
+
+
 <div class="projects grid">
 
   {% assign sorted_projects = site.outreach | sort: "importance" %}

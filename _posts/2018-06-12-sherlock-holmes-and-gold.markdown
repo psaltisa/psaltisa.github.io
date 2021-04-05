@@ -4,6 +4,7 @@ title:  Sherlock Holmes and the origin of gold in the universe
 date:   2018-06-15 16:40:16
 description: popular science article for ComSciCon 2018
 author:
+tags: popular-science
 ---
 
 So, you think the gold in jewelry comes from a mine?  That is very superficial my dear Watson, I can assure you. The origin of gold is a very intriguing question for scientists. Until very recently, they believed that most of the heavy elements  in the universe, such as gold, silver and uranium are produced during the death of a massive star, a supernova explosion. However, recent observations of gravitational waves by the LIGO and VIRGO Gravitational Wave Observatories, suggest that there might be another source of heavy elements, and that Watson, complicates things a lot.

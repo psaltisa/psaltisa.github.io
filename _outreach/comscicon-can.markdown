@@ -41,10 +41,10 @@ importance: 2
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-7 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/comscicon19_all.jpg" alt="" title="Group picture at the Phoenix"/>
+        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/comscicon19_all.jpg" alt="" title="Group picture at the Phoenix"/>
     </div>
     <div class="col-sm mt-2 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/comscicon19.gif" alt="" title="Group picture at black box theatre"/>
+        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/comscicon19.gif" alt="" title="Group picture at black box theatre"/>
     </div>
 </div>
 <div class="caption">

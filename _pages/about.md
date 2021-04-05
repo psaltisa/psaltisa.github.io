@@ -25,7 +25,7 @@ My area of expertise is [nuclear astrophysics]({{ site.baseurl }}/research){:tar
 the interconnection between the lives of the stars and the origin of chemical elements in the cosmos.
 
 In my spare time I [tweet](https://twitter.com/psaltistha){:target="\_blank"} about science, philosophy, art and whatever I find interesting. 
-I also participate in several [science outreach]({{ site.baseurl }}/outreach){:target="\_blank"}. activities and I'm trying to keep track of 
+I also participate in several [science outreach]({{ site.baseurl }}/outreach){:target="\_blank"} activities and I'm trying to keep track of 
 my adventures on my [personal blog]({{ site.baseurl }}/blog){:target="\_blank"}.
 
 

@@ -58,7 +58,7 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # -----------------------------------------------------------------------------
 
 blog_name: rust and stardust
-blog_description: a bunch of atoms trying to understand their origin
+blog_description: a bunch of atoms trying to understand their origin ⚛
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -83,6 +83,7 @@ collections:
     permalink: /outreach/:path/
 
 news_limit: 3
+posts_limit: 3
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
