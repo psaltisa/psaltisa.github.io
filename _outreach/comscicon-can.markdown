@@ -38,6 +38,13 @@ importance: 2
     Giving my 60 second reseach pop-talk, With the Communicate through Education/Outreach panelists.
 </div>
 
+#### In the news
+
+---
+
+<i class="far fa-newspaper"></i> [“We’re not always just sharing the facts – we’re sharing enthusiasm for the learning process and science” by Sarah Laux](https://dailynews.mcmaster.ca/articles/were-not-always-just-sharing-the-facts-were-sharing-enthusiasm-for-the-learning-process-and-science/){:target="\_blank"} (2019)
+
+---
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-7 mt-3 mt-md-0">

@@ -58,12 +58,12 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # -----------------------------------------------------------------------------
 
 blog_name: rust and stardust
-blog_description: a bunch of atoms trying to understand their origin ⚛
+blog_description: a bunch of atoms trying to understand their origin <i class="fas fa-atom"></i>
 permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: fale
 
 # Comments
 disqus_shortname: # put your disqus shortname

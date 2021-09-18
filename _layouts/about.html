@@ -35,9 +35,9 @@ layout: default
       {% include news.html %}
     {% endif %}
     <br>
-    
-    {% include blog_posts.html %}
-    
+    {% if page.posts %}
+       {% include blog_posts.html %}
+    {% endif %}
     <br> 
     {% if page.pubs %}
       {% include pubs.html %}

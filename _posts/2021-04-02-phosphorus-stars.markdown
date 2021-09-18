@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  Phosphorus-rich stars and the seeds of life
-date:   2021-04-02 10:40:16
+date:   2021-04-02 10:40:16-0400
 description: 
 author: 
+inline: false
 tags: popular-science
 ---
 

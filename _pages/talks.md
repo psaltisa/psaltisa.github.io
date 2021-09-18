@@ -6,13 +6,15 @@ description:
 nav: true
 ---
 
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid" src="{{ site.baseurl }}/assets/img/about3.JPG" alt="" title=""/>
     </div>
 </div>
 <div class="caption">
-    Presenting at the 23rd Symposium of the Hellenic Nuclear Physics Society in Thessaloniki, Greece (2014). 
+    Presenting at the 23rd Symposium of the Hellenic Nuclear Physics Society in Thessaloniki, Greece (2014).
 </div>
 
 <div class="publications">  
@@ -43,7 +45,7 @@ nav: true
     </div>
 </div>
 <div class="caption">
-    Presenting at the 24th Symposium of the Hellenic Nuclear Physics Society in Ioannina, Greece (2015). 
+    Presenting at the 24th Symposium of the Hellenic Nuclear Physics Society in Ioannina, Greece (2015).
 </div>
 
 <div class="publications">  
@@ -58,9 +60,15 @@ nav: true
            {{ item.title }}
           </td>
           <td>
+          {% if item.figshare %}
+           <a href="https://doi.org/{{ item.figshare }}" target="_blank"><i class="ai ai-figshare ai-2x"></i></a>
+          {% endif %}
+          </td>
+          <td>
            <a href="{{ item.page }}" target="_blank">{{ item.event }}</a>
           </td>
           <td  style="width: 15%"><strong>{{ item.date | date: "%m/ %Y" }}</strong></td>
+          <td><div class='altmetric-embed' data-badge-popover="left" data-link-target='_blank' data-hide-no-mentions="true" data-badge-type='donut' data-doi="{{ item.figshare }}"></div> </td>
         </tr>
       {% endfor %}
       </table>
