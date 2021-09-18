@@ -43,22 +43,29 @@
           </li>
           {% endif %}
           <!-- Other pages -->
-          {% assign sorted_pages = site.pages | sort: "title" %}
-         <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"  aria-haspopup="true" aria-expanded="true">research
-                    {% if page.title == "research" %}
-                    <span class="sr-only">(current)</span>
-                    {% endif %}</a>
-                        <ul class="dropdown-menu"> 
-                            <a class="dropdown-item" href="{{'/research/' | relative_url }}">about</a>
-                            <a class="dropdown-item" href="{{ '/publications/' | relative_url}}">publications</a>
-                            <a class="dropdown-item" href="{{ '/talks/' | relative_url }}">presentations</a>
-                        </ul>
-                        
-          </li>
+          {% assign sorted_pages = site.pages | sort: "size" %}
           {% for p in sorted_pages %}
-          {% if p.title != "publications" and p.title !="research" and p.title !="presentations"%}
           {% if p.nav and p.autogen == nil %}
+          {% if p.dropdown %}
+          <li class="nav-item dropdown {% if page.title == p.title %}active{% endif %}">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                {{ p.title }}
+                {% if page.title == p.title %}
+                <span class="sr-only">(current)</span>
+                {% endif %}
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              {% for child in p.children %}
+              {% if child.title == 'divider' %}
+                <div class="dropdown-divider"></div>
+              {% else %}
+                <a class="dropdown-item" href="{{ child.permalink | relative_url }}">{{ child.title }}</a>
+              {% endif %}
+              {% endfor %}
+              </div>
+          </li>
+          {% else %}
+          {% if p.title != "publications" and p.title !="research" and p.title !="presentations"%}
           <li class="nav-item {% if page.title == p.title %}active{% endif %}">
               <a class="nav-link" href="{{ p.url | relative_url }}">
                 {{ p.title }}
@@ -67,6 +74,7 @@
                 {% endif %}
               </a>
           </li>
+          {% endif  %}
           {% endif  %}
           {% endif  %}
           {% endfor %}
