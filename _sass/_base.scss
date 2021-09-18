@@ -20,11 +20,11 @@ a, table.table a {
     color: $grey-color-dark;
     text-decoration: none;
   }
-   &:hover:after {
+&:hover:after {
   &:hover:after :not(.nav-item.dropdown) {
     width: 100%;
   }
-   }
+}
 }
 
 // Math
@@ -84,8 +84,15 @@ a, table.table a {
 }
 
 
+
 // Navbar customization
 
+.navbar {
+  box-shadow: none;
+  border-bottom: 1px solid $grey-color-light;
+  background-color: var(--global-bg-color);
+  opacity: 0.95;
+}
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
   a:not(.active) {
@@ -103,7 +110,6 @@ a, table.table a {
     }
 }
 .navbar.navbar-light {
-  // Remove link decoration
   a {
     &:hover {
       text-decoration: none;
@@ -113,7 +119,6 @@ a, table.table a {
     color: var(--global-text-color);
   }
   .navbar-nav .nav-item .nav-link {
-    display: table;
     color: var(--global-text-color);
     &:hover {
       color: var(--global-hover-color);
@@ -122,24 +127,27 @@ a, table.table a {
   .navbar-nav .nav-item.active>.nav-link {
       background-color: inherit;
       font-weight: bolder;
-      color: var(--global-text-color);//var(--global-theme-color);
+      color: var(--global-theme-color);
       &:hover {
         color: var(--global-hover-color);
       }
   }
-  .contact-icon {
-    font-size: 2rem;
+  .navbar-brand.social {
+    padding-bottom: 0;
+    padding-top: 0;
+    font-size: 1.7rem;
     a {
+      i::before {
+        color: var(--global-text-color);
+        -webkit-transition: all 0.2s ease-in-out;
+      }
       &:hover {
-        color: var(--global-hover-color);
+        i::before {
+          color: var(--global-theme-color);
+        }
       }
     }
   }
-  
-  
-a.waves-effect, a.waves-light {
-    display: table;
-}
 }
 
 
