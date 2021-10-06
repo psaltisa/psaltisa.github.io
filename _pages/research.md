@@ -28,9 +28,9 @@ with observations by astronomers.
 I am currently proposing and conducting experiments, in collaboration
 with other researchers, at nuclear physics facilities around the world,
 such as [TRIUMF](https://triumf.ca){:target="\_blank"} in Canada,
-[RIKEN](https://nishina.riken.jp/ribf){:target="\blank"} in Japan,
+[RIKEN](https://www.nishina.riken.jp/ribf/){:target="\blank"} in Japan,
 [FRIB](https://frib.msu.edu/){:target="\blank"} and
-[Argonne National Lab](https://anl.gov/atlas){:target="\blank"} in the U.S.A.
+[Argonne National Lab](https://www.anl.gov/phy-0){:target="\blank"} in the U.S.A.
 
 Feel free to check my [publications]({{ site.baseurl }}/publications){:target="\_blank"}
 and [presentations]({{ site.baseurl }}/talks){:target="\_blank"} and if you have
