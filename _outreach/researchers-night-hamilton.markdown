@@ -25,7 +25,7 @@ Though surrounded by science and innovation, we rarely have the occasion to meet
 
 
 Find more about Researchers' Night Hamilton on the social media:
-<a href="https://twitter.com/RsNHam" target="_blank" title="Twitter"><i class="fab fa-twitter fa-lg"></i></a> 
+<a href="https://twitter.com/RsNHam" target="_blank" title="Twitter"><i class="fab fa-twitter fa-lg"></i></a>
 <a href="https://www.facebook.com/ResearchersNightHamilton/" target="_blank" title="Facebook"><i class="fab fa-facebook fa-lg"></i></a>
 <a href="https://www.instagram.com/rsnhamilton/" target="_blank" title="Instagram"><i class="fab fa-instagram fa-lg"></i></a>
 
@@ -37,7 +37,7 @@ Find more about Researchers' Night Hamilton on the social media:
 </div>
 
 ---
-My first experience with Researchers' Night was in 2015, during my first year in graduate school, with an outreach presentation about my research. I enjoyed this experience so much that I decided to join Florence Roullet, the founder of the Hamilton event 
+My first experience with Researchers' Night was in 2015, during my first year in graduate school, with an outreach presentation about my research. I enjoyed this experience so much that I decided to join Florence Roullet, the founder of the Hamilton event
 as a coordinator of the event until 2020. Below you can listen to couple of interviews I gave at [CFMU](https://cfmu.ca){:target="\_blank"} to promote Researchers' Night Hamilton:
 
 <audio controls style="width: 100%;">
@@ -55,15 +55,22 @@ as a coordinator of the event until 2020. Below you can listen to couple of inte
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid" src="{{ site.baseurl }}/assets/img/2017-rsn.jpg" alt="" title="Playing the drums at RSN 2017"/>
+        <div class="caption">
+            Playing the drums at RSN 2017.
+        </div>
+
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid"  src="{{ site.baseurl }}/assets/img/rsn17.jpg" alt="" title="The RSN Hamilton 2017 poster"/>
+        <div class="caption">
+          The RSN Hamilton 2017 poster.
+        </div>
+
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid" src="{{ site.baseurl }}/assets/img/2017-rsn-cfmu.jpg" alt="" title="At CFMU for the AlmaMAC interview"/>
+        <div class="caption">
+            At CFMU for the AlmaMAC interview.
+        </div>
     </div>
 </div>
-<div class="caption">
-    Playing the drums at RSN 2017 - The RSN Hamilton 2017 poster - At CFMU for the AlmaMAC interview.
-</div>
-
