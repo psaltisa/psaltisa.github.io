@@ -88,7 +88,7 @@ rm -R _site/
 # Push to DEPLOY_BRANCH
 git add -fA
 git commit --allow-empty -m "$(git log -1 --pretty=%B) [ci skip]"
-git push -f -q origin $DEPLOY_BRANCH
+git push -f -q https://psaltisa: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@github.com/psaltisa/psaltisa.github.io.git  $DEPLOY_BRANCH
 
 # Move back to SRC_BRANCH
 git checkout $SRC_BRANCH
