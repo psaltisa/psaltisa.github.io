@@ -2,8 +2,21 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: 
+description:
 nav: true
+---
+
+
+Courses I've taught at [Technische Universität Darmstadt](https://www.physik.tu-darmstadt.de/fbphysik/index.en.jsp){:target="\_blank"}
+as a postdoc (2021-2022).
+
+---
+
+#### [Astrophysics](https://moodle.tu-darmstadt.de/course/info.php?id=21080){:target="\_blank"}
+This graduate seminar covers central topics in nuclear astrophysics: from big bang nucleosynthesis to neutron stars and supernova explosions.
+
+<i class="fas fa-chalkboard-teacher"></i>&nbsp; Consulting students for their research projects (Stellar Structure and Explosive Nucleosynthesis).
+
 ---
 
 Courses I've taught at [McMaster University](https://www.physics.mcmaster.ca/){:target="\_blank"}
@@ -18,11 +31,11 @@ A first course in university physics, taught using examples and applications fro
 
 From anonymous student evaluations:
 <blockquote>
-<i class="fas fa-quote-left"></i>&nbsp; He was really helpful with explanation when we were stuck with some concepts. Explained in a patient and relatable way. 
+<i class="fas fa-quote-left"></i>&nbsp; He was really helpful with explanation when we were stuck with some concepts. Explained in a patient and relatable way.
 </blockquote>
 
 <blockquote>
-<i class="fas fa-quote-left"></i>&nbsp; He was very encouraging to all students and helped create a very positive learning environment (even if you got the wrong answer he was encouraging) 
+<i class="fas fa-quote-left"></i>&nbsp; He was very encouraging to all students and helped create a very positive learning environment (even if you got the wrong answer he was encouraging)
 </blockquote>
 
 <blockquote>
@@ -56,11 +69,11 @@ From anonymous student evaluations:
 </blockquote>
 
 <blockquote>
-<i class="fas fa-quote-left"></i>&nbsp; I loved how approachable he was! He made me feel really comfortable asking questions and talking to him in general :) I've never had such an approachable/friendly TA before actually! 
+<i class="fas fa-quote-left"></i>&nbsp; I loved how approachable he was! He made me feel really comfortable asking questions and talking to him in general :) I've never had such an approachable/friendly TA before actually!
 </blockquote>
 
 <blockquote>
-<i class="fas fa-quote-left"></i>&nbsp; He was always very clear and was knowledgeable about a vast number of things. 
+<i class="fas fa-quote-left"></i>&nbsp; He was always very clear and was knowledgeable about a vast number of things.
 </blockquote>
 ---
 
@@ -77,4 +90,3 @@ Interdisciplinary research projects and development of scientific and literacy s
 <i class="fas fa-chalkboard-teacher"></i>&nbsp; Consulting students for their research project.
 
 ---
-
