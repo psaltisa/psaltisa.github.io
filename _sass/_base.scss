@@ -189,16 +189,13 @@ a, table.table a {
 
 // News
 
-.news { 
-    h2.year {
+.news h2.year {
     color: $grey-color-light;
     border-top: 1px solid $grey-color-light;
     padding-bottom: 3rem;
     margin-top: 2rem;
     margin-bottom: -2rem;
     text-align: right;
-  }
-  
 }
 
 .news table td {
