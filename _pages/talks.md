@@ -17,6 +17,7 @@ nav: true
     Presenting at the 23rd Symposium of the Hellenic Nuclear Physics Society in Thessaloniki, Greece (2014).
 </div>
 
+
 <div class="publications">  
    <h2>talks</h2>
   <hr>  
@@ -68,8 +69,10 @@ nav: true
            <a href="{{ item.page }}" target="_blank">{{ item.event }}</a>
           </td>
           <td  style="width: 15%"><strong>{{ item.date | date: "%m/ %Y" }}</strong></td>
+          <!--
           <td><div class='altmetric-embed' data-badge-popover="left" data-link-target='_blank' data-hide-no-mentions="true" data-badge-type='donut' data-doi="{{ item.figshare }}"></div> </td>
-        </tr>
+          -->
+          </tr>
       {% endfor %}
       </table>
     </div>
