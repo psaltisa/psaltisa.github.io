@@ -1,9 +1,11 @@
-<div class="pubs">  
+<div class="pubs">
   <h3><b>recent publications</b></h3>
   <hr>
+
+<!--
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
-        {% assign pubs = site.data.pubs  %}
+        {% assign pubs = site.data.pubs %}
            {% for item in pubs limit: 3 %}
          <tr>
            <td scope="row"><i class="fa fa-file-alt"></i></td>
@@ -11,7 +13,33 @@
               <a href="https://doi.org/{{ item.doi }}" target="_blank"> {{item.author}} <i>et al.</i>, {{item.journal}} <strong>{{item.volume}}</strong> {{item.page}} ({{item.year}})</a>
           </td>
           </tr>
-       {% endfor %}
+
+
+        {% endfor %}
+
+
       </table>
     </div>
+-->
+
+  <div class="table-responsive">
+    <table class="table table-sm table-borderless">
+
+      {% bibliography --template
+
+        <div class="row">
+         <tr>
+          <td scope="row"><i class="fa fa-file-alt"></i></td>
+
+          <td>
+            <a href="https://doi.org/{{ entry.doi }}" target="_blank"> {{entry.first}} <i>et al.</i>, {{entry.iso}}
+              <strong>{{entry.volume}}</strong> {{entry.pages}} ({{entry.year}})</a>
+          </td>
+        </tr>
+        </div>
+         --max 3 %}
+
+    </table>
+  </div>
+
 </div>

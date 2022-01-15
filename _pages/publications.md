@@ -7,8 +7,20 @@ years: [2022, 2021, 2020, 2019, 2018, 2017, 2016]
 nav: true
 ---
 
+### Overview
+---
+<i class="fa fa-file-alt"></i> {% bibliography_count -f papers %} journal articles ({% bibliography_count -f papers --query @*[author^=Psaltis]%} first author)
+
+[Phys. Rev. Lett.](https://prl.aps.org){:target="\_blank"}: {% bibliography_count -f papers --query @*[journal=Physical Review Letters]%} • [Phys. Lett. B](https://prl.aps.org){:target="\_blank"}: {% bibliography_count -f papers --query @*[journal=Physics Letters B]%} • [Phys. Rev. C](https://prc.aps.org){:target="\_blank"}: {% bibliography_count -f papers --query @*[journal=Physical Review C]%} • [Astrophys. J](https://iopscience.iop.org/journal/0004-637X){:target="\_blank"}: {% bibliography_count -f papers --query @*[journal=Astrophysical Journal]%}
+
+<i class="fa fa-file-alt"></i> {% bibliography_count -f proceedings %} conference proceedings ({% bibliography_count -f proceedings --query @*[author^=Psaltis]%} first author)
+
+<i class="fas fa-book"></i> <a href="https://macsphere.mcmaster.ca/handle/11375/25859" target="_blank" >Ph.D. Thesis</a> • <i class="fas fa-book"></i> <a href="https://doi.org/10.6084/m9.figshare.1257763.v2" target="_blank" >B.Sc. Thesis (in Greek)</a>
+
+---
+
 <div class="publications">
-<h2>Journal Articles</h2>
+<h3>Journal Articles</h3>
 {% for y in page.years %}
     {% if y!= 2018 %}
   <h2 class="year">{{y}}</h2>
@@ -21,7 +33,7 @@ nav: true
 
 
 <div class="publications">
-<h2>Conference Proceedings</h2>
+<h3>Conference Proceedings</h3>
 {% for y in page.years %}
      {% if y!= 2016 and y!=2021 and y!=2022 %}
   <h2 class="year">{{y}}</h2>
