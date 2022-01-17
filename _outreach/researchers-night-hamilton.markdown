@@ -30,7 +30,7 @@ Find more about Researchers' Night Hamilton on the social media:
 <a href="https://www.instagram.com/rsnhamilton/" target="_blank" title="Instagram"><i class="fab fa-instagram fa-lg"></i></a>
 
 <div class="row justify-content-sm-center">
-    <img class="img-fluid" src="{{ site.baseurl }}/assets/img/2015-rsn.JPG" alt="Presenting in the 2015 Researchers' Night event"/>
+    <img class="img-fluid" src="{{ site.baseurl }}/assets/img/2015-rsn.JPG" alt="Presenting in the 2015 Researchers' Night event" data-zoomable=""/>
 </div>
 <div class="caption">
     Presenting in the 2015 Researchers' Night event. The incredible staging is from <a href="http://ataouk.com/" target="_blank">Jean-Francois Desmarchelier</a>.
@@ -54,21 +54,21 @@ as a coordinator of the event until 2020. Below you can listen to couple of inte
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/2017-rsn.jpg" alt="" title="Playing the drums at RSN 2017"/>
+        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/2017-rsn.jpg" alt="" title="Playing the drums at RSN 2017" data-zoomable=""/>
         <div class="caption">
             Playing the drums at RSN 2017.
         </div>
 
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid"  src="{{ site.baseurl }}/assets/img/rsn17.jpg" alt="" title="The RSN Hamilton 2017 poster"/>
+        <img class="img-fluid"  src="{{ site.baseurl }}/assets/img/rsn17.jpg" alt="" title="The RSN Hamilton 2017 poster" data-zoomable=""/>
         <div class="caption">
           The RSN Hamilton 2017 poster.
         </div>
 
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/2017-rsn-cfmu.jpg" alt="" title="At CFMU for the AlmaMAC interview"/>
+        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/2017-rsn-cfmu.jpg" alt="" title="At CFMU for the AlmaMAC interview" data-zoomable=""/>
         <div class="caption">
             At CFMU for the AlmaMAC interview.
         </div>

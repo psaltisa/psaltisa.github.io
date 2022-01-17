@@ -16,7 +16,7 @@ importance: 2
 
  <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/comscicon18.jpeg" alt="" title="Group picture from ComSciCon 2018"/>
+        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/comscicon18.jpeg" alt="" title="Group picture from ComSciCon 2018" data-zoomable=""/>
     </div>
 </div>
 <div class="caption">
@@ -28,13 +28,13 @@ importance: 2
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/comscicon19_me2.jpg" alt="" title="Giving my 60 second reseach pop-talk"/>
+        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/comscicon19_me2.jpg" alt="" title="Giving my 60 second reseach pop-talk" data-zoomable=""/>
         <div class="caption">
             Giving my 60 second reseach pop-talk.
         </div>
     </div>
     <div class="col-sm-7 mt-3 mt-md-0">
-        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/comscicon19_panel2.jpg" alt="" title="With the Communicate through Education/Outreach panelists"/>
+        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/comscicon19_panel2.jpg" alt="" title="With the Communicate through Education/Outreach panelists" data-zoomable=""/>
         <div class="caption">
             With the Communicate through Education/Outreach panelists.
         </div>
@@ -52,10 +52,10 @@ importance: 2
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-7 mt-3 mt-md-0">
-        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/comscicon19_all.jpg" alt="" title="Group picture at the Phoenix"/>
+        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/comscicon19_all.jpg" alt="" title="Group picture at the Phoenix" data-zoomable=""/>
     </div>
     <div class="col-sm mt-2 mt-md-0">
-        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/comscicon19.gif" alt="" title="Group picture at black box theatre"/>
+        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/comscicon19.gif" alt="" title="Group picture at black box theatre" data-zoomable=""/>
     </div>
 </div>
 <div class="caption">

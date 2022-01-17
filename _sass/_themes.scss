@@ -1,10 +1,12 @@
 /*******************************************************************************
  * Themes
  ******************************************************************************/
- 
+
 :root {
   --global-bg-color: #{$white-color};
+  --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$grey-color-dark};
+  --global-text-color-light: #{$grey-color-light};
   --global-theme-color: #{$red-color};
   --global-hover-color: #{$red-color};
   --global-footer-bg-color: #{$grey-color-dark};

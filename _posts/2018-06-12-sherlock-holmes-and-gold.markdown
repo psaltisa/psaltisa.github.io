@@ -4,7 +4,8 @@ title:  Sherlock Holmes and the origin of gold in the universe
 date:   2018-06-15 16:40:16
 description: popular science article for ComSciCon 2018
 author:
-tags: popular-science
+tags: [popular-science, nuclear-astrophysics] 
+categories: article
 ---
 
 So, you think the gold in jewelry comes from a mine?  That is very superficial my dear Watson, I can assure you. The origin of gold is a very intriguing question for scientists. Until very recently, they believed that most of the heavy elements  in the universe, such as gold, silver and uranium are produced during the death of a massive star, a supernova explosion. However, recent observations of gravitational waves by the LIGO and VIRGO Gravitational Wave Observatories, suggest that there might be another source of heavy elements, and that Watson, complicates things a lot.
@@ -19,8 +20,8 @@ Around 130 million years ago in the galaxy NGC 4993 of the constellation of Hydr
 
 What is incredible about this particular discovery is that the same event was also observed using other telescopes in different wavelengths: Fermi in γ-rays, Chandra in x-rays,  Swift in ultraviolet, Hubble in optical and  VLA in radio waves. This multi-messenger observation was unique in the history of astronomy. It was also really important for the field of Nuclear Astrophysics, the interdisciplinary scientific branch that studies the origin of the elements in the universe, as well as their relative abundance and consists of astronomers, astrophysicists and nuclear physicists both in theory and experiment. By studying the observations from the other telescopes, scientists calculated that gold, and the rest of the heavy r-process elements can be also produced during the collision of neutron stars!
 
- 
-Here is where things get weird: if we account both scenarios, supernova explosions and neutron star mergers, scientists today predict double the amount of heavy elements that exist naturally. This means that one of the theories overestimates its yield. There are many experiments and calculations that have to be done to clarify this mystery, Watson. 
+
+Here is where things get weird: if we account both scenarios, supernova explosions and neutron star mergers, scientists today predict double the amount of heavy elements that exist naturally. This means that one of the theories overestimates its yield. There are many experiments and calculations that have to be done to clarify this mystery, Watson.
 
 In the near future, nuclear physicists will be able to use new, powerful particle accelerators to recreate and study the reactions that occur in these exotic environments. At the same time, stronomers will be able to detect far more neutron star mergers to test their theories, with the upgrade of gravitational wave observatories.
 
@@ -36,5 +37,3 @@ Innevitably, one of the two models will need some modifications. It is even poss
 [3] C. J. Horowitz *et al.*, J. Phys. G: Nucl. Part. Phys. <strong>46</strong> 083001
 
 [4] B. P. Abbott et al. (LIGO Scientific Collaboration and Virgo Collaboration), Phys. Rev. Lett. <strong>119</strong>, 161101 (2017)
-
-

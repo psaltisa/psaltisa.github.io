@@ -10,4 +10,5 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'jekyll-feed'
     gem 'unicode_utils'
+    gem 'jekyll-archives'
 end

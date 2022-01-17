@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Skype a Scientist
-description: 
+description:
 img: /assets/img/skypeascientist.jpg
 importance: 2
 ---
 
  <center>
- <img src="{{ site.baseurl }}/assets/img/skypeascientist.jpg"  height="25%" width="25%"> 
+ <img src="{{ site.baseurl }}/assets/img/skypeascientist.jpg"  height="25%" width="25%">
  </center>
  <br/>
 
@@ -38,10 +38,10 @@ importance: 2
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-7 mt-3 mt-md-0">
-        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/skype-a-scientist-1.jpeg" alt="" title=" Answering science questions by students of Robious Middle School "/>
+        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/skype-a-scientist-1.jpeg" alt="" title=" Answering science questions by students of Robious Middle School" data-zoomable=""/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/skype-a-scientist-2.jpeg" alt="" title=" Answering science questions by students of Robious Middle School "/>
+        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/skype-a-scientist-2.jpeg" alt="" title=" Answering science questions by students of Robious Middle School" data-zoomable=""/>
     </div>
 </div>
 <div class="caption">
@@ -61,7 +61,7 @@ importance: 2
 var svg = d3.select("svg"),
     width = +svg.attr("width"),
     height = +svg.attr("height");
-    
+
 // Map and projection
 var projection = d3.geoMercator()
     .center([0,20])                // GPS of location to zoom on
@@ -99,7 +99,7 @@ function ready(error, dataGeo, data) {
         )
       .style("stroke", "black")
       .style("opacity", .2)
-      
+
   // Add circles:
   svg
     .selectAll("myCircles")

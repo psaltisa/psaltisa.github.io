@@ -17,19 +17,19 @@ importance: 2
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/pint-3.jpg" alt="" title="Dr. Brown discusses the first picture of a black hole at Artword Artbar"/>
+        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/pint-3.jpg" alt="" title="Dr. Brown discusses the first picture of a black hole at Artword Artbar" data-zoomable=""/>
 				<div class="caption">
 				     Dr. Brown discusses the first picture of a black hole at Artword Artbar.
 				</div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid"  src="{{ site.baseurl }}/assets/img/pint-2.jpg" alt="" title="Dr. Hawke talks about muscle health research at RedChurch"/>
+        <img class="img-fluid"  src="{{ site.baseurl }}/assets/img/pint-2.jpg" alt="" title="Dr. Hawke talks about muscle health research at RedChurch" data-zoomable=""/>
 				<div class="caption">
 				     Dr. Hawke talks about muscle health research at RedChurch
 				</div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/pint-4.jpg" alt="" title="People having fun at West End Pub"/>
+        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/pint-4.jpg" alt="" title="People having fun at West End Pub" data-zoomable=""/>
 				<div class="caption">
 				   People having fun at West End Pub. Pint of Science 2019
 				</div>
@@ -49,13 +49,13 @@ Below you can find some articles about Pint of Science events in Hamilton:
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/pint-5.jpg" alt="" title="Dr. Amlung talks about 'The brain on drugs'"/>
+        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/pint-5.jpg" alt="" title="Dr. Amlung talks about 'The brain on drugs'" data-zoomable=""/>
 				<div class="caption">
 				     Dr. Amlung talks about "The brain on drugs".
 				</div>
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/pint-1.jpg" alt="" title=" Introduction by the bar manager Lana Vedelago."/>
+        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/pint-1.jpg" alt="" title=" Introduction by the bar manager Lana Vedelago." data-zoomable=""/>
 				<div class="caption">
 						 Introduction by the bar manager Lana Vedelago.
 				</div>

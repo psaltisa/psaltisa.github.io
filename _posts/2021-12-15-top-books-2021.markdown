@@ -3,9 +3,9 @@ layout: post
 title: 5 books I loved reading this year 📚
 date: 2021-12-28
 description:
-inline: false
 author:
-tags:
+tag: books
+categories: lists
 ---
 
 Here we are again! Another year, another list of favourite books. Similarly to last year, the majority of the titles I read were non-fiction. There were periods of intense reading, around
@@ -17,7 +17,7 @@ These were the books I liked the most this year, enjoy! ☺️
 
 ---
 
-### [Why we sleep](https://en.wikipedia.org/wiki/Beamtimes_and_Lifetimes){:target="\_blank"} by Matthew Walker
+### [Why we sleep](https://en.wikipedia.org/wiki/Why_We_Sleep){:target="\_blank"} by Matthew Walker
 
 This was one of the first books I read last year, but it really stuck with me for some time
 and it was an eye-opener regarding the importance of sleep for good health. In it Dr. Walker
@@ -41,7 +41,7 @@ you will definitely have second thoughts the next time you will pull an all-nigh
 
 ---
 
-### [The professor is in](https://en.wikipedia.org/wiki/Beamtimes_and_Lifetimes){:target="\_blank"} by Karen Kelsky
+### [The professor is in](https://theprofessorisin.com/buy-the-book/){:target="\_blank"} by Karen Kelsky
 
 This is a book that every grad student and postdoc should read! The title is based on the namesake
 [blog](https://theprofessorisin.com/){:target="\_blank"} that Dr. Kelsky writes for more than a decade.
@@ -49,7 +49,7 @@ In this book you can find advice for every step of the way between ABD (all but 
 to negotiating contracts as newly hired faculty. I really enjoyed the description of the academic job market,
 which I only knew vaguely from discussions with senior researchers. I highly recommend the chapter with
 **"The Fullproof Grant Template"**. If you want to learn more, you can also follow the
-namesake [[podcast](https://theprofessorisin.com/podcast/){:target="\_blank"} that Dr. Kelsky hosts
+namesake [podcast](https://theprofessorisin.com/podcast/){:target="\_blank"} that Dr. Kelsky hosts
 alongside Kel Winhold.
 
 <center>
@@ -62,7 +62,7 @@ alongside Kel Winhold.
 
 ---
 
-### [The comfort crisis](https://en.wikipedia.org/wiki/Beamtimes_and_Lifetimes){:target="\_blank"} by Michael Easter
+### [The comfort crisis](https://eastermichael.com/book/){:target="\_blank"} by Michael Easter
 
 *The comfort crisis* is one of these books that you keep thinking about in your everyday life long after you have finished reading it (similar to *Why we sleep*). In it, Easter is making the argument
 that our current comfortable lifestyle is one of the main causes for many of our physical and mental health issues nowadays. The book follows the author in his backcountry caribou hunting, which is his *'misogi'* (禊);
@@ -101,7 +101,7 @@ It is a very nicely curated volume and its editor David Kyle Johnson, who is Pro
 
 ---
 
-### [The Pope of Physics](https://en.wikipedia.org/wiki/Beamtimes_and_Lifetimes){:target="\_blank"} by Gino Segrè and Bettina Hoerlin
+### [The Pope of Physics](https://physicstoday.scitation.org/doi/full/10.1063/PT.3.3401){:target="\_blank"} by Gino Segrè and Bettina Hoerlin
 
 The last (but not least) book for this year's list is also the only physics-related book. It
 is a biography of [Enrico Fermi](https://en.wikipedia.org/wiki/Enrico_Fermi){:target="\_blank"}, *"the architect of the nuclear age"*, and one of the most brilliant physicists of the twentieth

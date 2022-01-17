@@ -4,7 +4,7 @@
 
 title: Thanassis Psaltis # the website title (if blank, full name will be used instead)
 first_name: Thanassis
-middle_name: 
+middle_name:
 last_name: Psaltis
 email: psaltis@theorie.ikp.physik.tu-darmstadt.de
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -41,7 +41,7 @@ github_username: psaltisa # your GitHub user name
 twitter_username: psaltistha # your Twitter handle
 linkedin_username: psaltistha # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
-orcid_id: 0000-0003-2197-0797 
+orcid_id: 0000-0003-2197-0797
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -66,7 +66,7 @@ pagination:
   enabled: fale
 
 # Comments
-disqus_shortname: # put your disqus shortname
+disqus_shortname: athanasiospsaltis # put your disqus shortname
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -108,16 +108,20 @@ exclude: [vendor]
 
 # Plug-ins
 plugins:
+  - jekyll-archives
+  - jekyll-diagrams
   - jekyll-email-protect
+  - jekyll-feed
   - jekyll-github-metadata
-  - jekyll-paginate-v2
   - jekyll/scholar
+  - jekyll-sitemap
+  - jekyll-target-blank
   - jekyll-twitter-plugin
   - jemoji
-  - jekyll-feed
   # - bootstrap
   # - material-sass
-
+  # - jekyll-imagemagick
+  # - jekyll-paginate-v2
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
@@ -146,6 +150,21 @@ scholar:
   query: "@*"
 
 # -----------------------------------------------------------------------------
+# Jekyll Archives
+# -----------------------------------------------------------------------------
+
+jekyll-archives:
+  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them). 
+  layouts:
+    year: archive-year
+    tag: archive-tag
+    category: archive-category
+  permalinks:
+    year: '/blog/:year/'
+    tag: '/blog/tag/:name/'
+    category: '/blog/category/:name/'
+  
+# -----------------------------------------------------------------------------
 # Optional Features
 # -----------------------------------------------------------------------------
 
@@ -155,6 +174,7 @@ enable_math:              true
 enable_tooltips:          true
 enable_darkmode:          false
 show_social_icons:        false
+enable_medium_zoom:       true
 
 # -----------------------------------------------------------------------------
 # Library versions
@@ -187,3 +207,6 @@ mdb:
 popper:
   version: "2.4.4"
   integrity: "sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A=="
+medium_zoom:
+  version: "1.0.6"
+  integrity: "sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM="

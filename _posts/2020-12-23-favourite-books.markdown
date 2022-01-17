@@ -2,15 +2,16 @@
 layout: post
 title:  My top 5 favourite books of 2020 📚
 date:   2020-12-23 10:40:16
-inline: false
 description:  
 author:
+tag: books
+categories: lists
 ---
 
 I love books. I grew up in a house full of them, and I learnt to appreciate
 them since I was a kid. At roughly the same age I also discovered the enchanting
 world of video games and handheld devices, as many other kids that grew up
-in the late 90's/early 00's. Unfortunately those two activities are usually competing 
+in the late 90's/early 00's. Unfortunately those two activities are usually competing
 and eventually I ended up spending more and more time in
 front of a screen. There were instances during my adolescence, and
 during my undergraduate studies that I was reading books, but not consistently in
@@ -31,10 +32,10 @@ throughout the year, but I read some really interesting titles.
 Below you can find five of my favourite books for 2020 along with
 some brief comments. Enjoy! 😁
 
->> *Don't just say you have read books. Show that through them you have learned to think better,*
->> *to be a more discriminating and reflective person. Books are the training weights of the mind.*
->>
->>*-Epictetus*
+> *Don't just say you have read books. Show that through them you have learned to think better,*
+> *to be a more discriminating and reflective person. Books are the training weights of the mind.*
+>
+>*-Epictetus*
 
 ---
 

@@ -3,9 +3,9 @@ layout: post
 title:  Maier-Leibnitz, a gourmet physicist 👨🏻‍🍳
 date:   2021-06-04 10:40:16
 description:
-inline: false
 author:
-tags:
+tags: [physics, scientists, books]
+categories: article
 ---
 
 
@@ -24,13 +24,13 @@ but I love cooking, trying new recipes (there was plenty of time during the pand
 <center>
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
-            <img class="img-fluid" src="{{ site.baseurl }}/assets/img/maier-leibnitz.png" width="70%" alt="" title=""/>
+            <img class="img-fluid" src="{{ site.baseurl }}/assets/img/maier-leibnitz.png" width="70%" alt="" title="" data-zoomable=""/>
             <div class="caption">
               Prof. Maier-Leibnitz with a metal beater.
             </div>
         </div>
         <div class="col-sm mt-3 mt-md-0">
-            <img class="img-fluid" src="{{ site.baseurl }}/assets/img/cookbook.jpg" width="57%" alt="" title=""/>
+            <img class="img-fluid" src="{{ site.baseurl }}/assets/img/cookbook.jpg" width="57%" alt="" title="" data-zoomable=""/>
             <div class="caption">
               The cover of “Kochbuch für Füchse".
             </div>
@@ -68,7 +68,7 @@ Caramelize 70 g sugar, deglaze with lemon juice and 6 tablespoons water, add cle
 <center>
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
-            <img class="img-fluid" src="{{ site.baseurl }}/assets/img/quarksouffle.jpg" width="35%" alt="" title=""/>
+            <img class="img-fluid" src="{{ site.baseurl }}/assets/img/quarksouffle.jpg" width="35%" alt="" title="" data-zoomable=""/>
         </div>
     </div>
 </center>

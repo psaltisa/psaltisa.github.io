@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Enter the DRAGON at TRIUMF – Ph.D. Feature
-date: 2017-12-04 
+date: 2017-12-04
 description: unpublished interview
-tag: interview
+tags: [interview, nuclear-astrophysics]
+categories:
 ---
 
 *“We’re all made up of star stuff”* – a mantra most scientists and researchers use when describing TRIUMF’s DRAGON – Detector of Recoils and Gammas of Nuclear Reactions experiment. Recently, we had the chance to sit down with Thanassis Psaltis, a Physics PhD Candidate at McMaster University. His research interests lies in the area of experimental nuclear physics, which is how he ended up working on TRIUMF’s beloved DRAGON experiment! Thanassis was able to give us some insight into the world of Nuclear Astrophysics along with explaining how *“DRAGON is like a prism for charged particles.”*
@@ -13,9 +14,9 @@ tag: interview
 I am currently pursuing my Ph.D. in the Faculty of Physics and Astronomy at McMaster University under Professor Alan Chen. I was raised in Greece and completed my undergraduate studies at the University of Athens. As a person, I’ve been curious my whole life. I like to answer the big questions and I think the origin of the elements is one of the biggest ones. I was split between nuclear physics and astrophysics, but luckily I discovered a relatively new branch of physics that combines the two, Nuclear Astrophysics.
 
 
-**What led you to TRIUMF?** 
+**What led you to TRIUMF?**
 
-My supervisor, Dr. Alan Chen is a core member of DRAGON. He was a postdoctoral researcher when DRAGON first came to life. He was collaborating with a group at TRIUMF and he had this idea for the experiment, which correlates with my thesis. He asked me if I was willing to come aboard and I was like “sure, why not!” It was hard work, much more than what I had expected but it’s definitely worth it. 
+My supervisor, Dr. Alan Chen is a core member of DRAGON. He was a postdoctoral researcher when DRAGON first came to life. He was collaborating with a group at TRIUMF and he had this idea for the experiment, which correlates with my thesis. He asked me if I was willing to come aboard and I was like “sure, why not!” It was hard work, much more than what I had expected but it’s definitely worth it.
 
 
 **What was your first impression of TRIUMF?**
@@ -39,12 +40,12 @@ DRAGON is a recoil separator, meaning it separates reaction particles like the o
 
 **What do you want to personally achieve with this experiment?**
 
-TP: Ph.D. projects are imperative for any researcher. You take a project, take a problem and attempt to solve that. I see my Ph.D. project as very colossal, as it not only involves reactions but simulations as well. This endeavor of mine will enable me to do anything after I’m finished with it (not anything though – I won’t travel into time or fly!). 
+TP: Ph.D. projects are imperative for any researcher. You take a project, take a problem and attempt to solve that. I see my Ph.D. project as very colossal, as it not only involves reactions but simulations as well. This endeavor of mine will enable me to do anything after I’m finished with it (not anything though – I won’t travel into time or fly!).
 
 
 **What have been some of your highlights at TRIUMF?**
 
-TP: Working at one of the best, productive, eye-opening facilities in the world gives you many opportunities to not only meet with outstanding researchers but to also discuss your research with them. TRIUMF has an excellent environment and enables both students and researchers to succeed in their work. In the summer of 2017, I resided in Vancouver for three and a half months to study DRAGON and work with postdoctoral candidates at TRIUMF. This helped me in becoming very comfortable with running experiments. With being able to travel to TRIUMF, I’ve also been introduced to the breath-taking city of Vancouver! There’s just something about this place that gets you falling in love with the city. 
+TP: Working at one of the best, productive, eye-opening facilities in the world gives you many opportunities to not only meet with outstanding researchers but to also discuss your research with them. TRIUMF has an excellent environment and enables both students and researchers to succeed in their work. In the summer of 2017, I resided in Vancouver for three and a half months to study DRAGON and work with postdoctoral candidates at TRIUMF. This helped me in becoming very comfortable with running experiments. With being able to travel to TRIUMF, I’ve also been introduced to the breath-taking city of Vancouver! There’s just something about this place that gets you falling in love with the city.
 
 
 **What do you like to do when you’re not conducting research?**
@@ -54,5 +55,4 @@ I love travelling and sometimes travelling goes with my research so that’s pre
 Thanassis is also a resident within [“The Bridge” web residency program](https://www.sciartcenter.org/the-bridge.html), which matches an artist and a scientist for 4 months. Thanassis is collaborating with artist Matej Vakula, a multimedia artist who fashions simulations of astrophysics environments. Matej is the artist in residence at the Center for Molecular Imaging and Nanotechnology at the Sloan-Kettering Cancer Research Center and is currently completing his PhD in Bio & Procedural Art in New York. Thanassis and Matej hold a [weekly blog](https://www.sciartcenter.org/group-4-matej--thanassis) where they discuss the progress of their work. Their goal is to create a short sci-fi film, which will be screened at McMaster’s W.J. McCallion planetarium in which Thanassis also works at. Their film “The Dragon Theorem” will include TRIUMF’s DRAGON experiment! Best of luck on all your future endeavors Thanassis and Matej, we’re excited for this upcoming film!
 
 
--[Ashwini Canagaratnam](https://ca.linkedin.com/in/ashwinican), Communications Assistant 
-
+-[Ashwini Canagaratnam](https://ca.linkedin.com/in/ashwinican), Communications Assistant
