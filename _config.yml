@@ -51,7 +51,7 @@ blogger_url: # your blogger URL
 contact_note: >
   You are made of starstuff!
 
-google_analytics: UA-66406474-1 # out your google-analytics code
+google_analytics: UA-66406474 # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -168,7 +168,7 @@ jekyll-archives:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:  false
+enable_google_analytics:  true
 enable_mansory:           true
 enable_math:              true
 enable_tooltips:          true
