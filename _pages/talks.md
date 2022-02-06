@@ -32,7 +32,7 @@ nav: true
           <td>
            <a href="{{ item.page }}" target="_blank">{{ item.event }}</a>
           </td>
-          <td  style="width: 15%"><strong>{{ item.date | date: "%m/ %Y" }}</strong></td>
+          <td  style="width: 15%"><strong>{{ item.date | date: "%m-%Y" }}</strong></td>
         </tr>
       {% endfor %}
       </table>
@@ -68,7 +68,7 @@ nav: true
           <td>
            <a href="{{ item.page }}" target="_blank">{{ item.event }}</a>
           </td>
-          <td  style="width: 15%"><strong>{{ item.date | date: "%m/ %Y" }}</strong></td>
+          <td  style="width: 15%"><strong>{{ item.date | date: "%m-%Y" }}</strong></td>
           <!--
           <td><div class='altmetric-embed' data-badge-popover="left" data-link-target='_blank' data-hide-no-mentions="true" data-badge-type='donut' data-doi="{{ item.figshare }}"></div> </td>
           -->

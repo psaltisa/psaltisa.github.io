@@ -1,26 +1,24 @@
-<div class="pubs">
+<div class="news">
   <h3><b>recent publications</b></h3>
   <hr>
 
+  <div class="row">
+  {% assign pubs = site.data.pubs %}
+  {% for item in pubs limit: 3 %}
+  <div class="col-lg reduced-gutter">
+      <div class="pad-left">
+           <div class="note">
+             <i class="far fa-file-alt"></i> &nbsp;
+            <a href="https://doi.org/{{ item.doi }}" target="_blank"> {{item.author}} <i>et al.</i>, {{item.iso}}
+                 <strong>{{item.volume}}</strong> {{item.page}} ({{item.year}})</a>
 
-  <div class="table-responsive">
-    <table class="table table-sm table-borderless">
+           </div>
 
-      {% bibliography --template
-
-        <div class="row">
-         <tr>
-          <td scope="row"><i class="fa fa-file-alt"></i></td>
-
-          <td>
-            <a href="https://doi.org/{{ entry.doi }}" target="_blank"> {{entry.first}} <i>et al.</i>, {{entry.iso}}
-              <strong>{{entry.volume}}</strong> {{entry.pages}} ({{entry.year}})</a>
-          </td>
-        </tr>
+            <div class="bigspacer"></div>
         </div>
-         --max 3 %}
-
-    </table>
+  </div>
+  {% endfor %}
   </div>
 
-</div>
+
+  </div>

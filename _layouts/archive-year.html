@@ -16,9 +16,9 @@ layout: default
       <table class="table table-sm table-borderless">
         {% for post in page.posts %}
         <tr>
-          <td scope="row"><strong>{{ post.date | date: "%b %-d, %Y" }}<strong></td>
+          <td scope="row"><strong>{{ post.date | date: "%Y-%m-%d" }}<strong></td>
           <td>
-              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              <a class="news-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
           </td>
         </tr>
       {% endfor %}

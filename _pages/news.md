@@ -18,7 +18,7 @@ nav: true
       {% assign date = currentdate %}
     {% endif %}
         <tr>
-          <td scope="row"><strong>{{ item.date | date: "%b %-d, %Y" }}</strong></td>
+          <td scope="row"><strong>{{ item.date | date: "%Y-%m-%d" }}</strong></td>
           <td>
             {% if item.inline %}
               {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}

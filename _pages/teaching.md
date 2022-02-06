@@ -17,7 +17,7 @@ This graduate seminar covers central topics in nuclear astrophysics: from big ba
 
 <i class="fas fa-chalkboard-teacher"></i>&nbsp; Consulting students for their research projects (Stellar Structure and Explosive Nucleosynthesis).
 
----
+<br>
 
 Courses I've taught at [McMaster University](https://www.physics.mcmaster.ca/){:target="\_blank"}
 as a graduate student (2015-2020).

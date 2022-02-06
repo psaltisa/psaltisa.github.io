@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  The nuclear car, an art project ⚛️🚗
+title:  The nuclear car, an art project <i class="fas fa-atom"></i>🚗
 date:   2022-01-22 10:40:16
 description:
 inline: false
