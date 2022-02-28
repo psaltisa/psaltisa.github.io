@@ -35,7 +35,7 @@ nav: true
 <div class="publications">
 <h3>Articles in Conference Proceedings</h3>
 {% for y in page.years %}
-     {% if y!= 2016 and y!=2021 and y!=2022 %}
+     {% if y!= 2016 and y!=2021 %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f proceedings -q @*[year={{y}}]* %}
      {% endif %}
