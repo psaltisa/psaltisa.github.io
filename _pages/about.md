@@ -22,7 +22,7 @@ I received my Ph.D. from [McMaster University](http://www.physics.mcmaster.ca/){
 supervision of Prof. [Alan Chen](http://www.physics.mcmaster.ca/~chenal/nuc_astro_struc/personal/){:target="\_blank"} on experimental nuclear astrophysics.
 
 My area of expertise is [nuclear astrophysics]({{ site.baseurl }}/research){:target="\_blank"}, the scientific branch that studies
-the interconnection between the lives of the stars and the origin of chemical elements in the cosmos.
+the interconnection between the lives of the stars and the origin of the chemical elements in the cosmos.
 
 In my spare time I [tweet](https://twitter.com/psaltistha){:target="\_blank"} about science, philosophy, art and whatever I find interesting.
 I also participate in several [science outreach]({{ site.baseurl }}/outreach){:target="\_blank"} activities and I enjoy writing on my [personal blog]({{ site.baseurl }}/blog){:target="\_blank"}.

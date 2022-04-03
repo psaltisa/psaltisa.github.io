@@ -39,7 +39,7 @@ questions, don't hesitate to [contact me](mailto:{{site.email}}).
 ---
 
 ### <i class="fa fa-search" aria-hidden="true"></i>&nbsp; Research Interests
-nuclear astrophysics • radiative capture reactions with recoil separators • nuclear reaction networks
+nuclear astrophysics • radiative capture reactions with recoil separators • nuclear reaction networks • large-scale nuclear sensitivity studies 
 • charged–particle spectroscopy • in–beam and activation γ-ray spectroscopy
 • experimental studies with stable and radioactive ion beams
 
@@ -48,6 +48,6 @@ nuclear astrophysics • radiative capture reactions with recoil separators • 
 ### <i class="fas fa-atom"></i>&nbsp; My research in one sentence
 
 <blockquote>
-<i class="fas fa-quote-left"></i> I use big machines and computers to study how explosions in space create the chemical elements.
+<i class="fas fa-quote-left"></i> I use big machines and computers to study how stars that blow up in space create the stuff we are made of.
 </blockquote>
 ---
