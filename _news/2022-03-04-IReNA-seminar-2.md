@@ -1,0 +1,29 @@
+---
+layout: post
+title: IReNA online seminar - "Nuclear Astrophysics with DRAGON"
+date: 2022-03-04
+inline: false
+---
+
+For this week's [IReNA online seminar](https://www.jinaweb.org/events/online-seminar-series){:target="\_blank"}
+I had the pleasure to introduce my colleague and friend from [TRIUMF](https://triumf.ca){:target="\_blank"},
+Dr. Annika Lennarz. She gave a lecture on the latest experimental data from the DRAGON experiment, featuring also
+part of my Ph.D. work 😊
+
+You can watch the abstract of her talk and the recording below.
+
+---
+<center>
+<div class='video-container'>
+<iframe width="60%" src="https://www.youtube.com/embed/weyJoPi9WAA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</center>
+---
+
+####  "Nuclear Astrophysics with DRAGON"
+---
+
+*Radiative capture reactions involving the fusion of hydrogen or helium are of critical importance in a wide range of astrophysical burning and explosion scenarios, such as main sequence and red giant stars, classical novae, supernovae or type I X-ray bursts, where these reactions govern the nucleosynthesis and energy generation. However, at typical peak temperatures for static and explosive stellar scenarios, the radiative capture reaction cross sections become vanishingly small, and thus extremely challenging to study experimentally.
+To overcome these challenges, the DRAGON (Detector of Recoils And Gammas Of Nuclear Reactions) recoil spectrometer at the TRIUMF-ISAC Radioactive Ion Beam Facility has been designed to directly measure radiative capture reactions of importance for nuclear astrophysics in inverse kinematics. To date DRAGON still holds the record for the number of direct measurements of radiative capture reactions performed with radioactive ion beams worldwide.
+Recoils emerging from the differentially pumped windowless gas target in a range of charge states are separated from the un-reacted beam in the 21 m long electromagnetic mass separator and detected in a DSSSD or ionization chamber. The inverse kinematics approach allows for measurements of reactions on very short-lived radioactive nuclei while the recoil separator provides high background suppression of 10 to 12 order of magnitude. Gammas from the de-excitation of the compound nucleus are detected in the high-efficiency BGO detector array surrounding the target. This provides an additional means of reaction identification and further increases the background suppression and sensitivity.
+I will give an overview of specifications and operation of the DRAGON recoil separator for performing direct measurements of radiative capture reactions at TRIUMF, before presenting examples of recent experimental highlights demonstrating DRAGON’s unique capabilities.*

@@ -12,6 +12,7 @@ category: lists
 *"Media Sampler" is a series of posts, where I make a selection of articles, videos and podcasts that I recently came across in the Internets and found interesting!*
 
 ## Articles
+---
 
 - [Want to Be a Better Scientist? Take an Improv Class](https://blogs.scientificamerican.com/observations/want-to-be-a-better-scientist-take-an-improv-class/){:target="\_blank"} by Catherine Bartlett
 
@@ -36,6 +37,7 @@ category: lists
 
 
 ## Video
+---
 
 <center>
 <div id='video-container'>
@@ -44,5 +46,6 @@ category: lists
 </center>
 
 ## Podcast
+---
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6m2OaXsTWZESGkHBnj48wb?utm_source=generator&theme=0" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>

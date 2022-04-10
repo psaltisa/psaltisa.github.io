@@ -9,22 +9,26 @@ nav: true
 
 <div class="news">
   <div class="table-responsive">
+  {% for y in (2020..2022) reversed %}
+  <table class="table table-sm table-borderless">
+  <h2 class="year">{{y}}</h2>
   {% for item in site.news reversed %}
     {% assign currentdate = item.date | date: "%Y" %}
-    {% if currentdate != date %}
-      {% unless forloop.first %}</table></div>{% endunless %}
-      <h2 class="year">{{currentdate}}</h2>
-      <table class="table table-sm table-borderless">
-      {% assign date = currentdate %}
+    {% assign currentdate = currentdate | times: 1 %}
+    {% if currentdate == y %}
+      <tr>
+        <td scope="row"><strong>{{ item.date | date: "%Y-%m-%d" }}</strong></td>
+        <td>
+          {% if item.inline %}
+            {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+          {% else %}
+            <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          {% endif %}
+        </td>
+      </tr>
+    {% else %}
+      {% continue %}
     {% endif %}
-        <tr>
-          <td scope="row"><strong>{{ item.date | date: "%Y-%m-%d" }}</strong></td>
-          <td>
-            {% if item.inline %}
-              {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-            {% else %}
-              <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-            {% endif %}
-          </td>
-        </tr>
+  {% endfor %}
+
   {% endfor %}

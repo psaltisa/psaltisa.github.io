@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Postdoctoral Researcher at <a href="https://theorie.ikp.physik.tu-darmstadt.de/astro/home.php" target="_blank">TU Darmstadt</a>
+description: <a href="https://psaltisa.github.io/research" target="_blank">Nuclear astrophysicist</a> and <a href="https://psaltisa.github.io/outreach" target="_blank">science communicator</a>
 profile:
   align: center
   image: me.png
@@ -14,6 +14,9 @@ pubs: true
 social: true
 ---
 
+<!--
+Postdoctoral Researcher at <a href="https://theorie.ikp.physik.tu-darmstadt.de/astro/home.php" target="_blank">TU Darmstadt</a>
+-->
 
 I am a postdoctoral researcher working at the theoretical astrophysics group at
 [Technische Universität Darmstadt](https://theorie.ikp.physik.tu-darmstadt.de/astro/home.php){:target="\_blank"}

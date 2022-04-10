@@ -13,6 +13,7 @@ category: lists
 
 
 ## Articles
+---
 
 - [How the Physics of Resonance Shapes Reality](https://www.quantamagazine.org/how-the-physics-of-resonance-shapes-reality-20220126/){:target="\_blank"} by Ben Brubaker
 
@@ -45,6 +46,7 @@ category: lists
 
 
 ## Video
+---
 
 <center>
 <div id='video-container'>
@@ -53,5 +55,6 @@ category: lists
 </center>
 
 ## Podcast
+---
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6KWT1OSY7esKpxiEMMIMLI?utm_source=generator&theme=0" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
