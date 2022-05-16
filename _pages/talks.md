@@ -18,7 +18,7 @@ nav: true
 </div>
 
 
-<div class="publications">  
+<div class="news">  
    <h2>talks</h2>
   <hr>  
     <div class="table-responsive">
@@ -49,7 +49,7 @@ nav: true
     Presenting at the 24th Symposium of the Hellenic Nuclear Physics Society in Ioannina, Greece (2015).
 </div>
 
-<div class="publications">  
+<div class="news">  
    <h2>posters</h2>
   <hr>  
     <div class="table-responsive">
