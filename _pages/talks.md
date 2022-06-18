@@ -42,11 +42,11 @@ nav: true
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/poster.jpg" alt="" title=""/>
+        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/poster2.jpg" alt="" title=""/>
     </div>
 </div>
 <div class="caption">
-    Presenting at the 24th Symposium of the Hellenic Nuclear Physics Society in Ioannina, Greece (2015).
+    Presenting at the JINA Frontiers in Nuclear Astrophysics conference in South Bend, IN (2022).
 </div>
 
 <div class="news">  

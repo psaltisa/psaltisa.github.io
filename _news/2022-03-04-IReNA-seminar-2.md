@@ -10,7 +10,7 @@ I had the pleasure to introduce my colleague and friend from [TRIUMF](https://tr
 Dr. Annika Lennarz. She gave a lecture on the latest experimental data from the DRAGON experiment, featuring also
 part of my Ph.D. work 😊
 
-You can watch the abstract of her talk and the recording below.
+You can read the abstract of her talk and watch the recording below.
 
 ---
 <center>

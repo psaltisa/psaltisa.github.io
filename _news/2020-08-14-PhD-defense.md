@@ -13,7 +13,7 @@ Unfortunately, due to the global pandemic, the defense was held virtually via zo
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/PhD_defense_1.jpeg" alt="" title="Starting with my zoom Ph.D. defense"/>
+        <img class="img-fluid" zoomable=true src="{{ site.baseurl }}/assets/img/PhD_defense_1.jpeg" alt="" title="Starting with my zoom Ph.D. defense"/>
     </div>
 </div>  
 <div class="caption">
