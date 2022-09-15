@@ -1,18 +1,20 @@
-date,event,title,page
-06/2022,FRIB Theory Seminar,"Constraining nucleosynthesis using observations, simulations and nuclear physics",https://wikihost.nscl.msu.edu/NuclearTheorySeminar/doku.php?id=public:past_schedule
-05/2022,"ELEMENTS Annual Conference 2022 (Frankfurt am Main, Germany)","(α, xn) reaction rate impact study to constrain the weak r-process nucleosynthesis",https://indico.gsi.de/event/13703/
-02/2022,ELEMENTS Kick-off WA3 workshop (Virtually),A pipeline to study the impact of nuclear physics uncertainties in nucleosynthesis ,https://elements.science/
-09/2021,"28th Symposium of the Hellenic Nuclear Physics Society (Athens, Greece)",Examining neutrino-driven wind nucleosynthesis in core-collapse supernovae with α-induced reactions ,http://www.inp.demokritos.gr/hnps2021/
-09/2021,XVI Nuclei in the Cosmos (Virtually),"Exploring the uncertainties of neutrino-driven wind nucleosynthesis using the 7Be(α,γ)11C reaction ",https://indico.juna.ac.cn/event/1/
-08/2021,DPG Matter and Cosmos Section (Virtually) ,"Weak r-process nucleosynthesis: the impact of (α,xn) reactions",https://www.dpg-verhandlungen.de/year/2021/conference/smuk/parts
-06/2021,2021 CAP Virtual Congress  (Virtually) ,"Measurement of the 7Be(α,γ)11C reaction with DRAGON for neutrino-driven wind nucleosynthesis",https://www.cap.ca/congress-conference/2021-cap-virtual-congress-june-6-11/
-08/2020,"IKP Seminar (Darmstadt, Germany)",Studying explosive nucleosynthesis in the lab ,
-11/2019,"ACOT Meeting (Vancouver, BC, Canada)","On the origin of p–nuclei: Study of the 7Be(α,γ)11C reaction with DRAGON",
-09/2019,"p-process workshop (Serralunga d'Alba, Italy)","Reducing νp–process uncertainties with DRAGON: The 7Be(α,γ)11C reaction",https://www.b2fh.org/pwork2019/index.html
-09/2019,"Nuclear Physics in Astrophysics IX (Mainz, Germany)","The 7Be(α,γ)11C with DRAGON for νp–process nucleosynthesis",https://exp-astro.de/meetings/npa-2019/
-10/2018,"5th Joint Meeting of the APS Division of Nuclear Physics and the Physical Society of Japan (Waikoloa, HI, USA)","Study of the 7Be(α,γ)11C reaction with DRAGON at νp–process energies",http://meetings.aps.org/Meeting/HAW18/Content/3562
-03/2018,"15th Rußbach School on Nuclear Astrophysics (Rußbach, Austria)","νp-process nucleosynthesis: the 7Be(α,γ)11C reaction",https://indico.ph.tum.de/event/3845/
-03/2018,"Nuclear Astrophysics at Rings and Recoil Separators Workshop (Darmstadt, Germany)","Pushing DRAGON beyond its acceptance limits: The 7Be(α,γ)11C reaction",https://exp-astro.de/meetings/narrs/
-02/2017,"JINA-CEE Frontiers in Nuclear Astrophysics (East Lansing, MI, USA)","Studying the 7Be(α,γ)11C reaction rate with DRAGON and the nuclear physics uncertainties of the νp-process",https://indico.fnal.gov/event/13106/
-06/2015,"p-process workshop (Limassol, Cyprus)",First experimental study of the contentious p-nucleus 113In at astrophysical energies,
-06/2014,"23rd Symposium of the Hellenic Nuclear Physics Society (Thessaloniki, Greece)","First cross-section measurements of the 112Cd(p,γ)113In reaction at astrophysical energies",http://hnps2014.physics.auth.gr/
+date,event,title,page,video,slides
+09/2022,"Intenational Nuclear Physics Conference 2022 (Cape Town, South Africa)","Using (α,xn) reaction rates and abundance ratios to constrain the weak r -process",https://inpc2022.org,,INPC2022
+09/2022,"Nuclear Physics in Astrophysics X (Geneva, Switzerland)","Constraining nucleosythesis in neutrino-driven winds using the impact of (α,xn) reaction rates",https://indico.cern.ch/event/804609/,,NPA-X
+06/2022,"FRIB Theory Seminar (East Lansing, MI, USA)","Constraining nucleosynthesis using observations, simulations and nuclear physics",https://wikihost.nscl.msu.edu/NuclearTheorySeminar/doku.php?id=public:past_schedule,https://www.youtube.com/watch?v=lV9f5wVJEYk,
+05/2022,"ELEMENTS Annual Conference 2022 (Frankfurt am Main, Germany)","(α, xn) reaction rate impact study to constrain the weak r-process nucleosynthesis",https://indico.gsi.de/event/13703/,,
+02/2022,ELEMENTS Kick-off WA3 workshop (Virtually),A pipeline to study the impact of nuclear physics uncertainties in nucleosynthesis ,https://elements.science/,,
+09/2021,"28th Symposium of the Hellenic Nuclear Physics Society (Athens, Greece)",Examining neutrino-driven wind nucleosynthesis in core-collapse supernovae with α-induced reactions ,http://www.inp.demokritos.gr/hnps2021/,,
+09/2021,XVI Nuclei in the Cosmos (Virtually),"Exploring the uncertainties of neutrino-driven wind nucleosynthesis using the 7Be(α,γ)11C reaction ",https://indico.juna.ac.cn/event/1/,,
+08/2021,DPG Matter and Cosmos Section (Virtually) ,"Weak r-process nucleosynthesis: the impact of (α,xn) reactions",https://www.dpg-verhandlungen.de/year/2021/conference/smuk/parts,,
+06/2021,2021 CAP Virtual Congress  (Virtually) ,"Measurement of the 7Be(α,γ)11C reaction with DRAGON for neutrino-driven wind nucleosynthesis",https://www.cap.ca/congress-conference/2021-cap-virtual-congress-june-6-11/,,
+08/2020,"IKP Seminar (Darmstadt, Germany)",Studying explosive nucleosynthesis in the lab ,,,
+11/2019,"ACOT Meeting (Vancouver, BC, Canada)","On the origin of p–nuclei: Study of the 7Be(α,γ)11C reaction with DRAGON",,,
+09/2019,"p-process workshop (Serralunga d'Alba, Italy)","Reducing νp–process uncertainties with DRAGON: The 7Be(α,γ)11C reaction",https://www.b2fh.org/pwork2019/index.html,,
+09/2019,"Nuclear Physics in Astrophysics IX (Mainz, Germany)","The 7Be(α,γ)11C with DRAGON for νp–process nucleosynthesis",https://exp-astro.de/meetings/npa-2019/,,
+10/2018,"5th Joint Meeting of the APS Division of Nuclear Physics and the Physical Society of Japan (Waikoloa, HI, USA)","Study of the 7Be(α,γ)11C reaction with DRAGON at νp–process energies",http://meetings.aps.org/Meeting/HAW18/Content/3562,,
+03/2018,"15th Rußbach School on Nuclear Astrophysics (Rußbach, Austria)","νp-process nucleosynthesis: the 7Be(α,γ)11C reaction",https://indico.ph.tum.de/event/3845/,,
+03/2018,"Nuclear Astrophysics at Rings and Recoil Separators Workshop (Darmstadt, Germany)","Pushing DRAGON beyond its acceptance limits: The 7Be(α,γ)11C reaction",https://exp-astro.de/meetings/narrs/,,
+02/2017,"JINA-CEE Frontiers in Nuclear Astrophysics (East Lansing, MI, USA)","Studying the 7Be(α,γ)11C reaction rate with DRAGON and the nuclear physics uncertainties of the νp-process",https://indico.fnal.gov/event/13106/,,
+06/2015,"p-process workshop (Limassol, Cyprus)",First experimental study of the contentious p-nucleus 113In at astrophysical energies,,,
+06/2014,"23rd Symposium of the Hellenic Nuclear Physics Society (Thessaloniki, Greece)","First cross-section measurements of the 112Cd(p,γ)113In reaction at astrophysical energies",http://hnps2014.physics.auth.gr/,,

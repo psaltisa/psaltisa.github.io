@@ -28,6 +28,12 @@ nav: true
         <tr>
           <td>
            {{ item.title }}
+           {% if item.slides %}
+           <a href="{{ site.baseurl }}/assets/talks/{{ item.slides}}" target="_blank"><i class="fa fa-desktop"></i></a>  
+           {% endif %}
+           {% if item.video %}
+           <a href="{{ item.video }}" target="_blank"><i class="fa fa-video"></i></a>  
+           {% endif %}
           </td>
           <td>
            <a href="{{ item.page }}" target="_blank">{{ item.event }}</a>
