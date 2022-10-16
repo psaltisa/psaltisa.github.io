@@ -17,8 +17,7 @@ category: lists
 
 - [Using better colours in science](https://phys.org/news/2020-10-colours-science.html){:target="\_blank"} by University of Oslo
 
-  This is an article based on the work by [Carmeri et al., Nat. Commun. **11**, 5444 (2020)](https://doi.org/10.1038/s41467-020-19160-7 ){:target="\_blank"} regarding the
-  use of colours in science communication. Scientists tend to get lazy when it comes to how they are presenting their results and a wrong choice of colours can distort the data. The authors have developed a set of [scientific colourmaps](https://doi.org/10.5281/zenodo.1243862){:target="\_blank"} which are publicly available (I will definitely give them a try in my next publication). You can learn more about this project from Fabio Crameri in this <a href="https://www.youtube.com/watch?v=Hhkj_AiicmQ" target='_blank'>YouTube video <i class="fab fa-youtube"></i></a>.
+  This is an article based on the work by [Carmeri et al., Nat. Commun. **11**, 5444 (2020)](https://doi.org/10.1038/s41467-020-19160-7 ){:target="\_blank"} regarding the use of colours in science communication. Scientists tend to get lazy when it comes to how they are presenting their results and a wrong choice of colours can distort the data. The authors have developed a set of [scientific colourmaps](https://doi.org/10.5281/zenodo.1243862){:target="\_blank"} which are publicly available (I will definitely give them a try in my next publication). You can learn more about this project from Fabio Crameri in this <a href="https://www.youtube.com/watch?v=Hhkj_AiicmQ" target='_blank'>YouTube video <i class="fab fa-youtube"></i></a>.
 
   > <i class="fas fa-quote-left"></i> Rainbows are fantastic, but in the context of displaying scientific, technical, medical or similar such data, it needs to be stopped. 🌈
   >

@@ -7,7 +7,7 @@ years: [2022, 2021, 2020, 2019, 2018, 2017, 2016]
 nav: true
 ---
 
-### Overview
+### overview
 ---
 <i class="far fa-file-alt"></i> {% bibliography_count -f papers %} journal articles ({% bibliography_count -f papers --query @*[author^=Psaltis]%} first author)
 
@@ -17,10 +17,8 @@ nav: true
 
 <i class="fas fa-book"></i> <a href="https://macsphere.mcmaster.ca/handle/11375/25859" target="_blank" >Ph.D. Thesis</a> &nbsp; &middot; &nbsp; <i class="fas fa-book"></i> <a href="https://doi.org/10.6084/m9.figshare.1257763.v2" target="_blank" >B.Sc. Thesis (in Greek)</a>
 
-
-
 <div class="publications">
-<h3>Journal Articles</h3>
+<h3>journal articles</h3>
 {% for y in page.years %}
     {% if y!= 2018 %}
   <h2 class="year">{{y}}</h2>
@@ -33,7 +31,7 @@ nav: true
 
 
 <div class="publications">
-<h3>Articles in Conference Proceedings</h3>
+<h3>articles in conference proceedings</h3>
 {% for y in page.years %}
      {% if y!= 2016 and y!=2021 %}
   <h2 class="year">{{y}}</h2>

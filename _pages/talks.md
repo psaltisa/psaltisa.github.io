@@ -17,9 +17,23 @@ nav: true
     Presenting at the 23rd Symposium of the Hellenic Nuclear Physics Society in Thessaloniki, Greece (2014).
 </div>
 
+### overview
+---
+{% assign talks = site.data.talks  %}
+{% assign posters = site.data.posters  %}
+{% assign invited_talks = talks | where: "type", "invited" %}
+{% assign invited_posters = posters | where: "type", "invited" %}
+{% assign total = talks.size | plus: posters.size %}
+{% assign total_invited =  invited_talks.size | plus: invited_posters.size %}
+
+{{ total_invited }} invited talks/posters  &nbsp; &middot; &nbsp; {{ total | minus: total_invited }} contributed talks/posters
+
+
+
+<br>
 
 <div class="news">  
-   <h2>talks</h2>
+   <h3>talks</h3>
   <hr>  
     <div class="table-responsive">
       <table class="table table-hover table-borderless">
@@ -56,7 +70,7 @@ nav: true
 </div>
 
 <div class="news">  
-   <h2>posters</h2>
+   <h3>posters</h3>
   <hr>  
     <div class="table-responsive">
       <table class="table table-hover table-borderless">

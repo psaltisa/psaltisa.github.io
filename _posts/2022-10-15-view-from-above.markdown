@@ -1,0 +1,29 @@
+---
+layout: post
+title: The view from above
+date:   2022-10-15
+description:
+inline: false
+author:
+tags: philosophy
+category: article
+---
+
+
+Have you ever felt overwhelmed by the busyness of the world, stressed and burned out? Of course you have, it's 2022! Well, people have experienced similar feelings through the ages. Philosophers from ancient Greece and Rome come to the rescue and provide a nice exercise to change our perspective and see things differently. It is called *"The view from above"* and it is a classic stoic idea found in many texts, such as in Marcus Aurelius' "Meditations" and very recently in astrophysicist's Carl Sagan "Pale Blue Dot".
+
+The purpose of this exercise, or meditation, is to change one's perspective from the individual to the "Whole". By doing that, the Stoics argued, we can get inner peace and replace negative emotions, such as anger and pain, with positive ones, love and compassion. See the following two excerpts as an example.
+
+><i class="fas fa-quote-left"></i> Think of substance in its entirety, of which you have the smallest of shares; and of time in its entirety, of which a brief and momentary span has been assigned to you; and of the works of destiny, and how very small is your part in them.
+>
+>-Marcus Aurelius, Meditations 5.24
+
+><i class="fas fa-quote-left"></i> The Earth is a very small stage in a vast cosmic arena. Think of the rivers of blood spilled by all those generals and emperors so that, in glory and triumph, they could become the momentary masters of a fraction of a dot. Think of the endless cruelties visited by the inhabitants of one corner of this pixel on the scarcely distinguishable inhabitants of some other corner, how frequent their misunderstandings, how eager they are to kill one another, how fervent their hatreds.
+>
+>-Carl Sagan, Pale Blue Dot
+
+Below you can find a guided 20-minute version from [Donald Robertson](https://medium.com/stoicism-philosophy-as-a-way-of-life/stoicism-the-view-from-above-741886d3c9a1){:target="\_blank"}. I have done this meditation many times, and every time it helped me see things more clearly and calmly. Enjoy and memento mori!
+
+p.s. When you reach to the space part, remember the "Pale Blue Dot" image from Voyager 1.
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/73341427&color=%23b90f22&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/drobertson-uk" title="Donald Robertson" target="_blank" style="color: #cccccc; text-decoration: none;">Donald Robertson</a> · <a href="https://soundcloud.com/drobertson-uk/view-from-above" title="View from Above" target="_blank" style="color: #cccccc; text-decoration: none;">View from Above</a></div>

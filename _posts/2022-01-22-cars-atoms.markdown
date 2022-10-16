@@ -5,16 +5,13 @@ date:   2022-01-22 10:40:16
 description:
 inline: false
 author:
-tags: art, nuclear-physics
+tags: [art, nuclear-physics]
 ---
 
 
 ### How it all started
 
-Last year, due to the ongoing pandemic, I was thinking of picking up a hobby - preferably an outdoorsy one - to keep me active during the winter.
-Running was the obvious choice, since I've been practicing consistently for many years with an exception of a 2-year-slump during my Ph.D., but I also wanted something to keep my mind sharp and strengthen my visual skills and pattern recognition. One day during the Christmas holidays, I was on a
-walk with a good friend of mine (also a nuclear physicist) that has been in Darmstadt for many years and he pointed towards a parked car's number
-plate saying: "Hey, this is chlorine!"
+Last year, due to the ongoing pandemic, I was thinking of picking up a hobby - preferably an outdoorsy one - to keep me active during the winter. Running was the obvious choice, since I've been practicing consistently for many years with an exception of a 2-year-slump during my Ph.D., but I also wanted something to keep my mind sharp and strengthen my visual skills and pattern recognition. One day during the Christmas holidays, I was on a walk with a good friend of mine (also a nuclear physicist) that has been in Darmstadt for many years and he pointed towards a parked car's number plate saying: "Hey, this is chlorine!"
 
 ### The anatomy of a German number plate
 

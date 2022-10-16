@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ComSciCon CAN 🇨🇦
-description: science communication conference
+description: co-founder
 img: /assets/img/ComSciConCAN_logo.png
 importance: 2
 ---

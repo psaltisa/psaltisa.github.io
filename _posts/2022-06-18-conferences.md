@@ -5,7 +5,7 @@ date: 2022-06-18
 description:
 inline: false
 author:
-tags: nuclear-astrophysics, conference
+tags: [nuclear-astrophysics, conference]
 category: article
 ---
 

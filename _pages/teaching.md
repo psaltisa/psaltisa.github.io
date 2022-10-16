@@ -7,8 +7,7 @@ nav: true
 ---
 
 
-Courses I've taught at [Technische Universität Darmstadt](https://www.physik.tu-darmstadt.de/fbphysik/index.en.jsp){:target="\_blank"}
-as a postdoc (2021-2022).
+Courses I've taught at [Technische Universität Darmstadt](https://www.physik.tu-darmstadt.de/fbphysik/index.en.jsp){:target="\_blank"} as a postdoc (2021-2022).
 
 ---
 
@@ -19,8 +18,7 @@ This graduate seminar covers central topics in nuclear astrophysics: from big ba
 
 <br>
 
-Courses I've taught at [McMaster University](https://www.physics.mcmaster.ca/){:target="\_blank"}
-as a graduate student (2015-2020).
+Courses I've taught at [McMaster University](https://www.physics.mcmaster.ca/){:target="\_blank"} as a graduate student (2015-2020).
 
 ---
 
