@@ -9,7 +9,6 @@ tags: philosophy
 category: article
 ---
 
-
 Have you ever felt overwhelmed by the busyness of the world, stressed and burned out? Of course you have, it's 2022! Well, people have experienced similar feelings through the ages. Philosophers from ancient Greece and Rome come to the rescue and provide a nice exercise to change our perspective and see things differently. It is called *"The view from above"* and it is a classic stoic idea found in many texts, such as in Marcus Aurelius' "Meditations" and very recently in astrophysicist's Carl Sagan "Pale Blue Dot".
 
 The purpose of this exercise, or meditation, is to change one's perspective from the individual to the "Whole". By doing that, the Stoics argued, we can get inner peace and replace negative emotions, such as anger and pain, with positive ones, love and compassion. See the following two excerpts as an example.

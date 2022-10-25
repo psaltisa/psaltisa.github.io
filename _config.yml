@@ -17,6 +17,18 @@ baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 
 # -----------------------------------------------------------------------------
+# Theme
+# -----------------------------------------------------------------------------
+
+# code highlighter theme
+highlight_theme_light: github   # https://github.com/jwarby/jekyll-pygments-themes
+highlight_theme_dark: native    # https://github.com/jwarby/jekyll-pygments-themes
+
+# repo color theme
+repo_theme_light: default       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+
+# -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
 
@@ -88,10 +100,10 @@ posts_limit: 3
 # Jekyll settings
 # -----------------------------------------------------------------------------
 
+
 # Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
-highlight_theme: github  # https://github.com/jwarby/jekyll-pygments-themes
 kramdown:
   input: GFM
   syntax_highlighter_opts:
@@ -118,6 +130,8 @@ plugins:
   - jekyll-target-blank
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-minifier
+  - jekyll-paginate-v2
   # - bootstrap
   # - material-sass
   # - jekyll-imagemagick
@@ -128,17 +142,16 @@ plugins:
 
 scholar:
 
-  last_name: Psaltis
+  last_name: ["Psaltis"]
+  first_name: ["Psaltis", "A.", "A"]
 
   style: apa
   locale: en
 
-  sort_by: year
-  order: descending
-
   source: /_bibliography/
   bibliography: papers.bib
   bibliography_template: bib
+  bibtex_filters: [latex, smallcaps, superscript]
 
   replace_strings: true
   join_strings: true
@@ -148,6 +161,14 @@ scholar:
   details_link: Details
 
   query: "@*"
+
+# Filter out certain bibtex entry keywords used internally from the bib output
+filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview]
+
+# Maximum number of authors to be shown for each publication (more authors are visible on click)
+max_author_limit: 10  # leave blank to always show all authors
+more_authors_animation_delay: 0  # more authors are revealed on click using animation; smaller delay means faster animation
+
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives
@@ -164,6 +185,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
+display_tags: ['books', 'philosophy', 'media-sampler', 'historic-papers']
 # -----------------------------------------------------------------------------
 # Optional Features
 # -----------------------------------------------------------------------------

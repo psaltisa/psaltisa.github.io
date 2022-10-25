@@ -11,6 +11,13 @@ Courses I've taught at [Technische Universität Darmstadt](https://www.physik.tu
 
 ---
 
+#### [Nuclear Astrophysics I](https://moodle.tu-darmstadt.de/course/view.php?id=29042){:target="\_blank"}
+This graduate course provides an introduction to nuclear astrophysics: topics include nuclear reactions and nucleosynthesis networks, processes and astrophysical sites, neutron stars and more.
+
+<i class="fas fa-chalkboard-teacher"></i>&nbsp; Gave a lecture on experimental nuclear astrophysics and helped with the practical exercises (computer lab).
+
+---
+
 #### [Astrophysics](https://moodle.tu-darmstadt.de/course/info.php?id=21080){:target="\_blank"}
 This graduate seminar covers central topics in nuclear astrophysics: from big bang nucleosynthesis to neutron stars and supernova explosions.
 

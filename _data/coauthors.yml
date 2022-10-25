@@ -1,8 +1,11 @@
-Mertzimekis:
+"Mertzimekis":
+  - firstname: ["Theo", "T.J", "T.J."]
     url: https://mertzimekis.gr
 
-Chen:
+"Chen":
+  - firstname: ["Alan", "A.A.", "A.A", "A", "A."]
     url: https://physwww.physics.mcmaster.ca/%7Echenal/nuc_astro_struc/personal/
-    
-Arcones:
+
+"Arcones":
+  - firstname: ["Almudena", "A.", "A"]
     url: https://theorie.ikp.physik.tu-darmstadt.de/astro/people/people_arcones.php

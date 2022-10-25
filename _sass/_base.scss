@@ -280,13 +280,31 @@ footer.sticky-bottom {
 // Blog
 
 .header-bar {
-  border-bottom: 1px solid $grey-color-light;
+  border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
   padding-top: 2rem;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
   h1 {
     color: var(--global-theme-color);
     font-size: 5rem;
+  }
+}
+
+.tag-list {
+  border-bottom: 1px solid var(--global-divider-color);
+  text-align: center;
+  padding-top: 1rem;
+
+  ul {
+    justify-content: center;
+    display: flow-root;
+
+    p, li {
+      list-style: none;
+      display: inline-block;
+      padding: 1rem 0.5rem;
+      color: var(--global-text-color-light);
+    }
   }
 }
 
@@ -295,34 +313,46 @@ footer.sticky-bottom {
   margin-bottom: 40px;
   padding: 0;
   li {
-    border-bottom: 1px solid $grey-color-light;
+    border-bottom: 1px solid var(--global-divider-color);
     list-style: none;
     padding-top: 2rem;
     padding-bottom: 2rem;
     .post-meta {
-      color: $grey-color;
+      color: var(--global-text-color);
       font-size: 0.875rem;
       margin-bottom: 0;
     }
     .post-tags {
-      color: $grey-color;
+      color: var(--global-text-color);
       font-size: 0.875rem;
       padding-top: 0.25rem;
+      padding-bottom: 0;
     }
     a {
-      color: black;
+      color: var(--global-text-color);
       text-decoration: none;
       &:hover {
-        color:  var(--global-theme-color);
+        color: var(--global-theme-color);
       }
     }
   }
 }
 
-.pagination .page-item.active .page-link {
-  background-color:  var(--global-theme-color);
-  &:hover {
-    background-color:  var(--global-theme-color);
+.pagination {
+  .page-item {
+    .page-link {
+      color: var(--global-text-color);
+      &:hover {
+        color: $black-color;
+      }
+    }
+    &.active .page-link {
+      color: $white-color;
+      background-color: var(--global-theme-color);
+      &:hover {
+        background-color: var(--global-theme-color);
+      }
+    }
   }
 }
 
@@ -431,58 +461,68 @@ footer.sticky-bottom {
           border-bottom: 1px solid;
           font-style: normal;
         }
-      }
-      .links {
-        a.btn {
+        > span.more-authors {
           color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
+          border-bottom: 1px dashed var(--global-text-color);
+          cursor: pointer;
           &:hover {
-            color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
+              color: var(--global-text-color);
+              border-bottom: 1px dashed var(--global-text-color);
           }
         }
       }
-      .hidden {
-        font-size: 0.875rem;
-        max-height: 0px;
-        overflow: hidden;
-        text-align: justify;
-        -webkit-transition: 0.15s ease;
-        -moz-transition: 0.15s ease;
-        -ms-transition: 0.15s ease;
-        -o-transition: 0.15s ease;
-        transition: all 0.15s ease;
 
-        p {
-          line-height: 1.4em;
-          margin: 10px;
-        }
-        pre {
-          font-size: 1em;
-          line-height: 1.4em;
-          padding: 10px;
-        }
-      }
-      .hidden.open {
-        max-height: 100em;
-        -webkit-transition: 0.15s ease;
-        -moz-transition: 0.15s ease;
-        -ms-transition: 0.15s ease;
-        -o-transition: 0.15s ease;
-        transition: all 0.15s ease;
-      }
-      div.abstract.hidden {
-        border: none;
-      }
-      div.abstract.hidden.open {
-        border-color: $grey-color;
-      }
-    }
-  }
+      .links {
+       a.btn {
+         color: var(--global-text-color);
+         border: 1px solid var(--global-text-color);
+         padding-left: 1rem;
+         padding-right: 1rem;
+         padding-top: 0.25rem;
+         padding-bottom: 0.25rem;
+         &:hover {
+           color: var(--global-theme-color);
+           border-color: var(--global-theme-color);
+         }
+       }
+     }
+     .hidden {
+       font-size: 0.875rem;
+       max-height: 0px;
+       overflow: hidden;
+       text-align: justify;
+       transition-property: 0.15s ease;
+       -moz-transition: 0.15s ease;
+       -ms-transition: 0.15s ease;
+       -o-transition: 0.15s ease;
+       transition: all 0.15s ease;
+
+       p {
+         line-height: 1.4em;
+         margin: 10px;
+       }
+       pre {
+         font-size: 1em;
+         line-height: 1.4em;
+         padding: 10px;
+       }
+     }
+     .hidden.open {
+       max-height: 100em;
+       transition-property: 0.15s ease;
+       -moz-transition: 0.15s ease;
+       -ms-transition: 0.15s ease;
+       -o-transition: 0.15s ease;
+       transition: all 0.15s ease;
+     }
+     div.abstract.hidden {
+       border: dashed 0px var(--global-bg-color);
+     }
+     div.abstract.hidden.open {
+       border-color: var(--global-text-color);
+     }
+   }
+ }
 }
 
 // Rouge Color Customization
