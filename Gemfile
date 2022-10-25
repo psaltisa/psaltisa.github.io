@@ -12,4 +12,5 @@ group :jekyll_plugins do
     gem 'jekyll-feed'
     gem 'unicode_utils'
     gem 'jekyll-archives'
+    gem 'mini_racer'
 end

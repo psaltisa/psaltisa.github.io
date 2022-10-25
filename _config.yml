@@ -124,7 +124,6 @@ plugins:
   - jekyll-diagrams
   - jekyll-email-protect
   - jekyll-feed
-  - jekyll-github-metadata
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-target-blank
@@ -132,10 +131,9 @@ plugins:
   - jemoji
   - jekyll-minifier
   - jekyll-paginate-v2
-  # - bootstrap
-  # - material-sass
-  # - jekyll-imagemagick
-  # - jekyll-paginate-v2
+
+# - jekyll-imagemagick
+
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
@@ -169,6 +167,15 @@ filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, select
 max_author_limit: 10  # leave blank to always show all authors
 more_authors_animation_delay: 0  # more authors are revealed on click using animation; smaller delay means faster animation
 
+# -----------------------------------------------------------------------------
+# Jekyll Minifier
+# -----------------------------------------------------------------------------
+
+jekyll-minifier:
+  exclude: ['robots.txt']
+  uglifier_args:
+    harmony: true
+
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives
@@ -197,7 +204,7 @@ enable_tooltips:          true
 enable_darkmode:          false
 show_social_icons:        false
 enable_medium_zoom:       true
-
+enable_progressbar:       true  # enables a horizontal progress bar linked to the vertical scroll position
 # -----------------------------------------------------------------------------
 # Library versions
 # -----------------------------------------------------------------------------
