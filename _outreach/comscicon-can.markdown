@@ -12,7 +12,7 @@ importance: 2
  </center>
  <br/>
 
- [ComSciCon](https://comscicon.com/){:target="\_blank"} is a workshop series organized by graduate students, for graduate students, focused on science communication skills.  Its goal is to empower future leaders in technical communication to share the results from research in their field to broad and diverse audiences, not just practitioners in their fields. The series started in the U.S. in 2013 and in 2018 it accepted Canadian graduate students for the first time. I was selected out of around 900 applicants to fill one of the 50 spots for the flagship workshop that year. You can also read my [popular science article]({% post_url 2018-06-12-sherlock-holmes-and-gold %}){:target="\_blank"}.
+ [ComSciCon](https://comscicon.com/) is a workshop series organized by graduate students, for graduate students, focused on science communication skills.  Its goal is to empower future leaders in technical communication to share the results from research in their field to broad and diverse audiences, not just practitioners in their fields. The series started in the U.S. in 2013 and in 2018 it accepted Canadian graduate students for the first time. I was selected out of around 900 applicants to fill one of the 50 spots for the flagship workshop that year. You can also read my [popular science article]({% post_url 2018-06-12-sherlock-holmes-and-gold %}).
 
  <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -46,7 +46,7 @@ importance: 2
 
 ---
 
-<i class="far fa-newspaper"></i> [“We’re not always just sharing the facts – we’re sharing enthusiasm for the learning process and science” by Sarah Laux](https://dailynews.mcmaster.ca/articles/were-not-always-just-sharing-the-facts-were-sharing-enthusiasm-for-the-learning-process-and-science/){:target="\_blank"} (2019)
+<i class="far fa-newspaper"></i> [“We’re not always just sharing the facts – we’re sharing enthusiasm for the learning process and science” by Sarah Laux](https://dailynews.mcmaster.ca/articles/were-not-always-just-sharing-the-facts-were-sharing-enthusiasm-for-the-learning-process-and-science/) (2019)
 
 ---
 

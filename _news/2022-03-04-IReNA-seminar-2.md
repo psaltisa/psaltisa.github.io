@@ -5,8 +5,8 @@ date: 2022-03-04
 inline: false
 ---
 
-For this week's [IReNA online seminar](https://www.jinaweb.org/events/online-seminar-series){:target="\_blank"}
-I had the pleasure to introduce my colleague and friend from [TRIUMF](https://triumf.ca){:target="\_blank"},
+For this week's [IReNA online seminar](https://www.jinaweb.org/events/online-seminar-series)
+I had the pleasure to introduce my colleague and friend from [TRIUMF](https://triumf.ca),
 Dr. Annika Lennarz. She gave a lecture on the latest experimental data from the DRAGON experiment, featuring also
 part of my Ph.D. work 😊
 

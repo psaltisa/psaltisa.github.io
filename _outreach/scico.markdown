@@ -13,14 +13,14 @@ importance: 3
  </center>
  <br/>
 
- In 2015 I joined [SciCo](https://scico.gr/en){:target="\_blank"}  - abbreviation of <b>Sci</b>ence <b>Co</b>mmunication -
+ In 2015 I joined [SciCo](https://scico.gr/en)  - abbreviation of <b>Sci</b>ence <b>Co</b>mmunication -
  the first Non Profit Science Communication Organization in Greece.
  As an ambassador, I attended training workshops on creative writing, storytelling and science communication.
  One of the projects I participated was the creation of comic strips that would enhance the interest
  about science in an informative but fun way (You can view some of them
- [here](https://www.facebook.com/401524586540479/photos/?tab=album&album_id=1316190958407166){:target="\_blank"} - in Greek ).
+ [here](https://www.facebook.com/401524586540479/photos/?tab=album&album_id=1316190958407166) - in Greek ).
  I was also part of the organizing team at the biggest Science Festival in Greece with more than 30,000 visitors -
- [Athens Science Festival](http://www.athens-science-festival.gr/en/team_category/organisational-team/){:target="\_blank"}.
+ [Athens Science Festival](http://www.athens-science-festival.gr/en/team_category/organisational-team/).
 
 
  <div class="row justify-content-sm-center">

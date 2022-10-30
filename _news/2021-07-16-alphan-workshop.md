@@ -13,7 +13,7 @@ inline: false
 
 *Some interesting questions that we look forward to discussing are: How different experimental techniques can help us constrain the alpha-optical potential? Is there a need for a database of such quantities? Can the stellar modeling provide additional sites where (α,n) reactions play a key role? How could advancements in nuclear reaction theory help us understand these alpha-induced reactions?*
 
-This is the description of the first workshop I organized along with my supervisor Almudena Arcones, Alison Laird and Zach Meisel virtually. It was supported by [IReNA](https://www.irenaweb.org/){:target="\_blank"}, which provided all the online resources needed. 🙏 There were **84 participants from 13 countries** and all the talks were of very high level. If you want more details, visit the [workshop website](https://indico.frib.msu.edu/event/46/){:target="\_blank"}.
+This is the description of the first workshop I organized along with my supervisor Almudena Arcones, Alison Laird and Zach Meisel virtually. It was supported by [IReNA](https://www.irenaweb.org/), which provided all the online resources needed. 🙏 There were **84 participants from 13 countries** and all the talks were of very high level. If you want more details, visit the [workshop website](https://indico.frib.msu.edu/event/46/).
 
 Below I am listing the invited speakers and the workshop sessions:
 

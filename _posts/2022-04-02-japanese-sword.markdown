@@ -8,7 +8,7 @@ tags: [science, philosophy, creativity]
 category: article
 ---
 
-As I have discussed in previous [posts]({% post_url 2022-03-12-shoshin %}){:target="\_blank"}, I am interested in Japanese philosophy and how its teachings can be applied in everyday life. Last week I came across a short documentary at [Aeon](https://aeon.co/videos){:target="\_blank"} from the [University of Arizona Libraries](https://speccoll.library.arizona.edu/){:target="\_blank"} special collections regarding the art of making samurai swords, known as katanas. The film, titled *"The Japanese Sword as the Soul of the Samurai"* was made in 1969 by Arizona filmmaker Kenneth Wolfgang and it is narrated by the familiar voice of George Takei (Star Trek). Wolfgang was allowed rare access to the Tokyo workshop of a master samurai swordsmith to explore the craft and history behind the iconic Japanese weapon.
+As I have discussed in previous [posts]({% post_url 2022-03-12-shoshin %}), I am interested in Japanese philosophy and how its teachings can be applied in everyday life. Last week I came across a short documentary at [Aeon](https://aeon.co/videos) from the [University of Arizona Libraries](https://speccoll.library.arizona.edu/) special collections regarding the art of making samurai swords, known as katanas. The film, titled *"The Japanese Sword as the Soul of the Samurai"* was made in 1969 by Arizona filmmaker Kenneth Wolfgang and it is narrated by the familiar voice of George Takei (Star Trek). Wolfgang was allowed rare access to the Tokyo workshop of a master samurai swordsmith to explore the craft and history behind the iconic Japanese weapon.
 
 <br>
 <center>

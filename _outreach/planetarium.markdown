@@ -10,7 +10,7 @@ importance: 1
 	<img src="{{ site.baseurl }}/assets/img/planetarium_logo.png"  height="40%" width="40%">
 </center>
 
-During my graduate studies at McMaster University I produced and presented public and private shows in the <a href="http://www.physics.mcmaster.ca/planetarium/" target="_blank">William J. McCallion Planetarium</a>. Most of the shows were for K-12 students and the general audience. Over five years
+During my graduate studies at McMaster University I produced and presented public and private shows in the [William J. McCallion Planetarium](http://www.physics.mcmaster.ca/planetarium/). Most of the shows were for K-12 students and the general audience. Over five years
 at the William J. McCallion Planetarium I presented live shows to thousands of people of all ages. In addition, I produced three original full-dome interactive shows.
 
 <center>
@@ -87,9 +87,9 @@ at the William J. McCallion Planetarium I presented live shows to thousands of p
 
 ---
 
-<i class="far fa-newspaper"></i> [The Science of Star Wars by Erica Balch](https://brighterworld.mcmaster.ca/articles/the-science-of-star-wars/){:target="\_blank"} (2017)
+<i class="far fa-newspaper"></i> [The Science of Star Wars by Erica Balch](https://brighterworld.mcmaster.ca/articles/the-science-of-star-wars/) (2017)
 
-<i class="far fa-newspaper"></i> [How to build a lightsaber and power up a Death Star: The science behind Star Wars by CBC News](https://www.cbc.ca/news/canada/hamilton/how-to-build-a-lightsaber-and-power-up-a-death-star-the-science-behind-star-wars-1.4450118){:target="\_blank"} (2017)
+<i class="far fa-newspaper"></i> [How to build a lightsaber and power up a Death Star: The science behind Star Wars by CBC News](https://www.cbc.ca/news/canada/hamilton/how-to-build-a-lightsaber-and-power-up-a-death-star-the-science-behind-star-wars-1.4450118) (2017)
 
 <p>
 	<center>

@@ -42,9 +42,9 @@ importance: 2
 Below you can find some articles about Pint of Science events in Hamilton:
 
 <i class="far fa-newspaper"></i>
- [Raising a pint for science by Daily News](https://dailynews.mcmaster.ca/articles/raising-a-pint-for-science/){:target="\_blank"} (2018) <br>
+ [Raising a pint for science by Daily News](https://dailynews.mcmaster.ca/articles/raising-a-pint-for-science/) (2018) <br>
 <i class="far fa-newspaper"></i>
- [Quench your thirst for knowledge at Pint of Science by Daily News](https://dailynews.mcmaster.ca/articles/quench-your-thirst-for-knowledge-at-pint-of-science/){:target="\_blank"} (2019)
+ [Quench your thirst for knowledge at Pint of Science by Daily News](https://dailynews.mcmaster.ca/articles/quench-your-thirst-for-knowledge-at-pint-of-science/) (2019)
 
 
 <div class="row justify-content-sm-center">

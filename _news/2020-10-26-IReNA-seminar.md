@@ -5,8 +5,8 @@ date: 2020-10-16 07:59:00-0400
 inline: false
 ---
 
-It was my great pleasure to host this [IReNA online seminar](https://www.jinaweb.org/events/online-seminar-series){:target="\_blank"}
-as a member of the organizing committee, featuring my colleague and friend at TU Darmstadt [Dr. Moritz Reichert](https://theorie.ikp.physik.tu-darmstadt.de/astro/people/people_reichert.php){:target="\_blank"}. Moritz gave a great talk, based on his recent work, which sparked lots of discussion after it. You
+It was my great pleasure to host this [IReNA online seminar](https://www.jinaweb.org/events/online-seminar-series)
+as a member of the organizing committee, featuring my colleague and friend at TU Darmstadt [Dr. Moritz Reichert](https://theorie.ikp.physik.tu-darmstadt.de/astro/people/people_reichert.php). Moritz gave a great talk, based on his recent work, which sparked lots of discussion after it. You
 can watch the talk on the recording below.
 
 ---

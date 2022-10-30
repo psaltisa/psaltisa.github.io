@@ -12,7 +12,7 @@ category: article
 *"Historic Papers" is a series of posts, in which we explore famous scientific papers that were the stepping stones for the advent of nuclear astrophysics, and we also learn about the life of the scientists involved.* <br>
 
 
-For the first paper of the series, I chose *"Capture of slow neutrons"* by Gregory Breit and Eugene Wigner, published at [Physical Review](https://journals.aps.org/pr/abstract/10.1103/PhysRev.49.519){:target="\_blank"} in 1936. Firstly, let's put this work into perspective; the quantum revolution was at full swing a decade ago, and now the fruits of this theory tree are starting to fall one after the other. One of the most important discoveries was that of the neutron - the third ingredient of an atom, along with the proton and the electron - by James Chadwick at the Cavendish Laboratory four years ago (1932). Around three years after this paper was published, in December 1938, Lise Meitner, Otto Hahn and others, discovered nuclear fission, which will bring humanity one step closer to nuclear energy and unfortunately the horror of atomic bombs. As far as politics are concerned, since the early 1930s, scientists from Germany are fleeting mainly towards the United States, due to the rise of the Nazi regime.
+For the first paper of the series, I chose *"Capture of slow neutrons"* by Gregory Breit and Eugene Wigner, published at [Physical Review](https://journals.aps.org/pr/abstract/10.1103/PhysRev.49.519) in 1936. Firstly, let's put this work into perspective; the quantum revolution was at full swing a decade ago, and now the fruits of this theory tree are starting to fall one after the other. One of the most important discoveries was that of the neutron - the third ingredient of an atom, along with the proton and the electron - by James Chadwick at the Cavendish Laboratory four years ago (1932). Around three years after this paper was published, in December 1938, Lise Meitner, Otto Hahn and others, discovered nuclear fission, which will bring humanity one step closer to nuclear energy and unfortunately the horror of atomic bombs. As far as politics are concerned, since the early 1930s, scientists from Germany are fleeting mainly towards the United States, due to the rise of the Nazi regime.
 
 <center>
     <div class="row justify-content-sm-center">
@@ -106,6 +106,6 @@ a member of the *Martians* gang, along with Leó Szilárd, Johnny von Neumann, E
 </center>
 
 ---
-[G. Breit and E. Wigner, Phys. Rev., **49** 519 (1936)](https://journals.aps.org/pr/abstract/10.1103/PhysRev.49.519){:target="\_blank"}
+[G. Breit and E. Wigner, Phys. Rev., **49** 519 (1936)](https://journals.aps.org/pr/abstract/10.1103/PhysRev.49.519)
 
-[Gregory Breit: Bibliographical Memoir by McAllister Hull](https://web.archive.org/web/20050421092901/http://stills.nap.edu/html/biomems/gbreit.html){:target="\_blank"}
+[Gregory Breit: Bibliographical Memoir by McAllister Hull](https://web.archive.org/web/20050421092901/http://stills.nap.edu/html/biomems/gbreit.html)

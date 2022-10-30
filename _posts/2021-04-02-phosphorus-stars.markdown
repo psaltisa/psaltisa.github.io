@@ -25,7 +25,7 @@ Our current understanding about the origin of phosphorus includes violent space 
 
 ### Finding phosphorus-rich stars
 
-Recently, researchers from the Instituto de Astrofísica de Canarias (IAC) discovered 15 stars in the Galaxy with an unusually high phosphorus abundance. For their work, they used a large number of infrared spectra - this is light that our eyes are not sensitive to, but we use it widely, such as in thermal imaging. For another pop culture reference, remember Pink Floyd's ["Dark Side of the Moon"](https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png){:target="\_blank"} cover, it's the light beyond the red color! - emitted by stars from the [Sloan Digital Sky Survey (SDSS)](https://www.sdss.org/){:target="\_blank"}. One of the great successes of twentieth century astronomy is that we understood how we can tell what a star is made of, just by collecting the light it emits!
+Recently, researchers from the Instituto de Astrofísica de Canarias (IAC) discovered 15 stars in the Galaxy with an unusually high phosphorus abundance. For their work, they used a large number of infrared spectra - this is light that our eyes are not sensitive to, but we use it widely, such as in thermal imaging. For another pop culture reference, remember Pink Floyd's ["Dark Side of the Moon"](https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png) cover, it's the light beyond the red color! - emitted by stars from the [Sloan Digital Sky Survey (SDSS)](https://www.sdss.org/). One of the great successes of twentieth century astronomy is that we understood how we can tell what a star is made of, just by collecting the light it emits!
 
 
 <div class="row justify-content-sm-center">
@@ -60,12 +60,12 @@ In a follow-up study few months ago, some further light was shed in the origin o
 
 ### What should we expect for the future?
 
-The future looks definitely bright (pun intended!) for the search of more phosphorus-rich stars. New space telescopes, such as the [James Webb Space Telescope (JWST)](https://www.jwst.nasa.gov/){:target="\_blank"} which is expected to be launched later this year, will help us expand our knowlegde about these stars and get us one step closer into understanding the origin of DNA on Earth.
+The future looks definitely bright (pun intended!) for the search of more phosphorus-rich stars. New space telescopes, such as the [James Webb Space Telescope (JWST)](https://www.jwst.nasa.gov/) which is expected to be launched later this year, will help us expand our knowlegde about these stars and get us one step closer into understanding the origin of DNA on Earth.
 
 ---
 
-<i class="fa fa-file-alt"></i> &nbsp; [T. Masseron *et al.*, Nat. Commun, **11**, 3759 (2020) ](https://www.nature.com/articles/s41467-020-17649-9){:target="\_blank"}
+<i class="fa fa-file-alt"></i> &nbsp; [T. Masseron *et al.*, Nat. Commun, **11**, 3759 (2020) ](https://www.nature.com/articles/s41467-020-17649-9)
 
-<i class="fa fa-file-alt"></i> &nbsp; [T. Masseron *et al.*, Astrophys. J. Lett., **904**, L1 (2020) ](https://iopscience.iop.org/article/10.3847/2041-8213/abc6ac){:target="\_blank"}
+<i class="fa fa-file-alt"></i> &nbsp; [T. Masseron *et al.*, Astrophys. J. Lett., **904**, L1 (2020) ](https://iopscience.iop.org/article/10.3847/2041-8213/abc6ac)
 
-<i class="far fa-newspaper"></i> &nbsp; [Stars rich in phosphorus: seeds of life in the universe](https://www.iac.es/en/outreach/news/stars-rich-phosphorus-seeds-life-universe){:target="\_blank"}
+<i class="far fa-newspaper"></i> &nbsp; [Stars rich in phosphorus: seeds of life in the universe](https://www.iac.es/en/outreach/news/stars-rich-phosphorus-seeds-life-universe)

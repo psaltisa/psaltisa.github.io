@@ -11,7 +11,7 @@ importance: 2
  </center>
  <br/>
 
-[Skype a Scientist](https://www.skypeascientist.com/){:target="\_blank"}  is a nonprofit educational organization based in Willimantic, Connecticut that enables scientists to video conference with students in classrooms. It began as an informal program in 2017, founded by [Sarah McAnulty](https://sarahmcanulty.weebly.com/){:target="\_blank"} while she was a graduate student at the University of Connecticut. As of 2019, almost 15,000 classrooms and over 7,000 scientists from a total of 43 countries had participated in video conferencing sessions. Below you can find previous sessions with K-12 students.
+[Skype a Scientist](https://www.skypeascientist.com/) is a nonprofit educational organization based in Willimantic, Connecticut that enables scientists to video conference with students in classrooms. It began as an informal program in 2017, founded by [Sarah McAnulty](https://sarahmcanulty.weebly.com/) while she was a graduate student at the University of Connecticut. As of 2019, almost 15,000 classrooms and over 7,000 scientists from a total of 43 countries had participated in video conferencing sessions. Below you can find previous sessions with K-12 students.
 
 ---
 

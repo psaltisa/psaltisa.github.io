@@ -21,7 +21,7 @@ The purpose of this exercise, or meditation, is to change one's perspective from
 >
 >-Carl Sagan, Pale Blue Dot
 
-Below you can find a guided 20-minute version from [Donald Robertson](https://medium.com/stoicism-philosophy-as-a-way-of-life/stoicism-the-view-from-above-741886d3c9a1){:target="\_blank"}. I have done this meditation many times, and every time it helped me see things more clearly and calmly. Enjoy and memento mori!
+Below you can find a guided 20-minute version from [Donald Robertson](https://medium.com/stoicism-philosophy-as-a-way-of-life/stoicism-the-view-from-above-741886d3c9a1). I have done this meditation many times, and every time it helped me see things more clearly and calmly. Enjoy and memento mori!
 
 p.s. When you reach to the space part, remember the "Pale Blue Dot" image from Voyager 1.
 

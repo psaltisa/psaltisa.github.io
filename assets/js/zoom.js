@@ -5,4 +5,4 @@ $(document).ready(function() {
     background: getComputedStyle(document.documentElement)
         .getPropertyValue('--global-bg-color') + 'ee',  // + 'ee' for trasparency.
   })
-}); 
+});

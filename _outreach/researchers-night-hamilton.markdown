@@ -3,7 +3,7 @@ layout: page
 title: Researchers' Night Hamilton
 description: event coordinator
 img: /assets/img/rsnham.jpg
-importance: 2
+importance: 3
 ---
 
 <center>
@@ -12,7 +12,7 @@ importance: 2
  <br>
 
 
-Though surrounded by science and innovation, we rarely have the occasion to meet the scientists and researchers behind the technologies and knowledge that shape our current and future lives. [Researchers' Night](http://www.researchersnighthamilton.com/){:target="\_blank"} gives the public a unique and free opportunity to meet and discuss with researchers from McMaster University. The event, based on the very successful [“European Researchers' Night”](https://ec.europa.eu/research/mariecurieactions/actions/european-researchers-night_en){:target="\_blank"}, and it started in Hamilton in 2014, with a different theme chosen every year:
+Though surrounded by science and innovation, we rarely have the occasion to meet the scientists and researchers behind the technologies and knowledge that shape our current and future lives. [Researchers' Night](http://www.researchersnighthamilton.com/) gives the public a unique and free opportunity to meet and discuss with researchers from McMaster University. The event, based on the very successful [“European Researchers' Night”](https://ec.europa.eu/research/mariecurieactions/actions/european-researchers-night_en), and it started in Hamilton in 2014, with a different theme chosen every year:
 <ul>
     <li> 2014 - "The sustainable city" </li>
     <li> 2015 - "EnLIGHTened" </li>
@@ -38,7 +38,7 @@ Find more about Researchers' Night Hamilton on the social media:
 
 ---
 My first experience with Researchers' Night was in 2015, during my first year in graduate school, with an outreach presentation about my research. I enjoyed this experience so much that I decided to join Florence Roullet, the founder of the Hamilton event
-as a coordinator of the event until 2020. Below you can listen to couple of interviews I gave at [CFMU](https://cfmu.ca){:target="\_blank"} to promote Researchers' Night Hamilton:
+as a coordinator of the event until 2020. Below you can listen to couple of interviews I gave at [CFMU](https://cfmu.ca) to promote Researchers' Night Hamilton:
 
 <audio controls style="width: 100%;">
   <source src="{{ site.baseurl }}/assets/mp3/AlmaMAC_Interview_19.10.2017.mp3" type="audio/mpeg">

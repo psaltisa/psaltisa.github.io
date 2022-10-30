@@ -10,7 +10,7 @@ category: article
 ---
 
 
-Bruce Lee (1940-1973) was a famous Chinese-American martial artist and actor. Probably the most iconic martial artist in history, he popularized them to the masses through his movies. Even though he is widely famous for his athletic abilities, like his [one-inch punch](https://www.youtube.com/watch?v=P8GEGEqVECQ){:target="\_blank"}, few people know that Bruce Lee had studied philosophy at the University of Washington, along with psychology and dramatic arts. Lee's thought was mainly influenced by Asian philosophy and more specifically Taoism, Buddhism and the philosopher [Krishnamurti](https://en.wikipedia.org/wiki/Jiddu_Krishnamurti){:target="\_blank"}[^1].
+Bruce Lee (1940-1973) was a famous Chinese-American martial artist and actor. Probably the most iconic martial artist in history, he popularized them to the masses through his movies. Even though he is widely famous for his athletic abilities, like his [one-inch punch](https://www.youtube.com/watch?v=P8GEGEqVECQ), few people know that Bruce Lee had studied philosophy at the University of Washington, along with psychology and dramatic arts. Lee's thought was mainly influenced by Asian philosophy and more specifically Taoism, Buddhism and the philosopher [Krishnamurti](https://en.wikipedia.org/wiki/Jiddu_Krishnamurti)[^1].
 
 One of his greatest contributions to martial arts, was the founding of Jeet Kune Do ("*The way of the intercepting fist*"). JKD, according to Lee, was "the style of no style". He rejected the narrow and strict views of traditional martial arts, such as Karate, Wing Chun and Judo, each of them being presented as the "*best style*". Everyone should be free to express their own self ("*using no way as the way*") and also be adaptable in different situations ("*Be like water*"). Some also argue that JKD laid the foundations for mixed martial arts (MMA), a competitive sport where the athletes are allowed to use any techniques they want (e.g. boxing, wrestling, Brazilian Jiu-Jitsu etc.). One important point that we need to make is that Bruce Lee's JKD is not just mere eclecticism: he does not select the "*best*" techniques from each martial arts school to create the "*ultimate style*". Instead, every technique that is used is tested by the practitioner of JKD and selected for specific conditions.
 
@@ -44,7 +44,7 @@ must therefore introduce other views; that is, he must adopt a pluralistic
 methodology.
 >-Paul Feyerabend
 
-Recently I came across a book by Daniele Bolelli titled "*On the warrior's path: philosophy, fighting, and martial arts mythology*". I enjoy both martial arts -  I used to practice Kung Fu as a kid - and philosophy, and I really enjoyed reading this book during the Christmas holidays. In one of the last chapters, Bolelli makes the connection between the philosophies of Bruce Lee and Paul Feyerabend. He argues that Lee's JKD is a prime example of epistemological anarchism in action. Bruce Lee doesn't cling on any particular style, instead he chooses to use whichever will help him express himself in a particular situation. This idea resonates with the concept of [remixing]({% post_url 2022-01-17-payne-and-remix %}){:target="\_blank"} I discussed in a post last month.
+Recently I came across a book by Daniele Bolelli titled "*On the warrior's path: philosophy, fighting, and martial arts mythology*". I enjoy both martial arts -  I used to practice Kung Fu as a kid - and philosophy, and I really enjoyed reading this book during the Christmas holidays. In one of the last chapters, Bolelli makes the connection between the philosophies of Bruce Lee and Paul Feyerabend. He argues that Lee's JKD is a prime example of epistemological anarchism in action. Bruce Lee doesn't cling on any particular style, instead he chooses to use whichever will help him express himself in a particular situation. This idea resonates with the concept of [remixing]({% post_url 2022-01-17-payne-and-remix %}) I discussed in a post last month.
 
 ### Is scientific research too rigid today?
 
@@ -66,10 +66,10 @@ Undoubtedly there is a great need for philosophical training for scientists toda
 ---
 [^1]: Krishnamurti also influenced the thought of David Bohm, one of the most important theoretical physicists of the 20th century.
 
-<i class="fa fa-book"></i> &nbsp; [On the warrior's path: philosophy, fighting, and martial arts mythology by D. Bolelli](https://www.goodreads.com/book/show/336251.On_the_Warrior_s_Path){:target="\_blank"}
+<i class="fa fa-book"></i> &nbsp; [On the warrior's path: philosophy, fighting, and martial arts mythology by D. Bolelli](https://www.goodreads.com/book/show/336251.On_the_Warrior_s_Path)
 
-<i class="fa fa-book"></i> &nbsp; [Against Method by P. Feyerabend](https://en.wikipedia.org/wiki/Against_Method){:target="\_blank"}
+<i class="fa fa-book"></i> &nbsp; [Against Method by P. Feyerabend](https://en.wikipedia.org/wiki/Against_Method)
 
-<i class="fa fa-book"></i> &nbsp; [Tao of Jeet Kune Do by B. Lee](https://en.wikipedia.org/wiki/Tao_of_Jeet_Kune_Do){:target="\_blank"}
+<i class="fa fa-book"></i> &nbsp; [Tao of Jeet Kune Do by B. Lee](https://en.wikipedia.org/wiki/Tao_of_Jeet_Kune_Do)
 
-<i class="fa fa-file"></i> &nbsp; [L. Laplane *et al* PNAS, **116**, 3948 (2019)](https://www.pnas.org/content/116/10/3948?fbclid=IwAR0goGRfJTPE4e_6ModY_t8i0FhSqLHzdy_igM07_1GmCdT2nAwNRAXT68c){:target="\_blank"}
+<i class="fa fa-file"></i> &nbsp; [L. Laplane *et al* PNAS, **116**, 3948 (2019)](https://www.pnas.org/content/116/10/3948?fbclid=IwAR0goGRfJTPE4e_6ModY_t8i0FhSqLHzdy_igM07_1GmCdT2nAwNRAXT68c)

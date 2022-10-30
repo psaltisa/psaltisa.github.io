@@ -11,7 +11,7 @@ importance: 2
  </center>
  <br/>
 
-["The Bridge"](http://www.sciartinitiative.org/the-bridge.html){:target="\_blank"} is a four-month
+["The Bridge"](http://www.sciartinitiative.org/the-bridge.html) is a four-month
 virtual residency program (September-January), where artists and scientists are paired to collaborate on a
 project of their choice. Collaborating can generate new ideas and provide new perspectives which can lead
 to innovation in existing fields or the creation of new ones.
@@ -20,11 +20,11 @@ to innovation in existing fields or the creation of new ones.
 <i class="fas fa-quote-left"></i> Can art influence science, as science often influences art?
 </blockquote>
 
-In the fall of 2015 I was selected from the [Sciart initiative](http://www.sciartinitiative.org){:target="\_blank"}
-as a Bridge resident. My collaborator was [Matej Vakula](http://vakula.eu/home-en.html){:target="\_blank"},
+In the fall of 2015 I was selected from the [Sciart initiative](http://www.sciartinitiative.org)
+as a Bridge resident. My collaborator was [Matej Vakula](http://vakula.eu/home-en.html),
 a NY based artist with an interest for astrophysics. Due to my involvement with the McCallion Planetarium, we decided
 to work on a production of a full-dome movie about nuclear astrophysics, named "The DRAGON theorem", inspired from the
-experiment I was working for my Ph.D. thesis. You can find more about this from an [interview]({% post_url 2017-11-20-TRIUMF-interview %}){:target="\_blank"}
+experiment I was working for my Ph.D. thesis. You can find more about this from an [interview]({% post_url 2017-11-20-TRIUMF-interview %})
 I gave to TRIUMF media team about it.
 
 <div class="row justify-content-sm-center">
