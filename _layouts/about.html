@@ -3,33 +3,40 @@ layout: default
 ---
 
 <div class="post">
-
   <header class="post-header">
     {% assign name = site.title | split: ' ' %}
     <h2 class="post-title">{{ name | first }} <span class="font-weight-bold">{{ name | last }}</span></h2>
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
-  <article>
-  {% if page.profile %}
-          {% if page.profile.image %}
-            <center>
-                <img src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}" width="25%">
-            </center>
-            <br>
-          {% endif %}
-          {% if page.profile.address %}
-            <div class="address">
-              {{ page.profile.address }}
-            </div>
-          {% endif %}
-        {% endif %}
-    <div class="row">
-      <div class="col">
-        {{ content }}
-      </div>
-    </div>
+       <article>
+         {% if page.profile -%}
+         <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+           {%- if page.profile.image %}
+             {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
+             {% if page.profile.image_circular %}
+               {%- assign profile_image_class = "img-fluid  rounded-circle" -%}
+             {% else %}
+               {%- assign profile_image_class = "img-fluid  rounded" -%}
+             {% endif %}
+
+             {% include figure.html
+             path=profile_image_path
+             class=profile_image_class
+             alt=page.profile.image -%}
+           {% endif -%}
+           {%- if page.profile.address %}
+           <div class="address">
+             {{ page.profile.address }}
+           </div>
+           {%- endif %}
+         </div>
+         {%- endif %}
+
+         <div class="clearfix">
+           {{ content }}
+         </div>
     <br>
     {% if page.news %}
       {% include news.html %}
