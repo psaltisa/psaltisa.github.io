@@ -28,7 +28,7 @@ nav: true
 
 {{ total_invited }} invited talks/posters  &nbsp; &middot; &nbsp; {{ total | minus: total_invited }} contributed talks/posters
 
-
+<i class="fa fa-desktop"></i> slides &nbsp;| &nbsp; <i class="fa fa-video"></i> recording &nbsp;| &nbsp; <i class="ai ai-figshare"></i> figshare
 
 <br>
 
@@ -43,10 +43,10 @@ nav: true
           <td>
            {{ item.title }}
            {% if item.slides %}
-           <a href="{{ site.baseurl }}/assets/talks/{{ item.slides}}" target="_blank"><i class="fa fa-desktop"></i></a>  
+           | <a href="{{ site.baseurl }}/assets/talks/{{ item.slides}}" target="_blank"><i class="fa fa-desktop"></i></a>  
            {% endif %}
            {% if item.video %}
-           <a href="{{ item.video }}" target="_blank"><i class="fa fa-video"></i></a>  
+           | <a href="{{ item.video }}" target="_blank"><i class="fa fa-video"></i></a>  
            {% endif %}
           </td>
           <td>
@@ -89,9 +89,6 @@ nav: true
            <a href="{{ item.page }}" target="_blank">{{ item.event }}</a>
           </td>
           <td  style="width: 15%"><strong>{{ item.date | date: "%m-%Y" }}</strong></td>
-          <!--
-          <td><div class='altmetric-embed' data-badge-popover="left" data-link-target='_blank' data-hide-no-mentions="true" data-badge-type='donut' data-doi="{{ item.figshare }}"></div> </td>
-          -->
           </tr>
       {% endfor %}
       </table>
