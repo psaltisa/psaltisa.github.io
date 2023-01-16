@@ -9,7 +9,7 @@ nav: true
 
 <div class="news">
   <div class="table-responsive">
-  {% for y in (2020..2022) reversed %}
+  {% for y in (2020..2023) reversed %}
   <table class="table table-sm table-borderless">
   <h2 class="year">{{y}}</h2>
   {% for item in site.news reversed %}

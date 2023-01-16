@@ -263,3 +263,25 @@ nav: true
       </ul>
 </div>
 </div>
+
+
+<!--
+<div class="card mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h4 class="card-title"><a href="{{ site.baseurl }}/teaching/reaction-networks" target="_blank" rel="noopener noreferrer">Introduction to Thermonuclear Reaction Networks</a></h4>
+        <h5 class="card-subtitle font-italic">Notes</h5>
+      </div>
+    </div>
+    <br>
+    <ul class="card-text font-weight-light list-group list-group-flush">
+
+        <p>
+        A primer to thermonuclear reaction network calculations, based on a lecture to the 2nd Frontiers Summer School (May 2023)
+        </p>
+
+      </ul>
+</div>
+</div>
+-->
