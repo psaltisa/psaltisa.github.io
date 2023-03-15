@@ -1,0 +1,922 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<meta name="description" content="Texas A&M Seminar Presentation">
+		<meta name="author" content="Athanasios Psaltis">
+
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<link rel="stylesheet" href="../reveal.js/dist/reset.css">
+		<link rel="stylesheet" href="../reveal.js/dist/reveal.css">
+		<link rel="stylesheet" href="../reveal.js/css/theme/blotter-tunl.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="../reveal.js/plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+						<!-- Any section element inside of this container is displayed as a slide -->
+						<!-- Exploring the impact of $(\alpha,xn)$ reaction uncertainties for the weak $r$-process -->
+				<section data-background-image="../images/casa.png">
+					<h3 style='text-shadow: 3px 3px 0px black;'><span class="title">
+							<b>From Stellar Death to Element Birth</b>
+					</span></h3>
+
+
+					<p style='text-shadow: 2px 2px 0px black;' class="title	">
+						<b>the role of nuclear reactions in supernovae explosions</b>
+					</p>
+
+				&nbsp;
+
+				<p style='text-shadow: 2px 2px 0px black;' class="title	">
+                Thanassis Psaltis (@psaltistha)
+                <br>
+                <span class="title">
+                <small>
+                Triangle Universities Nuclear Laboratory &
+								North Carolina State University
+                </small>
+                </span>
+							 <br>&nbsp;<br>
+
+							 <p  style='text-shadow: 1px 1px 0px black; font-size:22px;' class="title">
+							 April 20, 2023
+							 <br>
+							 Cyclotron Seminar | Texas A&M University
+							 </p>
+
+							 <br>&nbsp;<br>
+
+
+
+								<div class="citation">
+
+											<p style='text-shadow: 1px 1px 0px black;' class="title">
+												Image Credit: NASA/CXC/DSS/Rutgers/K.Eriksen et al.</br>
+										</p>
+								</div>
+
+
+
+                </section>
+
+
+
+
+
+								<section data-background-color= #CC0000>
+
+									<h3 class="title"> <b>Slides available at <br>
+										http://psaltisa.github.io/talks</b>
+									</h3>
+									<img src="../images/qr.png" width="25%">
+								</section>
+
+
+
+
+
+								<section>
+									 <h3 style="font-size:55px;"><span class="maroon">Acknowledgements</span></h3>
+
+							 <p class="even-smaller">
+							 <span class="nobreak"><img width=100 class="img-avatar" style="filter: grayscale(100%);" src="../images/collaborators/alan.png"> Alan Chen</span>
+								&nbsp;
+							 <span class="nobreak"><img width=90 class="img-avatar" style="filter: grayscale(100%);" src="../images/collaborators/almudena2.jpg"> Almudena Arcones</span>
+							 &nbsp;
+							 <span class="nobreak"><img width=90 class="img-avatar" style="filter: grayscale(100%);" src="../images/collaborators/melina.jpg"> Melina Avila</span>
+							 &nbsp;
+							 <span class="nobreak"><img width=90 class="img-avatar" style="filter: grayscale(100%);" src="../images/collaborators/barry.jpeg"> Barry Davids</span>
+							 &nbsp;
+							 <span class="nobreak"><img width=90 class="img-avatar" style="filter: grayscale(100%);" src="../images/collaborators/camilla.png"> Camilla Juul Hansen</span>
+							 &nbsp;
+							 <span class="nobreak"><img width=100 class="img-avatar" style="filter: grayscale(100%);" src="../images/collaborators/annika.jpg"> Annika Lennarz</span>
+							 &nbsp;
+							 <span class="nobreak"><img width=100 class="img-avatar" style="filter: grayscale(100%);" src="../images/collaborators/richard.jpg"> Richard Longland</span>
+							 &nbsp;
+							 <span class="nobreak"><img width=90 class="img-avatar" style="filter: grayscale(100%);" src="../images/collaborators/peter.jpg"> Peter Mohr</span>
+							 &nbsp;
+							 <span class="nobreak"><img width=90 class="img-avatar" style="filter: grayscale(100%);" src="../images/collaborators/fernando.jpeg"> Fernando Montes</span>
+							 &nbsp;
+							 <span class="nobreak"><img width=90 class="img-avatar" style="filter: grayscale(100%);" src="../images/collaborators/chris.png"> Chris Ruiz</span>
+							  </p>
+
+							 <p>
+							 + many graduate students!
+							 </p>
+
+							 <img src="../images/mac-logo.png" width="15%">
+							 <img src="../images/tud_logo.png" width="20%">
+							 <img src="../images/nserc.png" width="20%">
+							 <img src="../images/sfb.png" width="13%">
+							 <img src="../images/ecr.jpg" width="10%">
+							 <img src="../images/elements.png" width="13%">
+
+							</section>
+
+							<section data-background-image="../images/casa.png">
+							</section>
+
+							<section>
+							<h3 style="font-size:50px"><span class="maroon">How I see nuclear astrophysics</span></h3>
+
+
+
+							<div class="r-stack">
+								<img class="fragment" data-fragment-index="0" src="../images/puzzle.svg" width="100%" >
+								<img class="fragment" data-fragment-index="1"  src="../images/puzzle4.svg" width="100%">
+						 </div>
+
+							</section>
+
+
+								<section data-background-color= black>
+
+									<div class="r-stack">
+									<img class="fragment" data-fragment-index="0" width="100%" src="../images/periodic-table-0.png">
+									<img class="fragment current-visible" data-fragment-index="1" width="100%" src="../images/periodic-table-1.png">
+									</div>
+
+								</section>
+
+								<section data-background-image="../images/solar-abundances.svg">
+
+
+								</section>
+
+    					<section data-background-color= black>
+									<img src="../images/discover.png" width="50%">
+
+							</section>
+
+							<section data-background-color= black>
+								<h2 class="title">
+ 							 <b>How were the elements from iron to uranium made?</b>
+ 							 </h2>
+
+						 </section>
+
+
+
+							</section>
+
+
+							<section data-background-image="../images/chart_ame.svg">
+							</section>
+							<section data-background-image="../images/chart_ktuy.svg">
+							</section>
+							<section data-background-image="../images/chart_processes1.svg">
+							</section>
+							<section data-background-image="../images/chart_processes2.svg">
+							</section>
+
+
+							<section data-background-image="../images/vignette1.svg">
+						 </section>
+
+						 <section data-background-image="../images/chart_processes3.svg">
+						 </section>
+
+						<section>
+						<h3 style="font-size:50px"><span class="maroon">How I see nuclear astrophysics</span></h3>
+
+               https://digital-photography-school.com/creative-uses-for-the-gimp-jigsaw-pattern/
+						<div class="r-stack">
+							<img class="fragment" data-fragment-index="0" src="../images/puzzle.svg" width="100%" >
+							<img class="fragment" data-fragment-index="1"  src="../images/puzzle3.svg" width="100%">
+					 </div>
+
+						</section>
+
+
+
+
+							 <section>
+									 <h3 style="margin: -20px">
+									 <span class="maroon">Nuclear reaction networks</span>
+									 </h3>
+
+
+									 <div class="r-stack">
+ 									<img class="fragment" data-fragment-index="0" width="45%" src="../images/net0.svg">
+ 									<img class="fragment" data-fragment-index="1" width="50%" src="../images/net1.svg">
+									<img class="fragment current-visible" data-fragment-index="2" width="50%" src="../images/net2.svg">
+ 									</div>
+
+
+
+									 <p >are an essential tool for Nuclear Astrophysics</p>
+
+									 <div class="citation">
+									 W. R. Hix and F.-K. Thielemann, J. Comput. Appl. Math <strong>109</strong>, 321 (1999) <br>
+									 C. Jiang <em>et al.</em>, New J. Phys. <b>23</b> 083035 (2021)
+									 </div>
+							 </section>
+
+							 <section data-background-color= #CC0000 >
+							 <h2 style='text-shadow: 5px 5px 0px black;' class="title">
+							 <b>How do we identify <br> important reactions?</b>
+							 </h2>
+							 </section>
+
+
+
+							 </section>
+							 <!-- Motivation for 7Be -->
+
+							 <section>
+									 <h3>
+									 <span class="maroon">Sensitivity studies guide our way</span>
+									 </h3>
+
+									 <img src="../images/wanajo.svg" width="70%">
+
+									 <p>Same model, but <span class= maroon>different nuclear input</span>!</p>
+									 <div class="citation">
+									 S. Wanajo <em>et al.</em>, Astrophys. J <strong>729</strong>, 46 (2011)
+									 </div>
+							 </section>
+
+
+							 <section>
+							 <h3>
+											 <span class="maroon">Why study the $\mathrm{^7Be(\alpha,\gamma)^{11}C}$ reaction?</span>
+												</h3>
+
+											 <p>
+											<ul>
+
+												 <li class="fragment fade-in">Affects the number of $\mathrm{^{56}Ni}$ during the $\nu p$-process, and
+													the production of $A \sim 100-110$ neutron-deficient species.
+													 <div class="citation">
+																S. Wanajo, H.-T. Janka and S. Kubono, Astrophys. J. <strong>729</strong>, 46 (2011)</div><br></li>
+
+
+													<li class="fragment fade-in">Its rate is not well known over the relevant energy region. <br> Only 2 measured resonances (NACRE-II).
+													<div class="citation">
+													Y. Hu <i>et al.</i> Nucl. Phys. A <strong>918</strong>, 61 (2013) &bull;
+												 G. Hardie <i>et al.</i>, Phys. Rev. C <strong>29</strong>, 1199 (1984) <br> M. Wiescher <i>et al.</i>, Phys. Rev. C
+												 <strong>28</strong>, 1431 (1983) &bull; H. Yamaguchi <i>et al.</i>, Phys. Rev. C
+												 <strong>87</strong>, 034303 (2013)</li>
+											</ul>
+											</p>
+
+							 </section>
+
+							 <section data-background-color= #CC0000 >
+							 <h2 style='text-shadow: 5px 5px 0px black;' class="title">
+							 <b>Constrain the reaction rate for
+							 $\mathrm{^7Be(\alpha,\gamma)^{11}C}$ at $\nu p$-process
+							 temperatures</b>
+							 </h2>
+							 </section>
+
+
+								<section>
+										<h3>
+										<span class="maroon">How to measure the $\mathrm{^7Be(\alpha,\gamma)^{11}C}$ <br> reaction in a lab</span>
+										</h3>
+
+										<img src="../images/kin.png" width="100%">
+
+										<div class="citation">
+										C.R. Brune and B. Davids, Annu. Rev. Nucl. Part. <strong>65</strong>, 87 (2015) &bull;
+										C. Rolfs and C.A. Barnes, Annu. Rev. Nucl. Part. <strong>40</strong>, 45 (1990)
+										</div>
+								</section>
+
+								<section>
+										<img src="../images/isac.png" width="100%">
+								</section>
+
+
+								<section>
+								<h3>
+								<span class="maroon">The DRAGON recoil separator 🐲</span>
+								</h3>
+								<div class="r-stack">
+									 <img class="fragment fade-out" data-fragment-index="0" src="../images/dra1.svg" width="75%" >
+									 <img class="fragment" data-fragment-index="0"  src="../images/dra2.svg" width="75%">
+									 <img class="fragment" data-fragment-index="1"  src="../images/dra3.svg" width="75%">
+								</div>
+											 <!-- Image of DRAGON -->
+											 <div class="citation">
+											 D.A. Hutcheon <i>et al.</i>, Nucl. Instr. Meth. Res. A
+											 <strong>498</strong>, 190 (2003)
+											 </div>
+							 </section>
+
+								<section>
+										<h3>
+										<span class="maroon">Reactions in inverse kinematics </span>
+										</h3>
+
+										<div class="r-stack">
+										<img class="fragment" data-fragment-index="0" width="100%" src="../images/kin2.png">
+										<img class="fragment current-visible" data-fragment-index="1" width="100%" src="../images/kin3.png">
+										</div>
+
+
+										<p class="fragment" data-fragment-index='0'>DRAGON's acceptance $ -~\mathrm{\theta_{DRAGON} \sim 21~mrad}$</p>
+										<p class="fragment" data-fragment-index='1'>
+										<span class="maroon">
+										$\mathrm{^7Be(\alpha,\gamma)^{11}C - \theta_{r,max} \sim 43~mrad}$
+										</span></p>
+
+										<div class="citation">
+										C. Ruiz, U. Greife and U. Hager, Eur. Phys. J. A
+										<strong>50</strong>, 99 (2014)
+										</div>
+
+								</section>
+
+								<section>
+								<h3><span class= "maroon"> Can DRAGON can measure $\omega \gamma$ of reactions
+								<br> with $\mathrm{\theta_{r,max}>\theta_{DRAGON}}$ ? </span></h3>
+
+								<br><br>
+								Proof-of-principle test: $\mathrm{^6Li(\alpha,\gamma)^{10}B}$
+
+
+
+								<div class="citation">
+										A. Psaltis <i>et al.</i>, Nucl. Instrum. Methods Phys. Res. A <b>987</b>, 164828 (2021)
+								</div>
+								</section>
+
+								<section>
+								<h4><span class="maroon">DRAGON can measure $\omega \gamma$ of reactions
+								with $\mathrm{\theta_{r,max}>\theta_{DRAGON}}$</span></h4>
+
+								 <img src="../images/6li-wg.svg" width="50%">
+
+								<p class="fragment">
+								<font size="6">
+								 $\mathrm{\omega \gamma_{lit}= (0.228 \pm 0.038)~eV}$ <br>
+								<span class="maroon"> $\mathrm{\omega \gamma_{DRA}= 0.225^{+0.025}_{-0.035} (stat.) \pm 0.030 (syst.)~eV}$</span>
+							</font>
+								</p>
+
+								<div class="citation">
+								 A. Psaltis <i>et al.</i>, Nucl. Instrum. Methods Phys. Res. A <b>987</b>, 164828 (2021)
+										</div>
+								</section>
+
+								<section data-background-color= #CC0000 >
+								<h2 style='text-shadow: 5px 5px 0px black;' class="title">
+								<b>Measure the $\mathrm{^7Be(\alpha,\gamma)^{11}C}$ reaction</b>
+								</h2>
+								</section>
+
+								<section>
+								<h3>
+								<span class="maroon">The DRAGON recoil separator 🐲</span>
+								</h3>
+
+
+								<img  src="../images/dra4.svg" width="70%">
+
+
+
+											 <!-- Image of DRAGON -->
+											 <div class="citation">
+											 D.A. Hutcheon <i>et al.</i>, Nucl. Instr. Meth. Res. A
+											 <strong>498</strong>, 190 (2003)
+											 </div>
+							 </section>
+
+
+								<section>
+								<h3><span class="maroon">$\mathrm{^7Be(\alpha,\gamma)^{11}C}$ PID plot</span></h3>
+
+
+							 	<img src="../images/mcp-dsssd.svg" width="90%">
+
+								 <div class="citation">
+								 A. Psaltis <em>et al.</em>, Phys. Rev. C <b>106</b>, 045805 (2022)
+										</div>
+								</section>
+
+								<section data-background-image="../images/dragon-bgo.jpg">
+							 </section>
+
+							 <section>
+							 <h3><span class="maroon">$\mathrm{^7Be(\alpha,\gamma)^{11}C}$ BGO plot</span></h3>
+
+
+							 <div class="r-stack">
+							 <img class="fragment fade-out" data-fragment-index="0" width="85%" src="../images/bgo_1155_0.svg">
+							 <img class="fragment" data-fragment-index="0" width="85%" src="../images/bgo_1155.svg">
+							 </div>
+
+								<div class="citation">
+								A. Psaltis <em>et al.</em>, Phys. Rev. Lett. <b>129</b>, 162701 (2022)
+									 </div>
+							 </section>
+
+								<section>
+								<h4><span class="maroon">$\mathrm{^7Be(\alpha,\gamma)^{11}C}$ resonance strength results</span></h4>
+
+								<div class="r-stack">
+								<img class="fragment fade-out" data-fragment-index="0" width="90%" src="../images/scheme2.svg">
+								<img class="fragment current-visible" data-fragment-index="0" width="90%" src="../images/scheme.svg">
+								</div>
+
+								<div class="citation">
+									A. Psaltis <em>et al.</em>, Phys. Rev. Lett. <b>129</b>, 162701 (2022) &bull;
+														 A. Psaltis <em>et al.</em> Phys. Rev. C <b>106</b>, 045805 (2022)
+								</div>
+								</section>
+
+
+								<section>
+								 <h3><span class="maroon">The new $\mathrm{^7Be(\alpha,\gamma)^{11}C}$ reaction rate</span></h3>
+
+
+								 <div class="r-stack">
+										<img class="fragment" data-fragment-index="0"  src="../images/PRL-rate.svg" width="85%">
+										<img class="fragment" data-fragment-index="1"  src="../images/PRL-rate2.svg" width="85%">
+									</div>
+
+
+									<p class="fragment" data-fragment-index="1">
+									We decreased the rate uncertainty to $\approx 10\%$ over $T= 1.5-3$ GK
+								 </p>
+
+								</section>
+
+								<section >
+									<h2> <span class="maroon"> Take-home message #1 </span></h2>
+									<br>
+
+									<p style="border-width:3px; border-style:solid; font-size:50px; border-color: #B90F22; padding: 0.5em;">
+
+									We measured the $\mathrm{^7Be(\alpha,\gamma)^{11}C}$ reaction using DRAGON and constrained its rate
+									over $\nu p$-process energies.
+
+									</p>
+
+								</section>
+
+
+
+								<section data-background-image="../images/vignette2.svg">
+							 </section>
+
+							 <section>
+							 <h3 style="font-size:50px"><span class="maroon">How I see nuclear astrophysics</span></h3>
+
+
+							 <div class="r-stack">
+								 <img class="fragment" data-fragment-index="0" src="../images/puzzle.svg" width="100%" >
+								 <img class="fragment" data-fragment-index="1"  src="../images/puzzle2.svg" width="100%">
+							</div>
+
+							 </section>
+
+
+								<section data-background-image="../images/star.png" >
+									<br>&nbsp;<br>
+									<br>&nbsp;<br>
+									<br>&nbsp;<br>
+									<br>&nbsp;<br>
+									<br>&nbsp;<br>
+									<br>&nbsp;<br>
+									<br>&nbsp;<br>
+									<small><span class="title">HD 122563 (DSS2/ Aladin Sky Atlas)</span></small>
+
+								</section>
+
+
+							 <section>
+							 <h2 style="font-size:50px;">
+								 <span class="maroon">What do the old stars reveal to us?</span>
+							 </h2>
+
+							 <div class="r-stack">
+									<img class="fragment fade-out" data-fragment-index="0" src="../images/example1.svg" width="85%" >
+									<img class="fragment" data-fragment-index="0" src="../images/example3.svg" width="85%" >
+									<img class="fragment" data-fragment-index="1" src="../images/example4.svg" width="85%" >
+
+							 </div>
+
+
+							 <div class="citation">
+							 See also: C. Sneden, J. J. Cowan and R. Gallino, Annu. Rev. Astron. Astrophys. <strong>46</strong>, 241 (2008) <br>
+							 ⚠️ <i> Solar r-process =  Solar total - Solar s-process - Solar p-process </i>
+							 </div>
+
+							</section>
+
+
+							 <section data-background-color= #CC0000 >
+							 <h2 style='text-shadow: 5px 5px 0px black;' class="title">
+							 <b>How many processes contribute to the production of elements between Sr and Ag?</b>
+							 </h2>
+							 </section>
+
+
+
+							 <section data-background-image="../images/chart_processes4.svg">
+ 							</section>
+
+
+									<section data-background-color= #CC0000 >
+									<h2 style='text-shadow: 5px 5px 0px black;' class="title">
+									<b>What is the impact of the <br> $\mathbf{(\alpha,xn)}$ reactions <br> in
+									the weak $r$-process?</b>
+									</h2>
+									</section>
+
+
+									<section>
+									<h3 style="font-size:50px"><span class="maroon">How I see nuclear astrophysics</span></h3>
+
+
+											<img src="../images/puzzle4.svg" width="100%">
+
+									</section>
+
+
+									<section>
+									<h3 style="font-size:50px"><span class="maroon">What about presolar grains?</span></h3>
+
+
+											<img src="https://www.science.org/cms/10.1126/science.2020.367.6478.twil/asset/f7edc969-f133-4705-b6ae-2a358e0bfe6c/assets/graphic/367_638d_f1.jpeg" width="50%">
+											<div class="citation">
+										 P. R. Heck <em>et al.</em>, PNAS <b>117</b>, 1884 (2020)
+										 </div>
+
+
+									</section>
+
+
+
+							 <section>
+							<h4 style="font-size:45px"><span class="maroon">How well do we know the $(\alpha,xn)$ reaction rates?</span></h4>
+
+							<img style="margin: -20px" src="../images/93sr_rate.svg" width="75%">
+
+							<p>
+							 The $(\alpha,xn)$ reaction rates are sensitive to the $\alpha$-optical model potential and can
+							 differ by up to <span class="maroon">two orders of magnitude</span>.
+							</p>
+
+							<div class="citation">
+						 J. Pereira and F. Montes, Phys. Rev. C <b>93</b>, 034611 (2016) &bull;
+						  P. Mohr, Phys. Rev. C <b>94</b>, 35801 (2016)
+
+						 </div>
+
+							</section>
+
+
+							<section>
+							<h3 style="font-size:50px"><span class="maroon">How I see nuclear astrophysics</span></h3>
+
+
+									<img src="../images/puzzle5.svg" width="100%">
+
+							</section>
+
+							<section>
+						 <h4><span class="maroon">The impact of new $(\alpha,n)$ reaction rates to <br> elemental abundances</span></h4>
+
+
+
+
+							<img style="margin: -10px" src="../images/new2.svg" width="70%">
+
+							<p>Same model, but <span class= maroon>different $(\alpha, xn)$ reaction rates</span>!</p>
+							<div class="citation">
+							A. Psaltis <em>et al.</em>, Astrophys. J <b>935</b>, 27 (2022)
+						 </div>
+
+
+
+						 </section>
+
+
+						 <section>
+							 <h4><span class="maroon">The impact of new $(\alpha,n)$ reaction rates <br> to elemental abundance ratios</span></h4>
+
+
+						<div class="r-stack">
+							  <img class="fragment fade-out" data-fragment-index="0" src="../images/fig4.svg" width="75%">
+							 <img class="fragment" data-fragment-index="0" src="../images/fig5.svg" width="55%">
+
+						 </div>
+
+
+						 <div class="citation">
+							 A. Psaltis <em>et al.</em>, Astrophys. J <b>935</b>, 27 (2022)
+						 </div>
+
+
+					 </section>
+
+
+					 <section>
+					 <h4><span class="maroon">Combine observations, astrophysical modeling and nuclear physics uncertainties</span></h4>
+
+
+
+					 <div class="r-stack">
+							<img class="fragment fade-out" data-fragment-index="0" src="../images/comp0.svg" width="80%">
+							<img class="fragment" data-fragment-index="0" src="../images/comp1.svg" width="80%" >
+							<img class="fragment" data-fragment-index="2" src="../images/comp2.svg" width="80%">
+							<img class="fragment" data-fragment-index="3" src="../images/comp3.svg" width="80%">
+						</div>
+
+						<div class="citation">
+						A. Psaltis <em>et al.</em>, Astrophys. J <b>935</b>, 27 (2022)
+					 </div>
+
+
+
+					 </section>
+
+
+					 <section data-background-color= #CC0000 >
+						<h2 style='text-shadow: 5px 5px 0px black;' class="title">
+						<b>Which are the most important <br> $\mathbf{(\alpha,xn)}$ reactions <br> for
+						the weak $r$-process?</b>
+						</h2>
+						</section>
+
+
+						<section>
+						 <h4><span class="maroon">Finding the most important $(\alpha,n)$ reactions <br> for the weak $r$-process</span></h4>
+
+
+						 <img src="../images/corr.svg" width="78%">
+
+					 </section>
+
+
+
+															<section>
+														 <h4><span class="maroon">The most important $(\alpha,n)$ reactions <br> for the weak $r$-process</span></h4>
+
+
+														 <p>
+
+																 <ol>
+																		 <li class="fragment fade-in">$\mathrm{^{84}Se}$, $\mathrm{^{87-89}Kr, ^{93}Sr}$
+																			 <div class="citation">Affect many elemental ratios in many astrophysical conditions</div> </li><br>
+
+																		 <li class="fragment fade-in">$\mathrm{^{86}Br,^{86, 90}Kr, ^{87-89}Rb, ^{91, 92, 94}Sr, ^{94}Y}$
+																		 <div class="citation">Affect few elemental ratios in many astrophysical conditions</div></li><br>
+																		 <li class="fragment fade-in">$\mathrm{^{85}Se, ^{85}Br}$
+																		 <div class="citation">Affect many elemental ratios in few astrophysical conditions</div></li><br>
+																		 <li class="fragment fade-in"> $\mathrm{^{63}Co, ^{67}Cu, ^{79, 81}Ga, ^{76}Zn, ^{80, 82}Ge,
+																			  ^{83}As}$ <br> $\mathrm{^{87, 90, 91}Rb, ^{88-90}Sr, ^{95, 96}Y, ^{96-98}Zr}$
+																		 <div class="citation">Affect few elemental ratios in few astrophysical conditions</div></li>
+																 </ol>
+
+														 </p>
+
+
+
+
+													</section>
+
+													<section >
+														<h2> <span class="maroon"> Take-home message #2 </span></h2>
+														<br>
+
+														<p style="border-width:3px; border-style:solid; font-size:50px; border-color: #B90F22; padding: 0.5em;">
+
+															We combined observations, astrophysical modeling and nuclear theory <br>
+															to study the impact of $(\alpha,xn)$ reactions to the weak $r$-process
+
+														</p>
+
+													</section>
+
+
+
+
+
+                <section data-background-color= #CC0000 >
+                <h2 style='text-shadow: 5px 5px 0px black;' class="title">
+                <b>Can we study these $\mathbf{(\alpha,xn)}$ reactions in the lab?</b>
+                </h2>
+                </section>
+
+
+
+
+
+
+
+								<section data-background-image="../images/caribu2.jpg" >
+										<h2 style='text-shadow: 5px 5px 0px black;'><span class="title" ><b>First measurement of the $\boldsymbol{\mathrm{^{93}Sr}(\alpha,xn)\mathrm{^{96-x}Zr}}$ reaction</b></h2>
+
+								</section>
+
+                 <section>
+                    <h4><span class="maroon">$\mathrm{^{93}Sr}(\alpha,xn)\mathrm{^{96}Zr}$ at Argonne with MUSIC</span></h4>
+
+                  <div class="container">
+
+										<div class="col">
+
+											<div class="r-stack">
+		                     <img class="fragment fade-out" data-fragment-index="0" src="../images/music.png" width="70%" >
+		                     <img class="fragment" data-fragment-index="0"  src="../images/music2.png" width="80%">
+												 <img class="fragment" data-fragment-index="1"  src="../images/deltaE_93Sr.png" width="90%">
+		                     </div>
+												 <div class="citation">
+			 										M. L. Avila <em>et al.</em>, Nucl. Instrum. Methods Phys. Res A <b>859</b>, 63 (2017)
+			 									</div>
+		                </div>
+
+                <div class="col">
+                <br>
+                <ul style="font-size:25px">
+                <li >Re-accelerated $\mathrm{^{93}Sr}$ beam from $\nu$CARIBU.</li>
+                <li> Close to 100% efficiency  due to its
+								segmented anode structure. Self-normalizing, no
+								additional monitor detectors are needed.</li>
+                 <li>Measure a large range of excitation
+								functions of angle and energy integrated
+								cross sections using single beam energy
+								</li>
+                </ul>
+								<div class="citation">
+								<b> Proposal #1923, PI: Psaltis, co-PI: Ong </b>
+							 </div>
+                </div>
+
+								</div>
+
+
+                </section>
+
+
+
+								<section data-background-image="../images/secar.jpg" >
+										<h2 style='text-shadow: 5px 5px 0px black;'><span class="title"><b>Measurement of $\boldsymbol{(\alpha,xn)}$ reactions at FRIB using SECAR</b></h2>
+
+								</section>
+
+								<section>
+							 <h4 style="font-size:44px"><span class="maroon">Most of the relevant beams are accessible now!</span></h4>
+
+
+								 <img src="../images/fig8.svg" width="85%">
+
+
+								 <div class="citation"> FRIB PAC2 expected beam rates
+
+								 </div>
+
+							 </section>
+
+
+
+							<section>
+							<h3>
+							<span class="maroon">The SECAR recoil separator</span>
+							</h3>
+							<div class="r-stack">
+								 <img class="fragment fade-out" data-fragment-index="0" src="../images/secar_schematic_2.svg" width="83%" >
+								 <img class="fragment" data-fragment-index="0"  src="../images/secar_schematic_3.svg" width="83%">
+
+
+
+							</div>
+
+										 <div class="citation">
+
+									 G. Berg <em>et al.</em>, Nucl. Instrum. Methods Phys. Res A <b>877</b>, 87 (2018)
+										 </div>
+						 </section>
+
+							 <section>
+							 <h4 style="font-size:50px;"><span class="maroon">What we expect in the near future</span></h4>
+
+
+
+							 <div class="r-stack">
+									<img class="fragment fade-out" data-fragment-index="0" src="../images/comp3.svg" width="65%">
+									<img class="fragment" data-fragment-index="0" src="../images/comp4.svg" width="65%" >
+								</div>
+
+								<p>
+								More observations of old stars and measurements on the key $(\alpha, xn)$ reactions will
+								help us constrain the production site of the elements between Sr and Ag.
+								</p>
+
+							 </section>
+
+
+
+
+
+							 <!--
+                 <section>
+                    <h2 style="font-size:50px;"><span class="maroon">	An exciting time for nuclear astrophysics!</span></h2>
+
+
+                <p>
+
+                    <ol>
+												<li class="fragment fade-in" data-fragment-index="0">New radioactive beam facilities (FRIB, FAIR etc.)
+												<div class="citation">Measure the relevant reaction rates</div></li><br>
+
+                        <li class="fragment fade-in" data-fragment-index="1">Multimessenger glimpses of stellar explosions (JWST, Gaia, LIGO)
+												<div class="citation">More info on the composition and inner-workings of stars</div>
+												</li><br>
+                        <li class="fragment fade-in" data-fragment-index="2">Powerful computers
+												<div class="citation">Fast and reliable theoretical calculations</div>
+												</li>
+                    </ol>
+                </p>
+
+                </section>
+							-->
+
+								<section>
+									 <h2 style="font-size:50px;"><span class="maroon">	Take-home messages</span></h2>
+
+
+							 <p>
+
+									 <ol>
+											 <li class="fragment fade-in" data-fragment-index="0">We measured the $\mathrm{^7Be(\alpha,\gamma)^{11}C}$ reaction using DRAGON and constrained its rate
+		 									over $\nu p$-process energies.
+											 </li><br>
+
+											 <li class="fragment fade-in" data-fragment-index="1">	We combined observations, astrophysical modeling and nuclear theory
+												 to study the impact of $(\alpha,xn)$ reactions to the weak $r$-process.
+
+											 </li><br>
+											 <li class="fragment fade-in" data-fragment-index="2">Experiments in the current and next-generation facilities, along with multimessenger observations
+												 and theoretical modeling will help us better understand the origin of the elements.
+
+											 </li>
+									 </ol>
+							 </p>
+
+
+
+
+			</div>
+		</div>
+
+		<script src="../reveal.js/dist/reveal.js"></script>
+		<script src="../reveal.js/plugin/zoom/zoom.js"></script>
+		<script src="../reveal.js/plugin/notes/notes.js"></script>
+		<script src="../reveal.js/plugin/search/search.js"></script>
+		<script src="../reveal.js/plugin/markdown/markdown.js"></script>
+		<script src="../reveal.js/plugin/highlight/highlight.js"></script>
+		<script src="../reveal.js/plugin/math/math.js"></script>
+		<script src="../reveal.js/plugin/embed-tweet/plugin.js"></script>
+		<script>
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+				autoPlayMedia: true,
+                math: {
+                mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+                config: 'TeX-AMS_HTML-full',
+                // pass other options into `MathJax.Hub.Config()`
+                TeX: { Macros: { RR: "{\\bf R}" } }
+                },
+                // Learn about plugins: https://revealjs.com/plugins/
+				plugins: [  RevealZoom, RevealNotes, RevealSearch, RevealEmbedTweet, RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+			Reveal.configure({
+  keyboard: {
+    39: 'next',
+    37: 'prev'
+}
+
+});
+		</script>
+	</body>
+
+
+	<style>
+.container{
+    display: flex;
+}
+.col{
+    flex: 1;
+}
+</style>
+</html>

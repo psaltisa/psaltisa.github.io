@@ -7,7 +7,7 @@ date: 2022-01-01
 
 authors:
   - name: Thanassis Psaltis
-    url: "mailto: apsalti@ncsu.edu"
+    url: "mailto: psaltis.tha@duke.edu"
     affiliations:
       name: TUNL, NCSU
 
@@ -51,6 +51,24 @@ _styles: >
 
 ## Introduction
 
+or what is a reaction network and why does it matter?
+
+You might have not realized it, but if you are working in nuclear astrophysics, your work is very closely related to nuclear reaction networks. Before we get into the specifics, let me give you some practical examples:
+
+- Student A works in low energy experimental nuclear physics and she measured the cross section of an astrophysically interesting reaction for her dissertation,
+- Student B is an observational astronomer and has measured the abundances of Galactic metal-poor stars
+- Postdoc C works in nuclear theory and has implemented a new Equation of State (EoS) to be used in NS and SN simulations
+
+GCE, new yields 
+
+
+What do they all have in common? Their results are inteconnected using nuclear reaction networks!
+
+Networks can be found everywhere, they are groups of interconnected things. The most common example is *social networks*, your family, friends, colleagues and the rest of the people you are interacting socially (nowadays there are also virtual counterparts of these networks).
+
+Similarly, thermonuclear reaction networks connect nuclei via (you guessed it) nuclear reactions.
+
+We will discuss how these reactions enter the network, when they matter and when they don't.
 
 these reactions are called *thermonuclear* since they are caused by the thermal motion
 of the involved nuclei, which obey a Maxwellian distribution.
