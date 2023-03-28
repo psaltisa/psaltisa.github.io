@@ -3,7 +3,7 @@ layout: distill
 permalink: /teaching/reaction-networks
 title: An introduction to thermonuclear reaction network calculations
 description: Lecture notes for Frontiers Summer School 2023
-date: 2022-01-01
+date: 2023-05-16
 
 authors:
   - name: Thanassis Psaltis
@@ -59,14 +59,14 @@ You might have not realized it, but if you are working in nuclear astrophysics, 
 - Student B is an observational astronomer and has measured the abundances of Galactic metal-poor stars
 - Postdoc C works in nuclear theory and has implemented a new Equation of State (EoS) to be used in NS and SN simulations
 
-GCE, new yields 
+GCE, new yields
 
 
 What do they all have in common? Their results are inteconnected using nuclear reaction networks!
 
 Networks can be found everywhere, they are groups of interconnected things. The most common example is *social networks*, your family, friends, colleagues and the rest of the people you are interacting socially (nowadays there are also virtual counterparts of these networks).
 
-Similarly, thermonuclear reaction networks connect nuclei via (you guessed it) nuclear reactions.
+Similarly, thermonuclear reaction networks connect nuclei via (you guessed it) nuclear reactions (or other nuclear processes).
 
 We will discuss how these reactions enter the network, when they matter and when they don't.
 
@@ -166,20 +166,41 @@ evolution hydrodynamic code since it causes a slowdown on
 its performance, and thus post-processing nucleosynthesis
 calculations are preferred.
 
+***
+## The rate equation
+
+Let us now discuss an example of a very simple network that has only three
+nuclei, conveniently named as A, B and Γ (try not to be confused with the
+radiation nomenclature)
+
+
+***
+## Thermonuclear reaction rates
+
 
 
 
 ***
 ## The ingredients
 
+To solve the rate equation numerically we will need some input. First and foremost, we need the nuclear physics information about the isotopes in the network; that is mainly their reaction rates, reaction Q-values, half-lifes (if they are radioactive), fission fragment distributions (if they are fissionable) and partition functions, the sum of thermally populated levels. You might ask here why I did not mention nuclear masses, which many people try to measure experimentally (see the lecture by A. Kankainen on Friday!). The nuclear masses enter the rate equation via the reaction Q-value. Another nuclear input that is used when solving a thermonuclear reaction network is the Equation Of State (EOS), which gives us the relation between temperature, pressure, and density in the plasma. In some special cases, where the neutrino properties are of interest, for example in neutrino-driven wind ejecta, we also need to know the evolution of neutrino-related quantities, such as their luminosity.
+
+As far as the astrophysics input is concerned we are mainly interested in the time evolution of the temperature and density of the plasma and in many cases its electron fraction $Y_e$.
+
+
 astrophysical conditions, mainly the time evolution of temperature and density, for some special cases the evolution of
 neutrino-related quantities,
+
+
 
 - tracer particles
 - parametric trajectories
 
 the nuclear physics input: mainly reaction rates, partition functions, half-lifes, fission fragment distributions, nuclear masses and more
 
+
+<d-cite key="jiang2021nuclear">D et al.</d-cite>
+<d-cite key="hix2006thermonuclear"></d-cite>
 
 ***
 ## Solving the network
@@ -203,27 +224,28 @@ the reader to the work of <d-cite key="timmes1999integration"> and of <d-cite ke
 
 ## The codes
 
-<d-cite key="jiang2021nuclear">D et al.</d-cite>
-<d-cite key="hix2006thermonuclear"></d-cite>
+After all this discussion about reaction networks, do you want to run some calculations? That's great! 😁 There are many codes in the nuclear astrophysics community that are used for different nucleosynthesis processes; some of them are open-source, others are not. A non-exhaustive list of such codes include the following<d-footnote>If there are codes that I am missing, please
+<a href="mailto:psaltis.tha@duke.edu">contact me</a> and I will include them!</d-footnote>:
 
-some are open-source, others not
 
-- NuPPN
-- WinNet
-- SkyNet [<i class="fas fa-external-link-alt"></i>](https://bitbucket.org/jlippuner/skynet)
-- GSINet
-- PRISM (Portable Routines for Integrated nucleoSynthesis Modeling)
-- NucNet-Tools [<i class="fas fa-external-link-alt"></i>](https://sourceforge.net/p/nucnet-tools/home/Home/)
-- Torch [<i class="fas fa-external-link-alt"></i>](https://cococubed.com/code_pages/burn.shtml)
-- XNet (reduced and full post-processing) [<i class="fas fa-external-link-alt"></i>](https://github.com/starkiller-astro/XNet)
-- ReNet (reduced)
-- pynucastro
+| Name      | Description | Is it open-source? |
+| ----------- | ----------- | -------------------------------------|
+| NuPPN      | Title       | |
+| WinNet   | Text        | |
+| SkyNet [<i class="fas fa-external-link-alt"></i>](https://bitbucket.org/jlippuner/skynet)   | Text        | |
+| GSINet   | Text        | |
+| PRISM   | Text        |  |
+| NucNet-Tools [<i class="fas fa-external-link-alt"></i>](https://sourceforge.net/p/nucnet-tools/home/Home/)   | Text |  |
+| Torch [<i class="fas fa-external-link-alt"></i>](https://cococubed.com/code_pages/burn.shtml)  | Text        |  |
+| XNet  [<i class="fas fa-external-link-alt"></i>](https://github.com/starkiller-astro/XNet)  | Text        |   |
 
-and many others
+
+
 
 
 ### The solvers
 
+For those that are interested in the nitty-gritty of ODE solvers for thermonuclear reaction networks, I have compiled a short list of the most commonly used ones:
 - Intel MKL
 - SuperLU
 - BLAS
@@ -232,8 +254,6 @@ and many others
 - Trilinos
 - LAPACK
 
-etc..
-<d-footnote>I made a footnote.</d-footnote>
 
 
 Syntax highlighting is provided within `<d-code>` tags.
@@ -309,10 +329,12 @@ Colons can be used to align columns.
 <center>
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-2 mt-md-0">
-            {% include figure.html path="https://cococubed.com/images/net_integration/jac_3zones.svg" class="img-fluid" zoomable=true caption="Graphic representation of a Jacobian matrix." %}
+            {% include figure.html path="https://cococubed.com/images/net_integration/jac_3zones.svg" class="img-fluid" zoomable=true caption="Graphic representation of a Jacobian matrix. The non-coloured squares are zero elements in the matrix. Figure [source](https://cococubed.com/pix_pages/sparse.shtml)." %}
         </div>
     </div>
 </center>
 
 ***
 ## Sensitivity and impact studies
+
+One of the awesome things we can do using thermonuclear reaction networks, and given the capabilities of modern computers, is multiple (>thousands) calculations of the same profile (astrophysical condition). What can we learn from that? By changing individual nuclear parameters, for example a reaction rate, one can see the effect in the final elemental or even isotopic abundance pattern. Through the years researchers in our field have taken different approaches for sensitivity studies. In the early 2000's it was common to vary individually
