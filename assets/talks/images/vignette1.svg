@@ -1228,8 +1228,8 @@
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1015"
-     inkscape:window-x="0"
+     inkscape:window-height="1051"
+     inkscape:window-x="1920"
      inkscape:window-y="0"
      inkscape:window-maximized="1" />
   <metadata
@@ -1240,7 +1240,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1256,7 +1256,7 @@
        x="18.680523"
        y="35.805851" />
     <rect
-       style="fill:#b90f22;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:bevel;stroke-dashoffset:13.3;paint-order:stroke fill markers;opacity:0.5002222;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#ffffff;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:bevel;stroke-dashoffset:13.3;paint-order:stroke fill markers;opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect23634-3"
        width="123.77824"
        height="147.6427"

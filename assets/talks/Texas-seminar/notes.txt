@@ -1,0 +1,11 @@
+DRAGON slide
+
+- standard configuration
+- use of LaBr detectors for precise resonance energy calculations
+- two stage M and E
+- Time of flights (local-separator)
+- Hybrid detector (DSSSD+IC)
+
+- recoil separators are designed with an intrinsic acceptance limit
+- lower mass nuclei produce large momentum angles that can surpass the
+  acceptance of the separator (putting your hand in a hose and spray)

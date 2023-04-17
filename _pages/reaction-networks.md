@@ -2,14 +2,14 @@
 layout: distill
 permalink: /teaching/reaction-networks
 title: An introduction to thermonuclear reaction network calculations
-description: Lecture notes for Frontiers Summer School 2023
+description: Lecture notes for the 2nd Frontiers Summer School
 date: 2023-05-16
 
 authors:
   - name: Thanassis Psaltis
     url: "mailto: psaltis.tha@duke.edu"
     affiliations:
-      name: TUNL, NCSU
+      name: TUNL, NC State University
 
 bibliography: networks.bib
 
@@ -170,12 +170,46 @@ calculations are preferred.
 ## The rate equation
 
 Let us now discuss an example of a very simple network that has only three
-nuclei, conveniently named as A, B and Γ (try not to be confused with the
-radiation nomenclature)
+nuclei, conveniently named as a, b and c.
 
+Our simple network has only three reactions:
+
+$$ a + b \rightleftharpoons c + \gamma$$
+
+$$ b \rightarrow a$$
+
+The fusion of $a$ and $b$ produce $c$ and a $\gamma$ ray (similarly the photodissociation of $c$ creates $a$ and $b$), and $b$ can decay to $a$.
+
+Let's write down the differential equation that describes the time evolution of the abundance of nucleus $a$:
+
+$$ \frac{d n_a}{dt} = - n_a n_b \langle \sigma v \rangle $$
+
+Imagine doing the same exercise for thousands of nuclei that are connected with tens of thousands of reactions!
+<div class="fake-img l-gutter">
+  <p>This is a typical $r$-process reaction network!</p>
+</div>
 
 ***
 ## Thermonuclear reaction rates
+
+\begin{equation}\label{therm}
+    N_A \langle \sigma v \rangle_{ab} = \left( \frac{8}{\pi \mu}\right)^{1/2} (kT)^{-3/2} N_A \int_0^\infty \sigma(E) E  e^{-E/kT} dE
+\end{equation}
+
+Equation~\ref{therm} is a general expression for the thermonuclear reaction
+rate. In principle, the only missing piece for its calculation
+is the energy--dependent reaction cross section, $\sigma(E)$. Once this
+quantity is either measured experimentally, or estimated theoretically,
+Equation~\ref{ch2:eq6}
+can be integrated numerically and then evaluated at the temperature of
+interest.
+
+
+
+Hauser-Feshbach estimates of reaction rates
+<div class="fake-img l-gutter">
+  <p>See G. Perdikakis lecture</p>
+</div>
 
 
 
@@ -183,7 +217,11 @@ radiation nomenclature)
 ***
 ## The ingredients
 
-To solve the rate equation numerically we will need some input. First and foremost, we need the nuclear physics information about the isotopes in the network; that is mainly their reaction rates, reaction Q-values, half-lifes (if they are radioactive), fission fragment distributions (if they are fissionable) and partition functions, the sum of thermally populated levels. You might ask here why I did not mention nuclear masses, which many people try to measure experimentally (see the lecture by A. Kankainen on Friday!). The nuclear masses enter the rate equation via the reaction Q-value. Another nuclear input that is used when solving a thermonuclear reaction network is the Equation Of State (EOS), which gives us the relation between temperature, pressure, and density in the plasma. In some special cases, where the neutrino properties are of interest, for example in neutrino-driven wind ejecta, we also need to know the evolution of neutrino-related quantities, such as their luminosity.
+To solve the rate equation numerically we will need some input. First and foremost, we need the nuclear physics information about the isotopes in the network; that is mainly their reaction rates, reaction Q-values, half-lifes (if they are radioactive), fission fragment distributions (if they are fissionable) and partition functions, the sum of thermally populated levels. You might ask here why I did not mention nuclear masses, which many people try to measure experimentally.
+<div class="fake-img l-gutter">
+  <p>See A. Kankainen lecture</p>
+</div>
+The nuclear masses enter the rate equation via the reaction Q-value. Another nuclear input that is used when solving a thermonuclear reaction network is the Equation Of State (EOS), which gives us the relation between temperature, pressure, and density in the plasma. In some special cases, where the neutrino properties are of interest, for example in neutrino-driven wind ejecta, we also need to know the evolution of neutrino-related quantities, such as their luminosity.
 
 As far as the astrophysics input is concerned we are mainly interested in the time evolution of the temperature and density of the plasma and in many cases its electron fraction $Y_e$.
 
@@ -202,6 +240,13 @@ the nuclear physics input: mainly reaction rates, partition functions, half-life
 <d-cite key="jiang2021nuclear">D et al.</d-cite>
 <d-cite key="hix2006thermonuclear"></d-cite>
 
+typical networks (for hydrodynamics codes)
+$\alpha$-nuclei reaction network from He to Ni
+$\mathrm{^4He, ^{12}C, ^{16}O, ^{20}Ne, ^{24}Mg, ^{28}Si, ^{32}S, ^{36}Ar, ^{40}Ca, ^{44}Ti, ^{48}Cr, ^{52}Fe, ^{56}Ni}$
+connected mainly by $(\alpha,\gamma)-(\gamma,\alpha)$ reactions, the triple-$\alpha$ reaction and the heavy ion reactions
+$\mathrm{^{12}C+^{12}C, ^{12}C+^16}O, ^{16}O+^{16}O}$
+
+
 ***
 ## Solving the network
 
@@ -218,6 +263,8 @@ Gear's method <d-cite key="gear1971automatic"></d-cite> or
 the Bader-Deuflhard semi-implicit method <d-cite key="bader1983semi"</d-cite>. For more details on the
 integration of nuclear reaction networks, we refer
 the reader to the work of <d-cite key="timmes1999integration"> and of <d-cite key="longland2014performance"></d-cite>.
+
+
 
 
 ***
@@ -329,12 +376,28 @@ Colons can be used to align columns.
 <center>
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-2 mt-md-0">
-            {% include figure.html path="https://cococubed.com/images/net_integration/jac_3zones.svg" class="img-fluid" zoomable=true caption="Graphic representation of a Jacobian matrix. The non-coloured squares are zero elements in the matrix. Figure [source](https://cococubed.com/pix_pages/sparse.shtml)." %}
+            {% include figure.html path="https://cococubed.com/images/net_integration/aprox13.svg" class="img-fluid" zoomable=true caption="Graphic representation of a Jacobian matrix. The non-coloured squares are zero elements in the matrix. Figure [source](https://cococubed.com/pix_pages/sparse.shtml)." %}
         </div>
     </div>
 </center>
 
 ***
-## Sensitivity and impact studies
+## Sensitivity studies using reaction networks
 
-One of the awesome things we can do using thermonuclear reaction networks, and given the capabilities of modern computers, is multiple (>thousands) calculations of the same profile (astrophysical condition). What can we learn from that? By changing individual nuclear parameters, for example a reaction rate, one can see the effect in the final elemental or even isotopic abundance pattern. Through the years researchers in our field have taken different approaches for sensitivity studies. In the early 2000's it was common to vary individually
+One of the awesome things we can do using thermonuclear reaction networks, given the capabilities of modern computers, is multiple (>thousands) calculations of the same profile (astrophysical condition). What can we learn from that? By changing individual nuclear parameters, for example a reaction rate, one can see the effect in the final elemental or even isotopic abundance pattern. Through the years researchers in our field have taken different approaches for these sensitivity studies. In the 2000s it was common to vary individually reaction rates within their uncertainty: a typical example is the seminal work of Iliadis *et al* <d-cite key="iliadis2002nova"></d-cite> on classical novae nucleosynthesis. In that study the authors varied 175 reaction rates (out of 1265) in a 142 species network, from the then most recent evaluations. The goal was to find reactions which *rate uncertainty* affects isotopic abundances in classical novae. They found ~20 reactions - $(p,\gamma)$ and $(p,\alpha)$ which affect isotopic abundances in CO and ONe novae. The work of Ref.<d-cite key="iliadis2002nova"></d-cite> motivated a series of experimental measurements through the 2000s and 2010s, both direct and indirect, that reduced the uncertainties of the highlighted reaction rates.
+
+During the 2010s researchers start using Monte Carlo (MC) algorithms to perform sensitivity studies. In this class of works - some notable examples for different nucleosynthesis scenarios are listed in Table - reaction rates are randomly sampled from a distribution in every calculation. The reactions that influence abundances are also identified by the *correlation* between the factor by which the rate was changed and the effect in the abundance.
+
+
+| Scenario        |Reference           | Cool  |
+| ------------- |:-------------:| -----:|
+| weak $r$-process      | Bliss et al.  | $1600 |
+| $r$-process      | Mumpower et al.      |   $12 |
+| $\nu p$-process | Nishimura et al.      |    $1 |
+| $\gamma$-process | Rauscher et al.      |    $1 |
+| $rp$-process | Parikh et al. Cyburt et al.      |    $1 |
+| $i$-process | Denissenkov et al.      |    $1 |
+| $s$-process | Hirschi et al.     |    $1 |
+| BBN | Coc et al. Iliadis et al.    |    $1 |
+
+Markov Chain Monte Carlo (MCMC) techniques have also being used for nuclear inputs (see the work of Ref.<d-cite key="vassh2021mcmc"></d-cite>)
