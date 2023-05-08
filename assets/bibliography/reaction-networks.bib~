@@ -1,0 +1,443 @@
+@book{arnett1996supernovae,
+  title={Supernovae and nucleosynthesis: an investigation of the history of matter, from the big bang to the present},
+  author={Arnett, David},
+  year={1996},
+  publisher={Princeton University Press},
+  url={https://www.jstor.org/stable/j.ctv173f2k2}
+}
+
+@article{meyer2012webnucleo,
+  title={WEBNUCLEO.org},
+  author={Meyer, Brad},
+  journal={Nuclei in the Cosmos (NIC XII)},
+  pages={96},
+  year={2012},
+  doi={10.22323/1.146.0096}
+}
+
+
+@article{mendoza2015prc,
+  title={Nuclear robustness of the r process in neutron-star mergers},
+  author={de Jes{\'u}s Mendoza-Temis, Joel and Wu, Meng-Ru and Langanke, Karlheinz and Mart{\'i}nez-Pinedo, Gabriel and Bauswein, Andreas and Janka, Hans-Thomas},
+  journal={Physical Review C},
+  volume={92},
+  number={5},
+  pages={055805},
+  year={2015},
+  publisher={APS},
+  doi={10.1103/PhysRevC.92.055805}
+}
+
+
+
+@ARTICLE{denissenkov2021mnras,
+       author = {Denissenkov, Pavel A. and Herwig, Falk and Perdikakis, Georgios and Schatz, Hendrik},
+        title = "The impact of (n,γ) reaction rate uncertainties of unstable isotopes on the i-process nucleosynthesis of the elements from Ba to W",
+      journal = {Monthly Notices of the Royal Astronomical Society},
+     keywords = {nuclear reactions, nucleosynthesis, abundances, stars: abundances, stars: AGB and post-AGB, Astrophysics - Solar and Stellar Astrophysics},
+         year = 2021,
+        month = may,
+       volume = {503},
+       number = {3},
+        pages = {3913-3925},
+          doi = {10.1093/mnras/stab772}
+}
+
+@article{iliadis2020apj,
+  title={Thermonuclear reaction rates and primordial nucleosynthesis},
+  author={Iliadis, C and Coc, A},
+  journal={The Astrophysical Journal},
+  volume={901},
+  number={2},
+  pages={127},
+  year={2020},
+  publisher={IOP Publishing},
+  doi={10.3847/1538-4357/abb1a3}
+}
+
+@article{parikh2008apj,
+  title={The effects of variations in nuclear processes on type I X-ray burst nucleosynthesis},
+  author={Parikh, Anuj and Jos{\'e}, Jordi and Moreno, Fermin and Iliadis, Christian},
+  journal={The Astrophysical Journal Supplement Series},
+  volume={178},
+  number={1},
+  pages={110},
+  year={2008},
+  publisher={IOP Publishing},
+  doi={10.1086/589879}
+}
+
+
+@article{wanajo2011apj,
+  title={Uncertainties in the νp-process: supernova dynamics versus nuclear physics},
+  author={Wanajo, Shinya and Janka, Hans-Thomas and Kubono, Shigeru},
+  journal={The Astrophysical Journal},
+  volume={729},
+  number={1},
+  pages={46},
+  year={2011},
+  publisher={IOP Publishing},
+  doi={10.1088/0004-637X/729/1/46}
+}
+
+@article{mumpower2016ppnp,
+  title={The impact of individual nuclear properties on r-process nucleosynthesis},
+  author={Mumpower, Matthew R and Surman, Rebecca and McLaughlin, GC and Aprahamian, A},
+  journal={Progress in Particle and Nuclear Physics},
+  volume={86},
+  pages={86--126},
+  year={2016},
+  publisher={Elsevier},
+  doi={10.1016/j.ppnp.2015.09.001}
+}
+
+@article{cescutti2018mnras,
+  title={Uncertainties in s-process nucleosynthesis in low-mass stars determined from Monte Carlo variations},
+  author={Cescutti, G and Hirschi, R and Nishimura, N and Hartogh, JW den and Rauscher, T and Murphy, A St J and Cristallo, Sergio},
+  journal={Monthly Notices of the Royal Astronomical Society},
+  volume={478},
+  number={3},
+  pages={4101--4127},
+  year={2018},
+  publisher={Oxford University Press},
+  doi={10.1093/mnras/sty1185}
+}
+
+@article{nishimura2018mnras,
+  title={Uncertainties in the production of p nuclides in thermonuclear supernovae determined by Monte Carlo variations},
+  author={Nishimura, N and Rauscher, T and Hirschi, R and Murphy, A St J and Cescutti, G and Travaglio, C},
+  journal={Monthly Notices of the Royal Astronomical Society},
+  volume={474},
+  number={3},
+  pages={3133--3139},
+  year={2018},
+  publisher={Oxford University Press},
+  doi={10.1093/mnras/stx3033}
+}
+
+@article{rauscher2016mnras,
+  title={Uncertainties in the production of p nuclei in massive stars obtained from Monte Carlo variations},
+  author={Rauscher, T and Nishimura, N and Hirschi, R and Cescutti, G and Murphy, A St J and Heger, Alexander},
+  journal={Monthly Notices of the Royal Astronomical Society},
+  volume={463},
+  number={4},
+  pages={4153--4166},
+  year={2016},
+  publisher={The Royal Astronomical Society},
+  doi={10.1093/mnras/stw2266}
+}
+
+@article{cyburt2016apj,
+  title={Dependence of X-ray burst models on nuclear reaction rates},
+  author={Cyburt, RH and Amthor, AM and Heger, A and Johnson, E and Keek, L and Meisel, Z and Schatz, H and Smith, K},
+  journal={The Astrophysical Journal},
+  volume={830},
+  number={2},
+  pages={55},
+  year={2016},
+  publisher={IOP Publishing},
+  doi={10.3847/0004-637X/830/2/55}
+}
+
+
+@article{nishimura2019mnras,
+  title={Uncertainties in νp-process nucleosynthesis from Monte Carlo variation of reaction rates},
+  author={Nishimura, N and Rauscher, T and Hirschi, R and Cescutti, G and Murphy, A St J and Fr{\"o}hlich, C},
+  journal={Monthly Notices of the Royal Astronomical Society},
+  volume={489},
+  number={1},
+  pages={1379--1396},
+  year={2019},
+  publisher={Oxford University Press},
+  doi={10.1093/mnras/stz2104}
+}
+
+
+@article{parikh2013aa,
+  title={The effects of variations in nuclear interactions on nucleosynthesis in thermonuclear supernovae},
+  author={Parikh, Anuj and Jos{\'e}, Jordi and Seitenzahl, Ivo R and R{\"o}pke, Friedrich K},
+  journal={Astronomy & Astrophysics},
+  volume={557},
+  pages={A3},
+  year={2013},
+  publisher={EDP Sciences},
+  doi={10.1051/0004-6361/201321518}
+}
+
+
+@ARTICLE{psaltis2022apj,
+       author = {Psaltis, A. and Arcones, A. and Montes, F. and Mohr, P. and Hansen, C.J. and Jacobi, M. and Schatz, H.},
+        title = "Constraining Nucleosynthesis in Neutrino-driven Winds: Observations, Simulations, and Nuclear Physics",
+      journal = {The Astrophysical Journal},
+     keywords = {Core-collapse supernovae, Nuclear astrophysics, Nucleosynthesis, R-process, Nuclear reaction cross sections, 304, 1129, 1131, 1324, 2087, Astrophysics - High Energy Astrophysical Phenomena, Nuclear Experiment},
+         year = 2022,
+        month = aug,
+       volume = {935},
+       number = {1},
+          eid = {27},
+        pages = {27},
+          doi = {10.3847/1538-4357/ac7da7}
+}
+
+
+
+
+@ARTICLE{bliss2020prc,
+       author = {Bliss, J. and Arcones, A. and Montes, F. and Pereira, J.},
+        title = "Nuclear physics uncertainties in neutrino-driven, neutron-rich supernova ejecta",
+      journal = {Physical Review C},
+     keywords = {Nuclear Experiment, Astrophysics - High Energy Astrophysical Phenomena, Astrophysics - Solar and Stellar Astrophysics, Nuclear Theory},
+         year = 2020,
+        month = may,
+       volume = {101},
+       number = {5},
+          eid = {055807},
+        pages = {055807},
+          doi = {10.1103/PhysRevC.101.055807},
+    publisher = {APS}
+}
+
+
+
+@book{iliadis2017nuclear,
+  title={Nuclear physics of stars},
+  author={Iliadis, Christian},
+  year={2017},
+  publisher={John Wiley & Sons},
+  isbn= {978-3-527-33648-7},
+  url={https://www.wiley.com/en-us/Nuclear+Physics+of+Stars%2C+2nd%2C+Revised+and+Enlarged+Edition-p-9783527336487}
+}
+
+@article{vassh2021mcmc,
+  title={Markov chain Monte Carlo predictions of neutron-rich lanthanide properties as a probe of r-process dynamics},
+  author={Vassh, Nicole and McLaughlin, Gail C and Mumpower, Matthew R and Surman, Rebecca},
+  journal={The Astrophysical Journal},
+  volume={907},
+  number={2},
+  pages={98},
+  year={2021},
+  doi= {10.3847/1538-4357/abd035},
+  publisher={IOP Publishing}
+}
+
+
+@book{rolfs1988cauldrons,
+  title={Cauldrons in the cosmos: Nuclear astrophysics},
+  author={Rolfs, Claus E and Rodney, William S},
+  year={1988},
+  publisher={University of Chicago press},
+  url={https://press.uchicago.edu/ucp/books/book/chicago/C/bo5964636.html}
+}
+
+@article{iliadis2018apj,
+  title={On presolar stardust grains from CO classical novae},
+  author={Iliadis, Christian and Downen, Lori N and Jos{\'e}, Jordi and Nittler, Larry R and Starrfield, Sumner},
+  journal={The Astrophysical Journal},
+  volume={855},
+  number={2},
+  pages={76},
+  year={2018},
+  publisher={IOP Publishing},
+  doi={10.3847/1538-4357/aaabb6}
+}
+
+
+@article{iliadis2002nova,
+  title={The effects of thermonuclear reaction-rate variations on nova nucleosynthesis: A sensitivity study},
+  author={Iliadis, Christian and Champagne, Art and Jos{\'e}, Jordi and Starrfield, Sumner and Tupper, Paul},
+  journal={The Astrophysical Journal Supplement Series},
+  volume={142},
+  number={1},
+  pages={105},
+  year={2002},
+  doi={10.1086/341400},
+  publisher={IOP Publishing}
+}
+
+
+@article{lippuner2017,
+       author = {Lippuner, Jonas and Roberts, Luke F.},
+        title = "SkyNet: A Modular Nuclear Reaction Network Library",
+      journal = {The Astrophysical Journal Supplement Series},
+         year = 2017,
+        month = dec,
+       volume = {233},
+       number = {2},
+          eid = {18},
+        pages = {18},
+          doi = {10.3847/1538-4365/aa94cb},
+       eprint = {1706.06198},
+ primaryClass = {astro-ph.HE},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2017ApJS..233...18L},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@article{gear1971automatic,
+  title={The automatic integration of ordinary differential equations},
+  author={Gear, C. William},
+  journal={Communications of the ACM},
+  volume={14},
+  number={3},
+  doi= {10.1145/362566.362571},
+  pages={176-179},
+  year={1971},
+  publisher={ACM New York, NY, USA}
+}
+
+
+@article{jiang2021nuclear,
+  title={Nuclear reaction network unveils novel reaction patterns based on stellar energies},
+  author={Jiang, Chunheng and Szymanski, Boleslaw K and Lian, Jie and Havlin, Shlomo and Gao, Jianxi},
+  journal={New Journal of Physics},
+  volume={23},
+  number={8},
+  pages={083035},
+  year={2021},
+  doi = {10.1088/1367-2630/ac1a3d},
+  publisher={IOP Publishing}
+}
+
+@article{travaglio2013,
+  title={Nucleosynthesis in thermonuclear supernovae},
+  author={Travaglio, Claudia and Raphael Hix, W},
+  journal={Frontiers of Physics},
+  volume={8},
+  pages={199--216},
+  year={2013},
+  publisher={Springer},
+  doi={10.1007/s11467-013-0315-y}
+}
+
+@article{sprouse2021prc,
+  title={Following nuclei through nucleosynthesis: A novel tracing technique},
+  author={Sprouse, Trevor M and Mumpower, Matthew Ryan and Surman, R},
+  journal={Physical Review C},
+  volume={104},
+  number={1},
+  pages={015803},
+  year={2021},
+  publisher={APS},
+  doi={10.1103/PhysRevC.104.015803}
+}
+
+
+@article{pignatari2016apjs,
+  title={NuGrid stellar data set. I. Stellar yields from H to Bi for stars with metallicities Z= 0.02 and Z= 0.01},
+  author={Pignatari, M and Herwig, F and Hirschi, R and Bennett, M and Rockefeller, G and Fryer, C and Timmes, FX and Ritter, C and Heger, A and Jones, S and others},
+  journal={The Astrophysical Journal Supplement Series},
+  volume={225},
+  number={2},
+  pages={24},
+  year={2016},
+  publisher={IOP Publishing},
+  doi={10.3847/0067-0049/225/2/24}
+}
+
+
+@article{winteler2012apjl,
+  title={Magnetorotationally driven supernovae as the origin of early galaxy r-process elements?},
+  author={Winteler, Christian and Kaeppeli, Roger and Perego, Albino and Arcones, Almudena and Vasset, Nicolas and Nishimura, Nobuya and Liebendoerfer, Matthias and Thielemann, F-K},
+  journal={The Astrophysical Journal Letters},
+  volume={750},
+  number={1},
+  pages={L22},
+  year={2012},
+  publisher={IOP Publishing},
+  doi={10.1088/2041-8205/750/1/L22}
+}
+
+
+@article{hix2006thermonuclear,
+  title={Thermonuclear kinetics in astrophysics},
+  author={Hix, W Raphael and Meyer, Bradley S},
+  journal={Nuclear Physics A},
+  volume={777},
+  pages={188-207},
+  year={2006},
+  doi ={10.1016/j.nuclphysa.2004.10.009},
+  publisher={Elsevier}
+}
+
+
+
+@article{wagoner1969synthesis,
+  title={Synthesis of the elements within objects exploding from very high temperatures},
+  author={Wagoner, Robert V},
+  journal={The Astrophysical Journal Supplement Series},
+  volume={18},
+  pages={247},
+  doi = {10.1086/190191},
+  year={1969}
+}
+
+@article{bader1983semi,
+  title={A semi-implicit mid-point rule for stiff systems of ordinary differential equations},
+  author={Bader, Georg and Deuflhard, Peter},
+  journal={Numerische Mathematik},
+  volume={41},
+  number={3},
+  pages={373-398},
+  doi = {10.1007/BF01418331},
+  year={1983},
+  publisher={Springer}
+}
+
+@article{travaglio2004nucleosynthesis,
+  title={Nucleosynthesis in multi-dimensional SN Ia explosions},
+  author={Travaglio, C and Hillebrandt, W and Reinecke, M and Thielemann, F-K},
+  journal={Astronomy \& Astrophysics},
+  volume={425},
+  number={3},
+  pages={1029--1040},
+  year={2004},
+  publisher={EDP Sciences},
+  doi={10.1051/0004-6361:20041108 }
+}
+
+@article{longland2010npa,
+  title={Charged-particle thermonuclear reaction rates: I. Monte Carlo method and statistical distributions},
+  author={Longland, Richard and Iliadis, Christian and Champagne, AE and Newton, Joseph R and Ugalde, Claudio and Coc, Alain and Fitzgerald, Ryan},
+  journal={Nuclear Physics A},
+  volume={841},
+  number={1-4},
+  pages={1--30},
+  year={2010},
+  publisher={Elsevier},
+  doi= {10.1016/j.nuclphysa.2010.04.008}
+}
+
+
+@article{longland2014performance,
+  title={Performance improvements for nuclear reaction network integration},
+  author={Longland, Richard and Martin, David and Jos{\'e}, Jordi},
+  journal={Astronomy & Astrophysics},
+  volume={563},
+  pages={A67},
+  year={2014},
+  doi = {10.1051/0004-6361/201321958},
+  publisher={EDP Sciences}
+}
+
+@article{timmes1999integration,
+  title={Integration of nuclear reaction networks for stellar hydrodynamics},
+  author={Timmes, FX},
+  journal={The Astrophysical Journal Supplement Series},
+  volume={124},
+  number={1},
+  pages={241},
+  year={1999},
+  doi = {10.1086/313257},
+  publisher={IOP Publishing}
+}
+
+@article{hix1999computational,
+  title={Computational methods for nucleosynthesis and nuclear energy generation},
+  author={Hix, W Raphael and Thielemann, Friedrich-Karl},
+  journal={Journal of Computational and Applied Mathematics},
+  volume={109},
+  number={1-2},
+  pages={321-351},
+  year={1999},
+  publisher={Elsevier},
+  doi= {10.1016/S0377-0427(99)00163-6}
+}
