@@ -36,7 +36,7 @@
         <b>Thanassis Psaltis (@psaltistha)</b>
         <br>
         <small>
-        <b>Triangle Universities Nuclear Laboratory & North Carolina State University</b>
+        <b>North Carolina State University & Triangle Universities Nuclear Laboratory</b>
         </small>
 	<br>&nbsp;<br>&nbsp;<br>
 	
@@ -69,7 +69,7 @@
 
 	    <div class="fragment">
 	      <h3>Why listen to me? </h3>
-	      <p>I have used many reaction network codes.</p>
+	      <p>I have used many reaction network codes for thousands of hours.</p>
 	    </div>
 	   </div>
 	    
@@ -88,6 +88,21 @@
 	  
 	</section>
 
+
+	 <section>
+	<h3>
+	<span class="maroon">From a scale 1-5 my experience with
+	thermonuclear reaction networks is...</span>
+	</h3>
+	
+	 <img class="fragment" src="../images/poll.svg" width="70%">
+
+	 <div class="fragment">
+	   <h2> 🫠</h2>
+	 </div>
+	</section>
+
+	
 	<section>
 	   <h2 style='font-size:28 px;'><span class="maroon">Topics we will cover</span></h2>
 		  &nbsp;
@@ -131,7 +146,7 @@
 
 	<div class="citation">
 	W. R. Hix and F.-K. Thielemann, J. Comput. Appl. Math <strong>109</strong>, 321 (1999) <br>
-	C. Jiang <em>et al.</em>, New J. Phys. <b>23</b> 083035 (2021)
+	C. Jiang <em>et al.</em>, New J. Phys. <b>23</b>, 083035 (2021)
 	</div>
 	</section>
 
@@ -167,7 +182,13 @@
 	    </div>  
 	</section>
 	
-	
+	<section data-background-color= black>
+	<h3 class="title"  style="text-align:left;"> <b> <i class="fas fa-quote-left"></i> A thermonuclear reaction network
+	    is a system of first-order coupled differential equations,
+	    which describes the abundance evolution and energy generation, and depends
+	    only on the nuclear reaction rates and the local thermodynamical conditions.</b></h3>
+	</section>
+
 	<!-- Thermonuclear reaction rates -->
 	<section data-background-color= black>
 	<h2 class="title"  style="text-align:left;"> <i class="fas
@@ -184,7 +205,7 @@
 
 
 	<section data-background-color= black data-background-size= contain 
-		 data-background-video="https://sdo.gsfc.nasa.gov/assets/img/dailymov/2023/05/14/20230514_1024_0304.mp4"
+		 data-background-video="https://sdo.gsfc.nasa.gov/assets/img/dailymov/2023/05/04/20230504_1024_0304.mp4"
 		 data-background-video-loop data-background-video-muted >
 	  <h2 class="title"><b>Why does the Sun shine?</b></h2>
 	</section>
@@ -351,7 +372,11 @@
 	    <h3><span class="maroon">Decays</span></h3>
 	    \[ a \rightarrow b \]
 	    \[
-	    \frac{dY_a}{dt} = \color{#CC0000}{\mathbf{-}}\underbrace{\lambda_a}_{\text{decay constant}} Y_a 
+	    \frac{dY_a}{dt} = \color{#CC0000}{\mathbf{-}} \lambda_a Y_a 
+	    \]
+
+	    \[
+	    \frac{dY_b}{dt} = \color{#CC0000}{\mathbf{+}} \lambda_a Y_a
 	    \]
 	  </div>
 	    </div>
@@ -501,6 +526,11 @@
 
 	</section>
 
+	<section data-background-color='#CC0000'>
+	  <h2><span class="title" style='text-shadow: 2px 2px 0px black;'><b>
+		Uncertainties in the nuclear and astrophysics input will affect the abundances!
+	  </b></span></h2>
+	</section>
 	
 	<!-- Solving the network -->
 	<section data-background-color= black>
@@ -585,7 +615,7 @@
 	    Bader-Deuflehard method (semi-implicit)
 	    </h4>
 	    <div class="citation">
-	      G. Bader & P. Deuflehard, Numer. Math.<b>41</b>, 373 (1983)
+	      G. Bader & P. Deuflehard, Numer. Math. <b>41</b>, 373 (1983)
 	    </div>	 
 	  </div>
 	  <br>
@@ -647,7 +677,9 @@
 	      the Jacobian matrix for the pp-chain?</b> </h2>
 
 	  <div class="citation"><span class="title">You can use the following
-	      substitution: $R_{ab}=\rho N_A \langle \sigma v \rangle_{ab}$ <br>
+	      substitution: $R_{ab}=\rho N_A \langle \sigma v
+	      \rangle_{ab}$ <br>
+	      The four nuclei: $p,d,\mathrm{^3He},\alpha$ <br>
 	  	  The three reactions: $p(p,e^+\nu)d$, $d(p,\gamma)\mathrm{^{3}He}$ & $\mathrm{^3He(^3He, 2p)^4He}$ </span></div>
 	</section>
 
@@ -704,11 +736,18 @@
 	 <section>
 	 <h2><span class="maroon">Equilibrium</span></h2>
 
-	 <br>
-	 
+	 	 
 	 <h3>
 	 $$
-	 \frac{dY_d}{dt} = 0 \rightarrow \frac{Y_d}{Y_p} = \frac{\langle \sigma v \rangle_{pp}}{2\langle \sigma v \rangle_{dp}}
+	 \frac{dY_d}{dt} = 0 
+	 $$
+
+	 $$
+         \rho N_A \frac{Y_p^2}{2} \langle \sigma v \rangle_{pp} - \rho N_A Y_d
+         Y_p \langle \sigma v \rangle_{dp} = 0 $$
+
+	 $$
+	 \frac{Y_d}{Y_p} = \frac{\langle \sigma v \rangle_{pp}}{2\langle \sigma v \rangle_{dp}}
 	 $$
 	 </h3>
 
@@ -728,7 +767,8 @@
 	 <img src="../../img/nse-iliadis.png" width="65%">
 	
 
-	 <small>The abundances are determined by the properties of the gas and not by reactions!</small>
+	 <small>The abundances are determined by the properties of the gas and
+	 not by reactions rates!</small>
 	 </section>
 	
 
@@ -763,7 +803,8 @@
 
 	<section data-background-color= #CC0000 >
 	<h2 style='text-shadow: 2px 2px 0px black;' class="title">
-	<b>How do we identify <br> important reactions?</b>
+	<b>How do we identify reactions <br> whose rate uncertainties
+	affect <br> nucleosynthesis processes?</b>
 	</h2>
 	</section>
 
@@ -773,7 +814,7 @@
 	<span class="maroon">Sensitivity studies motivate experiments</span>
 	</h3>
 	
-	 <img src="../images/wanajo.png" width="70%">
+	 <img src="../images/wanajo.png" width="60%">
 	
 	<p>Same model, but <span class= maroon>different nuclear input</span>!</p>
 	<div class="citation">
@@ -798,17 +839,6 @@
 	</section>
 	
 	</section>
-
-
-        
-		
-	<section data-background-color= black>
-	<h3 class="title"  style="text-align:left;"> <b> <i class="fas fa-quote-left"></i> A thermonuclear reaction network
-	    is a system of first-order coupled differential equations (ODEs),
-	    which describes the abundance evolution and energy generation, and depends
-	    only on the nuclear reaction rates and the local thermodynamical conditions.</b></h3>
-	</section>
-	
         
 		
 	<section data-background-color= black>

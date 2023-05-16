@@ -20,15 +20,19 @@ bibliography: reaction-networks.bib
 #   - we may want to automate TOC generation in the future using
 #     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
 toc:
- # - name: Introduction
+ - name: Introduction
     # if a section has subsections, you can add them as follows:
     # subsections:
     #   - name: Example Child Subsection 1
     #   - name: Example Child Subsection 2
-  - name: Thermonuclear reaction rates
-  - name: Solving the network
-  - name: The codes
-
+ - name: Thermonuclear reaction rates 
+ - name: Forming the network
+ - name: Solving the network
+ - name: Few special cases
+ - name: Energy generation
+ - name: The codes
+ - name: Sensitivity studies using reaction networks
+ - name: Take-home message
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
 _styles: >
@@ -124,7 +128,7 @@ distribution<d-cite key="iliadis2017nuclear, rolfs1988cauldrons"></d-cite>.
 
 ---
 
-## <i class="fas fa-atom"></i> Thermonuclear reaction rates 
+## Thermonuclear reaction rates 
 
 Before we delve into the inner workings of thermonuclear reaction networks, let
 us first imagine that we are around 150 million kilometers (93 million
@@ -406,9 +410,9 @@ algorithms have been used to calculate S-factors of astrophysically important
 reactions<d-cite key="iliadis2016apj, odell2022prc"></d-cite>.
 
 ***
-## <i class="fas fa-project-diagram"></i> Forming the network
+##  Forming the network
 
-### $\int$ The rate equations
+### The rate equations
 
 Let us return to the core of the Sun and try to write the differential 
 equations that describe the abundance evolution for all the different species.
@@ -487,7 +491,7 @@ a function which depends on the abundances $Y_i$ and the thermodynamical
 properties of the environment, $T(t), \rho(t), \ldots$.
 
 
-### <i class="fas fa-clipboard-list"></i> The ingredients
+### The ingredients
 
 To solve (integrate) the rate equation we need some input. First and
 foremost, we need the nuclear physics information about the isotopes in the
@@ -550,7 +554,7 @@ evolution of key parameters as a function of time (*e.g.* temperature,
 density, velocity *etc.*). 
 
 ***
-## <i class="fas fa-pen"></i> Solving the network
+## Solving the network
 
 In the previous sections we constructed the system of differential equations
 that describes the time evolution of the abundances and we know the initial
@@ -876,7 +880,7 @@ the mass number and the number of protons for species $i$).
 </center>
 
 ***
-## <i class="fas fa-burn"></i> Energy generation
+## Energy generation
 
 As we have already discussed, nuclear reactions release energy from the
 conversion of nucleons, and that affects the evolution of the astrophysical
@@ -920,7 +924,7 @@ $\mathrm{^{12}C+^{12}C}$, $\mathrm{^{12}C+^{16}O}$, and $\mathrm{^{16}O+^{16}O}$
 .
 
 ***
-## <i class="fas fa-code"></i> The codes
+## The codes
 
 After all this discussion about reaction networks, do you want to run some
 calculations? That's great! 😁 There are many codes in the nuclear
@@ -941,7 +945,7 @@ non-exhaustive list of such codes in the following table<d-footnote>If there are
 | XNet  [<i class="fas fa-external-link-alt"></i>](https://github.com/starkiller-astro/XNet)           | Both post-processing and reduced network                                          |   <i class="fas fa-check"></i>                 | Hix and Meyer (2006) <d-cite key="hix2006thermonuclear"></d-cite>               |
 
 ***
-## <i class="fas fa-cogs"></i>  Sensitivity studies using reaction networks
+## Sensitivity studies using reaction networks 
 
 One of the awesome things we can do using thermonuclear reaction networks,
 given the capabilities of modern computers, is multiple (>thousands)
@@ -985,7 +989,7 @@ rate was changed and the effect in the abundance.
 | Type Ia nucleosynthesis | Parikh *et al* (2013) <d-cite key="parikh2013aa"></d-cite>, Nishimura *et al.* (2018) <d-cite key="nishimura2018mnras"></d-cite> | Individual rates change, MC study   |
 
 
-## <i class="fas fa-exclamation"></i> Take-home message
+## Take-home message
 
 Combining everything we have discussed so far, a thermonuclear reaction network
 is a system of odinary coupled differential equations (ODEs), which describes
