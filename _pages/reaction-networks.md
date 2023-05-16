@@ -25,7 +25,7 @@ toc:
     # subsections:
     #   - name: Example Child Subsection 1
     #   - name: Example Child Subsection 2
- - name: Thermonuclear reaction rates 
+ - name: Thermonuclear reaction rates
  - name: Forming the network
  - name: Solving the network
  - name: Few special cases
@@ -60,25 +60,25 @@ If you work in nuclear astrophysics, you may not have realized the close
 connection between your work and thermonuclear reaction networks. Let us examine
 some examples:
 
-- Student A works in low-energy experimental nuclear physics and 
-she measured the cross section of an astrophysically interesting reaction 
+- Student A works in low-energy experimental nuclear physics and
+she measured the cross section of an astrophysically interesting reaction
 for her dissertation,
-- Postdoc B is an observational astronomer and has measured the elemental 
+- Postdoc B is an observational astronomer and has measured the elemental
 abundances of Galactic metal-poor stars,
 - Student C works in nuclear theory and has implemented a new Equation of
 State (EoS) to be used in Neutron Star (NS) and Supernovae (SNe) simulations,
 - Postdoc D wants to study the effect of a reaction rate to the energy
-  generation in her hydrodynamics code. 
-  
-What do they all have in common? Their results are inteconnected using thermonuclear reaction networks!
+  generation in her hydrodynamics code.
+
+What do they all have in common? Their results are interconnected using thermonuclear reaction networks!
 
 Networks are groups of things that are connected in some way, and we can find them
 everywhere. The most common example is the *social network*: your family,
-friends, colleagues and the rest of the people you are interacting socially 
+friends, colleagues and the rest of the people you are interacting socially
 (nowadays we can find virtual counterparts of these networks). A network
-consists of nodes (in our social network example, people), and edges (social connections). 
+consists of nodes (in our social network example, people), and edges (social connections).
 There is a very active academic field which studies networks and their
-interactions, called *network science*. 
+interactions, called *network science*.
 
  <center>  
    <div class="col-sm mt-2 mt-md-0">
@@ -110,16 +110,16 @@ distribution<d-cite key="iliadis2017nuclear, rolfs1988cauldrons"></d-cite>.
 	</div>
 	<div class="caption">
 	A visualization of a nuclear reaction network based on the Reaclib
-    database. There are ~8,000 isotopes (nodes) and ~77,000 nuclear processes 
+    database. There are ~8,000 isotopes (nodes) and ~77,000 nuclear processes
 	(edges) connecting them. Some network regions undergo more nuclear
-    reactions than others (red rectangle versus blue rectangle). 
+    reactions than others (red rectangle versus blue rectangle).
 	The figure is adapted from Jiang <em>et al.</em> (2021) <d-cite key="jiang2021nuclear"></d-cite>.
 	</div>
 </center>
 
 <div class="fake-img l-body">
   <p> <b> <i class="fas fa-quote-left"></i> A thermonuclear reaction network
-  is a system of first-order coupled differential equations, 
+  is a system of first-order coupled differential equations,
   which describes the abundance evolution and energy generation, and depends
   only on the nuclear reaction rates and the local thermodynamical conditions
   <d-cite key="arnett1996supernovae, hix2006thermonuclear, travaglio2013"></d-cite>. </b> </p>
@@ -128,7 +128,7 @@ distribution<d-cite key="iliadis2017nuclear, rolfs1988cauldrons"></d-cite>.
 
 ---
 
-## Thermonuclear reaction rates 
+## Thermonuclear reaction rates
 
 Before we delve into the inner workings of thermonuclear reaction networks, let
 us first imagine that we are around 150 million kilometers (93 million
@@ -147,8 +147,8 @@ helium<d-footnote>Around 2% of that energy is lost by the emitted
 neutrinos. This transformation is the most efficient nuclear burning
 process. See a table further down for a comparison with other hydrostatic
 burning processes.</d-footnote>.
- 
-For the last 4.6 billion years hydrogen is continiously "burned" into helium
+
+For the last 4.6 billion years hydrogen is continuously "burned" into helium
 in the heart of the Sun. To familiarize ourselves with thermonuclear reaction networks,
 we will recreate the main fusion process that powers the Sun, the proton-proton (pp-)
 chain<d-footnote>In fact there are 3 distinct pp-chain branches, but we will
@@ -182,7 +182,7 @@ reactions: $p(p,e^+ \nu_e)d$, $d(p,\gamma)\mathrm{^3He}$ and
 $\mathrm{^3He}(\mathrm{^3He},2p)\mathrm{^4He}$, respectively. The net effect in the
 environment is the conversion of 4 protons to one helium
 nucleus and the release of 26.73 MeV in the environment in the form of
-$\gamma$-rays and neutrinos. In the Figure below, you can see a visualization 
+$\gamma$-rays and neutrinos. In the Figure below, you can see a visualization
 of the pp-chain in a pure $p$ gas.
 
  <div class="row justify-content-sm-center">                                                                                          
@@ -192,7 +192,7 @@ of the pp-chain in a pure $p$ gas.
 	    </div>
 	    <div class="caption">
 	        A visualization of our stellar gas, made out $\mathrm{^1H}~(p)$.
-			As time moves forward, fusion reactions of the pp-chain produce 
+			As time moves forward, fusion reactions of the pp-chain produce
 			$\mathrm{^2H}~(d)$,  $\mathrm{^3He}$, $\mathrm{^4He}~(\alpha)$ and
             $\gamma$-rays. The neutrinos have already escaped the stellar gas,
             due to their tiny interaction probability, and are not depicted.
@@ -220,29 +220,29 @@ reaction. Reactions that emit a $\gamma$-ray in the exit channel are generally
 called *radiative capture reactions* and are very common in nuclear
 astrophysics<d-cite key="rolfs1990radiative,
 brune2015radiative"></d-cite>. The rate of this reaction, which we can define as the number
-of reactions per volume and unit time, can be writen as follows<d-footnote>In
+of reactions per volume and unit time, can be written as follows<d-footnote>In
 case of identical particles, we can generalize Equation
 \ref{eq:1} to $r_{ab} = \frac{n_an_b \langle \sigma v
-\rangle_{ab}}{(1+\delta_{ab})}$, 
+\rangle_{ab}}{(1+\delta_{ab})}$,
 where $\delta_{ab}$ is the Kronecker symbol.</d-footnote>
 
 \begin{equation}\label{eq:1}
-r_{dp} =  n_d n_p \langle \sigma v \rangle_{dp} = n_d n_p \int \sigma(v)~P(v)~v~dv 
+r_{dp} =  n_d n_p \langle \sigma v \rangle_{dp} = n_d n_p \int \sigma(v)~P(v)~v~dv
 \end{equation}
 
 where $n_d$ and $n_p$ are the concentrations, or number densities, of $p$ and
 $d$ per unit volume (usually expressed in
 cm<sup>-3</sup>). These are *dynamical quantities* regulated by the nuclear
 processes that involve them. $\langle \sigma v \rangle_{dp}$ is the
-average value of the reaction cross section $\sigma$ (usually expressed in 
+average value of the reaction cross section $\sigma$ (usually expressed in
 barns, where 1 b $\equiv$ 10<sup>-24</sup> cm<sup>2</sup>) and the
 relative velocity distribution of the interacting particles.
 
 Number density can change if the gas expands or contracts (remember that it
-is species *per unit volume*). For this reason, we need a conserved quantity 
-which reflects the nuclear transformations that occur in the gas. There are two 
+is species *per unit volume*). For this reason, we need a conserved quantity
+which reflects the nuclear transformations that occur in the gas. There are two
 such quantities that are commonly used in astrophysics, the **mass fraction**,
-$X_i$ and the **abundance**, $Y_i$. The three quantities, number density, 
+$X_i$ and the **abundance**, $Y_i$. The three quantities, number density,
 mass fraction and abundance are related through the following expression
 
 \begin{equation}\label{eq:2}
@@ -254,7 +254,7 @@ where $A_i$ is the atomic mass of species $i$ in amu (for example $A_{\mathrm{^{
 
 If we apply the nucleon number conservation in the
 environment<d-footnote>Remember that nuclear reactions generate energy! The
-mass is not conserved, but rather the number of nucleons.</d-footnote>, we can get the following 
+mass is not conserved, but rather the number of nucleons.</d-footnote>, we can get the following
 useful expressions for the mass fractions and the abundances, respectively
 
 \begin{equation}\label{eq:3}
@@ -265,9 +265,9 @@ useful expressions for the mass fractions and the abundances, respectively
 \sum_i A_i Y_i = 1
 \end{equation}
 
-Now that we have convinced ourselved that we are measuring the change of
-the constituents of the gas that is caused by nuclear processes, we can move 
-on to the calculation of the thermonuclear reaction rate $\langle \sigma v \rangle$. 
+Now that we have convinced ourselves that we are measuring the change of
+the constituents of the gas that is caused by nuclear processes, we can move
+on to the calculation of the thermonuclear reaction rate $\langle \sigma v \rangle$.
 
 In a stellar gas, like in our example, the temperature is high enough
 to ionize completely the constituent atoms (bare nuclei), such that they do not experience
@@ -279,18 +279,18 @@ P(v) dv = \left( \frac{\mu}{2\pi kT} \right)^{3/2} e^{-\mu v^2/(2kT)} 4\pi v^2 d
 \end{equation}
 
 which expresses the probability that the relative velocity of
-two particles lies between $v$ and $v+dv$. 
-$\mu = m_d m_p/ (m_d+m_p)$ is the reduced mass of the system, 
-$k$ is the Boltzmann constant, with a value of $k= 8.6173 \times 10^{-5}$ eV/K 
+two particles lies between $v$ and $v+dv$.
+$\mu = m_d m_p/ (m_d+m_p)$ is the reduced mass of the system,
+$k$ is the Boltzmann constant, with a value of $k= 8.6173 \times 10^{-5}$ eV/K
 and T is the gas temperature expressed in Kelvin. The Maxwell-Boltzmann
-distribution shows the following behavior: it increases 
+distribution shows the following behavior: it increases
 linearly with energy E at low energies, E $\ll$ kT, reaches a
-maximum value at E = kT and decreases exponentially at high energies, E $\gg$ kT. 
+maximum value at E = kT and decreases exponentially at high energies, E $\gg$ kT.
 This behavior is crucial when considering at which energies the
 astrophysically interesting reactions take place.
 
 We can express the Maxwell-Boltzmann particle velocity distribution as an
-energy distribution (convert using $E= \frac{1}{2} \mu v^2$) and obtain 
+energy distribution (convert using $E= \frac{1}{2} \mu v^2$) and obtain
 the reaction rate in the center-of-mass energy (in units of cm<sup>3</sup> mol<sup>-1</sup> s<sup>-1</sup>)
 
 \begin{equation}\label{eq:6}
@@ -327,7 +327,7 @@ $\sigma(E)$. Substituting Equation \ref{eq:7} to \ref{eq:6} gives us
 The integrant of the above expression exhibits a very interesting energy
 dependence. Multiplying the transmission probability through the Coulomb
 barrier, $e^{-2\pi \eta}$, which increases with increasing energy, with the
-Maxwell-Boltzmann factor, which decreases with increasing energy, results in a 
+Maxwell-Boltzmann factor, which decreases with increasing energy, results in a
 peak which defines an energy region where *it is more probable for nuclear
 reactions to occur* in a stellar gas. The peak is commonly referred to as the
 *Gamow peak*.
@@ -335,7 +335,7 @@ reactions to occur* in a stellar gas. The peak is commonly referred to as the
 For resonant reactions, the cross section can be described by the single-level
 Breit-Wigner formula<d-footnote>Note that this description is valid for
 resonances which have approximately constant partial widths over the total
-resonance withd (Γ(E)/Er < 0.1, called <em>narrow</em>) and in addition do not
+resonance with (Γ(E)/Er < 0.1, called <em>narrow</em>) and in addition do not
 overlap significantly with other resonances (<em>isolated</em>)</d-footnote>:
 
 \begin{equation}\label{eq:9}
@@ -343,28 +343,27 @@ overlap significantly with other resonances (<em>isolated</em>)</d-footnote>:
 (1+\delta_{ab}) \frac{\Gamma_1(E) \Gamma_2(E)}{(E_r-E)^2+(\Gamma(E)/2)^2}
 \end{equation}
 
-where $\lambda$ is the de Broglie wavelength, which expresses the wave nature of the interact-
-ing particles, $j_i$ are the spin of projectile and target, $J$ and $E_r$ are the spin and energy
+where $\lambda$ is the de Broglie wavelength, which expresses the wave nature of the interacting particles, $j_i$ are the spin of projectile and target, $J$ and $E_r$ are the spin and energy
 of the resonance respectively, $Γ_i$ are the partial widths for entrance and exit channels
 and $\Gamma$ is the sum of all the partial widths $\Gamma_i$, which correspond to the energetically
 allowed decay channels.
 
 Using Equation \ref{eq:9} we can solve analytically Equation \ref{eq:6}. In
-the case of many resonances, we can add them incoherently and write the 
+the case of many resonances, we can add them incoherently and write the
 thermonuclear reaction rate as follows
 \begin{equation}\label{eq:10}
 \langle \sigma v \rangle = \left(\frac{2\pi}{\mu kT}\right)^{3/2}
 \hbar^2 \sum_i (\omega \gamma)_i e^{-E_i/kT}
 \end{equation}
 
-where $\omega = (2J+1)/(2j_a+1)(2j_b+1)$ is the nuclear spin factor and 
+where $\omega = (2J+1)/(2j_a+1)(2j_b+1)$ is the nuclear spin factor and
 $\omega \gamma$ is called the *resonance strength*, $\omega \gamma \equiv
 \omega \frac{\Gamma_1 \Gamma_2}{\Gamma}$, and it is proportional to the area
 under the resonance cross section, or the product of the total resonance width
 and the cross section at the resonance energy, $\Gamma \cdot \sigma(E=E_r)$.
 
 Another way to calculate the reaction cross section $\sigma(E)$ or the
-astrophysical S-factor is the use of R-matrix theory. 
+astrophysical S-factor is the use of R-matrix theory.
 <div class="fake-img l-gutter">
   <p><b>See R.J. deBoer lecture</b></p>
 </div>
@@ -372,17 +371,17 @@ astrophysical S-factor is the use of R-matrix theory.
 The main assumption of that framework is that the particle configuration space can be separated in an
 internal region, where the total wave function can be expanded into a complete
 set of eigenstates and the external where the possible combinations of
-particles exist<d-cite key="azuma2010azure"></d-cite>. 
+particles exist<d-cite key="azuma2010azure"></d-cite>.
 
-For nucleosynthesis processes that involve exotic nuclei, reaction rates are 
-usually based on theoretical estimates for $\sigma(E)$. For example, in the $r$-process we 
+For nucleosynthesis processes that involve exotic nuclei, reaction rates are
+usually based on theoretical estimates for $\sigma(E)$. For example, in the $r$-process we
 rely on calculations based on the Hauser-Feshbach statistical model for the
-$(n, \gamma)$ reactions on exotic neutron-rich species. 
+$(n, \gamma)$ reactions on exotic neutron-rich species.
 <div class="fake-img l-gutter">
   <p><b>See G. Perdikakis lecture</b></p>
 </div>
 
-This model is used to describe cross sections in higher excitation energies of 
+This model is used to describe cross sections in higher excitation energies of
 intermediate and heavy nuclei, where the density of nuclear levels
 is high enough to take a statistically average contribution of many Breit-Wigner resonances. It assumes
 that the compound nucleus formed in a reaction undergoes a sequence of
@@ -390,23 +389,23 @@ statistical decays, where the excitation energy is partitioned among the
 available degrees of freedom of the system, such as nucleons, $\gamma$-rays, and other particles.
 
 To calculate thermonuclear reaction rates, one needs to solve Equation
-\ref{eq:6} numerically or analytically. Given that reaction rates carry 
+\ref{eq:6} numerically or analytically. Given that reaction rates carry
 uncertainty from many different factors, such as resonance energies, resonance
 strengths *etc.*, we need a statistically meaningful way to treat them. One
 of the ways used in the nuclear astrophysics community is to treat each
 nuclear physics input as a (lognormal) distribution and sample thousands of
-times using a Monte Carlo technique, solving Equation \ref{eq:6} every time. 
+times using a Monte Carlo technique, solving Equation \ref{eq:6} every time.
 That way, one calculates a thermonuclear reaction rate with temperature dependent uncertainty
 (essentially for every temperature point, you get a distribution for the
 reaction rate, and from the 16th (lower) and 84th (high) percentile you can
 define the $1\sigma$ confidence level). The code `RatesMC`, which was
 developed by R. Longland (NCSU/TUNL) performs such
-calculations.<d-footnote>You can find RatesMC in Github 
+calculations.<d-footnote>You can find RatesMC in Github
 <a href="https://github.com/rlongland/RatesMC"><i class="fab fa-github"></i></a>.</d-footnote>
 
 
 More recently, Bayesian statistics along with Markov Chain Monte Carlo (MCMC)
-algorithms have been used to calculate S-factors of astrophysically important 
+algorithms have been used to calculate S-factors of astrophysically important
 reactions<d-cite key="iliadis2016apj, odell2022prc"></d-cite>.
 
 ***
@@ -414,7 +413,7 @@ reactions<d-cite key="iliadis2016apj, odell2022prc"></d-cite>.
 
 ### The rate equations
 
-Let us return to the core of the Sun and try to write the differential 
+Let us return to the core of the Sun and try to write the differential
 equations that describe the abundance evolution for all the different species.
 $p$ is destroyed by the $p(p,e^+\nu)d$ and $d(p,\gamma)\mathrm{^{3}He}$
 reactions and produced by the $\mathrm{^3He(^3He, 2p)^4He}$. We expect that
@@ -438,7 +437,7 @@ by the $\mathrm{^{3}He}(\mathrm{^{3}He},2p)\mathrm{^{4}He}$:
 
 \begin{equation}\label{abu:3he}
 \frac{dY_{\mathrm{^3He}}}{dt} = \rho N_A Y_d  Y_p \langle \sigma v
-\rangle_{dp} - \rho N_A Y_{\mathrm{^3He}}^2  \langle \sigma v \rangle_{\mathrm{^3He}\mathrm{^3He}} 
+\rangle_{dp} - \rho N_A Y_{\mathrm{^3He}}^2  \langle \sigma v \rangle_{\mathrm{^3He}\mathrm{^3He}}
 \end{equation}
 
 Finally $\alpha$-particles are created only by the
@@ -446,7 +445,7 @@ $\mathrm{^{3}He}(\mathrm{^{3}He},2p)\mathrm{^{4}He}$ reaction.
 
 \begin{equation}\label{abu:he4}
 \frac{dY_\alpha}{dt} =  \rho N_A \frac{Y_{\mathrm{^3He}}^2}{2} \langle \sigma
-v \rangle_{\mathrm{^3He ^3He}} 
+v \rangle_{\mathrm{^3He ^3He}}
 \end{equation}
 
 
@@ -459,7 +458,7 @@ functional categories, according to the number of interacting nuclei:
 reactions involving a single species, such as decays and electron/positron
 captures, two (*e.g.* our $p(d,\gamma)\mathrm{^3He}$) and three
 (*e.g.* $\mathrm{^4He(\alpha \alpha,\gamma)^{12}C}$ -- triple--$\alpha$
-reaction) nuclei<d-cite key="hix1999computational"></d-cite>. 
+reaction) nuclei<d-cite key="hix1999computational"></d-cite>.
 We can write a generalized abundance evolution equation for $Y_i$, or **rate
 equation**, as follows
 
@@ -486,8 +485,8 @@ We can also express the same relation, more generally as
 
 where $\mathbf{y}$ is the vector of all the abundances $Y_i$ (or mass
 fractions $X_i$) in the network ($Y_1$, $Y_2$, $\cdots$, $Y_{i_{max}}$),
-$\dot{\mathbf{y}}$ is the time derivative, and $f$ is 
-a function which depends on the abundances $Y_i$ and the thermodynamical 
+$\dot{\mathbf{y}}$ is the time derivative, and $f$ is
+a function which depends on the abundances $Y_i$ and the thermodynamical
 properties of the environment, $T(t), \rho(t), \ldots$.
 
 
@@ -497,12 +496,12 @@ To solve (integrate) the rate equation we need some input. First and
 foremost, we need the nuclear physics information about the isotopes in the
 network; that is their reaction rates, reaction Q-values, half-lifes
 (if they are radioactive), fission fragment distributions (if they are
-fissionable) and partition functions, the sum of thermally populated levels. 
+fissionable) and partition functions, the sum of thermally populated levels.
 
 You might wonder why we did not mention nuclear masses, which have a high
 level of ongoing research activity. The nuclear masses enter the rate equation
 via the Q-value (for example in neutron captures, photodissociation rates and
-$\beta$-decays). If a new mass measurement is made, that updates the Q-value in the network. 
+$\beta$-decays). If a new mass measurement is made, that updates the Q-value in the network.
 <div class="fake-img l-gutter">
   <p><b>See A. Kankainen and M. Li lectures</b></p>
 </div>
@@ -514,44 +513,44 @@ key="mumpower2016ppnp"></d-cite>
 
 \begin{equation}
 \lambda_\gamma \propto
-T^{3/2} \exp\left[ -\frac{S_n(Z,N)}{kT} \right]  \langle \sigma v \rangle_{(Z, N-1)} 
+T^{3/2} \exp\left[ -\frac{S_n(Z,N)}{kT} \right]  \langle \sigma v \rangle_{(Z, N-1)}
 \end{equation}
 
 where $\langle \sigma v \rangle_{(Z, N-1)}$ is the neutron capture - $(n,
 \gamma)$ - rate of the neighboring nucleus.
 
 Another nuclear input that is used when solving a thermonuclear reaction
-network is the Equation Of State (EOS), which gives us the relation between 
-temperature, pressure, and density in the gas. 
+network is the Equation Of State (EOS), which gives us the relation between
+temperature, pressure, and density in the gas.
 
-As far as the astrophysics input is concerned we are mainly interested 
-in the time evolution of the temperature and density of the plasma and 
+As far as the astrophysics input is concerned we are mainly interested
+in the time evolution of the temperature and density of the plasma and
 in many cases its electron mole fraction $Y_e \equiv n_p (n_p+n_n)^{-1}$. If $Y_e
 < 0.5$ we have a neutron-rich gas, and in the case of $Y_e>0.5$
-we have a neutron-deficient one. In some special cases, where 
+we have a neutron-deficient one. In some special cases, where
 the neutrino properties are of interest (*e.g.* in neutrino-driven wind
-ejecta) we also need to know the evolution of neutrino-related quantities, 
+ejecta) we also need to know the evolution of neutrino-related quantities,
 such as their luminosity, which are used to calculate the $Y_e$.
 
 The properties of the astrophysical environment can be obtained from hydrodynamic
-simulations. For quiescent, hydrostatic burning (*e.g.* hydrogen burning in a 
+simulations. For quiescent, hydrostatic burning (*e.g.* hydrogen burning in a
 main sequence star) the temperature and density history of the gas is constant
-and the local energy release from nuclear reactions does not chnage the conditions.
-For other processes, however, such that in explosive nucleosynthesis we need 
-to know the time evolution of the thermodynamical quantities. In cases where 
+and the local energy release from nuclear reactions does not change the conditions.
+For other processes, however, such that in explosive nucleosynthesis we need
+to know the time evolution of the thermodynamical quantities. In cases where
 there is a shock which heats up and compresses the gas to a peak temperature
 and density and then expands adiabatically, we can easily model it using an
 exponential function $T(t) = T_{peak}e^{-T/\tau_T}, \rho(t)= \rho_{peak}e^{-t/\tau_\rho}$.
 These are also known as "parametric profiles", since we can change the main
 parameters of each relation (peak value and the timescale). The advantage of
 such a paramtrization is that it is computationally less expensive and it also
-allows for the exploration of the relevant parameter phase space (see for example the work of 
+allows for the exploration of the relevant parameter phase space (see for example the work of
 Iliadis *et al* (2018)<d-cite key="iliadis2018apj"></d-cite>). A common
-technique to extract thermodynamical quantities from a simulation is to 
+technique to extract thermodynamical quantities from a simulation is to
 use "tracer particles" <d-cite key="travaglio2004nucleosynthesis"></d-cite>,
 which are mass packets advected with the flow of the gas and follow the
 evolution of key parameters as a function of time (*e.g.* temperature,
-density, velocity *etc.*). 
+density, velocity *etc.*).
 
 ***
 ## Solving the network
@@ -559,7 +558,7 @@ density, velocity *etc.*).
 In the previous sections we constructed the system of differential equations
 that describes the time evolution of the abundances and we know the initial
 conditions of the system (in our solar burning example is $X_p(t=0)=1,
-X_d=X_{\mathrm{^3He}}=X_\alpha=0$). We are now ready to solve (integrate) the rate equations. 
+X_d=X_{\mathrm{^3He}}=X_\alpha=0$). We are now ready to solve (integrate) the rate equations.
 
 The coefficients of our rate equations (thermonuclear reaction rates) span
 many orders of magnitude, due to their strong temperature dependence (Equation
@@ -575,7 +574,7 @@ Let us examine an example of a stiff equation:
 \dot{x} = -21 x(t) + e^{-t}
 \end{equation}
 
-with boundary condition $$ x(0) = 0$$. Below you can find a `python` 
+with boundary condition $$ x(0) = 0$$. Below you can find a `python`
 script which solves the equation and also shows the size of the timesteps used.
 
 <d-code block language='python'>
@@ -585,7 +584,7 @@ from scipy.integrate import solve_ivp
 
 # Define the function for the stiff equation
 def stiff_eq(t, y):
-     return  -21 * y + np.exp(-t) 
+     return  -21 * y + np.exp(-t)
 # Set the initial condition and time range for the solution
 y0 = [0]
 t_span = [0, 10]
@@ -600,7 +599,7 @@ def track_step_size(t, y):
 track_step_size.steps = []
 
 # Use solve_ivp to solve the equation numerically
-sol = solve_ivp(stiff_eq, t_span, y0, method='Radau', 
+sol = solve_ivp(stiff_eq, t_span, y0, method='Radau',
 	  dense_output=True, events=lambda t, y: track_step_size(t, y))
 
 # Create an array of times to evaluate the step size at
@@ -650,10 +649,10 @@ short timescale (due to the exponential term $e^{-t}$), but the overall behavior
 solution changes much more slowly (due to the negative coefficient on $y$). This
 can make it difficult to solve numerically using standard methods, as the step
 size must be very small to capture the fast changes accurately (as in for $t
-\ll 1$). 
+\ll 1$).
 
 If we return to our general equation for the network (Equation \ref{eq:general})
-we can appoximate the time derivative by a finite difference
+we can approximate the time derivative by a finite difference
 
 \begin{equation}
 \mathbf{\dot{y}\_n} =  \frac{\mathbf{y_{n+1}} - \mathbf{y_n}}{h} =
@@ -704,7 +703,7 @@ $\mathbf{I}$ is the unitary matrix and $\mathbf{J} = \partial f / \partial
 
 ### The Jacobian matrix
 
-We can write the Jacobian $\mathbf{J}$ in its matrix form 
+We can write the Jacobian $\mathbf{J}$ in its matrix form
 
 $$
 \mathbf{J}(Y_1, \ldots, Y_n)= \begin{vmatrix} \frac{\partial \dot{Y_1}}{\partial
@@ -715,24 +714,24 @@ $$
 
 Note that we are taking the partial derivative of individual abundances $Y_i$
 in each matrix element. The resulting Jacobian's size is $n_{max} \times
-n_{max}$. For our pp-chain example, if we make the substitution 
+n_{max}$. For our pp-chain example, if we make the substitution
 $R_{ab} = \rho N_A \langle \sigma v \rangle_{ab}$, the Jacobian takes the
 following form
 
 $$
 \mathcal{J}= \begin{vmatrix} -2Y_p R_{pp} - Y_d R_{pd} & - Y_p R_{dp}  & 2
-Y_{\mathrm{^3He}} R_{\mathrm{^3He^3He}}  & 0 \\ 
-Y_p R_{pp} - Y_d R_{dp}   & -Y_p R_{dp}  & 0  & 0 \\ 
-Y_d R_{dp}   & Y_p R_{dp}  & -2Y_{\mathrm{^3He}}R_{\mathrm{^3He^3He}}  & 0 \\ 
+Y_{\mathrm{^3He}} R_{\mathrm{^3He^3He}}  & 0 \\
+Y_p R_{pp} - Y_d R_{dp}   & -Y_p R_{dp}  & 0  & 0 \\
+Y_d R_{dp}   & Y_p R_{dp}  & -2Y_{\mathrm{^3He}}R_{\mathrm{^3He^3He}}  & 0 \\
  0  & 0  & Y_{\mathrm{^3He}} R_{\mathrm{^3He ^3He}} & 0  
 \end{vmatrix}
 $$
 
 Each Jacobian matrix element represents the flow of an isotope (positive or
-negative) per second. 
+negative) per second.
 
 
-A more mathematically rigorous definintion of the stiffness of a reaction
+A more mathematically rigorous definition of the stiffness of a reaction
 network states that the negative $\mathcal{R}(\lambda_j)$ (the real
 part of the Jacobian eigenvalues $\lambda_j$)<d-cite key="hix2006thermonuclear"></d-cite>
 
@@ -747,9 +746,9 @@ increasing number of isotopes in the network.
 
 
 With a few exceptions (*e.g.* $\mathrm{^{12}C+^{12}C, ^{12}C+^{16}O, 3\alpha}$
-or fission) for each nucleus we only have to consider reactions linking it to the nearby 
+or fission) for each nucleus we only have to consider reactions linking it to the nearby
 species by the capture of a proton, neutron, helium nucleus or $\gamma$-ray
-and their reverse. That is 12 diferrent reaction types, namely $(p,\gamma)$,
+and their reverse. That is 12 different reaction types, namely $(p,\gamma)$,
 $(\alpha, p)$, $(p,n)$, $(\alpha, \gamma)$, $(\alpha, n)$, $(n,\gamma)$,
 $(n,p)$,  $(\gamma, p)$, $(n, \alpha)$, $(\gamma, \alpha)$, $(p, \alpha)$ and $(\gamma, n)$.
 
@@ -761,7 +760,7 @@ $(n,p)$,  $(\gamma, p)$, $(n, \alpha)$, $(\gamma, \alpha)$, $(p, \alpha)$ and $(
 	<div class="col three caption">                                                                                                
      Graphic representation of a
     Jacobian matrix. The non-coloured squares correspond to zero elements in the
-     matrix. <a href="https://cococubed.com/net_pages/net_torch.shtml">[Fig. source]</a> 
+     matrix. <a href="https://cococubed.com/net_pages/net_torch.shtml">[Fig. source]</a>
     </div>
         </div>
 </center>
@@ -815,7 +814,7 @@ only have the first term in the right-hand side. Gradually, the
 $p(p,e^+\nu_e)d$ reaction will produce deuteron, but it will also be destroyed
 by the $p(d,\gamma)\mathrm{^3He}$ reaction. Eventually the deuteron abundance
 will reach an equilibrium ($\frac{dY_d}{dt}=0$), meaning that its abundance
-will stay constant over time, despite the nuclear reactions that occur. 
+will stay constant over time, despite the nuclear reactions that occur.
 
 To find the equilibrium ratio between deuteron and protons, we just need to
 solve Equation \ref{abu:d}
@@ -836,10 +835,10 @@ In such conditions, the thermonuclear reaction rates may be fast
 enough to achieve equilibrium faster than the timescale of the
 astophysical setting (in a core-collapse supernova or a neutron star merger, for example).
 
-In this *Nuclear Statistical Equilibrium* (NSE), all nuclei are in balance 
+In this *Nuclear Statistical Equilibrium* (NSE), all nuclei are in balance
 through strong and electromagnetic interactions. At NSE conditions, the nuclear
-reaction network is greatly simplified and the abundance $Y_i$, 
-of each species can be calculated in terms of the abundance of protons $Y_p$, 
+reaction network is greatly simplified and the abundance $Y_i$,
+of each species can be calculated in terms of the abundance of protons $Y_p$,
 and neutrons, $Y_n$, by applying the Saha equation
 
 \begin{equation}
@@ -848,8 +847,8 @@ and neutrons, $Y_n$, by applying the Saha equation
 \end{equation}
 
 where $G_i$ and $B_i$ is the partition function and binding
-energy of species $i$, $A_i$ is its mass number, $N$ the number of neutrons, 
-$Z$ the number of protons and $\rho$ and $T$ are the density and 
+energy of species $i$, $A_i$ is its mass number, $N$ the number of neutrons,
+$Z$ the number of protons and $\rho$ and $T$ are the density and
 temperature of the environment. In other words, in NSE the composition of the
 nuclear matter is determined by statistical mechanics alone and is independent
 of the previous nucleosynthesis history of the matter. The unique solution of
@@ -870,7 +869,7 @@ the mass number and the number of protons for species $i$).
             <img src="{{ site.baseurl }}/assets/img/nse-iliadis.png"
 			     class="img-fluid" zoomable=true>
 		<div class="col three caption">
-		 Abundances of the dominant species versus neutron excess parameter $\eta$ 
+		 Abundances of the dominant species versus neutron excess parameter $\eta$
 		 (or electron mole fraction $Y_e$) in a nuclear statistical equilibrium composition at
 		 T = 3.5 GK and ρ = 10<sup>7</sup> g/cm<sup>3</sup>. The abundances
         on either side of $\eta$ = 0 ($Y_e$ = 0.5) show a different
@@ -935,17 +934,17 @@ non-exhaustive list of such codes in the following table<d-footnote>If there are
 
 | Name  | Description | Is it open-source? | Reference  |
 |:----- |:-----------:|:------------------:|:---------------------------:|
-| GSINet | <i class="fas fa-code-branch"></i> of BasNet| <i class="fas fa-times"></i>   | Mendoza-Temis *et al.* (2015) <d-cite key="mendoza2015prc"></d-cite>   | 
+| GSINet | <i class="fas fa-code-branch"></i> of BasNet| <i class="fas fa-times"></i>   | Mendoza-Temis *et al.* (2015) <d-cite key="mendoza2015prc"></d-cite>   |
 | WebNucleo [<i class="fas fa-external-link-alt"></i>](https://sourceforge.net/p/nucnet-tools/home/Home/)  | example text |    <i class="fas fa-check"></i>  | Meyer (2012) <d-cite key="meyer2012webnucleo"></d-cite> |
 | NuPPN [<i class="fas fa-external-link-alt"></i>](https://nugrid.github.io/content/codes_collab)  | example text | Within the NuGrid collaboration    | Pignatari *et al.* (2016) <d-cite key="pignatari2016apjs"></d-cite>  |
-| PRISM  |    r-process mainly              |   <i class="fas fa-times"></i>   | Sprouse *et al.* (2021) <d-cite key="sprouse2021prc"></d-cite>  | 
+| PRISM  |    r-process mainly              |   <i class="fas fa-times"></i>   | Sprouse *et al.* (2021) <d-cite key="sprouse2021prc"></d-cite>  |
 | SkyNet [<i class="fas fa-external-link-alt"></i>](https://bitbucket.org/jlippuner/skynet) | Text   | <i class="fas fa-check"></i> | Lippuner and Roberts (2017) <d-cite key="lippuner2017"></d-cite>|
 | torch [<i class="fas fa-external-link-alt"></i>](https://cococubed.com/code_pages/burn.shtml)        | Text | <i class="fas fa-check"></i>   | Timmes (1999) <d-cite key="timmes1999integration"></d-cite>   |
 | WinNet   | <i class="fas fa-code-branch"></i> of BasNet  |   <i class="fas fa-times"></i>       |  Winteler *et al.* (2012) <d-cite key="winteler2012apjl"></d-cite>               |
 | XNet  [<i class="fas fa-external-link-alt"></i>](https://github.com/starkiller-astro/XNet)           | Both post-processing and reduced network                                          |   <i class="fas fa-check"></i>                 | Hix and Meyer (2006) <d-cite key="hix2006thermonuclear"></d-cite>               |
 
 ***
-## Sensitivity studies using reaction networks 
+## Sensitivity studies using reaction networks
 
 One of the awesome things we can do using thermonuclear reaction networks,
 given the capabilities of modern computers, is multiple (>thousands)
@@ -970,8 +969,8 @@ During the 2010s researchers start using Monte Carlo (MC) algorithms to
 perform sensitivity studies. In this class of works - some notable examples
 for different nucleosynthesis scenarios are listed in the table below -
 reaction rates are randomly sampled from a distribution, which reflects their
-uncertainty, in every calculation. The reactions that influence abundances 
-are identified by the *correlation* between the factor by which the 
+uncertainty, in every calculation. The reactions that influence abundances
+are identified by the *correlation* between the factor by which the
 rate was changed and the effect in the abundance.
 
 
@@ -992,7 +991,7 @@ rate was changed and the effect in the abundance.
 ## Take-home message
 
 Combining everything we have discussed so far, a thermonuclear reaction network
-is a system of odinary coupled differential equations (ODEs), which describes
+is a system of ordinary coupled differential equations (ODEs), which describes
 the abundance evolution ($\mathbf{y}$) and energy generation ($\epsilon$). The
 main input to solve the equations is provided by the nuclear reaction rates
 (except in the case of NSE) and the local thermodynamical conditions. The size
