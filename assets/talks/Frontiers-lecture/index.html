@@ -639,15 +639,18 @@
 	
 	<section>
 	  <h2><span class="maroon">The solution: enter the Jacobian</span></h2>
-	  <br>
+	  
 	  <div class="fragment">
-	   <h3>
-	  $$
-	  \mathbf{y_{n+1}} = \mathbf{y_n} + h f(t_{n+1}, \mathbf{y}, \ldots)
-	  $$
-	   </h3>
+	    <h3>
+	      $$
+	      \frac{\mathbf{y_{n+1}} - \mathbf{y_n}}{h} = \mathbf{\dot{y}_{n+1}}
+	      $$
+	      $$
+	      \mathbf{y_{n+1}} = \mathbf{y_n} + h f(t_{n+1}, \mathbf{y}, \ldots)
+	      $$
+	    </h3>
 	  </div>
-	  <br>
+	  
 	  <div class="fragment">
 	    <h3>
 	    $$
@@ -689,7 +692,7 @@
 
 	  <br>
 	  
-	  <h4>
+	  
 	  $$
 	  \mathbf{J}= \begin{vmatrix} -2Y_p R_{pp} - Y_d R_{pd} & - Y_p R_{dp}
 	  & 2
@@ -700,7 +703,7 @@
 	  0  & 0  & Y_{\mathrm{^3He}} R_{\mathrm{^3He ^3He}} & 0
 	  \end{vmatrix}
 	  $$
-          </h4>
+          
 
 	</section>
 
@@ -737,7 +740,7 @@
 	 <h2><span class="maroon">Equilibrium</span></h2>
 
 	 	 
-	 <h3>
+	 <h4>
 	 $$
 	 \frac{dY_d}{dt} = 0 
 	 $$
@@ -749,7 +752,7 @@
 	 $$
 	 \frac{Y_d}{Y_p} = \frac{\langle \sigma v \rangle_{pp}}{2\langle \sigma v \rangle_{dp}}
 	 $$
-	 </h3>
+	 </h4>
 
 	 <p>For our conditions, the equilibrium is established in around one minute!</p>
 
@@ -772,6 +775,22 @@
 	 </section>
 	
 
+	<section>
+	<h2><span class="maroon">Energy Generation</span></h2>
+
+	<h3>
+	\begin{equation}                                                                                                                       
+	\epsilon= - \sum_i N_A m_i c^2 \frac{dY_i}{dt}-\frac{d\epsilon_\nu}{dt}~\text{(MeV/g s})                                           
+	\end{equation}                                                                                                                         </h3>
+
+	<p>
+	  $m_i c^2$ is the rest mass energy of species $i$ in MeV <br>
+	  $d\epsilon_\nu/dt$ are the neutrino losses
+        </p> 
+                    
+
+	</section>
+	
   	
 	<section data-background-color= #CC0000>
 	<h2  style='text-shadow: 2px 2px 0px black; text-align:left;' class="title" >
@@ -824,15 +843,14 @@
 	
 	
 	<section>
-	<h2><span class="maroon">Monte Carlo Studies</span></h2>
-	
+	<h3><span class="maroon">Monte Carlo Studies</span></h3>
 	
 	<div class="r-stack">
-	<img class="fragment fade-out" data-fragment-index="0" width="75%" src="../images/new2.svg">
-	<img class="fragment" data-fragment-index="1" width="75%" src="../images/corr-tunl-0.svg">
-	<img class="fragment" data-fragment-index="2" width="75%" src="../images/corr-tunl-1.svg">
+	<img class="fragment fade-out" data-fragment-index="0" width="70%" src="../images/new2.svg">
+	<img class="fragment" data-fragment-index="1" width="70%" src="../images/corr-tunl-0.svg">
+	<img class="fragment" data-fragment-index="2" width="70%" src="../images/corr-tunl-1.svg">
 	</div>
-	
+	<p>Same model, but <span class= maroon>change all $(\alpha,n)$ rates</span></p>
 	<div class="citation">
 	A. Psaltis <em>et al.</em>, Astrophys. J <b>935</b>, 27 (2022)
 	</div>
