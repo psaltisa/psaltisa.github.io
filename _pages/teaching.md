@@ -7,6 +7,32 @@ nav: true
 ---
 
 
+<div class="card mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h4 class="card-title"><a href="{{ site.baseurl }}/teaching/reaction-networks" target="_blank" rel="noopener noreferrer">Introduction to Thermonuclear Reaction Networks</a></h4>
+        <h5 class="card-subtitle font-italic"></h5>
+      </div>
+      <div class="col-sm-2 text-sm-right">
+      </div>
+    </div>
+    <br>
+    <ul class="card-text font-weight-light list-group list-group-flush">
+
+        <p>
+        An introductory lecture on thermonuclear reaction networks for graduate students, presented in the <a href="https://sites.google.com/view/fss2023/home">Frontiers summer school in Nuclear Astrophysics</a>. Topics covered included: Thermonuclear reaction rates, forming the network, solving the network, energy generation, sensitivity studies using reaction networks.
+        </p>
+
+        <p>
+        <i class="fas fa-chalkboard-teacher"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/reaction-networks">Lecture notes</a> &bull; <i class="fa fa-desktop"></i> <a href="{{ site.baseurl }}/assets/talks/Frontiers-lecture">Lecture slides</a>
+        </p>
+
+      </ul>
+</div>
+</div>
+<br>
+
 ### [Technische Universität Darmstadt](https://www.physik.tu-darmstadt.de/fbphysik/index.en.jsp)
 
 ---
