@@ -21,11 +21,18 @@ nav: true
     <ul class="card-text font-weight-light list-group list-group-flush">
 
         <p>
-        An introductory lecture on thermonuclear reaction networks for graduate students, presented in the <a href="https://sites.google.com/view/fss2023/home">Frontiers summer school in Nuclear Astrophysics</a>. Topics covered included: Thermonuclear reaction rates, forming the network, solving the network, energy generation, sensitivity studies using reaction networks.
+        An introductory lecture on thermonuclear reaction networks for
+        graduate students, presented in the <a
+        href="https://sites.google.com/view/fss2023/home">2nd Frontiers summer
+        school in Nuclear Astrophysics</a>. Topics covered included:
+        thermonuclear reaction rates, forming the reaction network, solving
+        the network, energy generation, sensitivity studies using reaction networks.
         </p>
 
         <p>
-        <i class="fas fa-chalkboard-teacher"></i>&nbsp; <a href="{{ site.baseurl }}/teaching/reaction-networks">Lecture notes</a> &bull; <i class="fa fa-desktop"></i> <a href="{{ site.baseurl }}/assets/talks/Frontiers-lecture">Lecture slides</a>
+        <i class="fas fa-chalkboard-teacher"></i>&nbsp; <a href="{{
+        site.baseurl }}/teaching/reaction-networks">Lecture notes</a> |  <i
+        class="fa fa-desktop"></i> <a href="{{ site.baseurl }}/assets/talks/Frontiers-lecture">Lecture slides</a>
         </p>
 
       </ul>

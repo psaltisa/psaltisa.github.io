@@ -25,7 +25,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1015"
+     inkscape:window-height="1051"
      id="namedview6368"
      showgrid="false"
      inkscape:zoom="2.1302083"
@@ -25225,57 +25225,6 @@
                x="128.43936"
                y="81.962997"
                id="use6962"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
-      </g>
-      <path
-         style="opacity:1;fill:none;stroke:#cc0000;stroke-width:0.75;stroke-linecap:square;stroke-linejoin:bevel;paint-order:stroke fill markers;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-         id="path5463"
-         sodipodi:type="arc"
-         sodipodi:cx="59.039604"
-         sodipodi:cy="247.44992"
-         sodipodi:rx="8.8999519"
-         sodipodi:ry="8.1705971"
-         sodipodi:start="0"
-         sodipodi:end="6.2725388"
-         sodipodi:open="true"
-         sodipodi:arc-type="arc"
-         d="m 67.939556,247.44992 a 8.8999519,8.1705971 0 0 1 -8.876263,8.17057 8.8999519,8.1705971 0 0 1 -8.923515,-8.12708 8.8999519,8.1705971 0 0 1 8.828762,-8.21383 8.8999519,8.1705971 0 0 1 8.970512,8.08335" />
-      <g
-         inkscape:label=""
-         transform="translate(-64.7313,166.94804)"
-         id="g10176"
-         style="fill:#cc0000;fill-opacity:1">
-        <g
-           id="g8105"
-           style="fill:#cc0000;fill-opacity:1">
-          <g
-             style="fill:#cc0000;fill-opacity:1"
-             id="g3118">
-            <use
-               xlink:href="#symbol4296"
-               x="91.925003"
-               y="81.962997"
-               id="use1556"
-               style="fill:#cc0000;fill-opacity:1"
-               width="100%"
-               height="100%" />
-            <use
-               xlink:href="#symbol3255"
-               x="99.39695"
-               y="81.962997"
-               id="use5894"
-               style="fill:#cc0000;fill-opacity:1"
-               width="100%"
-               height="100%" />
-            <use
-               xlink:href="#symbol9688"
-               x="104.93217"
-               y="81.962997"
-               id="use9170"
-               style="fill:#cc0000;fill-opacity:1"
                width="100%"
                height="100%" />
           </g>
