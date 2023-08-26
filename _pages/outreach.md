@@ -6,7 +6,7 @@ description:
 nav: true
 ---
 
-When I am not exploring the origin of the elements, in a lab or in front of a computer screen, I am making science accessible to a wider audience, by participating in several science communication initiatives worldwide. This experience has enabled me to share my passion about science with the public, with a focus on children, the next generation of scientists. Below you can learn more about the initiatives I am involved in. In case you are interested in collaborating on a science communication project, feel free to [contact me](mailto:{{site.email}}).
+When he is not exploring the origin of the elements, in a lab or in front of a computer screen, Thanassis is making science accessible to a wider audience, by participating in several science communication initiatives worldwide. This experience has enabled him to share his passion about science with the public, with a focus on children, the next generation of scientists. Below you can learn more about the initiatives he is involved in. In case you are interested in collaborating on a science communication project, feel free to [contact](mailto:{{site.email}}).
 
 <div class="projects grid">
 
