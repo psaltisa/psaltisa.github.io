@@ -1,0 +1,53 @@
+I"C<p><em>“Media Sampler” is a series of posts, where I make a selection of articles, videos and podcasts that I recently came across in the Internets and found interesting!</em></p>
+
+<h2 id="articles">Articles</h2>
+<hr />
+
+<ul>
+  <li>
+    <p><a href="https://phys.org/news/2020-10-colours-science.html">Using better colours in science</a> by University of Oslo</p>
+
+    <p>This is an article based on the work by <a href="https://doi.org/10.1038/s41467-020-19160-7">Carmeri et al., Nat. Commun. <strong>11</strong>, 5444 (2020)</a> regarding the use of colours in science communication. Scientists tend to get lazy when it comes to how they are presenting their results and a wrong choice of colours can distort the data. The authors have developed a set of <a href="https://doi.org/10.5281/zenodo.1243862">scientific colourmaps</a> which are publicly available (I will definitely give them a try in my next publication). You can learn more about this project from Fabio Crameri in this <a href="https://www.youtube.com/watch?v=Hhkj_AiicmQ" target="_blank">YouTube video <i class="fab fa-youtube"></i></a>.</p>
+
+    <blockquote>
+      <p><i class="fas fa-quote-left"></i> Rainbows are fantastic, but in the context of displaying scientific, technical, medical or similar such data, it needs to be stopped. 🌈</p>
+
+      <p>-Fabio Carmeri</p>
+    </blockquote>
+  </li>
+  <li>
+    <p><a href="https://www.nytimes.com/guides/smarterliving/how-to-tell-a-good-story?mtrref=undefined&amp;gwh=09DC198C20B4D20136CCDD553ABF7A21&amp;gwt=regi&amp;assetType=REGIWALL&amp;redirect=true">How to tell a story</a> by Daniel McDermon</p>
+
+    <p>Humans love stories, this is how we communicate. A good story can inspire us, make us think and act. This article provides a nice outline of the structure a story should have and how one can become a more efficient storyteller.</p>
+
+    <blockquote>
+      <p><i class="fas fa-quote-left"></i> Keep in mind that there is a point to telling your story: You’re trying to create an experience in the mind of your listeners. Providing that takeaway for your audience is your goal.</p>
+    </blockquote>
+  </li>
+  <li>
+    <p><a href="https://www.openculture.com/2014/12/why-you-do-your-best-thinking-in-the-shower.html">Why You Do Your Best Thinking In The Shower: Creativity &amp; the “Incubation Period”</a> by OpenCulture</p>
+
+    <p>Have you heard of the story of Archimedes and his “Eureka” moment? It might happen to you too! All you have to do is to free up your unconscious to roam freely and find the solutions to your problems.</p>
+
+    <blockquote>
+      <p><i class="fas fa-quote-left"></i> The great Tao fades away.</p>
+
+      <p>-Lao Tzu</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h2 id="video">Video</h2>
+<hr />
+
+<center>
+<div id="video-container">
+<iframe width="70%" height="315" src="https://www.youtube.com/embed/WXuK6gekU1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+</center>
+
+<h2 id="podcast">Podcast</h2>
+<hr />
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0KJrjZ50JgmxVyRbprWXZt?utm_source=generator&amp;theme=0" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+:ET

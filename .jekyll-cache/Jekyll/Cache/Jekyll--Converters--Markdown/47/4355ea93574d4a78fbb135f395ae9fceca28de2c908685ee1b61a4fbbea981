@@ -1,0 +1,20 @@
+I"<center>
+    <div class="row justify-content-sm-center">
+        <div class="col-sm mt-2 mt-md-0">
+            <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Johannes_Moreelse_-_Democritus_-_Google_Art_Project/688px-Johannes_Moreelse_-_Democritus_-_Google_Art_Project?20130105095343-480.webp" />
+    <source media="(max-width: 800px)" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Johannes_Moreelse_-_Democritus_-_Google_Art_Project/688px-Johannes_Moreelse_-_Democritus_-_Google_Art_Project?20130105095343-800.webp" />
+    <source media="(max-width: 1400px)" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Johannes_Moreelse_-_Democritus_-_Google_Art_Project/688px-Johannes_Moreelse_-_Democritus_-_Google_Art_Project?20130105095343-1400.webp" />
+    <!-- Fallback to the original file -->
+    <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Johannes_Moreelse_-_Democritus_-_Google_Art_Project.jpg/688px-Johannes_Moreelse_-_Democritus_-_Google_Art_Project.jpg?20130105095343" data-zoomable="" />
+
+  </picture><figcaption class="caption">Democritus (c. 1630) by Johannes Moreelse</figcaption>
+
+</figure>
+
+        </div>
+    </div>
+</center>
+:ET

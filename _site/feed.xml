@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-09-04T12:40:04-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Thanassis Psaltis</title><subtitle>Postdoctoral Research Scholar at TUNL
+</subtitle><entry><title type="html">The Einstein vs Oppenheimer Chess Game</title><link href="http://localhost:4000/blog/2023/einstein-oppenheimer/" rel="alternate" type="text/html" title="The Einstein vs Oppenheimer Chess Game" /><published>2023-08-18T00:00:00-04:00</published><updated>2023-08-18T00:00:00-04:00</updated><id>http://localhost:4000/blog/2023/einstein-oppenheimer</id><content type="html" xml:base="http://localhost:4000/blog/2023/einstein-oppenheimer/"><![CDATA[<center>
+<div class="row justify-content-sm-center">
+        <img class="img-fluid" src="/assets/img/einstein_oppenheimer.jpg" alt="" title="J. Robert
+		Oppenheimer and Albert Einstein. © Alfred Eisenstaedt/The LIFE Picture Collection/Shutterstock." data-zoomable="" />
+				<div class="caption">
+				     J. Robert Oppenheimer and Albert
+    Einstein. © Alfred Eisenstaedt/The LIFE Picture Collection/Shutterstock.
+				</div>
+</div>
+</center>
+
+<blockquote>
+  <p><i class="fas fa-quote-left"></i> Chess grips its exponent, shackling the mind and brain so that the inner freedom and independence of even the strongest character cannot remain unaffected.</p>
+
+  <p>-Albert Einstein</p>
+</blockquote>
+
+<p>I enjoy playing chess a lot. I learned to play when I was a kid and picked it
+up again during grad school. There is an interesting game flowing in the
+internet between Albert Einstein and J. Robert Oppenheimer, that supposedly took place at
+Princeton in 1933, when they were both working there. The game was first
+published in Freude am Schach (The Pleasure of Chess) by Gerhard Henschel in
+1959, but it is not officially confimed that it actually took place.</p>
+
+<p>The game began with one of the most common openings, the Spanish (Ruy Lopez),
+demonstrating that both Einstein and Oppenheimer had tipped their toes into
+chess theory. The first few moves flow naturally, with Einstein’s 5. Bb3
+revealing his intent to apply pressure on the f7 square and focus on the kingside.</p>
+
+<p>As the game progressed, Einstein let Oppenheimer capture his e pawn 6. Nxe4,
+but responded by moving his kingside rook in the middle of the board. A few
+moves later 10. Nxe5, Oppenheimer chooses to retreat his knight, instead of
+exchanging, but that allows 11. Qf3 to create a strong attack in the f7 square.</p>
+
+<p>Oppenheimer blunders 11 ..f6, trying to kick out the knight, but Einstein
+finds 12. Qh5+, which starts a serious attack on the black king. Einstein
+sacrificed his kinght in 13. Nxg6, to get the rook, explointing the pinned
+knight in e7, and gets a large advantage.</p>
+
+<p>After some exchanges, we get to a very nice move by
+Einstein, 21. Nc4. Oppenheimer captures the knight, but then exchanges his
+queen for a rook, and the game is completely lost for him, with no viable
+options for his king. After 24. Bxe7, J. Robert Oppenheimer resigns and Albert
+Einstein gets a well-deserved victory.</p>
+
+<p>While this chess game might not be as celebrated as the scientific achievements of both players, it offers a fascinating glimpse into the strategic minds of two remarkable physicists. The game’s intricate tactics, sacrifices, and brilliant positional maneuvers mirror the thought processes that guided their groundbreaking research in physics.</p>
+
+<p>It is worth noting that Einstein’s connection to chess extended beyond this game. He had the privilege of knowing Emanuel Lasker, the longest-reigning World Chess Champion in history. Lasker’s presence and teachings undoubtedly influenced Einstein’s approach to the game, adding an extra layer of depth to Einstein’s engagement with chess.</p>
+
+<center>
+<iframe src="https://lichess.org/embed/game/oFrYqSJT?theme=auto&amp;bg=auto" width="600" height="397" frameborder="0"></iframe>
+</center>]]></content><author><name></name></author><category term="article" /><category term="physics" /><category term="chess" /><category term="history" /><summary type="html"><![CDATA[J. Robert Oppenheimer and Albert Einstein. © Alfred Eisenstaedt/The LIFE Picture Collection/Shutterstock.]]></summary></entry><entry><title type="html">Journeying Through Stars - My Adventure into Nuclear Astrophysics</title><link href="http://localhost:4000/blog/2023/INPC/" rel="alternate" type="text/html" title="Journeying Through Stars - My Adventure into Nuclear Astrophysics" /><published>2023-07-15T00:00:00-04:00</published><updated>2023-07-15T00:00:00-04:00</updated><id>http://localhost:4000/blog/2023/INPC</id><content type="html" xml:base="http://localhost:4000/blog/2023/INPC/"><![CDATA[<p>Last September I had the pleasure to visit South Africa for the first time to attend the
+International Nuclear Physics Conference (<a href="https://inpc2022.org/">INPC</a>) in
+Cape Town. I presented my <a href="https://doi.org/10.3847/1538-4357/ac7da7">work</a> on
+nucleosynthesis in neutrino-driven ejecta. The conference included an outreach
+workshop, organized by Gillian Arendse from iTHEMBA, with educators from the
+Cape Academy for Mathematics, Science and Technology
+(<a href="http://www.camst.co.za/">CAMST</a>). My friend and collaborator Prof. Christian
+Diget prepared a short lecture regarding the <a href="https://bindingblocks.org.uk/">Binding
+Blocks</a> educational program for students
+between 16-19 years old. Christian asked me to help him with a demonstration
+of an educational game to help students understand the hot CNO cycles and
+I immediately accepted. We met the educators at the CAMST and had a lovely
+evening with them. In the video below, I am giving my personal views about
+nuclear astrophysics, and why I followed this path of research.</p>
+
+<center>           
+<video controls="" width="100%" height="100%"> <source src="/assets/vid/INPC-outreach.mp4" type="video/mp4" /></video>   
+</center>
+<div class="col three caption">                                                                                                           <i class="fa fa-video"></i> INPC Interactive workshop (Fall 2022).                                                                </div>
+
+<blockquote>
+  <p><i class="fas fa-quote-left"></i> <i> What we do in nuclear [astro]physics,
+is that we study how the different elements in the periodic table
+are created. Everything that we see in our everyday life, is made [out] of
+some substance, some [chemical] elements. For example, you have calcium
+in your bones, you have iron in your red blood cells [and Christian
+was saying that iron is very stable]. All these different elements,
+with a few exceptions, like hydrogen and helium, all of this different
+material that we see and make all this exotic and this beauty in
+the world and the rest of the universe are created in stars. Like
+the stars that we see in the night sky, they create inside their
+hearts the different elements that make up ourselves. What’s really
+amazing, and one of the reasons I decided to follow this research, is
+that I learned that all of us are connected, because we are made of
+exactly the same material and we are coming from the same source. The material
+that makes up the Solar system comes from a huge cloud, a nebula [same as the
+one that Christian told us from the children’s book] we are made of the same
+substance, 4.5 billion years ago. We might live in very different places, you
+are in South Africa and I am in Germany, but we are connected; not only [with]
+humans, but we are also connected to the trees and the animals and the
+beautiful mountains of South Africa. We are all made out of exactly the same
+material. What I am doing for my research is that I am trying to understand
+why some elements are more common that others. We have lots of oxygen, lots of
+carbon, but we don’t have not lots of gold [it would be nice to have lots of gold!].
+I am using big laboratories, like iTHEMBA, to try to recreate what happens
+inside stars, how stars create these different elements. And they are paying me to
+do that, and to travel to nice laces like South Africa for conferences!
+Pretty cool deal right?</i></p>
+
+</blockquote>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid" src="/assets/img/INPC-1.JPG" alt="" title="Explaining the interactive activity" data-zoomable="" />
+				<div class="caption">
+				     Explaining the interactive activity.
+				</div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid" src="/assets/img/INPC-2.JPG" alt="" title="Group picture with the educators from CAMST" data-zoomable="" />
+				<div class="caption">
+				    Group picture with the educators from CAMST.
+				</div>
+    </div>
+</div>]]></content><author><name></name></author><category term="article" /><category term="nuclear-astrophysics" /><summary type="html"><![CDATA[Last September I had the pleasure to visit South Africa for the first time to attend the International Nuclear Physics Conference (INPC) in Cape Town. I presented my work on nucleosynthesis in neutrino-driven ejecta. The conference included an outreach workshop, organized by Gillian Arendse from iTHEMBA, with educators from the Cape Academy for Mathematics, Science and Technology (CAMST). My friend and collaborator Prof. Christian Diget prepared a short lecture regarding the Binding Blocks educational program for students between 16-19 years old. Christian asked me to help him with a demonstration of an educational game to help students understand the hot CNO cycles and I immediately accepted. We met the educators at the CAMST and had a lovely evening with them. In the video below, I am giving my personal views about nuclear astrophysics, and why I followed this path of research.]]></summary></entry><entry><title type="html">Media Sampler 5 - Tsundoku and capitalism math</title><link href="http://localhost:4000/blog/2023/media-sampler-5/" rel="alternate" type="text/html" title="Media Sampler 5 - Tsundoku and capitalism math" /><published>2023-06-20T00:00:00-04:00</published><updated>2023-06-20T00:00:00-04:00</updated><id>http://localhost:4000/blog/2023/media-sampler-5</id><content type="html" xml:base="http://localhost:4000/blog/2023/media-sampler-5/"><![CDATA[<p><em>“Media Sampler” is a series of posts, where I make a selection of articles, videos and podcasts that I recently came across in the Internets and found interesting!</em></p>
+
+<h2 id="articles">Articles</h2>
+<hr />
+
+<ul>
+  <li>
+    <p><a href="https://www.scientificamerican.com/article/a-four-day-workweek-reduces-stress-without-hurting-productivity/" target="\_blank">A Four-Day Workweek Reduces Stress without Hurting Productivity</a> by Jan Dönges, Sophie Bushwick</p>
+
+    <p>There is a very active movement that supports a four-day workweek and recent
+research, as discussed in this article, shows that it promotes both the
+productivity and the well-being of workers. A similar reading is the book
+<a href="https://www.strategy.rest/?page_id=8645">Shorter</a> by Alex Soojung-Kim Pang.</p>
+
+    <blockquote>
+      <p><i class="fas fa-quote-left"></i> The kinds of results that [the researchers are] reporting are more substantial than many of those [wellness] programs. Because again, a lot of what these programs are doing are helping people tolerate the situation that they’re in rather than changing [that situation]. It’s a much more profound thing to do—to change the nature of work—than it is to help people put up with what they’ve got.</p>
+
+      <p>-Michael Leiter</p>
+    </blockquote>
+  </li>
+  <li>
+    <p><a href="https://pudding.cool/2022/12/yard-sale/" target="\_blank">Why the super rich are
+inevitable</a> by The Pudding</p>
+
+    <p>A fun and interactive post with some simple capitalism math, based on the
+“Yard-sale model”. I found very interesting the results of the simulations
+when redistribution was included in the system.</p>
+
+    <blockquote>
+      <p><i class="fas fa-quote-left"></i> We believe that this purely analytical approach, which resembles an x-ray in that it is used not so much to represent the messiness of the real world as to strip it away and reveal the underlying skeleton, provides deep insight into the forces acting to increase poverty and inequality today.</p>
+
+      <p>-Bruce M. Boghosian</p>
+    </blockquote>
+  </li>
+  <li>
+    <p><a href="https://www.openculture.com/2022/11/the-virtue-of-owning-books-you-havent-read-why-umberto-eco-kept-an-antilibrary.html" target="\_blank">The Virtue of Owning Books You Haven’t Read: Why Umberto Eco Kept an
+“Antilibrary”</a>
+by Open Culture</p>
+
+    <p>This is an article I found to justify my love for buying books at a higher
+rate than I read them. The video with Umberto Eco going through his personal
+library to find a book is amazing!</p>
+
+    <blockquote>
+      <p><i class="fas fa-quote-left"></i> The titles lining my own home remind
+me that I know little to nothing about cryptography, the evolution of
+feathers, Italian folklore, illicit drug use in the Third Reich, and
+whatever entomophagy is.</p>
+
+      <p>-Kevin Meems</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h2 id="video">Video</h2>
+<hr />
+
+<center>
+<div id="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Lk6QU94xAb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+</div>
+</center>
+
+<h2 id="podcast">Podcast</h2>
+<hr />
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5B0iBgaktGONqOszrTVtyl?utm_source=generator&amp;theme=0" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>]]></content><author><name></name></author><category term="lists" /><category term="media-sampler" /><summary type="html"><![CDATA[“Media Sampler” is a series of posts, where I make a selection of articles, videos and podcasts that I recently came across in the Internets and found interesting!]]></summary></entry><entry><title type="html">(Stellar) Fusion Cuisine</title><link href="http://localhost:4000/blog/2023/fusion-cuisine/" rel="alternate" type="text/html" title="(Stellar) Fusion Cuisine" /><published>2023-05-25T00:00:00-04:00</published><updated>2023-05-25T00:00:00-04:00</updated><id>http://localhost:4000/blog/2023/fusion-cuisine</id><content type="html" xml:base="http://localhost:4000/blog/2023/fusion-cuisine/"><![CDATA[<p>Few days ago <a href="https://xkcd.com/2778">xkcd</a> posted one of my favourite sketches
+that will definitely end up in a future talk (professional or outreach). In
+it, the main stick character is experimenting with fusion cuisine by heating
+four cups of heavy water (which is like the regular water, but with deuterons
+instead of hydrogen <sup>1</sup>H.) The process of converting hydrogen into
+heavier elements is what powers the stars we see in the night sky! Iron is the
+endpoint of that process in the cores of the stars, since heavier elements are
+mainly created by neutron captures.</p>
+
+<center>
+    <div class="row justify-content-sm-center">
+        <div class="col-sm mt-2 mt-md-0">
+            <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="https://www.explainxkcd.com/wiki/images/6/67/cuisine_2x-480.webp" />
+    <source media="(max-width: 800px)" srcset="https://www.explainxkcd.com/wiki/images/6/67/cuisine_2x-800.webp" />
+    <source media="(max-width: 1400px)" srcset="https://www.explainxkcd.com/wiki/images/6/67/cuisine_2x-1400.webp" />
+    <!-- Fallback to the original file -->
+    <img class="img-fluid" src="https://www.explainxkcd.com/wiki/images/6/67/cuisine_2x.png" data-zoomable="" />
+
+  </picture><figcaption class="caption"></figcaption>
+
+</figure>
+
+        </div>
+    </div>
+</center>]]></content><author><name></name></author><category term="art" /><category term="nuclear-astrophysics" /><summary type="html"><![CDATA[Few days ago xkcd posted one of my favourite sketches that will definitely end up in a future talk (professional or outreach). In it, the main stick character is experimenting with fusion cuisine by heating four cups of heavy water (which is like the regular water, but with deuterons instead of hydrogen 1H.) The process of converting hydrogen into heavier elements is what powers the stars we see in the night sky! Iron is the endpoint of that process in the cores of the stars, since heavier elements are mainly created by neutron captures.]]></summary></entry><entry><title type="html">The birth of the elements</title><link href="http://localhost:4000/blog/2023/birth-of-the-elements/" rel="alternate" type="text/html" title="The birth of the elements" /><published>2023-02-28T00:00:00-05:00</published><updated>2023-02-28T00:00:00-05:00</updated><id>http://localhost:4000/blog/2023/birth-of-the-elements</id><content type="html" xml:base="http://localhost:4000/blog/2023/birth-of-the-elements/"><![CDATA[<p>In the vast and endless space,<br />
+A wondrous tale we often trace.<br />
+Of elements that form our race,<br />
+And in the stars, they find their place.</p>
+
+<p>Born in the heart of a star,<br />
+Elements fused, a cosmic czar.<br />
+In the furnace where they war,<br />
+A mighty force, and then they soar.</p>
+
+<p>Hydrogen and helium, the first two,<br />
+In the star’s womb, they renew.<br />
+Carbon, nitrogen, oxygen too,<br />
+All formed in the stars’ debut.</p>
+
+<p>Supernovas explode, elements endowed,<br />
+Scattered and bestowed, in the universe, they crowd.<br />
+Iron, gold, and silver galore,<br />
+All formed in the stars’ core.</p>
+
+<p>A tale of creation, a cosmic inspiration,<br />
+Of the elements, for our admiration.<br />
+In the stars, their formation,<br />
+A wondrous cosmic revelation.</p>
+
+<p>Oh, the mystery of the universe,<br />
+Of the stars, an endless verse.<br />
+Of elements, the essence of our birth,<br />
+A cosmic tale, of infinite worth.</p>
+
+<p>p.s. This is a short poem written by <a href="chat.openai.com/">ChatGPT</a>. I was playing around with it and found this interesting.</p>]]></content><author><name></name></author><category term="art" /><summary type="html"><![CDATA[In the vast and endless space, A wondrous tale we often trace. Of elements that form our race, And in the stars, they find their place.]]></summary></entry><entry><title type="html">My top 5 favourite books of 2022 📚</title><link href="http://localhost:4000/blog/2022/favourite-books/" rel="alternate" type="text/html" title="My top 5 favourite books of 2022 📚" /><published>2022-12-26T00:00:00-05:00</published><updated>2022-12-26T00:00:00-05:00</updated><id>http://localhost:4000/blog/2022/favourite-books</id><content type="html" xml:base="http://localhost:4000/blog/2022/favourite-books/"><![CDATA[<p>It is this time of the year again! Looking back in all the books I have read through this year, I made a list of the five titles that I enjoyed the most. Once again, I failed to include any fiction book in my reading list, but I hope to do that next year. In the following list you will find a diverse cohort of non-fiction titles that covers topics such as Jungian archetypes, science communication and physical exercise. In case you are interested in other book recommendations, you can also check my lists for <a href="/blog/2020/favourite-books/">2020</a> and <a href="/blog/2021/favourite-books/">2021</a>. Enjoy and happy reading!</p>
+
+<hr />
+<h3 id="exercised-by-daniel-lieberman"><a href="https://www.goodreads.com/book/show/49358915-exercised">Exercised</a> by Daniel Lieberman</h3>
+
+<p>I found out about this book from an episode on the COMPLEXITY <a href="https://open.spotify.com/episode/5B0iBgaktGONqOszrTVtyl?si=21f8e4fcff1d45ae">podcast</a>. Daniel Lieberman is a professor of human evolutionary biology at Harvard and in “Exercised” he takes on the history of exercise from a unique perspective. Lieberman asks several questions, such as why even though exercise is necessary for our survival, we tend take it easy whenever possible? He uses all the latest studies in both anthropology and evolutionary biology to answer these questions. The key idea of the book is that we did not evolve to exercise, in the sense of doing voluntary physical activity for the sake of health. We rather had physical activity incorporated in our lifestyle, which has evolved over the years, and in the modern western society we tend to lead sedentary lives, which also are causing deceases that our ancestors were not even aware of. A great book that combines ideas from different fields of research.</p>
+
+<center>
+    <div class="row justify-content-sm-center">
+        <div class="col-sm mt-3 mt-md-0">
+            <img class="img-fluid" src="https://m.media-amazon.com/images/I/71P8sTfBOqL.jpg" width="30%" alt="" title="" />
+        </div>
+    </div>
+</center>
+
+<hr />
+<h3 id="king-warrior-magician-lover-by-douglas-gillette-and-robert-moore"><a href="https://en.wikipedia.org/wiki/Range:_Why_Generalists_Triumph_in_a_Specialized_World">King, Warrior, Magician, Lover</a> by Douglas Gillette and Robert Moore</h3>
+
+<p>I have always had an interest in psychology, and I came across this title while watching a video on <a href="https://www.youtube.com/watch?v=4unDD4OUUNQ&amp;list=PLeYgLtAkHH0h1Bbk09DcYhee7EjajC-iN&amp;index=9">YouTube</a> regarding archetypes in cinema. According to Carl Jung, the famous Swiss psychiatrist, the soul - or psyche - was made of the ego, the personal unconscious and the collective unconscious. The archetypes are a result of the collective, shared ancestral memories that one can find hidden in art, literature and religion. In this book, Gillette and Moore take on the archetypes that define masculinity, namely the King, the Warrior, the Magician and the Lover, and analyze them. Each archetype can be represented with a triangle: the bottom corners represent the bi-polar shadow-split of the archetype, and the top the archetype in its fullness. A nice book for men of all ages.</p>
+
+<center>
+    <div class="row justify-content-sm-center">
+        <div class="col-sm mt-3 mt-md-0">
+            <img class="img-fluid" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1384259565l/91781.jpg" width="30%" alt="" title="" />
+        </div>
+    </div>
+</center>
+
+<hr />
+
+<h3 id="quantum-legacies-by-david-kaiser"><a href="https://press.uchicago.edu/ucp/books/book/chicago/Q/bo49298912.html">Quantum Legacies</a> by David Kaiser</h3>
+
+<p>I have a soft spot for the history of quantum theory, and this recent book by David Kaiser was the perfect treat for me. In it we can find essays about the scientists behind this great revolution in physics, and learn about its history and influence in the Western societies of the 20th century. Kaiser’s writing style is really enjoyable, and I highly recommend his other books, such as the <a href="https://www.hippiessavedphysics.com/">How the Hippies Saved Physics</a>. If you want to learn more about the book, check out this <a href="https://www.youtube.com/watch?v=-bto63uWOtU">interview</a>.</p>
+
+<center>
+    <div class="row justify-content-sm-center">
+        <div class="col-sm mt-3 mt-md-0">
+            <img class="img-fluid" src="https://press.uchicago.edu/.imaging/mte/ucp/medium/dam/ucp/books/jacket/978/02/26/69/9780226698052.jpg/jcr:content/9780226698052.jpg" width="30%" alt="" title="" />
+        </div>
+    </div>
+</center>
+
+<hr />
+
+<h3 id="if-i-understood-you-would-i-have-this-look-on-my-face-by-alan-alda"><a href="https://www.penguinrandomhouse.com/books/533869/if-i-understood-you-would-i-have-this-look-on-my-face-by-alan-alda/">If I understood you would I have this look on my face?</a> by Alan Alda</h3>
+
+<p>I came across this great book while looking for science communication literature. Alan Alda is a famous actor and author, and hosted the Scientific American Frontiers, a television show that explored cutting-edge advances in science and technology. In this book, Alda argues that empathy can be used to enhance communication. He also discusses how improv can help better communicate ideas (remember this <a href="/blog/2022/media-sampler-2/">blog post</a>?).</p>
+
+<center>
+   <div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid" src="https://m.media-amazon.com/images/I/91E4T7QPv-L.jpg" width="30%" alt="" title="" />
+    </div>
+   </div>
+   </center>
+
+<hr />
+
+<h3 id="your-money-or-your-life-by-vicki-robin-and-joseph-r-dominguez"><a href="https://yourmoneyoryourlife.com/">Your money or your life</a> by Vicki Robin and Joseph R. Dominguez</h3>
+
+<p>The fifth book of my list is one of the classics for personal finance by Vicki Robin and Joseph Dominguez. The first edition of the book was published back in 1992 (the year I was born!), but I actually read the revised version of 2008. The goal of this book is to change our relationship with money through a 9-step program. It is the “bible” for FIRE (Financial Independence Retire Early), which is a lifestyle movement preaching that a frugal lifestyle in combination with aggressive investments can lead to a large accumulation of assets that allows one to retire early and live off this money. I found many of these ideas in the book useful, and I highly recommend it to my fellow Millennials.</p>
+
+<center>
+    <div class="row justify-content-sm-center">
+        <div class="col-sm mt-3 mt-md-0">
+            <img class="img-fluid" src="https://img1.od-cdn.com/ImageType-100/1191-1/%7B2BBD3306-E09F-4946-B022-03FE23C30F6D%7DImg100.jpg" width="30%" alt="" title="" />
+        </div>
+    </div>
+</center>
+
+<hr />]]></content><author><name></name></author><category term="lists" /><category term="books" /><summary type="html"><![CDATA[It is this time of the year again! Looking back in all the books I have read through this year, I made a list of the five titles that I enjoyed the most. Once again, I failed to include any fiction book in my reading list, but I hope to do that next year. In the following list you will find a diverse cohort of non-fiction titles that covers topics such as Jungian archetypes, science communication and physical exercise. In case you are interested in other book recommendations, you can also check my lists for 2020 and 2021. Enjoy and happy reading!]]></summary></entry><entry><title type="html">Do Zoom meetings make us less creative?</title><link href="http://localhost:4000/blog/2022/creativity-zoom/" rel="alternate" type="text/html" title="Do Zoom meetings make us less creative?" /><published>2022-12-10T00:00:00-05:00</published><updated>2022-12-10T00:00:00-05:00</updated><id>http://localhost:4000/blog/2022/creativity-zoom</id><content type="html" xml:base="http://localhost:4000/blog/2022/creativity-zoom/"><![CDATA[<center>
+    <div class="row justify-content-sm-center">
+        <div class="col-sm mt-2 mt-md-0">
+            <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="https://blog.zoom.us/wp-content/uploads/2017/11/Screen-Shot-2017-11-16-at-11.35.46-AM-792x418-480.webp" />
+    <source media="(max-width: 800px)" srcset="https://blog.zoom.us/wp-content/uploads/2017/11/Screen-Shot-2017-11-16-at-11.35.46-AM-792x418-800.webp" />
+    <source media="(max-width: 1400px)" srcset="https://blog.zoom.us/wp-content/uploads/2017/11/Screen-Shot-2017-11-16-at-11.35.46-AM-792x418-1400.webp" />
+    <!-- Fallback to the original file -->
+    <img class="img-fluid" src="https://blog.zoom.us/wp-content/uploads/2017/11/Screen-Shot-2017-11-16-at-11.35.46-AM-792x418.png" data-zoomable="" />
+
+  </picture><figcaption class="caption">Large collaborative meetings over Zoom. Image Credit: Zoom blog.</figcaption>
+
+</figure>
+
+        </div>
+    </div>
+</center>
+
+<p>Zoom meetings offered a solution during the COVID-19 pandemic lock-downs to keep in touch with colleagues and family. Nowadays more people than ever are using videoconferencing tools for work. Every week, knowledge workers around the world spend many hours in front of a flat-screen discussing with their collaborators and trying to come up with ideas. How does this new alternative affect the post-pandemic work?</p>
+
+<p>A recent <a href="https://www.nature.com/articles/s41586-022-04643-y">study</a>, published in Nature, by Melanie Brucks from Columbia Business School and Jonathan Levav from Stanford School of Business studied how these tools for virtual collaboration affect creative idea generation. The researchers performed experiments, using more than 600 volunteers who were paired up to perform a creativity task, such as finding alternative uses for a Frisbee. Half of them did that in person, and half over Zoom. The researchers found that the first group had around 20% more creative ideas compared to the virtual group.</p>
+
+<blockquote>
+  <p><i class="fas fa-quote-left"></i> (S)imply being at the same physical place as somebody else, improves idea generation.</p>
+
+  <p>-Melanie Brucks</p>
+</blockquote>
+
+<p>The main results of this work are that videoconferencing:</p>
+<ol>
+  <li>inhibits the production of creative ideas, but</li>
+  <li>it does not affect the effectiveness of idea selection.</li>
+</ol>
+
+<p>Another interesting finding from this work that could explain the lack of creative ideas using videoconferencing tools is our fixation to our partners. The participants in the virtual group spent almost two times more time looking at their partners compared to the in-person one. Our minds are much better in creating creative ideas when we let our senses more free and when we are less focused.</p>
+
+<p>Brucks and Levav’s work is a very interesting and provides some valuable input in a question that many knowledge workers had when the pandemic started: how is <a href="/blog/tag/creativity/">creativity</a> affected by virtual interactions. Next time you have a zoom meeting to come up with a creative idea, maybe you should consider turning off your camera!</p>
+
+<p>You can also watch below a video produced by Nature regarding the study:</p>
+<center>
+<div id="video-container">
+<iframe width="70%" height="315" src="https://www.youtube.com/embed/_SK4mcTid10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+</center>]]></content><author><name></name></author><category term="article" /><category term="creativity" /><category term="productivity" /><summary type="html"><![CDATA[Large collaborative meetings over Zoom. Image Credit: Zoom blog.]]></summary></entry><entry><title type="html">Atoms and void</title><link href="http://localhost:4000/blog/2022/atoms-void/" rel="alternate" type="text/html" title="Atoms and void" /><published>2022-10-30T00:00:00-04:00</published><updated>2022-10-30T00:00:00-04:00</updated><id>http://localhost:4000/blog/2022/atoms-void</id><content type="html" xml:base="http://localhost:4000/blog/2022/atoms-void/"><![CDATA[<center>
+    <div class="row justify-content-sm-center">
+        <div class="col-sm mt-2 mt-md-0">
+            <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Johannes_Moreelse_-_Democritus_-_Google_Art_Project/688px-Johannes_Moreelse_-_Democritus_-_Google_Art_Project?20130105095343-480.webp" />
+    <source media="(max-width: 800px)" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Johannes_Moreelse_-_Democritus_-_Google_Art_Project/688px-Johannes_Moreelse_-_Democritus_-_Google_Art_Project?20130105095343-800.webp" />
+    <source media="(max-width: 1400px)" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Johannes_Moreelse_-_Democritus_-_Google_Art_Project/688px-Johannes_Moreelse_-_Democritus_-_Google_Art_Project?20130105095343-1400.webp" />
+    <!-- Fallback to the original file -->
+    <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Johannes_Moreelse_-_Democritus_-_Google_Art_Project.jpg/688px-Johannes_Moreelse_-_Democritus_-_Google_Art_Project.jpg?20130105095343" data-zoomable="" />
+
+  </picture><figcaption class="caption">Democritus (c. 1630) by Johannes Moreelse</figcaption>
+
+</figure>
+
+        </div>
+    </div>
+</center>
+
+<p>A quote from the “laughing philosopher” <a href="https://en.wikipedia.org/wiki/Democritus">Democritus</a> (c. 460 – c. 370 BC), one of the fathers of atomism.</p>
+
+<blockquote>
+  <p><i class="fas fa-quote-left"></i> νόμωι (γάρ φησι) γλυκὺ καὶ νόμωι πικρόν, νόμωι θερμόν, νόμωι ψυχρόν, νόμωι χροιή, ἐτεῆι δὲ ἄτομα καὶ κενόν</p>
+
+  <p>-Δημόκριτος</p>
+</blockquote>
+
+<blockquote>
+  <p><i class="fas fa-quote-left"></i> Sweet exists by convention, bitter by convention, colour by convention; atoms and Void [alone] exist in reality.</p>
+
+  <p>-Democritus (translation by Freeman 1948)</p>
+</blockquote>]]></content><author><name></name></author><category term="article" /><category term="philosophy" /><category term="art" /><category term="physics" /><summary type="html"><![CDATA[Democritus (c. 1630) by Johannes Moreelse]]></summary></entry><entry><title type="html">The view from above</title><link href="http://localhost:4000/blog/2022/view-from-above/" rel="alternate" type="text/html" title="The view from above" /><published>2022-10-15T00:00:00-04:00</published><updated>2022-10-15T00:00:00-04:00</updated><id>http://localhost:4000/blog/2022/view-from-above</id><content type="html" xml:base="http://localhost:4000/blog/2022/view-from-above/"><![CDATA[<p>Have you ever felt overwhelmed by the busyness of the world, stressed and burned out? Of course you have, it’s 2022! Well, people have experienced similar feelings through the ages. Philosophers from ancient Greece and Rome come to the rescue and provide a nice exercise to change our perspective and see things differently. It is called <em>“The view from above”</em> and it is a classic stoic idea found in many texts, such as in Marcus Aurelius’ “Meditations” and very recently in astrophysicist’s Carl Sagan “Pale Blue Dot”.</p>
+
+<p>The purpose of this exercise, or meditation, is to change one’s perspective from the individual to the “Whole”. By doing that, the Stoics argued, we can get inner peace and replace negative emotions, such as anger and pain, with positive ones, love and compassion. See the following two excerpts as an example.</p>
+
+<blockquote>
+  <p><i class="fas fa-quote-left"></i> Think of substance in its entirety, of which you have the smallest of shares; and of time in its entirety, of which a brief and momentary span has been assigned to you; and of the works of destiny, and how very small is your part in them.</p>
+
+  <p>-Marcus Aurelius, Meditations 5.24</p>
+</blockquote>
+
+<blockquote>
+  <p><i class="fas fa-quote-left"></i> The Earth is a very small stage in a vast cosmic arena. Think of the rivers of blood spilled by all those generals and emperors so that, in glory and triumph, they could become the momentary masters of a fraction of a dot. Think of the endless cruelties visited by the inhabitants of one corner of this pixel on the scarcely distinguishable inhabitants of some other corner, how frequent their misunderstandings, how eager they are to kill one another, how fervent their hatreds.</p>
+
+  <p>-Carl Sagan, Pale Blue Dot</p>
+</blockquote>
+
+<p>Below you can find a guided 20-minute version from <a href="https://medium.com/stoicism-philosophy-as-a-way-of-life/stoicism-the-view-from-above-741886d3c9a1">Donald Robertson</a>. I have done this meditation many times, and every time it helped me see things more clearly and calmly. Enjoy and memento mori!</p>
+
+<p>p.s. When you reach to the space part, remember the “Pale Blue Dot” image from Voyager 1.</p>
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/73341427&amp;color=%23b90f22&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
+<div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/drobertson-uk" title="Donald Robertson" target="_blank" style="color: #cccccc; text-decoration: none;">Donald Robertson</a> · <a href="https://soundcloud.com/drobertson-uk/view-from-above" title="View from Above" target="_blank" style="color: #cccccc; text-decoration: none;">View from Above</a></div>]]></content><author><name></name></author><category term="article" /><category term="philosophy" /><summary type="html"><![CDATA[Have you ever felt overwhelmed by the busyness of the world, stressed and burned out? Of course you have, it’s 2022! Well, people have experienced similar feelings through the ages. Philosophers from ancient Greece and Rome come to the rescue and provide a nice exercise to change our perspective and see things differently. It is called “The view from above” and it is a classic stoic idea found in many texts, such as in Marcus Aurelius’ “Meditations” and very recently in astrophysicist’s Carl Sagan “Pale Blue Dot”.]]></summary></entry><entry><title type="html">Media Sampler 4 - Creative thinking and machine scientists</title><link href="http://localhost:4000/blog/2022/media-sampler-4/" rel="alternate" type="text/html" title="Media Sampler 4 - Creative thinking and machine scientists" /><published>2022-07-09T00:00:00-04:00</published><updated>2022-07-09T00:00:00-04:00</updated><id>http://localhost:4000/blog/2022/media-sampler-4</id><content type="html" xml:base="http://localhost:4000/blog/2022/media-sampler-4/"><![CDATA[<p><em>“Media Sampler” is a series of posts, where I make a selection of articles, videos and podcasts that I recently came across in the Internets and found interesting!</em></p>
+
+<h2 id="articles">Articles</h2>
+<hr />
+
+<ul>
+  <li>
+    <p><a href="https://www.quantamagazine.org/machine-scientists-distill-the-laws-of-physics-from-raw-data-20220510/">Powerful ‘Machine Scientists’ Distill the Laws of Physics From Raw Data</a> by Charlie Wood</p>
+
+    <p>I am currently reading a lot about AI and automation, and this article tackles on how these techniques can be used in large data sets to extract the physics laws. These ‘Machine Scientists’ are using symbolic regression, which is a tool which is able to identify relationships in complicated data sets. The article demonstrates a nice example, where a neural network and a symbolic regression algorithm are trying to model the orbits of the solar system planets. They both reproduce the true orbits, but as time progresses, the neural network, trained by decades of NASA data, fails to follow the behaviour, whereas the symbolic regression algorithm keeps predicting correctly the orbits. It is very interesting to see how these algorithms will be used in the near future to tackle the big questions in science.</p>
+
+    <blockquote>
+      <p><i class="fas fa-quote-left"></i> (Nathan) Kutz believes machine scientists are bringing the field to the cusp of what he calls “GoPro physics,” where researchers will simply point a camera at an event and get back an equation capturing the essence of what’s going on.</p>
+
+    </blockquote>
+  </li>
+  <li>
+    <p><a href="https://theologyandthecity.com/2013/05/27/18-may-13-picasso-and-derrida/">Picasso and Derrida: Deconstruction and Negative Theology</a> by Samantha Curley</p>
+
+    <p>This is an article I read at the MoMA in New York last month when I saw Picasso’s “Les Demoiselles d’Avignon”. It draws some parallels between the artist and the philosopher Jacques Derrida.</p>
+
+    <blockquote>
+      <p><i class="fas fa-quote-left"></i>There is no abstract art. You must always start with something. Afterwards you can remove all traces of reality. There’s no danger then, anyway, because the idea of the object will have left an indelible mark.</p>
+
+      <p>-P. Picasso</p>
+    </blockquote>
+  </li>
+  <li>
+    <p><a href="https://aeon.co/essays/why-the-finest-minds-in-1930s-europe-believed-in-public-engagement?utm_source=pocket_mylist">Scientists for the people</a> by Deborah R Coen</p>
+
+    <p>This is a relatively long story regarding science communication in the 1930s, and how it relates to our century. The main argument of the article, which I definitely support, is that modern science is based on the interaction between scholars and craftspeople. The article discusses the cases of the physicist Erwin Schrödinger,  the social scientist Otto Neurath, the philosopher and historian Edgar Zilsel, the bacteriologist Ludwik Fleck, and the literary scholar Walter Benjamin. I really enjoyed the last sentence: “<em>The best hope for science lies in encouraging its practitioners to listen attentively and with humility to the public’s concerns – especially those voices that might be hardest to hear.</em>”</p>
+
+    <blockquote>
+      <p><i class="fas fa-quote-left"></i> ‘There are two types of popularisers,’ Schrödinger wrote for a broad scientific audience in 1929. The first ‘feigns sympathy with the less educated’, but takes a condescending tone and ‘grows cranky’ without the ‘crutch’ of ‘jargon and ‘mathematical formulas’. The second takes ‘pleasure and pride’ in letting go of those crutches and succeeds in raising ‘the reader and himself into a more general sphere that lies above that of technical expertise’. If the first type of populariser was arrogant and paternalistic, the second displayed humility and respect for the non-scientist.</p>
+
+    </blockquote>
+  </li>
+</ul>
+
+<h2 id="video">Video</h2>
+<hr />
+
+<center>
+<div id="video-container">
+<iframe width="70%" height="315" src="https://www.youtube.com/embed/xgZapTBHtnc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+</center>
+
+<h2 id="podcast">Podcast</h2>
+<hr />
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1y8OajG0ErbjOwjlhHvuNc?utm_source=generator&amp;theme=0" width="100%" height="232" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>]]></content><author><name></name></author><category term="lists" /><category term="media-sampler" /><summary type="html"><![CDATA[“Media Sampler” is a series of posts, where I make a selection of articles, videos and podcasts that I recently came across in the Internets and found interesting!]]></summary></entry></feed>

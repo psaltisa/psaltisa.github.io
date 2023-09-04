@@ -1,0 +1,82 @@
+I"�
+<p>During the last week of May, I hosted the annual <a href="https://nugrid.github.io/">NuGrid</a> collaboration
+meeting at <a href="https://tunl.duke.edu">TUNL</a>. We had five days full of discussions
+about the current and future projects of the collaboration. The meeting was
+hybrid, and we are greatful to <a href="https://irenaweb.org">IReNA</a>
+for supporting the travel of some of our european collaborators. For the last day
+of the meeting, we organized a half-day workshop with
+experimental and theoretical nuclear astrophysics talks, that are related to
+NuGrid and TUNL activities. You can find the schedule below:</p>
+
+<h2 id="schedule">Schedule</h2>
+<hr />
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Title</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>M. Pignatari (Konkoly)</td>
+      <td>“Welcome and NuGrid introduction”</td>
+    </tr>
+    <tr>
+      <td>A. Champagne (UNC/TUNL)</td>
+      <td>“LENA II: a New Facility for Nuclear Astrophysics”</td>
+    </tr>
+    <tr>
+      <td>K. Womack (U Hull)</td>
+      <td>“Chemical Evolution of Fluorine in the Milky Way”</td>
+    </tr>
+    <tr>
+      <td>S. Dellmann (U Frankfurt)</td>
+      <td>“Proton capture on stored radioactive ions”</td>
+    </tr>
+    <tr>
+      <td>U. Battino (U Hull)</td>
+      <td>“Impact of newly measured 26Al(n,p)26Mg and</td>
+    </tr>
+    <tr>
+      <td>26Al(n, a)23Na reaction rates on the nucleosynthesis of 26Al in stars”</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/nugrid-meeting-zoom-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/nugrid-meeting-zoom-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/nugrid-meeting-zoom-1400.webp" />
+    <!-- Fallback to the original file -->
+    <img class="img-fluid" src="/assets/img/nugrid-meeting-zoom.png" data-zoomable="" />
+
+  </picture><figcaption class="caption">Zoom screenshot from one of the
+    days of the meeting.</figcaption>
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/nugrid-bulls-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/nugrid-bulls-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/nugrid-bulls-1400.webp" />
+    <!-- Fallback to the original file -->
+    <img class="img-fluid" src="/assets/img/nugrid-bulls.jpeg" data-zoomable="" />
+
+  </picture><figcaption class="caption">After a Durham Bulls game.</figcaption>
+
+</figure>
+
+    </div>
+</div>
+:ET
