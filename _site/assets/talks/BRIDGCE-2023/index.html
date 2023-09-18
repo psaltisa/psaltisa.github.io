@@ -46,13 +46,15 @@
 		     <small>
 		       <b>Triangle Universities Nuclear Laboratory &
 			 North Carolina State University</b>
+		       <br>
+		       <b>psaltis.tha@duke.edu</b>
 		     </small>
 		   </span>
 		   <br>&nbsp;<br>
 		 <p  style='text-shadow: 2px 2px 0px black; font-size:22px;' class="title">
 		   <b>September 11, 2023
 		     <br>
-		     BRIDGCE Annual Meeting</b>
+		     BRIDGCE-IReNA Annual Meeting</b>
 		 </p>
 
 		 <br>&nbsp;<br>
@@ -152,8 +154,7 @@
 
 			 <div class='citation'>
 			   C. Kobayashi, A. Karakas and M. Lugaro,
-			   Astrophys. J <b>900</b>, 179 (2020) <br> See talks
-			   by D. Thomas and A. Cameron on GCE
+			   Astrophys. J <b>900</b>, 179 (2020) <br> See talk  by A. Cameron on GCE
 			 </div>
 
 		       </section>
@@ -229,11 +230,14 @@
 
 			
 			<section data-background-image="../images/casa-2.png">
+			</section>
+
+			<section data-background-image="../images/ccsn.svg">
 			 </section>
 			
 
 			  
-			<section data-background-image="../images/chart_processes-GRC-1.svg">
+			<section data-background-image="../images/chart_processes-BRIDGCE.svg">
 			</section>
 
 			<section>
@@ -256,7 +260,8 @@
 						 data-fragment-index="1">
 					       <h4><span class="maroon">When?</span></h4>
 					       During the expansion of the hot
-					       and dense outflows ($Y_e,s,\tau$)
+					       and dense outflows ($Y_e \equiv
+					       n_p/(n_p+n_n),s,\tau$)
 					     </li>
 					     
 					     <li class="fragment fade-in"
@@ -264,7 +269,7 @@
 
 					       <h4><span class="maroon">How?</span></h4>
 					       After an $\alpha$-rich
-					       freeze-out, T= 5-2 GK, $(\alpha,n)$
+					       freeze-out from NSE at T= 5-2 GK $(\alpha,n)$
 					       reactions produce heavy elements
 					     </li>
 
@@ -479,7 +484,7 @@
 
 				   
 				   <section>
-				     <h4 style="font-size: 50px"><span class="maroon">The most
+				     <h4 style="font-size: 45px"><span class="maroon">The most
 				     important $(\alpha,n)$ reactions for the weak $r$-process</span></h4>
 
 
@@ -574,7 +579,7 @@
 
 								</section>
 				   
-				   <section data-background-image="../images/an-setups.svg">
+				   <section data-background-image="../images/an-setups.png">
 				   </section>
 
 
@@ -645,85 +650,71 @@
 				   <section data-background-color= #CC0000 >
 				     <h2 style='text-shadow: 2px 2px  0px black;' class="title">
 				       <b>Which are the most favourable <br>
-				        astrophysical conditions? </b>
+				        conditions to produce
+				        the light heavy elements in
+				        neutrino-driven outflows? </b>
 				     </h2>
 				   </section>
 
+				   
+				     <section>
 
-				    <section>
-				    <h4 style="font-size:45px"><span class="maroon">Methods</span></h4>
-
-				    <p>We created <span class='maroon'>linear combinations</span>
-				    from the different astrophysical
-				    conditions ($Y_e, s, \tau$) <br> to compare
+				      <h4>We formed <span class='maroon'>linear combinations</span>
+				    using trajectories of various astrophysical
+				    conditions to compare
 				   with <span class='maroon'>observations</span>
-				    of metal-poor stars.</p>
+				    of metal-poor stars.</h4>
 
-					<p>
-					\[  P = \sum_{i=1}^N w_i Y_i  \]
-					</p>
+				     
+				     <center>
+				       <img style="margin: -30px" src="../images/fig1b.svg" width="70%" >
 
-				    <p>where $w_i>0$ is a multiplication
-				    factor and $Y_i$ is the abundance pattern
-				    of the $i^{th}$ trajectory.</p>
+				     </center>
+				     
+				     
+				   </section>
 
-				      
-					<p> Total number of unique
-					combinations: $C_r = N! / r! (N -
-					r)!$ <br>  for example 2 trajectories out of 46 yields 1035 unique combinations</p>
-
-					</section>
-
-
-					<section>
-					 <h4 style="font-size:45px"><span class="maroon">Methods</span></h4>
-
-					 <p>
-						 \[  \mathrm{minimize}~ ||A w
-						 - O||^2 \] where $O$ is the
-						 observational pattern and
-
-						  \[ A = \begin{bmatrix}
-							 Y_{11} & \cdots & Y_{1k}\\
-							 \vdots & \ddots & \vdots \\
-							 Y_{N1} & \cdots & Y_{Nk}
-							 \end{bmatrix} , w = \begin{bmatrix}
- 							 w_1 \\
- 							 \vdots \\
- 							 w_k
- 							 \end{bmatrix} \]
-					 </p>
-
-					 <p> <span class="maroon">Goal</span>: solve the least-squares problem 
-					 using $\texttt{sklearn}$ <img src="../images/sklearn.png" width="10%"></p>
-
-
-
-						 </section>
-
+				     
 							
 				     <section>
-				     <h4 style="font-size:45px"><span class="maroon">Results
-				     using two trajectories for HD122563</h4>
+				     <h4 style="font-size:45px"><span class="maroon">The case
+				     of HD122563</h4>
 
 
 				     <center>
-				     <div class="r-stack">
+				     <div style="margin:-30px" class="r-stack">
 				       <img class="fragment"
-				     data-fragment-index="1"  src="../images/2-neutron-HD122563-new.svg" width="85%" >
+				     data-fragment-index="1"  src="../images/2-neutron-HD122563-new.svg" width="87%" >
+				       <img class="fragment"
+				     data-fragment-index="2"  src="../images/patterns-all-HD122563.svg" width="87%" >
 
-				       <img class="fragment"
-				     data-fragment-index="2" src="../images/2-neutron-HD122563-new-1.svg" width="85%" >
-
-				       <img class="fragment"
-				     data-fragment-index="3"  src="../images/2-neutron-HD122563-new-2.svg" width="85%" >
 				      
 				     </div>
 				     </center>
 				     
-				     <div class="citation">
-					  Colored lines have $\chi^2_n<1$  
+				    
+				   </section>
+
+
+				     				     <section>
+				     <h4 style="font-size:45px"><span class="maroon">Results
+				     for HD122563 using two trajectories</h4>
+
+
+				     <center>
+				     <div style="margin:-30px" class="r-stack">
+				        <img class="fragment"
+				     data-fragment-index="1"  src="../images/2-neutron-HD122563-new.svg" width="87%" >
+				    
+				       <img class="fragment"
+				     data-fragment-index="2" src="../images/2-traj-HD122563-new.svg" width="87%" >
+
+				       <img class="fragment"
+				     data-fragment-index="3"  src="../images/2-traj-HD122563-fits-new.svg" width="87%" >
+				      
 				     </div>
+				     </center>
+				     
 				    
 				   </section>
 
@@ -748,24 +739,28 @@
 
 
 				       <section>
-				     <h4 style="font-size:45px"><span class="maroon">Which
-				     are the most favourable conditions?</h4>
-
+				       <h4  class="fragment"
+				     data-fragment-index="1"
+				     style="font-size:45px"><span class="maroon">Proton-rich</span>
+				     conditions are more favourable than neutron-rich</h4>
+				       <h4  style="margin:-10px" class="fragment"
+				     data-fragment-index="2"
+				     style="font-size:45px"><span class="maroon">High
+				     entropy</span>
+				     and <span class="maroon">short expansion
+				     timescale</span> is preferred</h4>
+				   
 
 				     <center>
 				     <div class="r-stack">
 				       <img class="fragment"
-				     data-fragment-index="1"  src="../images/fig1b.svg" width="70%" >
+				     data-fragment-index="0"  src="../images/fig1b.svg" width="70%" >
 
 				       <img class="fragment"
-				     data-fragment-index="2" src="../images/fig11.svg" width="70%" >  
+				     data-fragment-index="1" src="../images/fig11.svg" width="70%" >  
 				     </div>
 				     </center>
 				     
-				     <div class="citation">
-					 Only the ones that produce a
-					 combination with $\chi^2_n <1$
-				     </div>
 				    
 				   </section>
 
@@ -773,7 +768,7 @@
 				     <h2 style='text-shadow: 2px 2px  0px black;' class="title">
 				       <b>Can <em>isotopic</em> abundances
 					   from meteorites 
-					   reveal supernova nucleosynthesis signatures?</b>
+					   reveal neutrino-driven nucleosynthesis signatures?</b>
 				     </h2>
 				   </section>
 
@@ -826,7 +821,9 @@
 		 			       weak $r$-process in
 		 			       neutrino-driven outflows can
 		 			       contribute to the production of
-		 			       elements between strontium and silver.
+		 			       elements between strontium and
+		 			       silver that are observed in
+		 			       Galactic metal-poor stars.
 					     </li><br>
 
 					     
@@ -835,15 +832,20 @@
 					       We explored the impact of $(\alpha,xn)$
 					       reactions to the weak
 					       $r$-process and
-					       identified the most important of them.
+					       identified the most important
+					       of them to motivate future
+					       experiments in stable and
+					       radioactive ion beam facilities.
 					     </li><br>
 					     
 					     <li class="fragment fade-in"
 						 data-fragment-index="2">
 					       We investigated which are the
 					       most common astrophysical
-					       conditions that fit the
-					       observational patterns.
+					       conditions of the
+					       neutrino-driven outflows that fit the
+					       observational patterns of
+					       metal-poor stars.
 					     </li><br>
 
 					     
@@ -875,7 +877,70 @@
 
 					  <img src="../images/qr-bridgce.svg" width="15%">
 				       </section>
-				       
+
+				              <section data-background-color= #CC0000>
+					 <h2 class="title" style='text-shadow:
+					 2px 2px  0px black;'> <b>Extra slides</b> <br>  </h2>
+
+
+					      </section>
+
+
+
+
+
+				           <section>
+				    <h4 style="font-size:45px"><span class="maroon">Methods</span></h4>
+
+				    <p>We formed <span class='maroon'>linear combinations</span>
+				    using various  astrophysical
+				    conditions ($Y_e, s, \tau$) <br> to compare
+				   with <span class='maroon'>observations</span>
+				    of metal-poor stars.</p>
+
+					<p>
+					\[  P = \sum_{i=1}^N w_i Y_i  \]
+					</p>
+
+				    <p>where $w_i>0$ is a multiplication
+				    factor and $Y_i$ is the abundance pattern
+				    of the $i^{th}$ trajectory.</p>
+
+				      
+					<p> Total number of unique
+					combinations: $C_r = N! / r! (N -
+					r)!$ <br>  for example 2 trajectories out of 46 yields 1035 unique combinations</p>
+
+					</section>
+
+
+					<section>
+					 <h4 style="font-size:45px"><span class="maroon">Methods</span></h4>
+
+					 <p>
+						 \[  \mathrm{minimize}~ ||A w
+						 - O||^2 \] where $O$ is the
+						 observational pattern and
+
+						  \[ A = \begin{bmatrix}
+							 Y_{11} & \cdots & Y_{1k}\\
+							 \vdots & \ddots & \vdots \\
+							 Y_{N1} & \cdots & Y_{Nk}
+							 \end{bmatrix} , w = \begin{bmatrix}
+ 							 w_1 \\
+ 							 \vdots \\
+ 							 w_k
+ 							 \end{bmatrix} \]
+					 </p>
+
+					 <p> <span class="maroon">Goal</span>: solve the least-squares problem 
+					 using $\texttt{sklearn}$ <img src="../images/sklearn.png" width="10%"></p>
+
+
+
+						 </section>
+
+				
 				       
       </div>
     </div>
