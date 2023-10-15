@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <meta name="description" content="Nuclei in the Cosmos Presentation">
+    <meta name="description" content="BRIDGCE Meeting 2023 Presentation">
     <meta name="author" content="Athanasios Psaltis">
 
 
@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="../reveal.js/dist/reset.css">
     <link rel="stylesheet" href="../reveal.js/dist/reveal.css">
-    <link rel="stylesheet" href="../reveal.js/css/theme/blotter-tunl-nunito.css" id="theme">
+    <link rel="stylesheet" href="../reveal.js/css/theme/blotter-tunl.css" id="theme">
 
     <!-- Theme used for syntax highlighting of code -->
     <link rel="stylesheet" href="../reveal.js/plugin/highlight/monokai.css">
@@ -23,13 +23,19 @@
       <div class="slides">
 	<!-- Any section element inside of this container is displayed as a
 	slide -->
-	     <section data-background-image="https://chandra.harvard.edu/photo/2018/crab/crab_lg.jpg"
-		      data-background-opacity=0.70>
-		 
+	     <section data-background-image="../images/casa-2.png"
+		      data-background-opacity=0.80>
+	       
+	      		 
 		 <h3 style='text-shadow: 3px 3px 0px black;'><span class="title">
-		     <b>Neutrino-Driven Outflows and <br> the Origin of Light Heavy Elements</b>
+		     <b>Exploring the Origin of Light Heavy Elements</b>
 		 </span></h3>
 
+		 
+		     <p style='text-shadow: 2px 2px 0px black;' class="title">
+		       <b>Bridging experiments, theory, and observations</b>
+		     </p>
+		    
 
 		     &nbsp;
 
@@ -40,13 +46,15 @@
 		     <small>
 		       <b>Triangle Universities Nuclear Laboratory &
 			 North Carolina State University</b>
+		       <br>
+		       <b>psaltis.tha@duke.edu</b>
 		     </small>
 		   </span>
 		   <br>&nbsp;<br>
 		 <p  style='text-shadow: 2px 2px 0px black; font-size:22px;' class="title">
-		   <b>September 22, 2023
+		   <b>September 11, 2023
 		     <br>
-		     Nuclei in the Cosmos (NIC-XVII)</b>
+		     BRIDGCE-IReNA Annual Meeting</b>
 		 </p>
 
 		 <br>&nbsp;<br>
@@ -67,15 +75,92 @@
 
 
 
-	      
-		   
 
 
+
+
+					 <section>
+		 			<h3 style="font-size:60px;"><span class="maroon">Acknowledgements</span></h3>
+					<br>
+					
+				 	<p class="even-smaller">
+			 		  <span class="nobreak"><img width=100
+				         class="img-avatar" style="filter:
+				         grayscale(100%);"
+				         src="../images/collaborators/almudena2.jpg">
+				         Almudena Arcones</span>
+						 	&nbsp;
+				          <span class="nobreak"><img width=100
+						 	class="img-avatar"
+						 	style="filter:
+						 	grayscale(100%);"
+						 	src="../images/collaborators/melina.jpg">
+						 	Melina Avila</span>
+						 	&nbsp;
+					   <span class="nobreak"><img width=100
+						 	class="img-avatar"
+						 	style="filter:
+						 	grayscale(100%);"
+						 	src="../images/collaborators/camilla.png">
+						 	Camilla Juul Hansen</span>
+						 	&nbsp; <br><br>
+					   <span class="nobreak"><img width=100
+						 	class="img-avatar"
+						 	style="filter:
+						 	grayscale(100%);"
+						 	src="../images/collaborators/peter.jpg">
+						 	Peter Mohr</span>
+						 	&nbsp;
+					   <span class="nobreak"><img width=100
+						 	class="img-avatar"
+						 	style="filter:
+						 	grayscale(100%);"
+						 	src="../images/collaborators/fernando.jpeg">
+						 	Fernando Montes</span>
+						 	&nbsp;
+					   <span class="nobreak"><img width=100
+					   class="img-avatar" style="filter:
+					   grayscale(100%);" src="../images/collaborators/weijia.jpeg"> Wei Jia Ong</span>
+
+					   <span class="nobreak"><img width=100
+					   class="img-avatar" style="filter:
+					   grayscale(100%);"
+					   src="../images/collaborators/hendrik.jpg">
+					   Hendrik Schatz</span>
+					
+					</p>
+
+					<br> 
+							<img src="../images/tud_logo.png" width="20%">
+							<img src="../images/sfb.png" width="13%">
+							<img src="../images/ecr.jpg" width="10%">
+							<img src="../images/elements.png" width="13%">
+							<img src="https://www.irenaweb.org/uploads/1/1/3/2/113252437/unknown.png"
+							     width="7.5%">
+							
+						 </section>
 
 
 
 			
-   
+									 
+		  <section>
+			 <h2 style="font-size:53px;">
+			   <span class="maroon">The periodic table from <br> a Galactic Chemical Evolution perspective</span>
+			 </h2>
+
+
+			   <img style="margin: -25px" width="80%" src="../images/kobayashi.png" >
+
+			 <div class='citation'>
+			   C. Kobayashi, A. Karakas and M. Lugaro,
+			   Astrophys. J <b>900</b>, 179 (2020) <br> See talk  by A. Cameron on GCE
+			 </div>
+
+		       </section>
+
+
+		   
 		       <section data-background-image="../images/star.png" >
 			 <br>&nbsp;<br>
 			 <br>&nbsp;<br>
@@ -105,11 +190,11 @@
 			 <div class="citation">
 			   See also: C. Sneden, J. J. Cowan and R. Gallino,
 			  Annu. Rev. Astron. Astrophys. <strong>46</strong>, 241 (2008) <br>
-			  See talks by G. Martínez-Pinedo, G. McLaughlin and S. Honda
+			  See talks by T. Beers and T. Hansen on observations
+			  of r-process stars
 			   &bull; ‼️ <em> r-process =  total solar - s-process - γ-process </em>
 			 </div>
 		       </section>
-
 
 
 		       <section data-background-color= #CC0000 >
@@ -119,38 +204,102 @@
 			 </h2>
 		       </section>
 
-
-		       <!--
 		       <section>
-			 <h2 style="font-size:50px;">
+			 <h2 style="font-size:53px;">
 			   <span class="maroon">The periodic table from <br> a Galactic Chemical Evolution perspective</span>
 			 </h2>
 
 
-			 <div class="r-stack">
-			   <img class="fragment fade-out" data-fragment-index="0" width="120%" src="../images/kobayashi.png" >
-			   <img class="fragment" data-fragment-index="0" width="120%" src="../images/kobayashi1.png" >
+			 <div style="margin: -20px" class="r-stack">
+			   <img class="fragment fade-out" data-fragment-index="0" width="80%" src="../images/kobayashi.png" >
+			   <img class="fragment" data-fragment-index="0" width="80%" src="../images/kobayashi1.png" >
 			 </div>
 
 			 <div class='citation'>
-			   C. Kobayashi, A. Karakas and M. Lugaro, Astrophys. J <b>900</b>, 179 (2020)
+			   C. Kobayashi, A. Karakas and M. Lugaro,
+			   Astrophys. J <b>900</b>, 179 (2020) 
 			 </div>
 
 		       </section>
-		       -->
+
 
 		        <section data-background-image="../images/chart_ktuy.svg">
 			</section>
-			<section data-background-image="../images/chart_processes-GRC.svg">
+			<section data-background-image="../images/chart_processes1-tunl.svg">
 			</section>
+
+			
+			<section data-background-image="../images/casa-2.png">
+			</section>
+
+			<section data-background-image="../images/ccsn.svg">
+			 </section>
+			
+
+			  
 			<section data-background-image="../images/chart_processes-BRIDGCE.svg">
 			</section>
+
+			<section>
+			 <h2 >
+			   <span class="maroon">The weak $r$-process</span>
+			 </h2>
+
+			 		  <ul style=" list-style-type: none;">
+
+					     <li class="fragment fade-in"
+		 				 data-fragment-index="0">
+					       <h4> <span class="maroon">Where?</span></h4>
+					       In neutrino-driven outflows of
+					       explosive environments (ccSNe
+					       or NSMs)
+					     </li>
+
+					     
+					     <li class="fragment fade-in"
+						 data-fragment-index="1">
+					       <h4><span class="maroon">When?</span></h4>
+					       During the expansion of the hot
+					       and dense outflows ($Y_e \equiv
+					       n_p/(n_p+n_n),s,\tau$)
+					     </li>
+					     
+					     <li class="fragment fade-in"
+						 data-fragment-index="2">
+
+					       <h4><span class="maroon">How?</span></h4>
+					       After an $\alpha$-rich
+					       freeze-out from NSE at T= 5-2 GK $(\alpha,n)$
+					       reactions produce heavy elements
+					     </li>
+
+					     
+					     
+					     <li class="fragment fade-in"
+					       data-fragment-index="3">
+					       <h4><span class="maroon">What?</span></h4>
+					       Can synthesize heavy elements around
+					       Z = 47 (silver) found in
+					       metal-poor stars
+					     </li>
+					   </ul>
+
+			 
+
+			 <div class="citation" >
+ 			 <p style="text-align:left;">
+ 			 S. Woosley & R.D. Hoffman, Astrophys. J <b>395</b>, 202 (1992) &bull;
+ 			 S. Wanajo <em>et al.</em>, Astrophys. J. <b>554</b>, 578 (2001) &bull;
+ 			 A. Arcones & F. Montes, Astrophys. J <b>731</b>, 5 (2011) 
+ 			 </p>
+ 			 </div>
+		       </section>
 
 			
 
 			   <section data-background-color= #CC0000 >
 			     <h2 style='text-shadow: 2px 2px 0px black;' class="title">
-			       <b>What is the impact of the $\mathbf{(\alpha,xn)}$ reactions in
+			       <b>How important are the  $\mathbf{(\alpha,xn)}$ reactions  in
 				 the weak $r$-process?</b>
 			     </h2>
 			   </section>
@@ -181,67 +330,174 @@
 
 			       </section>
 
-			       
+			       	     
 			       <section>
-				 <h4><span class="maroon">Framework of the
-				 sensitivity study</span></h4>
+					 <h3 style="font-size:55px"><span class="maroon">Framework of the
+				 sensitivity study</span></h3>
 
-
-				   <img src="../images/flow_chart.svg" width="70%">
+					 
+					 <div class="container">
+					   <div class="col">
+					     <img src="../images/flow_chart.svg" width="100%">
   				
-				   <div class="citation">
-				   J. Bliss <em>et al.</em>,
-				   Astrophys. J <b>855</b>, 135 (2018) &bull;
-				   P. Mohr <em>et al.</em>, At. Data Nucl. Data Tables <b>132</b>, 101453 (2021)
-				  
-				 </div>
+					     <div class="citation">
+					       A. Parikh <em>et al.</em>, Astrophys. J., Suppl. Ser. <b>178</b>, 110 (2008) <br>
+					       N. Nishimura <em>et al.</em>,
+					       Mon. Not. R. Astron. Soc <b>489</b>, 1379
+					       (2019) <br>
+					       J. Bliss <em>et al.</em>, Phys. Rev. C <b>101</b>, 055807 (2020) <br>
+					       P.A. Denissenkov <em>et al.</em>, Mon. Not. R. Astron. Soc <b>503</b>, 3913 (2021)
 
-				   
-			       </section>
-			       
+					     </div>
 
+					    </div>
+					   
+					  <div class="col">
 
-				
-			       
-			       
+				 	     <ul>
+					     <li class="fragment fade-in"
+						 data-fragment-index="0">
+					       Relevant
+					       thermodynamic profiles spanning the astrophysical
+					       phase-space ($Y_e$, $s$, $\tau$)  
+					       <div class="citation">
+						J. Bliss <em>et al.</em>,
+						Astrophys. J <b>855</b>, 135 (2018)
+   					       </div>
+					     </li>
+					     <br>
+					     <li class="fragment fade-in"
+		 			       data-fragment-index="1"> 
+		 			       $(\alpha, xn)$ reaction rates
+		 			       based on the Atomki-v2
+		 			       $\alpha$-nucleus potential
+					       <div class="citation">
+						P. Mohr <em>et al.</em>, At. Data Nucl. Data Tables <b>132</b>, 101453 (2021)
+   					       </div>
+
+					     </li>
+
+					     <li class="fragment fade-in"
+						 data-fragment-index="2">
+					       MC sampling of the
+					       $(\alpha,xn)$ reaction rates
+					       (10<sup>4</sup> calculations)
+					     </li>
+
+					     <br>
+					     
+					     <li class="fragment fade-in"
+						 data-fragment-index="3">
+					       Find the most impactful $(\alpha,xn)$
+					       reactions and compare with observations
+					     </li>
+
+					     
+					   </ul>
+				 
+				     <div class="citation">
+				      For more details:  A. Psaltis <em>et al.</em>, Astrophys. J <b>935</b>, 27 (2022)
+				     </div>
+				     
+				     </div>
+				     </div>
+				   </section>
 			       
 				   <section>
 				     <h4><span class="maroon">The impact of
 				     updated $(\alpha,n)$ reaction rates to elemental abundances</span></h4>
 
-				     	<img  src="../images/new2.svg" width="73%">
-				     
+				      <div class="r-stack" style="margin:-35px">
+					<img class="fragment"  data-fragment-index="0" src="../images/new2.png" width="65%">
+					<img class="fragment"  src="../images/new2.svg" width="68%">
+				      </div>
 				      
-				     <p>Same model, but <span class= maroon>different $(\alpha, xn)$ reaction rates</span>!</p>
+				     <p>Same model, but <span class= maroon>different $(\alpha, xn)$ reaction rates</span>!
+				     <div class="citation">
+				       A. Psaltis <em>et al.</em>, Astrophys. J <b>935</b>, 27 (2022)
+				     </div>
+				     </p>
+
+
+				   </section>
+
+				   
+				   <section>
+				     <h4><span class="maroon">The impact of
+				     new $(\alpha,n)$ reaction rates to elemental abundance ratios</span></h4>
+
+
+				       <img style="margin=-20px" src="../images/fig5.svg" width="43%">
+
+
+
 				     <div class="citation">
 				       A. Psaltis <em>et al.</em>, Astrophys. J <b>935</b>, 27 (2022)
 				     </div>
 
 
-
 				   </section>
 
+
+				   <section>
+				     <h4><span class="maroon">Combine
+				     observations, astrophysical modeling and nuclear physics uncertainties</span></h4>
+
+
+
+				     <div style="margin:-45px" class="r-stack">
+				       <img class="fragment fade-out" data-fragment-index="0" src="../images/comp0.svg" width="65%">
+				       <img class="fragment" data-fragment-index="0" src="../images/comp1.svg" width="65%" >
+				       <img class="fragment" data-fragment-index="2" src="../images/comp2.svg" width="65%">
+				       <img class="fragment" data-fragment-index="3" src="../images/comp3.svg" width="65%">
+				     </div>
+
+
+
+
+				   </section>
+				   
 
 				   <section data-background-color= #CC0000 >
 				     <h2 style='text-shadow: 2px 2px 0px black;' class="title">
-				       <b>Which are the most important <br> $\mathbf{(\alpha,xn)}$ reactions <br> for
+				       <b>Which are the most important $\mathbf{(\alpha,xn)}$ reactions for
 					 the weak $r$-process?</b>
 				     </h2>
 				   </section>
+
+
+				   <section>
+				     <h4><span class="maroon">Finding the most
+				     important $(\alpha,n)$ reactions for the weak $r$-process</span></h4>
+
+				     
+				     <div style="margin:-40px" class="r-stack">
+				       <img class="fragment" data-fragment-index="0" src="../images/corr-tunl-0.svg" width="65%" >
+				       <img class="fragment" data-fragment-index="1"  src="../images/corr-tunl-1.svg" width="65%">
+				       <img class="fragment" data-fragment-index="2"  src="../images/corr-tunl-2.svg" width="65%">
+				     </div>
+
+				     <p>Search for the (anti)correlations! 🔍</p>
+				     
+				   </section>
+
 
 				   
 				   <section>
 				     <h4 style="font-size: 45px"><span class="maroon">The most
 				     important $(\alpha,n)$ reactions for the weak $r$-process</span></h4>
 
-				     <img style="margin: -15px" src="../images/reactions_an.svg" width="65%" >
+
+
+				     <img src="../images/reactions_an.svg" width="60%" >
 
 				     <p>
 				     N=50 shell closure is a bottleneck for T=
-				     4-5 GK due to the  $(n,\gamma) \leftrightarrow (\gamma,n)$ equilibrium
+				     4-5 GK due to the $(n,\gamma) \leftrightarrow (\gamma,n)$ equilibrium
 			             </p>
 
 				   </section>
+				  
 
 
 
@@ -253,14 +509,14 @@
 				   </section>
 
 
-				   <section>
-				     <h3 style="font-size:50px"><span class="maroon">Most
-				     of the relevant beams are accessible!</span></h3>
+				  <section>
+				     <h4 style="font-size:55px"><span class="maroon">Most
+				     of the relevant beams are accessible!</span></h4>
 
 
-				     <img style="margin: -10px" src="../images/frib_rates.svg" width="65%">
+				     <img src="../images/frib_rates.svg" width="65%">
 
-				     <br><br>
+				     <br>
 
 				     <div class="citation"> Expected FRIB
 				     ultimate beam rates
@@ -269,9 +525,63 @@
 
 				   </section>
 
-				   				   
-				   <section data-background-image="../images/an-setups2.png">
+				   
+				<section>
+				<h4 style="font-size:60px;"><span class="maroon">What has been measured so far?</span></h4>
+
+
+				<ul>
+				<li class="fragment fade-in">
+				$\mathrm{^{86}Kr(\alpha,n)}$,
+				$\mathrm{^{96}Zr(\alpha,n)}$
+				and $\mathrm{^{100}Mo(\alpha,n)}$ at ATOMKI <br>
+				<div class="citation">
+				G.G. Kiss <i>et al.</i>,
+				Astrophys. J <strong>908</strong>, 202 (2021)
+				&bull;  T.N. Szegedi <i> et al.</i>,
+				Phys. Rev. C <b>104</b>, 035804 (2021) <br>
+				</div></li> <br>
+
+
+
+				<li class="fragment fade-in">
+				$\mathrm{^{75}Ga(\alpha,n)}$,
+				$\mathrm{^{85,86}Kr(\alpha,xn)}$,
+				$\mathrm{^{85}Br(\alpha,xn)}$ at NSCL/FRIB (HabaNERO/SECAR)
+				<div class="citation">
+				 F. Montes, J. Pereira <i>et al.</i> <br>			  
+				</div></li> <br>
+
+
+				<li class="fragment fade-in">
+				$\mathrm{^{86}Kr(\alpha,xn)}$,
+				$\mathrm{^{87}Rb(\alpha,xn)}$,
+				$\mathrm{^{88}Sr(\alpha,xn)}$,
+				$\mathrm{^{100}Mo(\alpha,xn)}$ at Argonne (MUSIC)
+				<div class="citation">
+				M. L. Avila, C. Fougères <i>et al.</i><br>
+				W. J. Ong <i>et al.</i>, Phys. Rev. C <b>105</b>, 055803 (2022)
+				</div></li> <br>
+
+
+
+				<li class="fragment fade-in">
+				$\mathrm{^{86}Kr(\alpha,n)}$ and $\mathrm{^{94}Sr(\alpha,n)}$ at TRIUMF (EMMA)
+				<div class="citation">
+				C. Aa. Diget, A. M. Laird, M. Williams <i>et al.</i><br>
+				C. Angus <em>et al.</em>, EPJ Web of
+				Conferences, NPA-X (2023) 
+				</div></li> 
+
+				</ul>
+
+
+
+								</section>
+				   
+				   <section data-background-image="../images/an-setups.png">
 				   </section>
+
 
 
 				   <section data-background-image="../images/caribu2.jpg" data-background-opacity=0.7>
@@ -286,13 +596,56 @@
 				       <h3 style='text-shadow: 2px 2px 0px black;'>
 				       <span class="title">
 					   <b> Proposal #1923, PI: A. Psaltis,
-					     co-PI: W.J. Ong </b>  <br> <br>
-					  <b> If you are interested in participating, contact
-					     me! </b> 😁 
+					   co-PI: W.J. Ong </b> 
 				       </span>
 				       </h3>
 					 </div>
 				   </section>
+
+
+				   
+				   
+				   <section>
+				     <h3><span class="maroon">$\mathrm{^{93}Sr}(\alpha,xn)$ at Argonne with MUSIC</span></h3>
+
+				     <div class="container">
+
+				       <div class="col">
+
+					 <div class="r-stack">
+					   <img class="fragment fade-out"
+					   data-fragment-index="0"
+					   src="../images/music.png"
+					   width="70%" >
+
+					   <img class="fragment" data-fragment-index="0"  src="../images/music2.png" width="90%">
+					   <img class="fragment" data-fragment-index="1"  src="../images/deltaE_93Sr.png" width="90%">
+					 </div>
+					 <div class="citation">
+			 		   M. L. Avila <em>et al.</em>, NIM A <b>859</b>, 63 (2017)
+			 		 </div>
+		                       </div>
+
+				       <div class="col">
+					 <br>
+					 <ul style="font-size:25px">
+					   <li >Re-accelerated $\mathrm{^{93}Sr}$ beam from $\nu$CARIBU.</li><br>
+					   <li> MUSIC has close to 100% efficiency due to its
+					     segmented anode structure.</li><br>
+					   <li> Use a single beam energy to
+					     measure a large range of excitation
+					     functions of angle integrated
+					     cross sections.
+					   </li>
+					   
+					 </ul>
+					 </div>
+
+				     </div>
+
+
+				   </section>
+				   
 
 				   <section data-background-color= #CC0000 >
 				     <h2 style='text-shadow: 2px 2px  0px black;' class="title">
@@ -306,7 +659,7 @@
 				   
 				     <section>
 
-				      <h4 style="font-size:32px">We formed <span class='maroon'>linear combinations</span>
+				      <h4>We formed <span class='maroon'>linear combinations</span>
 				    using trajectories of various astrophysical
 				    conditions to compare
 				   with <span class='maroon'>observations</span>
@@ -455,69 +808,6 @@
 
 
 
-				
-
-					 <section>
-		 			<h3 style="font-size:60px;"><span class="maroon">Acknowledgements</span></h3>
-					<br>
-					
-				 	<p class="even-smaller">
-			 		  <span class="nobreak"><img width=100
-				         class="img-avatar" style="filter:
-				         grayscale(100%);"
-				         src="../images/collaborators/almudena2.jpg">
-				         Almudena Arcones</span>
-						 	&nbsp;
-				          <span class="nobreak"><img width=100
-						 	class="img-avatar"
-						 	style="filter:
-						 	grayscale(100%);"
-						 	src="../images/collaborators/melina.jpg">
-						 	Melina Avila</span>
-						 	&nbsp;
-					   <span class="nobreak"><img width=100
-						 	class="img-avatar"
-						 	style="filter:
-						 	grayscale(100%);"
-						 	src="../images/collaborators/camilla.png">
-						 	Camilla Juul Hansen</span>
-						 	&nbsp; <br><br>
-					   <span class="nobreak"><img width=100
-						 	class="img-avatar"
-						 	style="filter:
-						 	grayscale(100%);"
-						 	src="../images/collaborators/peter.jpg">
-						 	Peter Mohr</span>
-						 	&nbsp;
-					   <span class="nobreak"><img width=100
-						 	class="img-avatar"
-						 	style="filter:
-						 	grayscale(100%);"
-						 	src="../images/collaborators/fernando.jpeg">
-						 	Fernando Montes</span>
-						 	&nbsp;
-					   <span class="nobreak"><img width=100
-					   class="img-avatar" style="filter:
-					   grayscale(100%);" src="../images/collaborators/weijia.jpeg"> Wei Jia Ong</span>
-
-					   <span class="nobreak"><img width=100
-					   class="img-avatar" style="filter:
-					   grayscale(100%);"
-					   src="../images/collaborators/hendrik.jpg">
-					   Hendrik Schatz</span>
-					
-					</p>
-
-					<br> 
-							<img src="../images/tud_logo.png" width="20%">
-							<img src="../images/sfb.png" width="13%">
-							<img src="../images/ecr.jpg" width="10%">
-							<img src="../images/elements.png" width="13%">
-							
-						 </section>
-
-
-
 				       <section>
 					 <h2 style='font-size:55px;'><span class="maroon">Summary</span></h2>
 
@@ -575,7 +865,6 @@
 
 				       </section>
 
-                                  
 
 				       
 				       <section data-background-color= #CC0000>
@@ -586,78 +875,17 @@
 					     http://psaltisa.github.io/talks</b> </span>
 					 </div>
 
-					  <img src="../images/qr-nic.svg" width="15%">
-
+					  <img src="../images/qr-bridgce.svg" width="15%">
 				       </section>
 
-				                <section data-background-color= #CC0000>
+				              <section data-background-color= #CC0000>
 					 <h2 class="title" style='text-shadow:
 					 2px 2px  0px black;'> <b>Extra slides</b> <br>  </h2>
 
 
-					</section>
-
-										   <section>
-				     <h4><span class="maroon">Combine
-				     observations, astrophysical modeling and nuclear physics uncertainties</span></h4>
+					      </section>
 
 
-
-				     <div style="margin:-45px" class="r-stack">
-				       <img class="fragment fade-out" data-fragment-index="0" src="../images/comp0.svg" width="65%">
-				       <img class="fragment" data-fragment-index="0" src="../images/comp1.svg" width="65%" >
-				       <img class="fragment" data-fragment-index="2" src="../images/comp2.svg" width="65%">
-				       <img class="fragment" data-fragment-index="3" src="../images/comp3.svg" width="65%">
-				     </div>
-
-
-
-
-				   </section>
-
-
-										   
-				   <section>
-				     <h3><span class="maroon">$\mathrm{^{93}Sr}(\alpha,xn)$ at Argonne with MUSIC</span></h3>
-
-				     <div class="container">
-
-				       <div class="col">
-
-					 <div class="r-stack">
-					   <img class="fragment fade-out"
-					   data-fragment-index="0"
-					   src="../images/music.png"
-					   width="70%" >
-
-					   <img class="fragment" data-fragment-index="0"  src="../images/music2.png" width="90%">
-					   <img class="fragment" data-fragment-index="1"  src="../images/deltaE_93Sr.png" width="90%">
-					 </div>
-					 <div class="citation">
-			 		   M. L. Avila <em>et al.</em>, NIM A <b>859</b>, 63 (2017)
-			 		 </div>
-		                       </div>
-
-				       <div class="col">
-					 <br>
-					 <ul style="font-size:25px">
-					   <li >Re-accelerated $\mathrm{^{93}Sr}$ beam from $\nu$CARIBU.</li><br>
-					   <li> MUSIC has close to 100% efficiency due to its
-					     segmented anode structure.</li><br>
-					   <li> Use a single beam energy to
-					     measure a large range of excitation
-					     functions of angle integrated
-					     cross sections.
-					   </li>
-					   
-					 </ul>
-					 </div>
-
-				     </div>
-
-
-				   </section>
-				   
 
 
 
@@ -712,7 +940,8 @@
 
 						 </section>
 
-				       				      
+				
+				       
       </div>
     </div>
 
@@ -729,9 +958,6 @@
       // Also available as an ES module, see:
       // https://revealjs.com/initialization/
       Reveal.initialize({
-          // The "normal" size of the presentation, aspect ratio will
-          // be preserved when the presentation is scaled to fit different
-          // resolutions. Can be specified using percentage units.
           width: 1280,
           height: 720,
 

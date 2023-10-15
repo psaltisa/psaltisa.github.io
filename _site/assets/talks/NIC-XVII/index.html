@@ -590,6 +590,127 @@
 
 				       </section>
 
+				                <section data-background-color= #CC0000>
+					 <h2 class="title" style='text-shadow:
+					 2px 2px  0px black;'> <b>Extra slides</b> <br>  </h2>
+
+
+					</section>
+
+										   <section>
+				     <h4><span class="maroon">Combine
+				     observations, astrophysical modeling and nuclear physics uncertainties</span></h4>
+
+
+
+				     <div style="margin:-45px" class="r-stack">
+				       <img class="fragment fade-out" data-fragment-index="0" src="../images/comp0.svg" width="65%">
+				       <img class="fragment" data-fragment-index="0" src="../images/comp1.svg" width="65%" >
+				       <img class="fragment" data-fragment-index="2" src="../images/comp2.svg" width="65%">
+				       <img class="fragment" data-fragment-index="3" src="../images/comp3.svg" width="65%">
+				     </div>
+
+
+
+
+				   </section>
+
+
+										   
+				   <section>
+				     <h3><span class="maroon">$\mathrm{^{93}Sr}(\alpha,xn)$ at Argonne with MUSIC</span></h3>
+
+				     <div class="container">
+
+				       <div class="col">
+
+					 <div class="r-stack">
+					   <img class="fragment fade-out"
+					   data-fragment-index="0"
+					   src="../images/music.png"
+					   width="70%" >
+
+					   <img class="fragment" data-fragment-index="0"  src="../images/music2.png" width="90%">
+					   <img class="fragment" data-fragment-index="1"  src="../images/deltaE_93Sr.png" width="90%">
+					 </div>
+					 <div class="citation">
+			 		   M. L. Avila <em>et al.</em>, NIM A <b>859</b>, 63 (2017)
+			 		 </div>
+		                       </div>
+
+				       <div class="col">
+					 <br>
+					 <ul style="font-size:25px">
+					   <li >Re-accelerated $\mathrm{^{93}Sr}$ beam from $\nu$CARIBU.</li><br>
+					   <li> MUSIC has close to 100% efficiency due to its
+					     segmented anode structure.</li><br>
+					   <li> Use a single beam energy to
+					     measure a large range of excitation
+					     functions of angle integrated
+					     cross sections.
+					   </li>
+					   
+					 </ul>
+					 </div>
+
+				     </div>
+
+
+				   </section>
+				   
+
+
+
+				           <section>
+				    <h4 style="font-size:45px"><span class="maroon">Methods</span></h4>
+
+				    <p>We formed <span class='maroon'>linear combinations</span>
+				    using various  astrophysical
+				    conditions ($Y_e, s, \tau$) <br> to compare
+				   with <span class='maroon'>observations</span>
+				    of metal-poor stars.</p>
+
+					<p>
+					\[  P = \sum_{i=1}^N w_i Y_i  \]
+					</p>
+
+				    <p>where $w_i>0$ is a multiplication
+				    factor and $Y_i$ is the abundance pattern
+				    of the $i^{th}$ trajectory.</p>
+
+				      
+					<p> Total number of unique
+					combinations: $C_r = N! / r! (N -
+					r)!$ <br>  for example 2 trajectories out of 46 yields 1035 unique combinations</p>
+
+					</section>
+
+
+					<section>
+					 <h4 style="font-size:45px"><span class="maroon">Methods</span></h4>
+
+					 <p>
+						 \[  \mathrm{minimize}~ ||A w
+						 - O||^2 \] where $O$ is the
+						 observational pattern and
+
+						  \[ A = \begin{bmatrix}
+							 Y_{11} & \cdots & Y_{1k}\\
+							 \vdots & \ddots & \vdots \\
+							 Y_{N1} & \cdots & Y_{Nk}
+							 \end{bmatrix} , w = \begin{bmatrix}
+ 							 w_1 \\
+ 							 \vdots \\
+ 							 w_k
+ 							 \end{bmatrix} \]
+					 </p>
+
+					 <p> <span class="maroon">Goal</span>: solve the least-squares problem 
+					 using $\texttt{sklearn}$ <img src="../images/sklearn.png" width="10%"></p>
+
+
+
+						 </section>
 
 				       				      
       </div>
