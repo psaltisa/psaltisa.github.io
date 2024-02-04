@@ -17,7 +17,10 @@ pubs: true
 social: true
 ---
 
-Thanassis is a postdoctoral research scholar in the nuclear astrophysics group at the [Triangle Universities Nuclear Laboratory](https://tunl.duke.edu/) and [North Carolina State University](https://physics.sciences.ncsu.edu/) working with Profs. [Christian Iliadis](https://iliadis.web.unc.edu/) and [Richard Longland](https://rlongland.github.io/). He earned his Ph.D. from [McMaster University](http://www.physics.mcmaster.ca/) under the supervision of Prof. [Alan Chen](http://www.physics.mcmaster.ca/~chenal/nuc_astro_struc/personal/) in experimental nuclear astrophysics.
+Thanassis is a postdoctoral associate in the nuclear astrophysics group
+at the [Triangle Universities Nuclear Laboratory](https://tunl.duke.edu/) and
+[Duke University](https://physics.duke.edu/) working
+with Profs. [Richard Longland](https://rlongland.github.io/) and [Christian Iliadis](https://iliadis.web.unc.edu/). He earned his Ph.D. from [McMaster University](http://www.physics.mcmaster.ca/) under the supervision of Prof. [Alan Chen](http://www.physics.mcmaster.ca/~chenal/nuc_astro_struc/personal/) in experimental nuclear astrophysics.
 
 His area of expertise is [nuclear astrophysics]({{ site.baseurl }}/research), a cross-disciplinary field delving into the intricate relationship between stellar evolution and the creation of chemical elements in the universe.
 
