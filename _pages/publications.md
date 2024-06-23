@@ -177,7 +177,7 @@ d3.csv("{{ site.baseurl }}/assets/csv/data_publications.csv", function(data) {
 <div class="publications">
 <h3>articles in conference proceedings</h3>
 {% for y in page.years %}
-     {% if y!= 2016 and y!=2021 %}
+     {% if y!= 2016 and y!=2021 and y!=2024%}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f proceedings -q @*[year={{y}}]* %}
      {% endif %}
