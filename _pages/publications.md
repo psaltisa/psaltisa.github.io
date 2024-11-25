@@ -160,26 +160,59 @@ d3.csv("{{ site.baseurl }}/assets/csv/data_publications.csv", function(data) {
 
 </script>
 
+<br>
 
-<div class="publications">
-<h3>journal articles</h3>
-{% for y in page.years %}
-    {% if y!= 2018 %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
-    {% endif %}
-{% endfor %}
+
+<!-- Dropdown for selecting year -->
+<div>
+  <label for="year-select">Select a year:</label>
+  <select id="year-select">
+    <option value="">--Select Year--</option>
+    {% for y in page.years %}
+    <option value="{{ y }}">{{ y }}</option>
+    {% endfor %}
+  </select>
 </div>
 
-<br><br>
+<!-- Render all publications but hide them initially -->
+<div id="publications-list">
+  {% for y in page.years %}
+  <div class="publications" data-year="{{ y }}" style="display: none;">
+    <h3>Journal Articles ({{ y }})</h3>
+    {% bibliography -f papers -q @*[year={{y}}]* %}
 
-
-<div class="publications">
-<h3>articles in conference proceedings</h3>
-{% for y in page.years %}
-     {% if y!= 2016 and y!=2021 and y!=2024%}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f proceedings -q @*[year={{y}}]* %}
-     {% endif %}
-{% endfor %}
+    <h3>Conference Proceedings ({{ y }})</h3>
+    {% bibliography -f proceedings -q @*[year={{y}}]* %}
+  </div>
+  {% endfor %}
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var yearSelect = document.getElementById('year-select');
+    var latestYear = yearSelect.options[1].value; // Select the first option after the placeholder
+    yearSelect.value = latestYear;
+
+    // Trigger change event to display the latest year's publications
+    var event = new Event('change');
+    yearSelect.dispatchEvent(event);
+  });
+
+  document.getElementById('year-select').addEventListener('change', function() {
+    var selectedYear = this.value;
+
+    // Hide all publication divs
+    var publicationDivs = document.querySelectorAll('#publications-list .publications');
+    publicationDivs.forEach(function(div) {
+      div.style.display = 'none';
+    });
+
+    // Show the selected year's publications
+    if (selectedYear) {
+      var selectedDiv = document.querySelector('#publications-list .publications[data-year="' + selectedYear + '"]');
+      if (selectedDiv) {
+        selectedDiv.style.display = 'block';
+      }
+    }
+  });
+</script>

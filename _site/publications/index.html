@@ -433,12 +433,41 @@ d3.csv("/assets/csv/data_publications.csv", function(data) {
 
 </script>
 
-<div class="publications">
-<h3>journal articles</h3>
+<p><br></p>
 
+<!-- Dropdown for selecting year -->
+<div>
+  <label for="year-select">Select a year:</label>
+  <select id="year-select">
+    <option value="">--Select Year--</option>
     
-  <h2 class="year">2024</h2>
-  <ol class="bibliography">
+    <option value="2024">2024</option>
+    
+    <option value="2023">2023</option>
+    
+    <option value="2022">2022</option>
+    
+    <option value="2021">2021</option>
+    
+    <option value="2020">2020</option>
+    
+    <option value="2019">2019</option>
+    
+    <option value="2018">2018</option>
+    
+    <option value="2017">2017</option>
+    
+    <option value="2016">2016</option>
+    
+  </select>
+</div>
+
+<!-- Render all publications but hide them initially -->
+<div id="publications-list">
+  
+  <div class="publications" data-year="2024" style="display: none;">
+    <h3>Journal Articles (2024)</h3>
+    <ol class="bibliography">
 <li>
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
@@ -767,11 +796,14 @@ the proton-rich ones, Mo–Pd (Z = 42–47)</p>
    <br>
 </li>
 </ol>
-    
 
-    
-  <h2 class="year">2023</h2>
-  <ol class="bibliography">
+    <h3>Conference Proceedings (2024)</h3>
+    <ol class="bibliography"></ol>
+  </div>
+  
+  <div class="publications" data-year="2023" style="display: none;">
+    <h3>Journal Articles (2023)</h3>
+    <ol class="bibliography">
 <li>
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
@@ -1234,11 +1266,956 @@ shell mergers requires further investigation.</p>
    <br>
 </li>
 </ol>
+
+    <h3>Conference Proceedings (2023)</h3>
+    <ol class="bibliography">
+<li>
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+
+<div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">INPC2022</abbr>
+    
+  
+  </div>
+
+  <div id="Psaltis-INPC-2023" class="col-sm-8">
+  
+    <!-- Title -->
+    <div class="title">Using (α,xn) reaction rates and abundance ratios to constrain the weak r-process</div>
+    <!-- Author -->
+    <div class="author">
     
 
+    <b>A. Psaltis</b>, <a href="https://theorie.ikp.physik.tu-darmstadt.de/astro/people/people_arcones.php" target="_blank" rel="noopener noreferrer">A. Arcones</a>, M. L. Avila, C. J. Hansen, M. Jacobi, L. Lombardo, Z. Meisel, P. Mohr, F. Montes, W. J. Ong, and
+      <span class="more-authors" title="click to view 1 more author" onclick="
+            var element = $(this);
+            element.attr('title', '');
+            var more_authors_text = element.text() == '1 more author' ? 'H Schatz' : '1 more author';
+            var cursorPosition = 0;
+            var textAdder = setInterval(function(){
+              element.text(more_authors_text.substring(0, cursorPosition + 1));
+              if (++cursorPosition == more_authors_text.length){
+                clearInterval(textAdder);
+              }
+          }, '0');
+          ">1 more author</span>
+</div>
+
+      <div class="periodical">
+      
+        <em>Journal of Physics: Conference Series</em>
+      
+      
+        (2023)
+      
+      </div>
     
-  <h2 class="year">2022</h2>
-  <ol class="bibliography">
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://doi.org/10.1088/1742-6596/2586/1/012105" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
+    
+    
+    
+    
+    
+      <a href="/assets/pdf/papers/B023-Psaltis-INPC-2023.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>he lighter heavy elements of the first r-process peak, between strontium and silver, can be synthesized in the moderately neutron-rich neutrino–driven ejecta of either core–collapse supernovae or neutron star mergers via the weak r–process. This nucleosynthesis scenario exhibits uncertainties from the absence of experimental data from (α, xn) reactions on neutron–rich nuclei, which are currently based on statistical model estimates. We have performed a new impact study to identify the most important (α, xn) reactions that can affect the production of the lighter heavy elements under different astrophysical conditions and using new, constrained (α, xn) reaction rates based on the Atomki-V2 αOMP. We have identified a list of relevant reactions that affect elemental abundance ratios that can be compared to abundances from metal-poor stars. Our results show how when reducing the nuclear physics uncertainties, we can use abundance ratios to constrain the astrophysical conditions/environment. This will be possible with the planned experiments to measure key (α, xn) reaction rates using the SECAR recoil separator at FRIB that will also be briefly discussed.</p>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    <div class="bibtex hidden">
+     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Psaltis-INPC-2023</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1088/1742-6596/2586/1/012105}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">sep</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{{IOP} Publishing}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{2586}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{1}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{012105}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Psaltis, A and Arcones, A and Avila, M. L and Hansen, C. J and Jacobi, M and Lombardo, L and Meisel, Z and Mohr, P and Montes, F and Ong, W. J and Schatz, H}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Using (α,xn) reaction rates and abundance ratios to constrain the weak r-process}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Journal of Physics: Conference Series}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+
+  </div>
+
+
+   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
+        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.1088/1742-6596/2586/1/012105"></div>
+           
+        <span class="__dimensions_badge_embed__" data-doi="10.1088/1742-6596/2586/1/012105" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
+
+  </div>
+
+
+
+
+   </div>
+
+   <br>
+</li>
+<li>
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+
+<div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">INPC2022</abbr>
+    
+  
+  </div>
+
+  <div id="Adsley-INPC-2023" class="col-sm-8">
+  
+    <!-- Title -->
+    <div class="title">Understanding globular cluster abundances through nuclear reactions</div>
+    <!-- Author -->
+    <div class="author">
+    
+
+    P. Adsley, M. Williams, D S. Harrouz, D P. Carrasco-Rojas, N. Seréville, F. Hammache, <a href="https://rlongland.github.io/" target="_blank" rel="noopener noreferrer">R. Longland</a>, B. Bastin, B. Davids, T. Faestermann, and
+      <span class="more-authors" title="click to view 17 more authors" onclick="
+            var element = $(this);
+            element.attr('title', '');
+            var more_authors_text = element.text() == '17 more authors' ? 'C Fougères, U Greife, R Hertenberger, D Hutcheon, M La Cognata, AM Laird, L Lamia, A Lennarz, A Meyer, F Santos, S Palmerini, A Psaltis, R G Pizzone, S Romano, C Ruiz, A Tumino, H-F Wirth' : '17 more authors';
+            var cursorPosition = 0;
+            var textAdder = setInterval(function(){
+              element.text(more_authors_text.substring(0, cursorPosition + 1));
+              if (++cursorPosition == more_authors_text.length){
+                clearInterval(textAdder);
+              }
+          }, '0');
+          ">17 more authors</span>
+</div>
+
+      <div class="periodical">
+      
+        <em>Journal of Physics: Conference Series</em>
+      
+      
+        (2023)
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://doi.org/10.1088/1742-6596/2586/1/012100" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
+    
+    
+    
+    
+    
+      <a href="/assets/pdf/papers/B022-Adsley-INPC-2023.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Globular clusters contain multiple stellar populations, with some previous generation of stars polluting the current stars with heavier elements. Understanding the history of globular clusters is helpful in understanding how galaxies merged and evolved and therefore constraining the site or sites of this historic pollution is a priority. The acceptable temperature and density conditions of these polluting sites depend on critical reaction rates. In this paper, three experimental studies helping to constrain astrophysically important reaction rates are briefly discussed.</p>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    <div class="bibtex hidden">
+     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Adsley-INPC-2023</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1088/1742-6596/2586/1/012100}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">sep</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{{IOP} Publishing}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{2586}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{1}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{012100}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Adsley, P and Williams, M and Harrouz, D S and Carrasco-Rojas, D P and de Ser{\'{e}}ville, N and Hammache, F and Longland, R and Bastin, B and Davids, B and Faestermann, T and Foug{\`{e}}res, C and Greife, U and Hertenberger, R and Hutcheon, D and Cognata, M La and Laird, AM and Lamia, L and Lennarz, A and Meyer, A and d'Oliveira Santos, F and Palmerini, S and Psaltis, A and Pizzone, R G and Romano, S and Ruiz, C and Tumino, A and Wirth, H-F}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Understanding globular cluster abundances through nuclear reactions}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Journal of Physics: Conference Series}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+
+  </div>
+
+
+   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
+        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.1088/1742-6596/2586/1/012100"></div>
+           
+        <span class="__dimensions_badge_embed__" data-doi="10.1088/1742-6596/2586/1/012100" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
+
+  </div>
+
+
+
+
+   </div>
+
+   <br>
+</li>
+<li>
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+
+<div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">EMIS 2022</abbr>
+    
+  
+  </div>
+
+  <div id="Glorius-NIMB-2023" class="col-sm-8">
+  
+    <!-- Title -->
+    <div class="title">Storage, accumulation and deceleration of secondary beams for nuclear astrophysics</div>
+    <!-- Author -->
+    <div class="author">
+    
+
+    J. Glorius, Yu. A. Litvinov, M. Aliotta, F. Amjad, B. Brückner, C.G. Bruno, R. Chen, T. Davinson, S.F. Dellmann, T. Dickel, and
+      <span class="more-authors" title="click to view 54 more authors" onclick="
+            var element = $(this);
+            element.attr('title', '');
+            var more_authors_text = element.text() == '54 more authors' ? 'I Dillmann, P Erbacher, O Forstner, H Geissel, C.J Griffin, R Grisenti, A Gumberidze, E. Haettner, R Hess, P.-M Hillenbrand, C Hornung, R Joseph, B Jurado, E Kazanseva, R Knöbel, D Kostyleva, C Kozhuharov, N Kuzminchuk, C Langer, G Leckenby, C Lederer-Woods, M Lestinsky, S Litvinov, B Löher, B Lorenz, E Lorenz, J Marsh, E Menz, T Morgenroth, I Mukha, N Petridis, U Popp, A Psaltis, S Purushothaman, R Reifarth, E Rocco, P Roy, M.S Sanjari, C Scheidenberger, M Sguazzin, R.S Sidhu, U Spillmann, M Steck, T Stöhlker, J.A Swartz, Y.K Tanaka, H Törnqvist, L Varga, D Vescovi, H Weick, M Weigand, P.J Woods, T Yamaguchi, J Zhao' : '54 more authors';
+            var cursorPosition = 0;
+            var textAdder = setInterval(function(){
+              element.text(more_authors_text.substring(0, cursorPosition + 1));
+              if (++cursorPosition == more_authors_text.length){
+                clearInterval(textAdder);
+              }
+          }, '0');
+          ">54 more authors</span>
+</div>
+
+      <div class="periodical">
+      
+        <em>Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms</em>
+      
+      
+        (2023)
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://doi.org/10.1016/j.nimb.2023.04.059" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
+    
+    
+    
+    
+    
+      <a href="/assets/pdf/papers/B021-Glorius-NIMB-2023.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Low-energy investigations on rare ion beams are often limited by the available intensity and purity of the ion species in focus. Here, we present the first application of a technique that combines in-flight production at relativistic energies with subsequent secondary beam storage, accumulation and finally deceleration to the energy of interest. Using the FRS and ESR facilities at GSI, this scheme was pioneered to provide a secondary beam of 118Te52+ for the measurement of nuclear proton-capture at energies of 6 and 7 MeV/u. The technique provided stored beam intensities of about 106 ions at high purity and brilliance, representing a major step towards low-energy nuclear physics studies using rare ion beams.</p>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    <div class="bibtex hidden">
+     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Glorius-NIMB-2023</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Storage, accumulation and deceleration of secondary beams for nuclear astrophysics}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{541}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{190-193}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">issn</span> <span class="p">=</span> <span class="s">{0168-583X}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1016/j.nimb.2023.04.059}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Glorius, J and Litvinov, Yu. A and Aliotta, M and Amjad, F and Brückner, B and Bruno, C.G and Chen, R and Davinson, T and Dellmann, S.F and Dickel, T and Dillmann, I and Erbacher, P and Forstner, O and Geissel, H and Griffin, C.J and Grisenti, R and Gumberidze, A and Haettner, E. and Hess, R and Hillenbrand, P.-M and Hornung, C and Joseph, R and Jurado, B and Kazanseva, E and Knöbel, R and Kostyleva, D and Kozhuharov, C and Kuzminchuk, N and Langer, C and Leckenby, G and Lederer-Woods, C and Lestinsky, M and Litvinov, S and Löher, B and Lorenz, B and Lorenz, E and Marsh, J and Menz, E and Morgenroth, T and Mukha, I and Petridis, N and Popp, U and Psaltis, A and Purushothaman, S and Reifarth, R and Rocco, E and Roy, P and Sanjari, M.S and Scheidenberger, C and Sguazzin, M and Sidhu, R.S and Spillmann, U and Steck, M and Stöhlker, T and Swartz, J.A and Tanaka, Y.K and Törnqvist, H and Varga, L and Vescovi, D and Weick, H and Weigand, M and Woods, P.J and Yamaguchi, T and Zhao, J}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+
+  </div>
+
+
+   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
+        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.1016/j.nimb.2023.04.059"></div>
+           
+        <span class="__dimensions_badge_embed__" data-doi="10.1016/j.nimb.2023.04.059" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
+
+  </div>
+
+
+
+
+   </div>
+
+   <br>
+</li>
+<li>
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+
+<div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ActaPhysPolB</abbr>
+    
+  
+  </div>
+
+  <div id="Vukman-ActaPhysPolB-2023" class="col-sm-8">
+  
+    <!-- Title -->
+    <div class="title">Helium Clustering in Neutron-rich Be Isotopes</div>
+    <!-- Author -->
+    <div class="author">
+    
+
+    N. Vukman, N. Soić, M. Freer, M. Alcorta, D. Connolly, P. Čolović, T. Davinson, A Di. Pietro, A. Lennarz, <b>A. Psaltis</b>, and
+      <span class="more-authors" title="click to view 4 more authors" onclick="
+            var element = $(this);
+            element.attr('title', '');
+            var more_authors_text = element.text() == '4 more authors' ? 'C Ruiz, A Shotter, M Uroić, M Williams' : '4 more authors';
+            var cursorPosition = 0;
+            var textAdder = setInterval(function(){
+              element.text(more_authors_text.substring(0, cursorPosition + 1));
+              if (++cursorPosition == more_authors_text.length){
+                clearInterval(textAdder);
+              }
+          }, '0');
+          ">4 more authors</span>
+</div>
+
+      <div class="periodical">
+      
+        <em>Acta Physica Polonica B Proceedings Supplement</em>
+      
+      
+        (2023)
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://doi.org/10.5506/aphyspolbsupp.16.4-a34" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
+    
+    
+    
+    
+    
+      <a href="/assets/pdf/papers/B020-Vukman-ActaPhysPolB-2023.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>The experimental study of the helium decays of the 10 Be and 12 Be
+    excited states was performed at TRIUMF, Vancouver, using the transfer
+    reactions of the 9 Li beam on the LiF target and resonant particle spectroscopy technique. P
+    art of the results from the full dataset are presented
+    here, for the 4 He+6 He (0+ ; 1.8 MeV, 2+ ), 6He+6He (0+ ; 1.8 MeV, 2+ ),
+    and 4 He+8 He decays of the 10Be and 12Be excited states, respectively. The
+    6
+     He+6 He (1.8 MeV, 2+ ) decay channel was observed for the first time in the
+    present experiment, while for the 4 He+6 He (1.8 MeV, 2+ ) decay channel,
+    there was previously only one measurement available, which present results
+    agree with. New highly excited states were observed in all decay channels
+    studied. Although branching ratios and the spins of the states were not
+    determined, important spectroscopic information is obtained and present
+    results are in good agreement with the proposed α–Xn–α molecular structure of these isotopes,
+    based on the comparison with previously published
+    results.
+    </p>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    <div class="bibtex hidden">
+     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Vukman-ActaPhysPolB-2023</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Jagiellonian University}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{16}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{4}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{1}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Vukman, N and Soi{\'{c}}, N and Freer, M and Alcorta, M and Connolly, D and {\v{C}}olovi{\'{c}}, P and Davinson, T and Pietro, A Di and Lennarz, A and Psaltis, A and Ruiz, C and Shotter, A and Uroi{\'{c}}, M and Williams, M}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Helium Clustering in Neutron-rich Be Isotopes}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Acta Physica Polonica B Proceedings Supplement}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+
+  </div>
+
+
+   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
+        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.5506/aphyspolbsupp.16.4-a34"></div>
+           
+        <span class="__dimensions_badge_embed__" data-doi="10.5506/aphyspolbsupp.16.4-a34" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
+
+  </div>
+
+
+
+
+   </div>
+
+   <br>
+</li>
+<li>
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+
+<div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">NPA-X</abbr>
+    
+  
+  </div>
+
+  <div id="Angus-NPAX-2023" class="col-sm-8">
+  
+    <!-- Title -->
+    <div class="title">Measurement of the 86Kr(α,n)89Sr cross section at energies relevant for the weak r-process</div>
+    <!-- Author -->
+    <div class="author">
+    
+
+    C. Angus, M. Williams, A. Andreyev, S. Bhattacharjee, S. Buck, S. Chakraborty, B. Davids, C. Diget, A. Garnsworthy, C. Griffin, and
+      <span class="more-authors" title="click to view 23 more authors" onclick="
+            var element = $(this);
+            element.attr('title', '');
+            var more_authors_text = element.text() == '23 more authors' ? 'A Fernandez, G Hackman, K Hudson, D Hufschmidt, V Karayonchev, Y Kim, A Laird, A Lennarz, K Mashtakov, P Machule, C Natzke, K Pak, A Psaltis, A Radich, T Rauscher, D Rhodes, T Sauvage, A Simon, C Svensson, S Upadhyayula, J Williams, D Yates, T Zidar' : '23 more authors';
+            var cursorPosition = 0;
+            var textAdder = setInterval(function(){
+              element.text(more_authors_text.substring(0, cursorPosition + 1));
+              if (++cursorPosition == more_authors_text.length){
+                clearInterval(textAdder);
+              }
+          }, '0');
+          ">23 more authors</span>
+</div>
+
+      <div class="periodical">
+      
+        <em>EPJ Web Conference Series</em>
+      
+      
+        (2023)
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://doi.org/10.1051/epjconf/202327911003" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
+    
+    
+    
+    
+    
+      <a href="/assets/pdf/papers/B019-Angus-NPAX-2023.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>The r-process has been shown to be robust in reproducing the
+abundance distributions of heavy elements, such as europium, seen in
+ultra-metal poor stars. In contrast, observations of elements 26 &lt; Z &lt; 47
+display overabundances relative to r-process model predictions. A
+proposed additional source of early nucleosynthesis is the weak r-process
+in neutrino-driven winds of core-collapse supernovae. It has been shown
+that in this site (α,n) reactions are both crucial to nucleosynthesis and the
+main source of uncertainty in model-based abundance predictions. Aiming
+to improve the certainty of nucleosynthesis predictions, the cross section of
+the important reaction 86 Kr(α,n)89Sr has been measured at an energy
+relevant to the weak r-process. This experiment was conducted in inverse
+kinematics at TRIUMF with the EMMA recoil mass spectrometer and the
+TIGRESS gamma-ray spectrometer. A novel type of solid helium target
+was used.
+</p>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    <div class="bibtex hidden">
+     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Angus-NPAX-2023</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Angus, C and Williams, M and Andreyev, A and Bhattacharjee, S and Buck, S and Chakraborty, S and Davids, B and Diget, C and Garnsworthy, A and Griffin, C and Fernandez, A and Hackman, G and Hudson, K and Hufschmidt, D and Karayonchev, V and Kim, Y and Laird, A and Lennarz, A and Mashtakov, K and Machule, P and Natzke, C and Pak, K and Psaltis, A and Radich, A and Rauscher, T and Rhodes, D and Sauvage, T and Simon, A and Svensson, C and Upadhyayula, S and Williams, J and Yates, D and Zidar, T}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Measurement of the 86Kr(α,n)89Sr cross section at energies relevant for the weak r-process}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1051/epjconf/202327911003}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{EPJ Web Conference Series}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{279}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{11003}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+
+  </div>
+
+
+   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
+        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.1051/epjconf/202327911003"></div>
+           
+        <span class="__dimensions_badge_embed__" data-doi="10.1051/epjconf/202327911003" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
+
+  </div>
+
+
+
+
+   </div>
+
+   <br>
+</li>
+<li>
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+
+<div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">NPA-X</abbr>
+    
+  
+  </div>
+
+  <div id="Dellmann-NPAX-2023" class="col-sm-8">
+  
+    <!-- Title -->
+    <div class="title">Proton capture on stored radioactive 118Te ions</div>
+    <!-- Author -->
+    <div class="author">
+    
+
+    S. F. Dellmann, J. Glorius, Y. A. Litvinov, R. Reifarth, K. Al-Khasawneh, M. Aliotta, L. Bott, B. Brückner, C. Bruno, R. J. Chen, and
+      <span class="more-authors" title="click to view 53 more authors" onclick="
+            var element = $(this);
+            element.attr('title', '');
+            var more_authors_text = element.text() == '53 more authors' ? 'T Davinson, T Dickel, I Dillmann, D Dmytriev, P Erbacher, D Freire-Fernández, O Forstner, H Geissel, K Göbel, C. J Griffin, R Grisenti, A Gumberidze, E Haettner, S Hagmann, M Heil, R Heß, P.-M Hillenbrand, R Joseph, B Jurado, C. Kozhuharov, I Kulikov, B Löher, C Langer, G Leckenby, C Lederer-Woods, M Lestinsky, S Litvinov, B. A Lorenz, E Lorenz, J Marsh, E Menz, T Morgenroth, N Petridis, J Pibernat, U Popp, A Psaltis, S Sanjari, C Scheidenberger, M Sguazzin, R. S Sidhu, U Spillmann, M Steck, T Stöhlker, A Surzhykov, J. A Swartz, H Törnqvist, L Varga, D Vescovi, H Weick, M Weigand, P Woods, Y Xing, T Yamaguchi' : '53 more authors';
+            var cursorPosition = 0;
+            var textAdder = setInterval(function(){
+              element.text(more_authors_text.substring(0, cursorPosition + 1));
+              if (++cursorPosition == more_authors_text.length){
+                clearInterval(textAdder);
+              }
+          }, '0');
+          ">53 more authors</span>
+</div>
+
+      <div class="periodical">
+      
+        <em>EPJ Web Conference Series</em>
+      
+      
+        (2023)
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://doi.org/10.1051/epjconf/202327911018" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
+    
+    
+    
+    
+    
+      <a href="/assets/pdf/papers/B018-Dellmann-NPAX-2023.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p> Experimental determination of the cross sections of proton capture
+              on radioactive nuclei is extremely difficult. Therefore, it is of substantial interest
+              for the understanding of the production of the p-nuclei. For the first time, a
+              direct measurement of proton-capture cross sections on stored, radioactive ions
+              became possible in an energy range of interest for nuclear astrophysics. The
+              experiment was performed at the Experimental Storage Ring (ESR) at GSI by
+              making use of a sensitive method to measure (p,γ) and (p,n) reactions in inverse
+              kinematics. These reaction channels are of high relevance for the nucleosyn-
+              thesis processes in supernovae, which are among the most violent explosions in
+              the universe and are not yet well understood. The cross section of the 118 Te(p,γ)
+              reaction has been measured at energies of 6 MeV/u and 7 MeV/u. The heavy
+              ions interacted with a hydrogen gas jet target. The radiative recombination pro-
+              cess of the fully stripped 118 Te ions and electrons from the hydrogen target was
+              used as a luminosity monitor. An overview of the experimental method and
+              preliminary results from the ongoing analysis will be presented.
+              </p>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    <div class="bibtex hidden">
+     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Dellmann-NPAX-2023</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Dellmann, S. F and Glorius, J and Litvinov, Y. A and Reifarth, R and Al-Khasawneh, K and Aliotta, M and Bott, L and Br\"uckner, B and Bruno, C and Chen, R. J and Davinson, T and Dickel, T and Dillmann, I and Dmytriev, D and Erbacher, P and Freire-Fern\'andez, D and Forstner, O and Geissel, H and G\"obel, K and Griffin, C. J and Grisenti, R and Gumberidze, A and Haettner, E and Hagmann, S and Heil, M and He\ss, R and Hillenbrand, P.-M and Joseph, R and Jurado, B and Kozhuharov, C. and Kulikov, I and L\"oher, B and Langer, C and Leckenby, G and Lederer-Woods, C and Lestinsky, M and Litvinov, S and Lorenz, B. A and Lorenz, E and Marsh, J and Menz, E and Morgenroth, T and Petridis, N and Pibernat, J and Popp, U and Psaltis, A and Sanjari, S and Scheidenberger, C and Sguazzin, M and Sidhu, R. S and Spillmann, U and Steck, M and St\"ohlker, T and Surzhykov, A and Swartz, J. A and T\"ornqvist, H and Varga, L and Vescovi, D and Weick, H and Weigand, M and Woods, P and Xing, Y and Yamaguchi, T}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Proton capture on stored radioactive 118Te ions}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1051/epjconf/202327911018}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{EPJ Web Conference Series}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{279}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{11018}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+
+  </div>
+
+
+   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
+        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.1051/epjconf/202327911018"></div>
+           
+        <span class="__dimensions_badge_embed__" data-doi="10.1051/epjconf/202327911018" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
+
+  </div>
+
+
+
+
+   </div>
+
+   <br>
+</li>
+<li>
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+
+<div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">NPA-X</abbr>
+    
+  
+  </div>
+
+  <div id="Psaltis-NPAX-2023" class="col-sm-8">
+  
+    <!-- Title -->
+    <div class="title">Constraining nucleosythesis in neutrino-driven winds using the impact of (α,xn) reaction rates</div>
+    <!-- Author -->
+    <div class="author">
+    
+
+    <b>A. Psaltis</b>, <a href="https://theorie.ikp.physik.tu-darmstadt.de/astro/people/people_arcones.php" target="_blank" rel="noopener noreferrer">A. Arcones</a>, M. L. Avila, M. Jacobi, C. J. Hansen, L. Lombardo, Z. Meisel, P. Mohr, F. Montes, W. J. Ong, and
+      <span class="more-authors" title="click to view 1 more author" onclick="
+            var element = $(this);
+            element.attr('title', '');
+            var more_authors_text = element.text() == '1 more author' ? 'H Schatz' : '1 more author';
+            var cursorPosition = 0;
+            var textAdder = setInterval(function(){
+              element.text(more_authors_text.substring(0, cursorPosition + 1));
+              if (++cursorPosition == more_authors_text.length){
+                clearInterval(textAdder);
+              }
+          }, '0');
+          ">1 more author</span>
+</div>
+
+      <div class="periodical">
+      
+        <em>EPJ Web Conference Series</em>
+      
+      
+        (2023)
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://doi.org/10.1051/epjconf/202327908002" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
+    
+    
+    
+    
+    
+      <a href="/assets/pdf/papers/B017-Psaltis-NPAX-2023.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>The lighter heavy elements of the first r-process peak, between
+strontium and silver, can be synthesized in the moderately neutron-rich neutrino–driven
+ejecta of either core–collapse supernovae or neutron star mergers
+via the weak r–process. This nucleosynthesis scenario exhibits uncertainties
+from the absence of experimental data from (α, xn) reactions on neutron–rich
+nuclei, which are currently based on statistical model estimates. We have per-
+formed a new impact study to identify the most important (α, xn) reactions that
+can affect the production of the lighter heavy elements under different astrophysical
+conditions using new, constrained (α, xn) reaction rates based on the
+Atomki-V2 αOMP. Our results show how when reducing the nuclear physics
+uncertainties, we can use abundance ratios to constrain the astrophysical conditions/environment.
+This can be achieved in the near future, when the key (α, xn)
+reaction rates will be measured experimentally in radioactive beam facilities.</p>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    <div class="bibtex hidden">
+     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Psaltis-NPAX-2023</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Psaltis, A and Arcones, A and Avila, M. L and Jacobi, M and Hansen, C. J and Lombardo, L and Meisel, Z and Mohr, P and Montes, F and Ong, W. J and Schatz, H}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Constraining nucleosythesis in neutrino-driven winds using the impact of (α,xn) reaction rates}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1051/epjconf/202327908002}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{EPJ Web Conference Series}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{279}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{08002}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+
+  </div>
+
+
+   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
+        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.1051/epjconf/202327908002"></div>
+           
+        <span class="__dimensions_badge_embed__" data-doi="10.1051/epjconf/202327908002" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
+
+  </div>
+
+
+
+
+   </div>
+
+   <br>
+</li>
+<li>
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+
+<div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">SantaTecla</abbr>
+    
+  
+  </div>
+
+  <div id="Yamaguci-EPJ-2023" class="col-sm-8">
+  
+    <!-- Title -->
+    <div class="title">RIB induced reactions: Studying astrophysical reactions with low-energy RI beam at CRIB</div>
+    <!-- Author -->
+    <div class="author">
+    
+
+    H. Yamaguchi, S. Hayakawa, N.R. Ma, H. Shimizu, K. Okawa, Q. Zhang, L. Yang, D. Kahl, M. La Cognata, L. Lamia, and
+      <span class="more-authors" title="click to view 53 more authors" onclick="
+            var element = $(this);
+            element.attr('title', '');
+            var more_authors_text = element.text() == '53 more authors' ? 'K Abe, O Beliuskina, S.M Cha, K.Y Chae, S Cherubini, P Figuera, Z Ge, M Gulino, J Hu, A Inoue, N Iwasa, A Kim, D Kim, G Kiss, S Kubono, M La Commara, M Lattuada, E.J Lee, J.Y Moon, S Palmerini, C Parascandolo, S.Y Park, V.H Phong, D Pierroutsakou, R.G Pizzone, G.G Rapisarda, S Romano, C Spitaleri, X.D Tang, O Trippella, A Tumino, N.T Zhang, Y.H Lam, A Heger, A.M Jacobs, S.W Xu, S.B Ma, L.H Ru, E.Q Liu, T Liu, C.B Hamill, A. St J Murphy, J Su, X Fang, M.S Kwag, N.N Duy, N.K Uyen, D.H Kim, J Liang, A Psaltis, M Sferrazza, Z Johnston, Y.Y Li' : '53 more authors';
+            var cursorPosition = 0;
+            var textAdder = setInterval(function(){
+              element.text(more_authors_text.substring(0, cursorPosition + 1));
+              if (++cursorPosition == more_authors_text.length){
+                clearInterval(textAdder);
+              }
+          }, '0');
+          ">53 more authors</span>
+</div>
+
+      <div class="periodical">
+      
+        <em>EPJ Web Conference Series</em>
+      
+      
+        (2023)
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://doi.org/10.1051/epjconf/202327501015" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
+    
+    
+    
+    
+    
+      <a href="/assets/pdf/papers/B016-Yamaguchi-EPJ-2023.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p> Astrophysical reactions involving radioactive isotopes (RI) often
+play an important role in high-temperature stellar environments. The experi-
+mental studies on the reaction rates for those are still limited mainly due to the
+technical difficulties in producing high-quality RI beams. A direct measure-
+ment of those reactions would be still challenging in many cases, however, we
+can make a reliable evaluation of the reaction rates by an indirect method or by
+studying the resonance prorerties. Here we introduce recent examples of exper-
+imental studies on such RI-involving astrophysical reactions, performed at Cen-
+ter for Nuclear Study, the University of Tokyo, using the low-energy RI beam
+separator CRIB. One is for the neutron-induced destruction reactions of 7 Be in
+the Big-Bang nucleosynthesis, and the other is the study on the 22Mg(α, p) reac-
+tion relevant in X-ray bursts, which was performed with the resonant scattering
+method from the inverse reaction channel.</p>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    <div class="bibtex hidden">
+     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Yamaguci-EPJ-2023</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Yamaguchi, H and Hayakawa, S and Ma, N.R and Shimizu, H and Okawa, K and Zhang, Q and Yang, L and Kahl, D and La Cognata, M and Lamia, L and Abe, K and Beliuskina, O and Cha, S.M and Chae, K.Y and Cherubini, S and Figuera, P and Ge, Z and Gulino, M and Hu, J and Inoue, A and Iwasa, N and Kim, A and Kim, D and Kiss, G and Kubono, S and La Commara, M and Lattuada, M and Lee, E.J and Moon, J.Y and Palmerini, S and Parascandolo, C and Park, S.Y and Phong, V.H and Pierroutsakou, D and Pizzone, R.G and Rapisarda, G.G and Romano, S and Spitaleri, C and Tang, X.D and Trippella, O and Tumino, A and Zhang, N.T and Lam, Y.H and Heger, A and Jacobs, A.M and Xu, S.W and Ma, S.B and Ru, L.H and Liu, E.Q and Liu, T and Hamill, C.B and Murphy, A. St J and Su, J and Fang, X and Kwag, M.S and Duy, N.N and Uyen, N.K and Kim, D.H and Liang, J and Psaltis, A and Sferrazza, M and Johnston, Z and Li, Y.Y}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{RIB induced reactions: Studying astrophysical reactions with low-energy RI beam at CRIB}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1051/epjconf/202327501015}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{EPJ Web Conference Series}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{275}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{01015}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+
+  </div>
+
+
+   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
+        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.1051/epjconf/202327501015"></div>
+           
+        <span class="__dimensions_badge_embed__" data-doi="10.1051/epjconf/202327501015" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
+
+  </div>
+
+
+
+
+   </div>
+
+   <br>
+</li>
+</ol>
+  </div>
+  
+  <div class="publications" data-year="2022" style="display: none;">
+    <h3>Journal Articles (2022)</h3>
+    <ol class="bibliography">
 <li>
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
@@ -2173,11 +3150,560 @@ shell mergers requires further investigation.</p>
    <br>
 </li>
 </ol>
+
+    <h3>Conference Proceedings (2022)</h3>
+    <ol class="bibliography">
+<li>
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+
+<div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">NIC-XVI</abbr>
+    
+  
+  </div>
+
+  <div id="Wheeler-NIC-XVI" class="col-sm-8">
+  
+    <!-- Title -->
+    <div class="title">Measuring the 15O(α,γ)19Ne reaction in Type I X-ray bursts using the GADGET II TPC: Hardware</div>
+    <!-- Author -->
+    <div class="author">
     
 
+    T. Wheeler, A. Adams, J. Allmond, H. Alvarez Pol, E. Argo, Y. Ayyad, D.. Bardayan, D. Bazin, T. Budner, <a href="https://physwww.physics.mcmaster.ca/%7Echenal/nuc_astro_struc/personal/" target="_blank" rel="noopener noreferrer">A. Chen</a>, and
+      <span class="more-authors" title="click to view 20 more authors" onclick="
+            var element = $(this);
+            element.attr('title', '');
+            var more_authors_text = element.text() == '20 more authors' ? 'K Chipps, B Davids, J Dopfer, M Friedman, H Fynbo, R Grzywacz, J Jose, J. Liang, R Mahajan, S Pain, D. Pérez-Loureiro, E. Pollacco, A Psaltis, S. Ravishankar, A. Rogers, L Schaedig, L. J Sun, J Surbrook, L Weghorn, C Wrede' : '20 more authors';
+            var cursorPosition = 0;
+            var textAdder = setInterval(function(){
+              element.text(more_authors_text.substring(0, cursorPosition + 1));
+              if (++cursorPosition == more_authors_text.length){
+                clearInterval(textAdder);
+              }
+          }, '0');
+          ">20 more authors</span>
+</div>
+
+      <div class="periodical">
+      
+        <em>In EPJ Web Conference Series</em>
+      
+      
+        (2022)
+      
+      </div>
     
-  <h2 class="year">2021</h2>
-  <ol class="bibliography">
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://doi.org/10.1051/epjconf/202226011046" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
+    
+    
+    
+    
+    
+      <a href="/assets/pdf/papers/B015-Wheeler-NICXVI-2022.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p> Sensitivity studies have shown that the 15O(α,γ)19Ne reaction is the most important reaction rate
+ uncertainty affecting the shape of light curves from Type I X-ray bursts. This reaction is dominated by the 4.03 MeV
+ resonance in 19Ne. Previous measurements by our group have shown that this state is populated in the decay sequence of
+ 20Mg. A single 20Mg(βp α)15O event through the key 15O(α,γ)19Ne resonance yields a characteristic signature: the emission
+ of a proton and alpha particle. To achieve the granularity necessary for the identification of this signature, we have
+ upgraded the Proton Detector of the Gaseous Detector with Germanium Tagging (GADGET) into a time projection chamber to
+ form the GADGET II detection system. GADGET II has been fully constructed, and is entering the testing phase.</p>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    <div class="bibtex hidden">
+     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Wheeler-NIC-XVI</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Wheeler, T and Adams, A and Allmond, J and Alvarez Pol, H and Argo, E and Ayyad, Y and Bardayan, D. and Bazin, D and Budner, T and Chen, A and Chipps, K and Davids, B and Dopfer, J and Friedman, M and Fynbo, H and Grzywacz, R and Jose, J and Liang, J. and Mahajan, R and Pain, S and P\'erez-Loureiro, D. and Pollacco, E. and Psaltis, A and Ravishankar, S. and Rogers, A. and Schaedig, L and Sun, L. J and Surbrook, J and Weghorn, L and Wrede, C}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Measuring the 15O(α,γ)19Ne reaction in Type I X-ray bursts using the GADGET II TPC: Hardware}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{EPJ Web Conference Series}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{260}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{11046}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1051/epjconf/202226011046}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+
+  </div>
+
+
+   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
+        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.1051/epjconf/202226011046"></div>
+           
+        <span class="__dimensions_badge_embed__" data-doi="10.1051/epjconf/202226011046" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
+
+  </div>
+
+
+
+
+   </div>
+
+   <br>
+</li>
+<li>
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+
+<div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">NIC-XVI</abbr>
+    
+  
+  </div>
+
+  <div id="Mahajan-NIC-XVI" class="col-sm-8">
+  
+    <!-- Title -->
+    <div class="title">Measuring the 15O(α,γ)19Ne Reaction in Type I X-ray Bursts using the GADGET II TPC: Software</div>
+    <!-- Author -->
+    <div class="author">
+    
+
+    R. Mahajan, A. Adams, J. Allmond, H. Alvarez Pol, E. Argo, Y.. Ayyad, D. Bardayan, D. Bazin, T. Budner, <a href="https://physwww.physics.mcmaster.ca/%7Echenal/nuc_astro_struc/personal/" target="_blank" rel="noopener noreferrer">A. Chen</a>, and
+      <span class="more-authors" title="click to view 20 more authors" onclick="
+            var element = $(this);
+            element.attr('title', '');
+            var more_authors_text = element.text() == '20 more authors' ? 'K Chipps, B Davids, J Dopfer, M Friedman, H Fynbo, R Grzywacz, J Jose, J Liang, S Pain, D Perez-Loureiro, E Pollacco, A Psaltis, S Ravishankar, A Rogers, L Schaedig, L. J Sun, J Surbrook, T Wheeler, L Weghorn, C Wrede' : '20 more authors';
+            var cursorPosition = 0;
+            var textAdder = setInterval(function(){
+              element.text(more_authors_text.substring(0, cursorPosition + 1));
+              if (++cursorPosition == more_authors_text.length){
+                clearInterval(textAdder);
+              }
+          }, '0');
+          ">20 more authors</span>
+</div>
+
+      <div class="periodical">
+      
+        <em>In EPJ Web Conference Series</em>
+      
+      
+        (2022)
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://doi.org/10.1051/epjconf/202226011034" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
+    
+    
+    
+    
+    
+      <a href="/assets/pdf/papers/B014-Mahajan-NICXVI-2022.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>15O(α,γ)19Ne is regarded as one of the most important thermonuclear reactions in type I X-ray bursts.
+  For studying the properties of the key resonance in this reaction using β decay, the existing Proton Detector
+  component of the Gaseous Detector with Germanium Tagging (GADGET) assembly is being upgraded to operate as a
+  time projection chamber (TPC) at FRIB. This upgrade includes the associated hardware as well as software and
+  this paper mainly focusses on the software upgrade. The full detector set up is simulated using the ATTPCROOTv 2
+  data analysis framework for 20Mg and 241Am.</p>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    <div class="bibtex hidden">
+     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Mahajan-NIC-XVI</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Mahajan, R and Adams, A and Allmond, J and Alvarez Pol, H and Argo, E and Ayyad, Y. and Bardayan, D and Bazin, D and Budner, T and Chen, A and Chipps, K and Davids, B and Dopfer, J and Friedman, M and Fynbo, H and Grzywacz, R and Jose, J and Liang, J and Pain, S and Perez-Loureiro, D and Pollacco, E and Psaltis, A and Ravishankar, S and Rogers, A and Schaedig, L and Sun, L. J and Surbrook, J and Wheeler, T and Weghorn, L and Wrede, C}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Measuring the 15O(α,γ)19Ne Reaction in Type I X-ray Bursts using the GADGET II TPC: Software}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{EPJ Web Conference Series}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{260}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{11034}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1051/epjconf/202226011034}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+
+  </div>
+
+
+   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
+        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.1051/epjconf/202226011034"></div>
+           
+        <span class="__dimensions_badge_embed__" data-doi="10.1051/epjconf/202226011034" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
+
+  </div>
+
+
+
+
+   </div>
+
+   <br>
+</li>
+<li>
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+
+<div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">NIC-XVI</abbr>
+    
+  
+  </div>
+
+  <div id="Psaltis-NIC-XVI" class="col-sm-8">
+  
+    <!-- Title -->
+    <div class="title">Exploring the uncertainties of (α, n) reactions for the weak r-process</div>
+    <!-- Author -->
+    <div class="author">
+    
+
+    <b>A. Psaltis</b>, <a href="https://theorie.ikp.physik.tu-darmstadt.de/astro/people/people_arcones.php" target="_blank" rel="noopener noreferrer">A. Arcones</a>, M. L. Avila, M. Jacobi, Z. Meisel, P. Mohr, F. Montes, and W. J. Ong</div>
+
+      <div class="periodical">
+      
+        <em>In EPJ Web Conference Series</em>
+      
+      
+        (2022)
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://doi.org/10.1051/epjconf/202226007003" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
+    
+    
+    
+    
+    
+      <a href="/assets/pdf/papers/B013-Psaltis-NICXVI-2022.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>“Light” heavy elements (Z = 38 − 47) can be synthesized in the neutrino–driven ejecta of core–collapse supernovae via the weak r–process. This nucleosynthesis scenario exhibits uncertainties from the absence of experimental data from (α, n) reactions on neutron–rich nuclei, and are mostly based on statistical model calculations. We present preliminary results from a recent sensitivity study, using the Atomki–V2 α-nucleus potential to identify the most important (α, n) reactions that can affect the production of “light” heavy elements between strontium and silver under different astrophysical conditions. We also discuss the planning of studies to experimentally determine (α, xn) reaction rates using the MUSIC detector at Argonne National Laboratory and the SECAR recoil separator at FRIB.</p>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    <div class="bibtex hidden">
+     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Psaltis-NIC-XVI</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Psaltis, A and Arcones, A and Avila, M. L and Jacobi, M and Meisel, Z and Mohr, P and Montes, F and Ong, W. J}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Exploring the uncertainties of (α, n) reactions for the weak r-process}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{EPJ Web Conference Series}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{260}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{07003}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1051/epjconf/202226007003}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+
+  </div>
+
+
+   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
+        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.1051/epjconf/202226007003"></div>
+           
+        <span class="__dimensions_badge_embed__" data-doi="10.1051/epjconf/202226007003" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
+
+  </div>
+
+
+
+
+   </div>
+
+   <br>
+</li>
+<li>
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+
+<div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">NIC-XVI</abbr>
+    
+  
+  </div>
+
+  <div id="Hu-NIC-XVI" class="col-sm-8">
+  
+    <!-- Title -->
+    <div class="title">First measurement of 25Al+p resonant scattering relevant to the astrophysical reaction 22Mg(α,p)25Al</div>
+    <!-- Author -->
+    <div class="author">
+    
+
+    J. Hu, H. Yamaguchi, Y.H. Lam, A. Heger, D. Kahl, A.M. Jacobs, Z. Johnston, S.W. Xu, N.T. Zhang, S.B. Ma, and
+      <span class="more-authors" title="click to view 27 more authors" onclick="
+            var element = $(this);
+            element.attr('title', '');
+            var more_authors_text = element.text() == '27 more authors' ? 'L.H Ru, E.Q Liu, T Liu, S Hayakawa, L Yang, H Shimizu, C.B Hamill, A. StJ Murphy, J Su, X Fang, K.Y Chae, M.S Kwag, S.M Cha, N.N Duy, N.K Uyen, D.H Kim, R.G Pizzone, M La Cognata, S Cherubini, S Romano, A Tumino, J Liang, A Psaltis, M Sferrazza, D Kim, Y.Y Li, S Kubono' : '27 more authors';
+            var cursorPosition = 0;
+            var textAdder = setInterval(function(){
+              element.text(more_authors_text.substring(0, cursorPosition + 1));
+              if (++cursorPosition == more_authors_text.length){
+                clearInterval(textAdder);
+              }
+          }, '0');
+          ">27 more authors</span>
+</div>
+
+      <div class="periodical">
+      
+        <em>In EPJ Web Conference Series</em>
+      
+      
+        (2022)
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://doi.org/10.1051/epjconf/202226005001" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
+    
+    
+    
+    
+    
+      <a href="/assets/pdf/papers/B012-Hu-NICXVI-2022.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Type I X-ray bursts (XRBs) are the most frequently observed thermonuclear explosions in nature. The 22Mg(α,p)25Al reaction plays a critical role in XRB models. However, experimental information is insufficient to deduce a precise 22Mg(α,p)25Al reaction rate for the respective XRB temperature range. A new measurement of 25Al+p resonant scattring was performed up to the astrophysically interested energy region of 22Mg(α,p)25Al. Several resonances were observed in the excitation functions, and their level properties have been determined based on an R-matrix analysis.
+  In particular, proton widths and spin-parities of four natural-parity resonances above the α threshold of 26Si,
+  which can contribute the reaction rate of 22Mg(α,p)25Al, were ﬁrst experimentally determined.</p>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    <div class="bibtex hidden">
+     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Hu-NIC-XVI</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Hu, J and Yamaguchi, H and Lam, Y.H and Heger, A and Kahl, D and Jacobs, A.M and Johnston, Z and Xu, S.W and Zhang, N.T and Ma, S.B and Ru, L.H and Liu, E.Q and Liu, T and Hayakawa, S and Yang, L and Shimizu, H and Hamill, C.B and Murphy, A. StJ and Su, J and Fang, X and Chae, K.Y and Kwag, M.S and Cha, S.M and Duy, N.N and Uyen, N.K and Kim, D.H and Pizzone, R.G and La Cognata, M and Cherubini, S and Romano, S and Tumino, A and Liang, J and Psaltis, A and Sferrazza, M and Kim, D and Li, Y.Y and Kubono, S}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{First measurement of 25Al+p resonant scattering relevant to the astrophysical reaction 22Mg(α,p)25Al}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{EPJ Web Conference Series}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{260}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{05001}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1051/epjconf/202226005001}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+
+  </div>
+
+
+   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
+        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.1051/epjconf/202226005001"></div>
+           
+        <span class="__dimensions_badge_embed__" data-doi="10.1051/epjconf/202226005001" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
+
+  </div>
+
+
+
+
+   </div>
+
+   <br>
+</li>
+<li>
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+
+<div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">NIC-XVI</abbr>
+    
+  
+  </div>
+
+  <div id="Yamaguchi-NIC-XVI" class="col-sm-8">
+  
+    <!-- Title -->
+    <div class="title">Experimental studies on astrophysical reactions at the low-energy RI beam separator CRIB</div>
+    <!-- Author -->
+    <div class="author">
+    
+
+    H. Yamaguchi, S. Hayakawa, N.R. Ma, H. Shimizu, K. Okawa, L. Yang, D. Kahl, M. La Cognata, L. Lamia, K. Abe, and
+      <span class="more-authors" title="click to view 52 more authors" onclick="
+            var element = $(this);
+            element.attr('title', '');
+            var more_authors_text = element.text() == '52 more authors' ? 'O Beliuskina, S.M Cha, K.Y Chae, S Cherubini, P Figuera, Z Ge, M Gulino, J Hu, A Inoue, N Iwasa, A Kim, D Kim, G Kiss, S Kubono, M La Commara, M Lattuada, E.J Lee, J.Y Moon, S Palmerini, C Parascandolo, S.Y Park, V. H Phong, D Pierroutsakou, R.G Pizzone, G.G Rapisarda, S Romano, C Spitaleri, X.D Tang, O Trippella, A Tumino, N.T Zhang, Y.H Lam, A Heger, A.M Jacobs, S.W Xu, S.B Ma, L.H Ru, E.Q Liu, T Liu, C.B Hamill, A St J. Murphy, J Su, X Fang, M.S Kwag, N.N Duy, N.K Uyen, D.H Kim, J Liang, A Psaltis, M Sferrazza, Z Johnston, Y.Y Li' : '52 more authors';
+            var cursorPosition = 0;
+            var textAdder = setInterval(function(){
+              element.text(more_authors_text.substring(0, cursorPosition + 1));
+              if (++cursorPosition == more_authors_text.length){
+                clearInterval(textAdder);
+              }
+          }, '0');
+          ">52 more authors</span>
+</div>
+
+      <div class="periodical">
+      
+        <em>In EPJ Web Conference Series</em>
+      
+      
+        (2022)
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://doi.org/10.1051/epjconf/202226003003" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
+    
+    
+    
+    
+    
+      <a href="/assets/pdf/papers/B011-Yamaguchi-NICXVI-2022.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Experimental studies on astrophysical reactions involving radioactive isotopes (RI)
+ often accompany technical challenges. Studies on such nuclear reactions have been conducted at the
+ low-energy RI beam separator CRIB, operated by Center for Nuclear Study, the University of Tokyo.
+ We discuss two cases of astrophysical reaction studies at CRIB; one is for the 7Be+n reactions which
+ may affect the primordial 7Li abundance in the Big-Bang nucleosynthesis, and the other is for the
+ 22Mg(α, p) reaction relevantin X-ray bursts.</p>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    <div class="bibtex hidden">
+     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Yamaguchi-NIC-XVI</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Yamaguchi, H and Hayakawa, S and Ma, N.R and Shimizu, H and Okawa, K and Yang, L and Kahl, D and La Cognata, M and Lamia, L and Abe, K and Beliuskina, O and Cha, S.M and Chae, K.Y and Cherubini, S and Figuera, P and Ge, Z and Gulino, M and Hu, J and Inoue, A and Iwasa, N and Kim, A and Kim, D and Kiss, G and Kubono, S and La Commara, M and Lattuada, M and Lee, E.J and Moon, J.Y and Palmerini, S and Parascandolo, C and Park, S.Y and Phong, V. H and Pierroutsakou, D and Pizzone, R.G and Rapisarda, G.G and Romano, S and Spitaleri, C and Tang, X.D and Trippella, O and Tumino, A and Zhang, N.T and Lam, Y.H and Heger, A and Jacobs, A.M and Xu, S.W and Ma, S.B and Ru, L.H and Liu, E.Q and Liu, T and Hamill, C.B and St J. Murphy, A and Su, J and Fang, X and Kwag, M.S and Duy, N.N and Uyen, N.K and Kim, D.H and Liang, J and Psaltis, A and Sferrazza, M and Johnston, Z and Li, Y.Y}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Experimental studies on astrophysical reactions at the low-energy RI beam separator CRIB}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{EPJ Web Conference Series}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{260}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{03003}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1051/epjconf/202226003003}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+
+  </div>
+
+
+   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
+        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.1051/epjconf/202226003003"></div>
+           
+        <span class="__dimensions_badge_embed__" data-doi="10.1051/epjconf/202226003003" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
+
+  </div>
+
+
+
+
+   </div>
+
+   <br>
+</li>
+</ol>
+  </div>
+  
+  <div class="publications" data-year="2021" style="display: none;">
+    <h3>Journal Articles (2021)</h3>
+    <ol class="bibliography">
 <li>
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
@@ -3165,11 +4691,14 @@ Conclusions: The successful reproduction of the measured cross sections in a wid
    <br>
 </li>
 </ol>
-    
 
-    
-  <h2 class="year">2020</h2>
-  <ol class="bibliography">
+    <h3>Conference Proceedings (2021)</h3>
+    <ol class="bibliography"></ol>
+  </div>
+  
+  <div class="publications" data-year="2020" style="display: none;">
+    <h3>Journal Articles (2020)</h3>
+    <ol class="bibliography">
 <li>
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
@@ -3405,1835 +4934,9 @@ Conclusions: In summary, we have performed the first direct measurement of 22Ne(
    <br>
 </li>
 </ol>
-    
 
-    
-  <h2 class="year">2019</h2>
-  <ol class="bibliography"><li>
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-
-<div class="row">
-  <div class="col-sm-2 abbr">
-  
-    
-    <abbr class="badge">PRC</abbr>
-    
-  
-  </div>
-
-  <div id="PsaltisPRC2019" class="col-sm-8">
-  
-    <!-- Title -->
-    <div class="title">Cross-section measurements of radiative proton-capture reactions in 112Cd at energies of astrophysical interest</div>
-    <!-- Author -->
-    <div class="author">
-    
-
-    <b>A. Psaltis</b>, A. Khaliel, E.-M. Assimakopoulou, A. Kanellakopoulos, V. Lagaki, M. Lykiardopoulou, E. Malami, P. Tsavalas, A. Zyriliou, and <a href="https://mertzimekis.gr" target="_blank" rel="noopener noreferrer">T.J. Mertzimekis</a>
-</div>
-
-      <div class="periodical">
-      
-        <em>Physical Review C</em>
-      
-      
-        (2019)
-      
-      </div>
-    
-
-    <div class="links">
-    
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-    
-    
-      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-    
-    
-      <a href="https://doi.org/10.1103/physrevc.102.035801" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
-    
-    
-    
-      <a href="http://arxiv.org/abs/1905.13199" target="_blank" rel="noopener noreferrer"><i class="ai ai-arxiv ai-fw"></i></a>
-    
-    
-    
-      <a href="/assets/pdf/papers/A003-Psaltis-PRC-2019.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
-    
-    
-    
-    
-    
-    
-    
-    </div>
-
-    <!-- Hidden abstract block -->
-    
-    <div class="abstract hidden">
-      <p>Reactions involving the group of nuclei commonly known as p nuclei are part of the nucleosynthetic mechanisms at astrophysical sites. The 113In nucleus is such a case with several open questions regarding its origin at extreme stellar environments. In this work, the experimental study of the cross sections of the radiative proton-capture reaction 112Cd(p,γ)113In is attempted for the first time at energies lying inside the Gamow window with an isotopically enriched 112Cd target. Two different techniques, the in-beam γ-ray spectroscopy and the activation method, have been applied. The latter method is required to account for the presence of a low-lying 113In isomer at 392 keV having a halflife of \approx100 min. From the cross sections, the astrophysical S factors and the isomeric ratios have been additionally deduced. The experimental results are compared to detailed Hauser-Feshbach theoretical calculations using TALYS, and discussed in terms of their significance to the optical model potential involved.</p>
-    </div>
-    
-
-    <!-- Hidden bibtex block -->
-    <div class="bibtex hidden">
-     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">PsaltisPRC2019</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Cross-section measurements of radiative proton-capture reactions in 112Cd at energies of astrophysical interest}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Psaltis, A and Khaliel, A and Assimakopoulou, E.-M and Kanellakopoulos, A and Lagaki, V and Lykiardopoulou, M and Malami, E and Tsavalas, P and Zyriliou, A and Mertzimekis, T.J}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Physical Review C}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{99}</span><span class="p">,</span>
-  <span class="na">number</span> <span class="p">=</span> <span class="s">{6}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{065807}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2019}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1103/physrevc.102.035801}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-    </div>
-
-  </div>
-
-
-   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
-        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.1103/physrevc.102.035801"></div>
-           
-        <span class="__dimensions_badge_embed__" data-doi="10.1103/physrevc.102.035801" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
-
-  </div>
-
-
-
-
-   </div>
-
-   <br>
-</li></ol>
-    
-
-    
-
-    
-  <h2 class="year">2017</h2>
-  <ol class="bibliography"><li>
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-
-<div class="row">
-  <div class="col-sm-2 abbr">
-  
-    
-    <abbr class="badge">PRC</abbr>
-    
-  
-  </div>
-
-  <div id="KhalielPRC2017" class="col-sm-8">
-  
-    <!-- Title -->
-    <div class="title">First cross-section measurements of the reactions 107,109Ag(p, γ)108,110Cd at energies relevant to the p process</div>
-    <!-- Author -->
-    <div class="author">
-    
-
-    A. Khaliel, <a href="https://mertzimekis.gr" target="_blank" rel="noopener noreferrer">T.J. Mertzimekis</a>, E.-M. Asimakopoulou, A. Kanellakopoulos, V. Lagaki, <b>A. Psaltis</b>, I. Psyrra, and E. Mavrommatis</div>
-
-      <div class="periodical">
-      
-        <em>Physical Review C</em>
-      
-      
-        (2017)
-      
-      </div>
-    
-
-    <div class="links">
-    
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-    
-    
-      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-    
-    
-      <a href="https://doi.org/10.1103/PhysRevC.96.035806" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
-    
-    
-    
-    
-    
-      <a href="/assets/pdf/papers/A002-Khaliel-PRC-2017.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
-    
-    
-    
-    
-    
-    
-    
-    </div>
-
-    <!-- Hidden abstract block -->
-    
-    <div class="abstract hidden">
-      <p>Background: One of the primary objectives of the field of Nuclear Astrophysics is the study of the elemental and isotopic abundances in the universe. Although significant progress has been made in understanding the mechanisms behind the production of a large number of nuclides in the isotopic chart, there are still many open questions regarding a number of neutron-deficient nuclei, the p nuclei. To that end, experimentally deduced nuclear reaction cross sections can provide invaluable input to astrophysical models.
-
-Purpose: The reactions 107,109Ag(p,γ)108,110Cd have been studied at energies inside the astrophysically relevant energy window in an attempt to provide experimental data required for the testing of reaction-rate predictions in terms of the statistical model of Hauser-Feshbach around the p nucleus 108Cd.
-
-Methods: The experiments were performed with in-beam γ-ray spectroscopy with proton beams accelerated by the Tandem Van de Graaff Accelerator at NCSR “Demokritos” impinging a target of natural silver. A set of high-purity germanium detectors was employed to record the emitted radiation.
-
-Results: A first set of total cross-section measurements in radiative proton-capture reactions involving 107,109Ag, producing the p-nucleus 108Cd, inside the astrophysically relevant energy window is reported. The experimental results are compared to theoretical calculations, using talys. An overall good agreement between the data and the theoretical calculations has been found.
-
-Conclusions: The results reported in this work add new information to the relatively unexplored p process. The present measurements can serve as a reference point in understanding the nuclear parameters in the related astrophysical environments and for future theoretical modeling and experimental works.</p>
-    </div>
-    
-
-    <!-- Hidden bibtex block -->
-    <div class="bibtex hidden">
-     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">KhalielPRC2017</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{First cross-section measurements of the reactions 107,109Ag(p, $\gamma$)108,110Cd at energies relevant to the p process}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Khaliel, A and Mertzimekis, T.J and Asimakopoulou, E.-M and Kanellakopoulos, A and Lagaki, V and Psaltis, A and Psyrra, I and Mavrommatis, E}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Physical Review C}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{96}</span><span class="p">,</span>
-  <span class="na">number</span> <span class="p">=</span> <span class="s">{3}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{035806}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2017}</span><span class="p">,</span>
-  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{APS}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1103/PhysRevC.96.035806}</span>
-<span class="p">}</span></code></pre></figure>
-    </div>
-
-  </div>
-
-
-   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
-        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.1103/PhysRevC.96.035806"></div>
-           
-        <span class="__dimensions_badge_embed__" data-doi="10.1103/PhysRevC.96.035806" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
-
-  </div>
-
-
-
-
-   </div>
-
-   <br>
-</li></ol>
-    
-
-    
-  <h2 class="year">2016</h2>
-  <ol class="bibliography"><li>
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-
-<div class="row">
-  <div class="col-sm-2 abbr">
-  
-    
-    <abbr class="badge">NIM A</abbr>
-    
-  
-  </div>
-
-  <div id="MertzimekisNIMA2016" class="col-sm-8">
-  
-    <!-- Title -->
-    <div class="title">An online database of nuclear electromagnetic moments</div>
-    <!-- Author -->
-    <div class="author">
-    
-
-    <a href="https://mertzimekis.gr" target="_blank" rel="noopener noreferrer">T.J. Mertzimekis</a>, K. Stamou, and <b>A. Psaltis</b>
-</div>
-
-      <div class="periodical">
-      
-        <em>Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment</em>
-      
-      
-        (2016)
-      
-      </div>
-    
-
-    <div class="links">
-    
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-    
-    
-      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-    
-    
-      <a href="https://doi.org/10.1016/j.nima.2015.10.096" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
-    
-    
-    
-    
-    
-      <a href="/assets/pdf/papers/A001-Mertzimekis-NIMA-2016.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
-    
-    
-    
-    
-    
-    
-    
-    </div>
-
-    <!-- Hidden abstract block -->
-    
-    <div class="abstract hidden">
-      <p>Measurements of nuclear magnetic dipole and electric quadrupole moments are considered quite important for the understanding of nuclear structure both near and far from the valley of stability. The recent advent of radioactive beams has resulted in a plethora of new, continuously flowing, experimental data on nuclear structure – including nuclear moments – which hinders the information management. A new, dedicated, public and user friendly online database (http://magneticmoments.info) has been created comprising experimental data of nuclear electromagnetic moments. The present database supersedes existing printed compilations, including also non-evaluated series of data and relevant meta-data, while putting strong emphasis on bimonthly updates. The scope, features and extensions of the database are reported.</p>
-    </div>
-    
-
-    <!-- Hidden bibtex block -->
-    <div class="bibtex hidden">
-     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">MertzimekisNIMA2016</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{An online database of nuclear electromagnetic moments}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Mertzimekis, T.J and Stamou, K and Psaltis, A}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{807}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{56--60}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2016}</span><span class="p">,</span>
-  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Elsevier}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1016/j.nima.2015.10.096}</span>
-<span class="p">}</span></code></pre></figure>
-    </div>
-
-  </div>
-
-
-   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
-        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.1016/j.nima.2015.10.096"></div>
-           
-        <span class="__dimensions_badge_embed__" data-doi="10.1016/j.nima.2015.10.096" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
-
-  </div>
-
-
-
-
-   </div>
-
-   <br>
-</li></ol>
-    
-
-</div>
-
-<p><br><br></p>
-
-<div class="publications">
-<h3>articles in conference proceedings</h3>
-
-     
-
-     
-  <h2 class="year">2023</h2>
-  <ol class="bibliography">
-<li>
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-
-<div class="row">
-  <div class="col-sm-2 abbr">
-  
-    
-    <abbr class="badge">INPC2022</abbr>
-    
-  
-  </div>
-
-  <div id="Psaltis-INPC-2023" class="col-sm-8">
-  
-    <!-- Title -->
-    <div class="title">Using (α,xn) reaction rates and abundance ratios to constrain the weak r-process</div>
-    <!-- Author -->
-    <div class="author">
-    
-
-    <b>A. Psaltis</b>, <a href="https://theorie.ikp.physik.tu-darmstadt.de/astro/people/people_arcones.php" target="_blank" rel="noopener noreferrer">A. Arcones</a>, M. L. Avila, C. J. Hansen, M. Jacobi, L. Lombardo, Z. Meisel, P. Mohr, F. Montes, W. J. Ong, and
-      <span class="more-authors" title="click to view 1 more author" onclick="
-            var element = $(this);
-            element.attr('title', '');
-            var more_authors_text = element.text() == '1 more author' ? 'H Schatz' : '1 more author';
-            var cursorPosition = 0;
-            var textAdder = setInterval(function(){
-              element.text(more_authors_text.substring(0, cursorPosition + 1));
-              if (++cursorPosition == more_authors_text.length){
-                clearInterval(textAdder);
-              }
-          }, '0');
-          ">1 more author</span>
-</div>
-
-      <div class="periodical">
-      
-        <em>Journal of Physics: Conference Series</em>
-      
-      
-        (2023)
-      
-      </div>
-    
-
-    <div class="links">
-    
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-    
-    
-      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-    
-    
-      <a href="https://doi.org/10.1088/1742-6596/2586/1/012105" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
-    
-    
-    
-    
-    
-      <a href="/assets/pdf/papers/B023-Psaltis-INPC-2023.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
-    
-    
-    
-    
-    
-    
-    
-    </div>
-
-    <!-- Hidden abstract block -->
-    
-    <div class="abstract hidden">
-      <p>he lighter heavy elements of the first r-process peak, between strontium and silver, can be synthesized in the moderately neutron-rich neutrino–driven ejecta of either core–collapse supernovae or neutron star mergers via the weak r–process. This nucleosynthesis scenario exhibits uncertainties from the absence of experimental data from (α, xn) reactions on neutron–rich nuclei, which are currently based on statistical model estimates. We have performed a new impact study to identify the most important (α, xn) reactions that can affect the production of the lighter heavy elements under different astrophysical conditions and using new, constrained (α, xn) reaction rates based on the Atomki-V2 αOMP. We have identified a list of relevant reactions that affect elemental abundance ratios that can be compared to abundances from metal-poor stars. Our results show how when reducing the nuclear physics uncertainties, we can use abundance ratios to constrain the astrophysical conditions/environment. This will be possible with the planned experiments to measure key (α, xn) reaction rates using the SECAR recoil separator at FRIB that will also be briefly discussed.</p>
-    </div>
-    
-
-    <!-- Hidden bibtex block -->
-    <div class="bibtex hidden">
-     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Psaltis-INPC-2023</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1088/1742-6596/2586/1/012105}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
-  <span class="na">month</span> <span class="p">=</span> <span class="nv">sep</span><span class="p">,</span>
-  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{{IOP} Publishing}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{2586}</span><span class="p">,</span>
-  <span class="na">number</span> <span class="p">=</span> <span class="s">{1}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{012105}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Psaltis, A and Arcones, A and Avila, M. L and Hansen, C. J and Jacobi, M and Lombardo, L and Meisel, Z and Mohr, P and Montes, F and Ong, W. J and Schatz, H}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Using (α,xn) reaction rates and abundance ratios to constrain the weak r-process}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Journal of Physics: Conference Series}</span>
-<span class="p">}</span></code></pre></figure>
-    </div>
-
-  </div>
-
-
-   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
-        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.1088/1742-6596/2586/1/012105"></div>
-           
-        <span class="__dimensions_badge_embed__" data-doi="10.1088/1742-6596/2586/1/012105" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
-
-  </div>
-
-
-
-
-   </div>
-
-   <br>
-</li>
-<li>
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-
-<div class="row">
-  <div class="col-sm-2 abbr">
-  
-    
-    <abbr class="badge">INPC2022</abbr>
-    
-  
-  </div>
-
-  <div id="Adsley-INPC-2023" class="col-sm-8">
-  
-    <!-- Title -->
-    <div class="title">Understanding globular cluster abundances through nuclear reactions</div>
-    <!-- Author -->
-    <div class="author">
-    
-
-    P. Adsley, M. Williams, D S. Harrouz, D P. Carrasco-Rojas, N. Seréville, F. Hammache, <a href="https://rlongland.github.io/" target="_blank" rel="noopener noreferrer">R. Longland</a>, B. Bastin, B. Davids, T. Faestermann, and
-      <span class="more-authors" title="click to view 17 more authors" onclick="
-            var element = $(this);
-            element.attr('title', '');
-            var more_authors_text = element.text() == '17 more authors' ? 'C Fougères, U Greife, R Hertenberger, D Hutcheon, M La Cognata, AM Laird, L Lamia, A Lennarz, A Meyer, F Santos, S Palmerini, A Psaltis, R G Pizzone, S Romano, C Ruiz, A Tumino, H-F Wirth' : '17 more authors';
-            var cursorPosition = 0;
-            var textAdder = setInterval(function(){
-              element.text(more_authors_text.substring(0, cursorPosition + 1));
-              if (++cursorPosition == more_authors_text.length){
-                clearInterval(textAdder);
-              }
-          }, '0');
-          ">17 more authors</span>
-</div>
-
-      <div class="periodical">
-      
-        <em>Journal of Physics: Conference Series</em>
-      
-      
-        (2023)
-      
-      </div>
-    
-
-    <div class="links">
-    
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-    
-    
-      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-    
-    
-      <a href="https://doi.org/10.1088/1742-6596/2586/1/012100" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
-    
-    
-    
-    
-    
-      <a href="/assets/pdf/papers/B022-Adsley-INPC-2023.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
-    
-    
-    
-    
-    
-    
-    
-    </div>
-
-    <!-- Hidden abstract block -->
-    
-    <div class="abstract hidden">
-      <p>Globular clusters contain multiple stellar populations, with some previous generation of stars polluting the current stars with heavier elements. Understanding the history of globular clusters is helpful in understanding how galaxies merged and evolved and therefore constraining the site or sites of this historic pollution is a priority. The acceptable temperature and density conditions of these polluting sites depend on critical reaction rates. In this paper, three experimental studies helping to constrain astrophysically important reaction rates are briefly discussed.</p>
-    </div>
-    
-
-    <!-- Hidden bibtex block -->
-    <div class="bibtex hidden">
-     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Adsley-INPC-2023</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1088/1742-6596/2586/1/012100}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
-  <span class="na">month</span> <span class="p">=</span> <span class="nv">sep</span><span class="p">,</span>
-  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{{IOP} Publishing}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{2586}</span><span class="p">,</span>
-  <span class="na">number</span> <span class="p">=</span> <span class="s">{1}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{012100}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Adsley, P and Williams, M and Harrouz, D S and Carrasco-Rojas, D P and de Ser{\'{e}}ville, N and Hammache, F and Longland, R and Bastin, B and Davids, B and Faestermann, T and Foug{\`{e}}res, C and Greife, U and Hertenberger, R and Hutcheon, D and Cognata, M La and Laird, AM and Lamia, L and Lennarz, A and Meyer, A and d'Oliveira Santos, F and Palmerini, S and Psaltis, A and Pizzone, R G and Romano, S and Ruiz, C and Tumino, A and Wirth, H-F}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Understanding globular cluster abundances through nuclear reactions}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Journal of Physics: Conference Series}</span>
-<span class="p">}</span></code></pre></figure>
-    </div>
-
-  </div>
-
-
-   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
-        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.1088/1742-6596/2586/1/012100"></div>
-           
-        <span class="__dimensions_badge_embed__" data-doi="10.1088/1742-6596/2586/1/012100" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
-
-  </div>
-
-
-
-
-   </div>
-
-   <br>
-</li>
-<li>
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-
-<div class="row">
-  <div class="col-sm-2 abbr">
-  
-    
-    <abbr class="badge">EMIS 2022</abbr>
-    
-  
-  </div>
-
-  <div id="Glorius-NIMB-2023" class="col-sm-8">
-  
-    <!-- Title -->
-    <div class="title">Storage, accumulation and deceleration of secondary beams for nuclear astrophysics</div>
-    <!-- Author -->
-    <div class="author">
-    
-
-    J. Glorius, Yu. A. Litvinov, M. Aliotta, F. Amjad, B. Brückner, C.G. Bruno, R. Chen, T. Davinson, S.F. Dellmann, T. Dickel, and
-      <span class="more-authors" title="click to view 54 more authors" onclick="
-            var element = $(this);
-            element.attr('title', '');
-            var more_authors_text = element.text() == '54 more authors' ? 'I Dillmann, P Erbacher, O Forstner, H Geissel, C.J Griffin, R Grisenti, A Gumberidze, E. Haettner, R Hess, P.-M Hillenbrand, C Hornung, R Joseph, B Jurado, E Kazanseva, R Knöbel, D Kostyleva, C Kozhuharov, N Kuzminchuk, C Langer, G Leckenby, C Lederer-Woods, M Lestinsky, S Litvinov, B Löher, B Lorenz, E Lorenz, J Marsh, E Menz, T Morgenroth, I Mukha, N Petridis, U Popp, A Psaltis, S Purushothaman, R Reifarth, E Rocco, P Roy, M.S Sanjari, C Scheidenberger, M Sguazzin, R.S Sidhu, U Spillmann, M Steck, T Stöhlker, J.A Swartz, Y.K Tanaka, H Törnqvist, L Varga, D Vescovi, H Weick, M Weigand, P.J Woods, T Yamaguchi, J Zhao' : '54 more authors';
-            var cursorPosition = 0;
-            var textAdder = setInterval(function(){
-              element.text(more_authors_text.substring(0, cursorPosition + 1));
-              if (++cursorPosition == more_authors_text.length){
-                clearInterval(textAdder);
-              }
-          }, '0');
-          ">54 more authors</span>
-</div>
-
-      <div class="periodical">
-      
-        <em>Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms</em>
-      
-      
-        (2023)
-      
-      </div>
-    
-
-    <div class="links">
-    
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-    
-    
-      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-    
-    
-      <a href="https://doi.org/10.1016/j.nimb.2023.04.059" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
-    
-    
-    
-    
-    
-      <a href="/assets/pdf/papers/B021-Glorius-NIMB-2023.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
-    
-    
-    
-    
-    
-    
-    
-    </div>
-
-    <!-- Hidden abstract block -->
-    
-    <div class="abstract hidden">
-      <p>Low-energy investigations on rare ion beams are often limited by the available intensity and purity of the ion species in focus. Here, we present the first application of a technique that combines in-flight production at relativistic energies with subsequent secondary beam storage, accumulation and finally deceleration to the energy of interest. Using the FRS and ESR facilities at GSI, this scheme was pioneered to provide a secondary beam of 118Te52+ for the measurement of nuclear proton-capture at energies of 6 and 7 MeV/u. The technique provided stored beam intensities of about 106 ions at high purity and brilliance, representing a major step towards low-energy nuclear physics studies using rare ion beams.</p>
-    </div>
-    
-
-    <!-- Hidden bibtex block -->
-    <div class="bibtex hidden">
-     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Glorius-NIMB-2023</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Storage, accumulation and deceleration of secondary beams for nuclear astrophysics}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{541}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{190-193}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
-  <span class="na">issn</span> <span class="p">=</span> <span class="s">{0168-583X}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1016/j.nimb.2023.04.059}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Glorius, J and Litvinov, Yu. A and Aliotta, M and Amjad, F and Brückner, B and Bruno, C.G and Chen, R and Davinson, T and Dellmann, S.F and Dickel, T and Dillmann, I and Erbacher, P and Forstner, O and Geissel, H and Griffin, C.J and Grisenti, R and Gumberidze, A and Haettner, E. and Hess, R and Hillenbrand, P.-M and Hornung, C and Joseph, R and Jurado, B and Kazanseva, E and Knöbel, R and Kostyleva, D and Kozhuharov, C and Kuzminchuk, N and Langer, C and Leckenby, G and Lederer-Woods, C and Lestinsky, M and Litvinov, S and Löher, B and Lorenz, B and Lorenz, E and Marsh, J and Menz, E and Morgenroth, T and Mukha, I and Petridis, N and Popp, U and Psaltis, A and Purushothaman, S and Reifarth, R and Rocco, E and Roy, P and Sanjari, M.S and Scheidenberger, C and Sguazzin, M and Sidhu, R.S and Spillmann, U and Steck, M and Stöhlker, T and Swartz, J.A and Tanaka, Y.K and Törnqvist, H and Varga, L and Vescovi, D and Weick, H and Weigand, M and Woods, P.J and Yamaguchi, T and Zhao, J}</span>
-<span class="p">}</span></code></pre></figure>
-    </div>
-
-  </div>
-
-
-   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
-        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.1016/j.nimb.2023.04.059"></div>
-           
-        <span class="__dimensions_badge_embed__" data-doi="10.1016/j.nimb.2023.04.059" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
-
-  </div>
-
-
-
-
-   </div>
-
-   <br>
-</li>
-<li>
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-
-<div class="row">
-  <div class="col-sm-2 abbr">
-  
-    
-    <abbr class="badge">ActaPhysPolB</abbr>
-    
-  
-  </div>
-
-  <div id="Vukman-ActaPhysPolB-2023" class="col-sm-8">
-  
-    <!-- Title -->
-    <div class="title">Helium Clustering in Neutron-rich Be Isotopes</div>
-    <!-- Author -->
-    <div class="author">
-    
-
-    N. Vukman, N. Soić, M. Freer, M. Alcorta, D. Connolly, P. Čolović, T. Davinson, A Di. Pietro, A. Lennarz, <b>A. Psaltis</b>, and
-      <span class="more-authors" title="click to view 4 more authors" onclick="
-            var element = $(this);
-            element.attr('title', '');
-            var more_authors_text = element.text() == '4 more authors' ? 'C Ruiz, A Shotter, M Uroić, M Williams' : '4 more authors';
-            var cursorPosition = 0;
-            var textAdder = setInterval(function(){
-              element.text(more_authors_text.substring(0, cursorPosition + 1));
-              if (++cursorPosition == more_authors_text.length){
-                clearInterval(textAdder);
-              }
-          }, '0');
-          ">4 more authors</span>
-</div>
-
-      <div class="periodical">
-      
-        <em>Acta Physica Polonica B Proceedings Supplement</em>
-      
-      
-        (2023)
-      
-      </div>
-    
-
-    <div class="links">
-    
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-    
-    
-      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-    
-    
-      <a href="https://doi.org/10.5506/aphyspolbsupp.16.4-a34" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
-    
-    
-    
-    
-    
-      <a href="/assets/pdf/papers/B020-Vukman-ActaPhysPolB-2023.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
-    
-    
-    
-    
-    
-    
-    
-    </div>
-
-    <!-- Hidden abstract block -->
-    
-    <div class="abstract hidden">
-      <p>The experimental study of the helium decays of the 10 Be and 12 Be
-    excited states was performed at TRIUMF, Vancouver, using the transfer
-    reactions of the 9 Li beam on the LiF target and resonant particle spectroscopy technique. P
-    art of the results from the full dataset are presented
-    here, for the 4 He+6 He (0+ ; 1.8 MeV, 2+ ), 6He+6He (0+ ; 1.8 MeV, 2+ ),
-    and 4 He+8 He decays of the 10Be and 12Be excited states, respectively. The
-    6
-     He+6 He (1.8 MeV, 2+ ) decay channel was observed for the first time in the
-    present experiment, while for the 4 He+6 He (1.8 MeV, 2+ ) decay channel,
-    there was previously only one measurement available, which present results
-    agree with. New highly excited states were observed in all decay channels
-    studied. Although branching ratios and the spins of the states were not
-    determined, important spectroscopic information is obtained and present
-    results are in good agreement with the proposed α–Xn–α molecular structure of these isotopes,
-    based on the comparison with previously published
-    results.
-    </p>
-    </div>
-    
-
-    <!-- Hidden bibtex block -->
-    <div class="bibtex hidden">
-     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Vukman-ActaPhysPolB-2023</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
-  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Jagiellonian University}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{16}</span><span class="p">,</span>
-  <span class="na">number</span> <span class="p">=</span> <span class="s">{4}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{1}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Vukman, N and Soi{\'{c}}, N and Freer, M and Alcorta, M and Connolly, D and {\v{C}}olovi{\'{c}}, P and Davinson, T and Pietro, A Di and Lennarz, A and Psaltis, A and Ruiz, C and Shotter, A and Uroi{\'{c}}, M and Williams, M}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Helium Clustering in Neutron-rich Be Isotopes}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Acta Physica Polonica B Proceedings Supplement}</span>
-<span class="p">}</span></code></pre></figure>
-    </div>
-
-  </div>
-
-
-   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
-        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.5506/aphyspolbsupp.16.4-a34"></div>
-           
-        <span class="__dimensions_badge_embed__" data-doi="10.5506/aphyspolbsupp.16.4-a34" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
-
-  </div>
-
-
-
-
-   </div>
-
-   <br>
-</li>
-<li>
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-
-<div class="row">
-  <div class="col-sm-2 abbr">
-  
-    
-    <abbr class="badge">NPA-X</abbr>
-    
-  
-  </div>
-
-  <div id="Angus-NPAX-2023" class="col-sm-8">
-  
-    <!-- Title -->
-    <div class="title">Measurement of the 86Kr(α,n)89Sr cross section at energies relevant for the weak r-process</div>
-    <!-- Author -->
-    <div class="author">
-    
-
-    C. Angus, M. Williams, A. Andreyev, S. Bhattacharjee, S. Buck, S. Chakraborty, B. Davids, C. Diget, A. Garnsworthy, C. Griffin, and
-      <span class="more-authors" title="click to view 23 more authors" onclick="
-            var element = $(this);
-            element.attr('title', '');
-            var more_authors_text = element.text() == '23 more authors' ? 'A Fernandez, G Hackman, K Hudson, D Hufschmidt, V Karayonchev, Y Kim, A Laird, A Lennarz, K Mashtakov, P Machule, C Natzke, K Pak, A Psaltis, A Radich, T Rauscher, D Rhodes, T Sauvage, A Simon, C Svensson, S Upadhyayula, J Williams, D Yates, T Zidar' : '23 more authors';
-            var cursorPosition = 0;
-            var textAdder = setInterval(function(){
-              element.text(more_authors_text.substring(0, cursorPosition + 1));
-              if (++cursorPosition == more_authors_text.length){
-                clearInterval(textAdder);
-              }
-          }, '0');
-          ">23 more authors</span>
-</div>
-
-      <div class="periodical">
-      
-        <em>EPJ Web Conference Series</em>
-      
-      
-        (2023)
-      
-      </div>
-    
-
-    <div class="links">
-    
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-    
-    
-      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-    
-    
-      <a href="https://doi.org/10.1051/epjconf/202327911003" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
-    
-    
-    
-    
-    
-      <a href="/assets/pdf/papers/B019-Angus-NPAX-2023.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
-    
-    
-    
-    
-    
-    
-    
-    </div>
-
-    <!-- Hidden abstract block -->
-    
-    <div class="abstract hidden">
-      <p>The r-process has been shown to be robust in reproducing the
-abundance distributions of heavy elements, such as europium, seen in
-ultra-metal poor stars. In contrast, observations of elements 26 &lt; Z &lt; 47
-display overabundances relative to r-process model predictions. A
-proposed additional source of early nucleosynthesis is the weak r-process
-in neutrino-driven winds of core-collapse supernovae. It has been shown
-that in this site (α,n) reactions are both crucial to nucleosynthesis and the
-main source of uncertainty in model-based abundance predictions. Aiming
-to improve the certainty of nucleosynthesis predictions, the cross section of
-the important reaction 86 Kr(α,n)89Sr has been measured at an energy
-relevant to the weak r-process. This experiment was conducted in inverse
-kinematics at TRIUMF with the EMMA recoil mass spectrometer and the
-TIGRESS gamma-ray spectrometer. A novel type of solid helium target
-was used.
-</p>
-    </div>
-    
-
-    <!-- Hidden bibtex block -->
-    <div class="bibtex hidden">
-     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Angus-NPAX-2023</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Angus, C and Williams, M and Andreyev, A and Bhattacharjee, S and Buck, S and Chakraborty, S and Davids, B and Diget, C and Garnsworthy, A and Griffin, C and Fernandez, A and Hackman, G and Hudson, K and Hufschmidt, D and Karayonchev, V and Kim, Y and Laird, A and Lennarz, A and Mashtakov, K and Machule, P and Natzke, C and Pak, K and Psaltis, A and Radich, A and Rauscher, T and Rhodes, D and Sauvage, T and Simon, A and Svensson, C and Upadhyayula, S and Williams, J and Yates, D and Zidar, T}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Measurement of the 86Kr(α,n)89Sr cross section at energies relevant for the weak r-process}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1051/epjconf/202327911003}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{EPJ Web Conference Series}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{279}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{11003}</span>
-<span class="p">}</span></code></pre></figure>
-    </div>
-
-  </div>
-
-
-   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
-        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.1051/epjconf/202327911003"></div>
-           
-        <span class="__dimensions_badge_embed__" data-doi="10.1051/epjconf/202327911003" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
-
-  </div>
-
-
-
-
-   </div>
-
-   <br>
-</li>
-<li>
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-
-<div class="row">
-  <div class="col-sm-2 abbr">
-  
-    
-    <abbr class="badge">NPA-X</abbr>
-    
-  
-  </div>
-
-  <div id="Dellmann-NPAX-2023" class="col-sm-8">
-  
-    <!-- Title -->
-    <div class="title">Proton capture on stored radioactive 118Te ions</div>
-    <!-- Author -->
-    <div class="author">
-    
-
-    S. F. Dellmann, J. Glorius, Y. A. Litvinov, R. Reifarth, K. Al-Khasawneh, M. Aliotta, L. Bott, B. Brückner, C. Bruno, R. J. Chen, and
-      <span class="more-authors" title="click to view 53 more authors" onclick="
-            var element = $(this);
-            element.attr('title', '');
-            var more_authors_text = element.text() == '53 more authors' ? 'T Davinson, T Dickel, I Dillmann, D Dmytriev, P Erbacher, D Freire-Fernández, O Forstner, H Geissel, K Göbel, C. J Griffin, R Grisenti, A Gumberidze, E Haettner, S Hagmann, M Heil, R Heß, P.-M Hillenbrand, R Joseph, B Jurado, C. Kozhuharov, I Kulikov, B Löher, C Langer, G Leckenby, C Lederer-Woods, M Lestinsky, S Litvinov, B. A Lorenz, E Lorenz, J Marsh, E Menz, T Morgenroth, N Petridis, J Pibernat, U Popp, A Psaltis, S Sanjari, C Scheidenberger, M Sguazzin, R. S Sidhu, U Spillmann, M Steck, T Stöhlker, A Surzhykov, J. A Swartz, H Törnqvist, L Varga, D Vescovi, H Weick, M Weigand, P Woods, Y Xing, T Yamaguchi' : '53 more authors';
-            var cursorPosition = 0;
-            var textAdder = setInterval(function(){
-              element.text(more_authors_text.substring(0, cursorPosition + 1));
-              if (++cursorPosition == more_authors_text.length){
-                clearInterval(textAdder);
-              }
-          }, '0');
-          ">53 more authors</span>
-</div>
-
-      <div class="periodical">
-      
-        <em>EPJ Web Conference Series</em>
-      
-      
-        (2023)
-      
-      </div>
-    
-
-    <div class="links">
-    
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-    
-    
-      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-    
-    
-      <a href="https://doi.org/10.1051/epjconf/202327911018" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
-    
-    
-    
-    
-    
-      <a href="/assets/pdf/papers/B018-Dellmann-NPAX-2023.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
-    
-    
-    
-    
-    
-    
-    
-    </div>
-
-    <!-- Hidden abstract block -->
-    
-    <div class="abstract hidden">
-      <p> Experimental determination of the cross sections of proton capture
-              on radioactive nuclei is extremely difficult. Therefore, it is of substantial interest
-              for the understanding of the production of the p-nuclei. For the first time, a
-              direct measurement of proton-capture cross sections on stored, radioactive ions
-              became possible in an energy range of interest for nuclear astrophysics. The
-              experiment was performed at the Experimental Storage Ring (ESR) at GSI by
-              making use of a sensitive method to measure (p,γ) and (p,n) reactions in inverse
-              kinematics. These reaction channels are of high relevance for the nucleosyn-
-              thesis processes in supernovae, which are among the most violent explosions in
-              the universe and are not yet well understood. The cross section of the 118 Te(p,γ)
-              reaction has been measured at energies of 6 MeV/u and 7 MeV/u. The heavy
-              ions interacted with a hydrogen gas jet target. The radiative recombination pro-
-              cess of the fully stripped 118 Te ions and electrons from the hydrogen target was
-              used as a luminosity monitor. An overview of the experimental method and
-              preliminary results from the ongoing analysis will be presented.
-              </p>
-    </div>
-    
-
-    <!-- Hidden bibtex block -->
-    <div class="bibtex hidden">
-     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Dellmann-NPAX-2023</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Dellmann, S. F and Glorius, J and Litvinov, Y. A and Reifarth, R and Al-Khasawneh, K and Aliotta, M and Bott, L and Br\"uckner, B and Bruno, C and Chen, R. J and Davinson, T and Dickel, T and Dillmann, I and Dmytriev, D and Erbacher, P and Freire-Fern\'andez, D and Forstner, O and Geissel, H and G\"obel, K and Griffin, C. J and Grisenti, R and Gumberidze, A and Haettner, E and Hagmann, S and Heil, M and He\ss, R and Hillenbrand, P.-M and Joseph, R and Jurado, B and Kozhuharov, C. and Kulikov, I and L\"oher, B and Langer, C and Leckenby, G and Lederer-Woods, C and Lestinsky, M and Litvinov, S and Lorenz, B. A and Lorenz, E and Marsh, J and Menz, E and Morgenroth, T and Petridis, N and Pibernat, J and Popp, U and Psaltis, A and Sanjari, S and Scheidenberger, C and Sguazzin, M and Sidhu, R. S and Spillmann, U and Steck, M and St\"ohlker, T and Surzhykov, A and Swartz, J. A and T\"ornqvist, H and Varga, L and Vescovi, D and Weick, H and Weigand, M and Woods, P and Xing, Y and Yamaguchi, T}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Proton capture on stored radioactive 118Te ions}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1051/epjconf/202327911018}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{EPJ Web Conference Series}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{279}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{11018}</span>
-<span class="p">}</span></code></pre></figure>
-    </div>
-
-  </div>
-
-
-   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
-        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.1051/epjconf/202327911018"></div>
-           
-        <span class="__dimensions_badge_embed__" data-doi="10.1051/epjconf/202327911018" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
-
-  </div>
-
-
-
-
-   </div>
-
-   <br>
-</li>
-<li>
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-
-<div class="row">
-  <div class="col-sm-2 abbr">
-  
-    
-    <abbr class="badge">NPA-X</abbr>
-    
-  
-  </div>
-
-  <div id="Psaltis-NPAX-2023" class="col-sm-8">
-  
-    <!-- Title -->
-    <div class="title">Constraining nucleosythesis in neutrino-driven winds using the impact of (α,xn) reaction rates</div>
-    <!-- Author -->
-    <div class="author">
-    
-
-    <b>A. Psaltis</b>, <a href="https://theorie.ikp.physik.tu-darmstadt.de/astro/people/people_arcones.php" target="_blank" rel="noopener noreferrer">A. Arcones</a>, M. L. Avila, M. Jacobi, C. J. Hansen, L. Lombardo, Z. Meisel, P. Mohr, F. Montes, W. J. Ong, and
-      <span class="more-authors" title="click to view 1 more author" onclick="
-            var element = $(this);
-            element.attr('title', '');
-            var more_authors_text = element.text() == '1 more author' ? 'H Schatz' : '1 more author';
-            var cursorPosition = 0;
-            var textAdder = setInterval(function(){
-              element.text(more_authors_text.substring(0, cursorPosition + 1));
-              if (++cursorPosition == more_authors_text.length){
-                clearInterval(textAdder);
-              }
-          }, '0');
-          ">1 more author</span>
-</div>
-
-      <div class="periodical">
-      
-        <em>EPJ Web Conference Series</em>
-      
-      
-        (2023)
-      
-      </div>
-    
-
-    <div class="links">
-    
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-    
-    
-      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-    
-    
-      <a href="https://doi.org/10.1051/epjconf/202327908002" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
-    
-    
-    
-    
-    
-      <a href="/assets/pdf/papers/B017-Psaltis-NPAX-2023.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
-    
-    
-    
-    
-    
-    
-    
-    </div>
-
-    <!-- Hidden abstract block -->
-    
-    <div class="abstract hidden">
-      <p>The lighter heavy elements of the first r-process peak, between
-strontium and silver, can be synthesized in the moderately neutron-rich neutrino–driven
-ejecta of either core–collapse supernovae or neutron star mergers
-via the weak r–process. This nucleosynthesis scenario exhibits uncertainties
-from the absence of experimental data from (α, xn) reactions on neutron–rich
-nuclei, which are currently based on statistical model estimates. We have per-
-formed a new impact study to identify the most important (α, xn) reactions that
-can affect the production of the lighter heavy elements under different astrophysical
-conditions using new, constrained (α, xn) reaction rates based on the
-Atomki-V2 αOMP. Our results show how when reducing the nuclear physics
-uncertainties, we can use abundance ratios to constrain the astrophysical conditions/environment.
-This can be achieved in the near future, when the key (α, xn)
-reaction rates will be measured experimentally in radioactive beam facilities.</p>
-    </div>
-    
-
-    <!-- Hidden bibtex block -->
-    <div class="bibtex hidden">
-     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Psaltis-NPAX-2023</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Psaltis, A and Arcones, A and Avila, M. L and Jacobi, M and Hansen, C. J and Lombardo, L and Meisel, Z and Mohr, P and Montes, F and Ong, W. J and Schatz, H}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Constraining nucleosythesis in neutrino-driven winds using the impact of (α,xn) reaction rates}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1051/epjconf/202327908002}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{EPJ Web Conference Series}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{279}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{08002}</span>
-<span class="p">}</span></code></pre></figure>
-    </div>
-
-  </div>
-
-
-   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
-        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.1051/epjconf/202327908002"></div>
-           
-        <span class="__dimensions_badge_embed__" data-doi="10.1051/epjconf/202327908002" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
-
-  </div>
-
-
-
-
-   </div>
-
-   <br>
-</li>
-<li>
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-
-<div class="row">
-  <div class="col-sm-2 abbr">
-  
-    
-    <abbr class="badge">SantaTecla</abbr>
-    
-  
-  </div>
-
-  <div id="Yamaguci-EPJ-2023" class="col-sm-8">
-  
-    <!-- Title -->
-    <div class="title">RIB induced reactions: Studying astrophysical reactions with low-energy RI beam at CRIB</div>
-    <!-- Author -->
-    <div class="author">
-    
-
-    H. Yamaguchi, S. Hayakawa, N.R. Ma, H. Shimizu, K. Okawa, Q. Zhang, L. Yang, D. Kahl, M. La Cognata, L. Lamia, and
-      <span class="more-authors" title="click to view 53 more authors" onclick="
-            var element = $(this);
-            element.attr('title', '');
-            var more_authors_text = element.text() == '53 more authors' ? 'K Abe, O Beliuskina, S.M Cha, K.Y Chae, S Cherubini, P Figuera, Z Ge, M Gulino, J Hu, A Inoue, N Iwasa, A Kim, D Kim, G Kiss, S Kubono, M La Commara, M Lattuada, E.J Lee, J.Y Moon, S Palmerini, C Parascandolo, S.Y Park, V.H Phong, D Pierroutsakou, R.G Pizzone, G.G Rapisarda, S Romano, C Spitaleri, X.D Tang, O Trippella, A Tumino, N.T Zhang, Y.H Lam, A Heger, A.M Jacobs, S.W Xu, S.B Ma, L.H Ru, E.Q Liu, T Liu, C.B Hamill, A. St J Murphy, J Su, X Fang, M.S Kwag, N.N Duy, N.K Uyen, D.H Kim, J Liang, A Psaltis, M Sferrazza, Z Johnston, Y.Y Li' : '53 more authors';
-            var cursorPosition = 0;
-            var textAdder = setInterval(function(){
-              element.text(more_authors_text.substring(0, cursorPosition + 1));
-              if (++cursorPosition == more_authors_text.length){
-                clearInterval(textAdder);
-              }
-          }, '0');
-          ">53 more authors</span>
-</div>
-
-      <div class="periodical">
-      
-        <em>EPJ Web Conference Series</em>
-      
-      
-        (2023)
-      
-      </div>
-    
-
-    <div class="links">
-    
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-    
-    
-      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-    
-    
-      <a href="https://doi.org/10.1051/epjconf/202327501015" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
-    
-    
-    
-    
-    
-      <a href="/assets/pdf/papers/B016-Yamaguchi-EPJ-2023.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
-    
-    
-    
-    
-    
-    
-    
-    </div>
-
-    <!-- Hidden abstract block -->
-    
-    <div class="abstract hidden">
-      <p> Astrophysical reactions involving radioactive isotopes (RI) often
-play an important role in high-temperature stellar environments. The experi-
-mental studies on the reaction rates for those are still limited mainly due to the
-technical difficulties in producing high-quality RI beams. A direct measure-
-ment of those reactions would be still challenging in many cases, however, we
-can make a reliable evaluation of the reaction rates by an indirect method or by
-studying the resonance prorerties. Here we introduce recent examples of exper-
-imental studies on such RI-involving astrophysical reactions, performed at Cen-
-ter for Nuclear Study, the University of Tokyo, using the low-energy RI beam
-separator CRIB. One is for the neutron-induced destruction reactions of 7 Be in
-the Big-Bang nucleosynthesis, and the other is the study on the 22Mg(α, p) reac-
-tion relevant in X-ray bursts, which was performed with the resonant scattering
-method from the inverse reaction channel.</p>
-    </div>
-    
-
-    <!-- Hidden bibtex block -->
-    <div class="bibtex hidden">
-     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Yamaguci-EPJ-2023</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Yamaguchi, H and Hayakawa, S and Ma, N.R and Shimizu, H and Okawa, K and Zhang, Q and Yang, L and Kahl, D and La Cognata, M and Lamia, L and Abe, K and Beliuskina, O and Cha, S.M and Chae, K.Y and Cherubini, S and Figuera, P and Ge, Z and Gulino, M and Hu, J and Inoue, A and Iwasa, N and Kim, A and Kim, D and Kiss, G and Kubono, S and La Commara, M and Lattuada, M and Lee, E.J and Moon, J.Y and Palmerini, S and Parascandolo, C and Park, S.Y and Phong, V.H and Pierroutsakou, D and Pizzone, R.G and Rapisarda, G.G and Romano, S and Spitaleri, C and Tang, X.D and Trippella, O and Tumino, A and Zhang, N.T and Lam, Y.H and Heger, A and Jacobs, A.M and Xu, S.W and Ma, S.B and Ru, L.H and Liu, E.Q and Liu, T and Hamill, C.B and Murphy, A. St J and Su, J and Fang, X and Kwag, M.S and Duy, N.N and Uyen, N.K and Kim, D.H and Liang, J and Psaltis, A and Sferrazza, M and Johnston, Z and Li, Y.Y}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{RIB induced reactions: Studying astrophysical reactions with low-energy RI beam at CRIB}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1051/epjconf/202327501015}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{EPJ Web Conference Series}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{275}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{01015}</span>
-<span class="p">}</span></code></pre></figure>
-    </div>
-
-  </div>
-
-
-   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
-        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.1051/epjconf/202327501015"></div>
-           
-        <span class="__dimensions_badge_embed__" data-doi="10.1051/epjconf/202327501015" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
-
-  </div>
-
-
-
-
-   </div>
-
-   <br>
-</li>
-</ol>
-     
-
-     
-  <h2 class="year">2022</h2>
-  <ol class="bibliography">
-<li>
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-
-<div class="row">
-  <div class="col-sm-2 abbr">
-  
-    
-    <abbr class="badge">NIC-XVI</abbr>
-    
-  
-  </div>
-
-  <div id="Wheeler-NIC-XVI" class="col-sm-8">
-  
-    <!-- Title -->
-    <div class="title">Measuring the 15O(α,γ)19Ne reaction in Type I X-ray bursts using the GADGET II TPC: Hardware</div>
-    <!-- Author -->
-    <div class="author">
-    
-
-    T. Wheeler, A. Adams, J. Allmond, H. Alvarez Pol, E. Argo, Y. Ayyad, D.. Bardayan, D. Bazin, T. Budner, <a href="https://physwww.physics.mcmaster.ca/%7Echenal/nuc_astro_struc/personal/" target="_blank" rel="noopener noreferrer">A. Chen</a>, and
-      <span class="more-authors" title="click to view 20 more authors" onclick="
-            var element = $(this);
-            element.attr('title', '');
-            var more_authors_text = element.text() == '20 more authors' ? 'K Chipps, B Davids, J Dopfer, M Friedman, H Fynbo, R Grzywacz, J Jose, J. Liang, R Mahajan, S Pain, D. Pérez-Loureiro, E. Pollacco, A Psaltis, S. Ravishankar, A. Rogers, L Schaedig, L. J Sun, J Surbrook, L Weghorn, C Wrede' : '20 more authors';
-            var cursorPosition = 0;
-            var textAdder = setInterval(function(){
-              element.text(more_authors_text.substring(0, cursorPosition + 1));
-              if (++cursorPosition == more_authors_text.length){
-                clearInterval(textAdder);
-              }
-          }, '0');
-          ">20 more authors</span>
-</div>
-
-      <div class="periodical">
-      
-        <em>In EPJ Web Conference Series</em>
-      
-      
-        (2022)
-      
-      </div>
-    
-
-    <div class="links">
-    
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-    
-    
-      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-    
-    
-      <a href="https://doi.org/10.1051/epjconf/202226011046" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
-    
-    
-    
-    
-    
-      <a href="/assets/pdf/papers/B015-Wheeler-NICXVI-2022.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
-    
-    
-    
-    
-    
-    
-    
-    </div>
-
-    <!-- Hidden abstract block -->
-    
-    <div class="abstract hidden">
-      <p> Sensitivity studies have shown that the 15O(α,γ)19Ne reaction is the most important reaction rate
- uncertainty affecting the shape of light curves from Type I X-ray bursts. This reaction is dominated by the 4.03 MeV
- resonance in 19Ne. Previous measurements by our group have shown that this state is populated in the decay sequence of
- 20Mg. A single 20Mg(βp α)15O event through the key 15O(α,γ)19Ne resonance yields a characteristic signature: the emission
- of a proton and alpha particle. To achieve the granularity necessary for the identification of this signature, we have
- upgraded the Proton Detector of the Gaseous Detector with Germanium Tagging (GADGET) into a time projection chamber to
- form the GADGET II detection system. GADGET II has been fully constructed, and is entering the testing phase.</p>
-    </div>
-    
-
-    <!-- Hidden bibtex block -->
-    <div class="bibtex hidden">
-     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Wheeler-NIC-XVI</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Wheeler, T and Adams, A and Allmond, J and Alvarez Pol, H and Argo, E and Ayyad, Y and Bardayan, D. and Bazin, D and Budner, T and Chen, A and Chipps, K and Davids, B and Dopfer, J and Friedman, M and Fynbo, H and Grzywacz, R and Jose, J and Liang, J. and Mahajan, R and Pain, S and P\'erez-Loureiro, D. and Pollacco, E. and Psaltis, A and Ravishankar, S. and Rogers, A. and Schaedig, L and Sun, L. J and Surbrook, J and Weghorn, L and Wrede, C}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Measuring the 15O(α,γ)19Ne reaction in Type I X-ray bursts using the GADGET II TPC: Hardware}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{EPJ Web Conference Series}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{260}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{11046}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1051/epjconf/202226011046}</span>
-<span class="p">}</span></code></pre></figure>
-    </div>
-
-  </div>
-
-
-   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
-        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.1051/epjconf/202226011046"></div>
-           
-        <span class="__dimensions_badge_embed__" data-doi="10.1051/epjconf/202226011046" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
-
-  </div>
-
-
-
-
-   </div>
-
-   <br>
-</li>
-<li>
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-
-<div class="row">
-  <div class="col-sm-2 abbr">
-  
-    
-    <abbr class="badge">NIC-XVI</abbr>
-    
-  
-  </div>
-
-  <div id="Mahajan-NIC-XVI" class="col-sm-8">
-  
-    <!-- Title -->
-    <div class="title">Measuring the 15O(α,γ)19Ne Reaction in Type I X-ray Bursts using the GADGET II TPC: Software</div>
-    <!-- Author -->
-    <div class="author">
-    
-
-    R. Mahajan, A. Adams, J. Allmond, H. Alvarez Pol, E. Argo, Y.. Ayyad, D. Bardayan, D. Bazin, T. Budner, <a href="https://physwww.physics.mcmaster.ca/%7Echenal/nuc_astro_struc/personal/" target="_blank" rel="noopener noreferrer">A. Chen</a>, and
-      <span class="more-authors" title="click to view 20 more authors" onclick="
-            var element = $(this);
-            element.attr('title', '');
-            var more_authors_text = element.text() == '20 more authors' ? 'K Chipps, B Davids, J Dopfer, M Friedman, H Fynbo, R Grzywacz, J Jose, J Liang, S Pain, D Perez-Loureiro, E Pollacco, A Psaltis, S Ravishankar, A Rogers, L Schaedig, L. J Sun, J Surbrook, T Wheeler, L Weghorn, C Wrede' : '20 more authors';
-            var cursorPosition = 0;
-            var textAdder = setInterval(function(){
-              element.text(more_authors_text.substring(0, cursorPosition + 1));
-              if (++cursorPosition == more_authors_text.length){
-                clearInterval(textAdder);
-              }
-          }, '0');
-          ">20 more authors</span>
-</div>
-
-      <div class="periodical">
-      
-        <em>In EPJ Web Conference Series</em>
-      
-      
-        (2022)
-      
-      </div>
-    
-
-    <div class="links">
-    
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-    
-    
-      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-    
-    
-      <a href="https://doi.org/10.1051/epjconf/202226011034" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
-    
-    
-    
-    
-    
-      <a href="/assets/pdf/papers/B014-Mahajan-NICXVI-2022.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
-    
-    
-    
-    
-    
-    
-    
-    </div>
-
-    <!-- Hidden abstract block -->
-    
-    <div class="abstract hidden">
-      <p>15O(α,γ)19Ne is regarded as one of the most important thermonuclear reactions in type I X-ray bursts.
-  For studying the properties of the key resonance in this reaction using β decay, the existing Proton Detector
-  component of the Gaseous Detector with Germanium Tagging (GADGET) assembly is being upgraded to operate as a
-  time projection chamber (TPC) at FRIB. This upgrade includes the associated hardware as well as software and
-  this paper mainly focusses on the software upgrade. The full detector set up is simulated using the ATTPCROOTv 2
-  data analysis framework for 20Mg and 241Am.</p>
-    </div>
-    
-
-    <!-- Hidden bibtex block -->
-    <div class="bibtex hidden">
-     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Mahajan-NIC-XVI</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Mahajan, R and Adams, A and Allmond, J and Alvarez Pol, H and Argo, E and Ayyad, Y. and Bardayan, D and Bazin, D and Budner, T and Chen, A and Chipps, K and Davids, B and Dopfer, J and Friedman, M and Fynbo, H and Grzywacz, R and Jose, J and Liang, J and Pain, S and Perez-Loureiro, D and Pollacco, E and Psaltis, A and Ravishankar, S and Rogers, A and Schaedig, L and Sun, L. J and Surbrook, J and Wheeler, T and Weghorn, L and Wrede, C}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Measuring the 15O(α,γ)19Ne Reaction in Type I X-ray Bursts using the GADGET II TPC: Software}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{EPJ Web Conference Series}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{260}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{11034}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1051/epjconf/202226011034}</span>
-<span class="p">}</span></code></pre></figure>
-    </div>
-
-  </div>
-
-
-   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
-        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.1051/epjconf/202226011034"></div>
-           
-        <span class="__dimensions_badge_embed__" data-doi="10.1051/epjconf/202226011034" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
-
-  </div>
-
-
-
-
-   </div>
-
-   <br>
-</li>
-<li>
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-
-<div class="row">
-  <div class="col-sm-2 abbr">
-  
-    
-    <abbr class="badge">NIC-XVI</abbr>
-    
-  
-  </div>
-
-  <div id="Psaltis-NIC-XVI" class="col-sm-8">
-  
-    <!-- Title -->
-    <div class="title">Exploring the uncertainties of (α, n) reactions for the weak r-process</div>
-    <!-- Author -->
-    <div class="author">
-    
-
-    <b>A. Psaltis</b>, <a href="https://theorie.ikp.physik.tu-darmstadt.de/astro/people/people_arcones.php" target="_blank" rel="noopener noreferrer">A. Arcones</a>, M. L. Avila, M. Jacobi, Z. Meisel, P. Mohr, F. Montes, and W. J. Ong</div>
-
-      <div class="periodical">
-      
-        <em>In EPJ Web Conference Series</em>
-      
-      
-        (2022)
-      
-      </div>
-    
-
-    <div class="links">
-    
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-    
-    
-      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-    
-    
-      <a href="https://doi.org/10.1051/epjconf/202226007003" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
-    
-    
-    
-    
-    
-      <a href="/assets/pdf/papers/B013-Psaltis-NICXVI-2022.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
-    
-    
-    
-    
-    
-    
-    
-    </div>
-
-    <!-- Hidden abstract block -->
-    
-    <div class="abstract hidden">
-      <p>“Light” heavy elements (Z = 38 − 47) can be synthesized in the neutrino–driven ejecta of core–collapse supernovae via the weak r–process. This nucleosynthesis scenario exhibits uncertainties from the absence of experimental data from (α, n) reactions on neutron–rich nuclei, and are mostly based on statistical model calculations. We present preliminary results from a recent sensitivity study, using the Atomki–V2 α-nucleus potential to identify the most important (α, n) reactions that can affect the production of “light” heavy elements between strontium and silver under different astrophysical conditions. We also discuss the planning of studies to experimentally determine (α, xn) reaction rates using the MUSIC detector at Argonne National Laboratory and the SECAR recoil separator at FRIB.</p>
-    </div>
-    
-
-    <!-- Hidden bibtex block -->
-    <div class="bibtex hidden">
-     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Psaltis-NIC-XVI</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Psaltis, A and Arcones, A and Avila, M. L and Jacobi, M and Meisel, Z and Mohr, P and Montes, F and Ong, W. J}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Exploring the uncertainties of (α, n) reactions for the weak r-process}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{EPJ Web Conference Series}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{260}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{07003}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1051/epjconf/202226007003}</span>
-<span class="p">}</span></code></pre></figure>
-    </div>
-
-  </div>
-
-
-   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
-        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.1051/epjconf/202226007003"></div>
-           
-        <span class="__dimensions_badge_embed__" data-doi="10.1051/epjconf/202226007003" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
-
-  </div>
-
-
-
-
-   </div>
-
-   <br>
-</li>
-<li>
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-
-<div class="row">
-  <div class="col-sm-2 abbr">
-  
-    
-    <abbr class="badge">NIC-XVI</abbr>
-    
-  
-  </div>
-
-  <div id="Hu-NIC-XVI" class="col-sm-8">
-  
-    <!-- Title -->
-    <div class="title">First measurement of 25Al+p resonant scattering relevant to the astrophysical reaction 22Mg(α,p)25Al</div>
-    <!-- Author -->
-    <div class="author">
-    
-
-    J. Hu, H. Yamaguchi, Y.H. Lam, A. Heger, D. Kahl, A.M. Jacobs, Z. Johnston, S.W. Xu, N.T. Zhang, S.B. Ma, and
-      <span class="more-authors" title="click to view 27 more authors" onclick="
-            var element = $(this);
-            element.attr('title', '');
-            var more_authors_text = element.text() == '27 more authors' ? 'L.H Ru, E.Q Liu, T Liu, S Hayakawa, L Yang, H Shimizu, C.B Hamill, A. StJ Murphy, J Su, X Fang, K.Y Chae, M.S Kwag, S.M Cha, N.N Duy, N.K Uyen, D.H Kim, R.G Pizzone, M La Cognata, S Cherubini, S Romano, A Tumino, J Liang, A Psaltis, M Sferrazza, D Kim, Y.Y Li, S Kubono' : '27 more authors';
-            var cursorPosition = 0;
-            var textAdder = setInterval(function(){
-              element.text(more_authors_text.substring(0, cursorPosition + 1));
-              if (++cursorPosition == more_authors_text.length){
-                clearInterval(textAdder);
-              }
-          }, '0');
-          ">27 more authors</span>
-</div>
-
-      <div class="periodical">
-      
-        <em>In EPJ Web Conference Series</em>
-      
-      
-        (2022)
-      
-      </div>
-    
-
-    <div class="links">
-    
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-    
-    
-      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-    
-    
-      <a href="https://doi.org/10.1051/epjconf/202226005001" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
-    
-    
-    
-    
-    
-      <a href="/assets/pdf/papers/B012-Hu-NICXVI-2022.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
-    
-    
-    
-    
-    
-    
-    
-    </div>
-
-    <!-- Hidden abstract block -->
-    
-    <div class="abstract hidden">
-      <p>Type I X-ray bursts (XRBs) are the most frequently observed thermonuclear explosions in nature. The 22Mg(α,p)25Al reaction plays a critical role in XRB models. However, experimental information is insufficient to deduce a precise 22Mg(α,p)25Al reaction rate for the respective XRB temperature range. A new measurement of 25Al+p resonant scattring was performed up to the astrophysically interested energy region of 22Mg(α,p)25Al. Several resonances were observed in the excitation functions, and their level properties have been determined based on an R-matrix analysis.
-  In particular, proton widths and spin-parities of four natural-parity resonances above the α threshold of 26Si,
-  which can contribute the reaction rate of 22Mg(α,p)25Al, were ﬁrst experimentally determined.</p>
-    </div>
-    
-
-    <!-- Hidden bibtex block -->
-    <div class="bibtex hidden">
-     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Hu-NIC-XVI</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Hu, J and Yamaguchi, H and Lam, Y.H and Heger, A and Kahl, D and Jacobs, A.M and Johnston, Z and Xu, S.W and Zhang, N.T and Ma, S.B and Ru, L.H and Liu, E.Q and Liu, T and Hayakawa, S and Yang, L and Shimizu, H and Hamill, C.B and Murphy, A. StJ and Su, J and Fang, X and Chae, K.Y and Kwag, M.S and Cha, S.M and Duy, N.N and Uyen, N.K and Kim, D.H and Pizzone, R.G and La Cognata, M and Cherubini, S and Romano, S and Tumino, A and Liang, J and Psaltis, A and Sferrazza, M and Kim, D and Li, Y.Y and Kubono, S}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{First measurement of 25Al+p resonant scattering relevant to the astrophysical reaction 22Mg(α,p)25Al}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{EPJ Web Conference Series}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{260}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{05001}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1051/epjconf/202226005001}</span>
-<span class="p">}</span></code></pre></figure>
-    </div>
-
-  </div>
-
-
-   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
-        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.1051/epjconf/202226005001"></div>
-           
-        <span class="__dimensions_badge_embed__" data-doi="10.1051/epjconf/202226005001" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
-
-  </div>
-
-
-
-
-   </div>
-
-   <br>
-</li>
-<li>
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-
-<div class="row">
-  <div class="col-sm-2 abbr">
-  
-    
-    <abbr class="badge">NIC-XVI</abbr>
-    
-  
-  </div>
-
-  <div id="Yamaguchi-NIC-XVI" class="col-sm-8">
-  
-    <!-- Title -->
-    <div class="title">Experimental studies on astrophysical reactions at the low-energy RI beam separator CRIB</div>
-    <!-- Author -->
-    <div class="author">
-    
-
-    H. Yamaguchi, S. Hayakawa, N.R. Ma, H. Shimizu, K. Okawa, L. Yang, D. Kahl, M. La Cognata, L. Lamia, K. Abe, and
-      <span class="more-authors" title="click to view 52 more authors" onclick="
-            var element = $(this);
-            element.attr('title', '');
-            var more_authors_text = element.text() == '52 more authors' ? 'O Beliuskina, S.M Cha, K.Y Chae, S Cherubini, P Figuera, Z Ge, M Gulino, J Hu, A Inoue, N Iwasa, A Kim, D Kim, G Kiss, S Kubono, M La Commara, M Lattuada, E.J Lee, J.Y Moon, S Palmerini, C Parascandolo, S.Y Park, V. H Phong, D Pierroutsakou, R.G Pizzone, G.G Rapisarda, S Romano, C Spitaleri, X.D Tang, O Trippella, A Tumino, N.T Zhang, Y.H Lam, A Heger, A.M Jacobs, S.W Xu, S.B Ma, L.H Ru, E.Q Liu, T Liu, C.B Hamill, A St J. Murphy, J Su, X Fang, M.S Kwag, N.N Duy, N.K Uyen, D.H Kim, J Liang, A Psaltis, M Sferrazza, Z Johnston, Y.Y Li' : '52 more authors';
-            var cursorPosition = 0;
-            var textAdder = setInterval(function(){
-              element.text(more_authors_text.substring(0, cursorPosition + 1));
-              if (++cursorPosition == more_authors_text.length){
-                clearInterval(textAdder);
-              }
-          }, '0');
-          ">52 more authors</span>
-</div>
-
-      <div class="periodical">
-      
-        <em>In EPJ Web Conference Series</em>
-      
-      
-        (2022)
-      
-      </div>
-    
-
-    <div class="links">
-    
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-    
-    
-      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-    
-    
-      <a href="https://doi.org/10.1051/epjconf/202226003003" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
-    
-    
-    
-    
-    
-      <a href="/assets/pdf/papers/B011-Yamaguchi-NICXVI-2022.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
-    
-    
-    
-    
-    
-    
-    
-    </div>
-
-    <!-- Hidden abstract block -->
-    
-    <div class="abstract hidden">
-      <p>Experimental studies on astrophysical reactions involving radioactive isotopes (RI)
- often accompany technical challenges. Studies on such nuclear reactions have been conducted at the
- low-energy RI beam separator CRIB, operated by Center for Nuclear Study, the University of Tokyo.
- We discuss two cases of astrophysical reaction studies at CRIB; one is for the 7Be+n reactions which
- may affect the primordial 7Li abundance in the Big-Bang nucleosynthesis, and the other is for the
- 22Mg(α, p) reaction relevantin X-ray bursts.</p>
-    </div>
-    
-
-    <!-- Hidden bibtex block -->
-    <div class="bibtex hidden">
-     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">Yamaguchi-NIC-XVI</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Yamaguchi, H and Hayakawa, S and Ma, N.R and Shimizu, H and Okawa, K and Yang, L and Kahl, D and La Cognata, M and Lamia, L and Abe, K and Beliuskina, O and Cha, S.M and Chae, K.Y and Cherubini, S and Figuera, P and Ge, Z and Gulino, M and Hu, J and Inoue, A and Iwasa, N and Kim, A and Kim, D and Kiss, G and Kubono, S and La Commara, M and Lattuada, M and Lee, E.J and Moon, J.Y and Palmerini, S and Parascandolo, C and Park, S.Y and Phong, V. H and Pierroutsakou, D and Pizzone, R.G and Rapisarda, G.G and Romano, S and Spitaleri, C and Tang, X.D and Trippella, O and Tumino, A and Zhang, N.T and Lam, Y.H and Heger, A and Jacobs, A.M and Xu, S.W and Ma, S.B and Ru, L.H and Liu, E.Q and Liu, T and Hamill, C.B and St J. Murphy, A and Su, J and Fang, X and Kwag, M.S and Duy, N.N and Uyen, N.K and Kim, D.H and Liang, J and Psaltis, A and Sferrazza, M and Johnston, Z and Li, Y.Y}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Experimental studies on astrophysical reactions at the low-energy RI beam separator CRIB}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{EPJ Web Conference Series}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{260}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{03003}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1051/epjconf/202226003003}</span>
-<span class="p">}</span></code></pre></figure>
-    </div>
-
-  </div>
-
-
-   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
-        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.1051/epjconf/202226003003"></div>
-           
-        <span class="__dimensions_badge_embed__" data-doi="10.1051/epjconf/202226003003" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
-
-  </div>
-
-
-
-
-   </div>
-
-   <br>
-</li>
-</ol>
-     
-
-     
-
-     
-  <h2 class="year">2020</h2>
-  <ol class="bibliography">
+    <h3>Conference Proceedings (2020)</h3>
+    <ol class="bibliography">
 <li>
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
@@ -5562,11 +5265,112 @@ method from the inverse reaction channel.</p>
    <br>
 </li>
 </ol>
-     
+  </div>
+  
+  <div class="publications" data-year="2019" style="display: none;">
+    <h3>Journal Articles (2019)</h3>
+    <ol class="bibliography"><li>
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
-     
-  <h2 class="year">2019</h2>
-  <ol class="bibliography">
+
+<div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">PRC</abbr>
+    
+  
+  </div>
+
+  <div id="PsaltisPRC2019" class="col-sm-8">
+  
+    <!-- Title -->
+    <div class="title">Cross-section measurements of radiative proton-capture reactions in 112Cd at energies of astrophysical interest</div>
+    <!-- Author -->
+    <div class="author">
+    
+
+    <b>A. Psaltis</b>, A. Khaliel, E.-M. Assimakopoulou, A. Kanellakopoulos, V. Lagaki, M. Lykiardopoulou, E. Malami, P. Tsavalas, A. Zyriliou, and <a href="https://mertzimekis.gr" target="_blank" rel="noopener noreferrer">T.J. Mertzimekis</a>
+</div>
+
+      <div class="periodical">
+      
+        <em>Physical Review C</em>
+      
+      
+        (2019)
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://doi.org/10.1103/PhysRevC.99.065807" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
+    
+    
+    
+      <a href="http://arxiv.org/abs/1905.13199" target="_blank" rel="noopener noreferrer"><i class="ai ai-arxiv ai-fw"></i></a>
+    
+    
+    
+      <a href="/assets/pdf/papers/A003-Psaltis-PRC-2019.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Reactions involving the group of nuclei commonly known as p nuclei are part of the nucleosynthetic mechanisms at astrophysical sites. The 113In nucleus is such a case with several open questions regarding its origin at extreme stellar environments. In this work, the experimental study of the cross sections of the radiative proton-capture reaction 112Cd(p,γ)113In is attempted for the first time at energies lying inside the Gamow window with an isotopically enriched 112Cd target. Two different techniques, the in-beam γ-ray spectroscopy and the activation method, have been applied. The latter method is required to account for the presence of a low-lying 113In isomer at 392 keV having a halflife of \approx100 min. From the cross sections, the astrophysical S factors and the isomeric ratios have been additionally deduced. The experimental results are compared to detailed Hauser-Feshbach theoretical calculations using TALYS, and discussed in terms of their significance to the optical model potential involved.</p>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    <div class="bibtex hidden">
+     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">PsaltisPRC2019</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Cross-section measurements of radiative proton-capture reactions in 112Cd at energies of astrophysical interest}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Psaltis, A and Khaliel, A and Assimakopoulou, E.-M and Kanellakopoulos, A and Lagaki, V and Lykiardopoulou, M and Malami, E and Tsavalas, P and Zyriliou, A and Mertzimekis, T.J}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Physical Review C}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{99}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{6}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{065807}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2019}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1103/PhysRevC.99.065807}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+
+  </div>
+
+
+   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
+        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.1103/PhysRevC.99.065807"></div>
+           
+        <span class="__dimensions_badge_embed__" data-doi="10.1103/PhysRevC.99.065807" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
+
+  </div>
+
+
+
+
+   </div>
+
+   <br>
+</li></ol>
+
+    <h3>Conference Proceedings (2019)</h3>
+    <ol class="bibliography">
 <li>
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
@@ -6000,11 +5804,14 @@ method from the inverse reaction channel.</p>
    <br>
 </li>
 </ol>
-     
+  </div>
+  
+  <div class="publications" data-year="2018" style="display: none;">
+    <h3>Journal Articles (2018)</h3>
+    <ol class="bibliography"></ol>
 
-     
-  <h2 class="year">2018</h2>
-  <ol class="bibliography">
+    <h3>Conference Proceedings (2018)</h3>
+    <ol class="bibliography">
 <li>
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
@@ -6225,11 +6032,118 @@ method from the inverse reaction channel.</p>
    <br>
 </li>
 </ol>
-     
+  </div>
+  
+  <div class="publications" data-year="2017" style="display: none;">
+    <h3>Journal Articles (2017)</h3>
+    <ol class="bibliography"><li>
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
-     
-  <h2 class="year">2017</h2>
-  <ol class="bibliography"><li>
+
+<div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">PRC</abbr>
+    
+  
+  </div>
+
+  <div id="KhalielPRC2017" class="col-sm-8">
+  
+    <!-- Title -->
+    <div class="title">First cross-section measurements of the reactions 107,109Ag(p, γ)108,110Cd at energies relevant to the p process</div>
+    <!-- Author -->
+    <div class="author">
+    
+
+    A. Khaliel, <a href="https://mertzimekis.gr" target="_blank" rel="noopener noreferrer">T.J. Mertzimekis</a>, E.-M. Asimakopoulou, A. Kanellakopoulos, V. Lagaki, <b>A. Psaltis</b>, I. Psyrra, and E. Mavrommatis</div>
+
+      <div class="periodical">
+      
+        <em>Physical Review C</em>
+      
+      
+        (2017)
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://doi.org/10.1103/PhysRevC.96.035806" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
+    
+    
+    
+    
+    
+      <a href="/assets/pdf/papers/A002-Khaliel-PRC-2017.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Background: One of the primary objectives of the field of Nuclear Astrophysics is the study of the elemental and isotopic abundances in the universe. Although significant progress has been made in understanding the mechanisms behind the production of a large number of nuclides in the isotopic chart, there are still many open questions regarding a number of neutron-deficient nuclei, the p nuclei. To that end, experimentally deduced nuclear reaction cross sections can provide invaluable input to astrophysical models.
+
+Purpose: The reactions 107,109Ag(p,γ)108,110Cd have been studied at energies inside the astrophysically relevant energy window in an attempt to provide experimental data required for the testing of reaction-rate predictions in terms of the statistical model of Hauser-Feshbach around the p nucleus 108Cd.
+
+Methods: The experiments were performed with in-beam γ-ray spectroscopy with proton beams accelerated by the Tandem Van de Graaff Accelerator at NCSR “Demokritos” impinging a target of natural silver. A set of high-purity germanium detectors was employed to record the emitted radiation.
+
+Results: A first set of total cross-section measurements in radiative proton-capture reactions involving 107,109Ag, producing the p-nucleus 108Cd, inside the astrophysically relevant energy window is reported. The experimental results are compared to theoretical calculations, using talys. An overall good agreement between the data and the theoretical calculations has been found.
+
+Conclusions: The results reported in this work add new information to the relatively unexplored p process. The present measurements can serve as a reference point in understanding the nuclear parameters in the related astrophysical environments and for future theoretical modeling and experimental works.</p>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    <div class="bibtex hidden">
+     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">KhalielPRC2017</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{First cross-section measurements of the reactions 107,109Ag(p, $\gamma$)108,110Cd at energies relevant to the p process}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Khaliel, A and Mertzimekis, T.J and Asimakopoulou, E.-M and Kanellakopoulos, A and Lagaki, V and Psaltis, A and Psyrra, I and Mavrommatis, E}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Physical Review C}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{96}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{3}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{035806}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2017}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{APS}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1103/PhysRevC.96.035806}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+
+  </div>
+
+
+   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
+        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.1103/PhysRevC.96.035806"></div>
+           
+        <span class="__dimensions_badge_embed__" data-doi="10.1103/PhysRevC.96.035806" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
+
+  </div>
+
+
+
+
+   </div>
+
+   <br>
+</li></ol>
+
+    <h3>Conference Proceedings (2017)</h3>
+    <ol class="bibliography"><li>
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
@@ -6338,11 +6252,144 @@ method from the inverse reaction channel.</p>
 
    <br>
 </li></ol>
-     
+  </div>
+  
+  <div class="publications" data-year="2016" style="display: none;">
+    <h3>Journal Articles (2016)</h3>
+    <ol class="bibliography"><li>
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
-     
 
+<div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">NIM A</abbr>
+    
+  
+  </div>
+
+  <div id="MertzimekisNIMA2016" class="col-sm-8">
+  
+    <!-- Title -->
+    <div class="title">An online database of nuclear electromagnetic moments</div>
+    <!-- Author -->
+    <div class="author">
+    
+
+    <a href="https://mertzimekis.gr" target="_blank" rel="noopener noreferrer">T.J. Mertzimekis</a>, K. Stamou, and <b>A. Psaltis</b>
 </div>
+
+      <div class="periodical">
+      
+        <em>Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment</em>
+      
+      
+        (2016)
+      
+      </div>
+    
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+    
+    
+      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+      <a href="https://doi.org/10.1016/j.nima.2015.10.096" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi ai-fw"></i></a>
+    
+    
+    
+    
+    
+      <a href="/assets/pdf/papers/A001-Mertzimekis-NIMA-2016.pdf" target="_blank"><i class="fa fa-file-pdf"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Measurements of nuclear magnetic dipole and electric quadrupole moments are considered quite important for the understanding of nuclear structure both near and far from the valley of stability. The recent advent of radioactive beams has resulted in a plethora of new, continuously flowing, experimental data on nuclear structure – including nuclear moments – which hinders the information management. A new, dedicated, public and user friendly online database (http://magneticmoments.info) has been created comprising experimental data of nuclear electromagnetic moments. The present database supersedes existing printed compilations, including also non-evaluated series of data and relevant meta-data, while putting strong emphasis on bimonthly updates. The scope, features and extensions of the database are reported.</p>
+    </div>
+    
+
+    <!-- Hidden bibtex block -->
+    <div class="bibtex hidden">
+     <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">MertzimekisNIMA2016</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{An online database of nuclear electromagnetic moments}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Mertzimekis, T.J and Stamou, K and Psaltis, A}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{807}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{56--60}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2016}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Elsevier}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1016/j.nima.2015.10.096}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+
+  </div>
+
+
+   <div class="col-sm-2 abbr" style="display:inline-flex; text-align=center">
+        <div class="altmetric-embed" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true" data-badge-type="donut" data-doi="10.1016/j.nima.2015.10.096"></div>
+           
+        <span class="__dimensions_badge_embed__" data-doi="10.1016/j.nima.2015.10.096" data-hide-zero-citations="true" data-legend="hover-bottom" data-style="small_circle"></span>
+
+  </div>
+
+
+
+
+   </div>
+
+   <br>
+</li></ol>
+
+    <h3>Conference Proceedings (2016)</h3>
+    <ol class="bibliography"></ol>
+  </div>
+  
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var yearSelect = document.getElementById('year-select');
+    var latestYear = yearSelect.options[1].value; // Select the first option after the placeholder
+    yearSelect.value = latestYear;
+
+    // Trigger change event to display the latest year's publications
+    var event = new Event('change');
+    yearSelect.dispatchEvent(event);
+  });
+
+  document.getElementById('year-select').addEventListener('change', function() {
+    var selectedYear = this.value;
+
+    // Hide all publication divs
+    var publicationDivs = document.querySelectorAll('#publications-list .publications');
+    publicationDivs.forEach(function(div) {
+      div.style.display = 'none';
+    });
+
+    // Show the selected year's publications
+    if (selectedYear) {
+      var selectedDiv = document.querySelector('#publications-list .publications[data-year="' + selectedYear + '"]');
+      if (selectedDiv) {
+        selectedDiv.style.display = 'block';
+      }
+    }
+  });
+</script>
+
 
   </article>
 
