@@ -10,11 +10,11 @@ nav: true
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/about3.JPG" alt="" title=""/>
+        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/nic_korea.JPG" alt="" title=""/>
     </div>
 </div>
 <div class="caption">
-    Presenting at the 23rd Symposium of the Hellenic Nuclear Physics Society in Thessaloniki, Greece (2014).
+    Presenting at the 17th international symposium on Nuclei in the Cosmos in Daejon, South Korea (2023).
 </div>
 
 ### overview
