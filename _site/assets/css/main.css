@@ -1,6 +1,6 @@
 /******************************************************************************* Variables used throughout the theme. To adjust anything, simply edit the variables below and rebuild the theme. */
 /******************************************************************************* Themes */
-:root { --global-bg-color: #ffffff; --global-code-bg-color: rgba(204, 0, 0, 0.05); --global-text-color: #1C1C1D; --global-text-color-light: #e8e8e8; --global-theme-color: #CC0000; --global-hover-color: #CC0000; --global-footer-bg-color: #1C1C1D; --global-footer-text-color: #e8e8e8; --global-footer-link-color: #ffffff; --global-divider-color: rgba(0,0,0,.1); --global-icon-color: #1C1C1D; }
+:root { --global-bg-color: #ffffff; --global-code-bg-color: rgba(204, 0, 0, 0.05); --global-text-color: #1C1C1D; --global-text-color-light: #e8e8e8; --global-theme-color: #9D2235; --global-hover-color: #9D2235; --global-footer-bg-color: #1C1C1D; --global-footer-text-color: #e8e8e8; --global-footer-link-color: #ffffff; --global-divider-color: rgba(0,0,0,.1); --global-icon-color: #1C1C1D; }
 
 :root .fa-sun { display: none; }
 
@@ -13,7 +13,7 @@ html[data-theme='dark'] .fa-sun { padding-left: 10px; padding-top: 12px; display
 html[data-theme='dark'] .fa-moon { display: none; }
 
 /****************************************************************************** Content */
-body { padding-bottom: 70px; color: var(--global-text-color); background-color: var(--global-bg-color); font-family: 'Nunito Sans', sans-serif; font-size: 1.3rem; font-weight: 200; }
+body { padding-bottom: 70px; color: var(--global-text-color); background-color: var(--global-bg-color); font-family: "Raleway", sans-serif; font-size: 1.3rem; font-weight: 400; }
 
 body h1, body h2, body h3, body h4, body h5, body h6 { scroll-margin-top: 66px; }
 
@@ -112,9 +112,7 @@ blockquote { background: var(--global-bg-color); border-left: 4px solid var(--gl
 
 .news h2.year { color: #e8e8e8; border-top: 1px solid #e8e8e8; padding-bottom: 3rem; margin-top: 2rem; margin-bottom: -2rem; text-align: right; }
 
-.news table td { font-size: 1.1rem; color: var(--global-text-color); }
-
-.pubs table td { font-size: 1.1rem; color: var(--global-text-color); }
+.news table td { font-size: 1.3rem; font-weight: 400; color: var(--global-text-color); }
 
 .news table th { color: var(--global-text-color); }
 
@@ -346,5 +344,7 @@ d-appendix a, d-appendix a.footnote-backlink { color: var(--global-hover-color) 
 d-appendix a:hover, d-appendix a.footnote-backlink:hover { color: var(--global-text-color) !important; }
 
 @media (max-width: 1024px) { d-article d-contents { display: block; grid-column-start: 2; grid-column-end: -2; padding-bottom: 0.5em; margin-bottom: 1em; padding-top: 0.5em; width: 100%; border: 1px solid var(--global-divider-color); } d-article d-contents nav { grid-column: none; } }
+
+@media (max-width: 576px) { .navbar-collapse.full-screen-menu { position: fixed; top: 56px; /* height of navbar-toggler; adjust if needed */ left: 0; width: 100%; height: calc(100vh - 56px); background-color: white; /* or your site's background */ overflow-y: auto; z-index: 9999; padding-top: 1rem; } .navbar-collapse.full-screen-menu .navbar-nav { flex-direction: column; align-items: center; } .navbar-collapse.full-screen-menu .nav-item { width: 100%; text-align: center; padding: 1rem 0; } .navbar-collapse.full-screen-menu .nav-link { font-size: 1.25rem; } body.modal-open { overflow: hidden; } .navbar-collapse.full-screen-menu .dropdown-menu { position: static !important; float: none; width: 100%; margin: 0; background-color: white; box-shadow: none; border: none; } .navbar-collapse.full-screen-menu .dropdown-menu .dropdown-item { padding: 0.75rem 1rem; text-align: center; } .navbar-collapse.full-screen-menu .dropdown-toggle::after { display: none; /* Remove the caret for cleaner look */ } }
 
 /*# sourceMappingURL=main.css.map */

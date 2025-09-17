@@ -2,11 +2,11 @@
 layout: page
 title: outreach
 permalink: /outreach/
-description:
+description: science is for everyone
 nav: true
 ---
 
-When he is not exploring the origin of the elements, in a lab or in front of a computer screen, Thanassis is making science accessible to a wider audience, by participating in several science communication initiatives worldwide. This experience has enabled him to share his passion about science with the public, with a focus on children, the next generation of scientists. Below you can learn more about the initiatives he is involved in. In case you are interested in collaborating on a science communication project, feel free to [contact](mailto:{{site.email}}).
+When we are not exploring the origin of the elements, in a lab or in front of a computer screen, we enjoy making science accessible to a wider audience, by participating in several science communication initiatives worldwide. This experience enables us to share our passion about science with the public, with a focus on children, the next generation of scientists. Below you can learn more about the initiatives we have been involved in. In case you are interested in collaborating on a science communication project, feel free to [contact](mailto:{{site.email}}).
 
 <div class="projects grid">
 

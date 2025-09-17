@@ -12,7 +12,7 @@ importance: 2
 </center>
 
 
-<a href="https://pintofscience.com/" target="_href">Pint of Science</a> is a non-profit organization that brings some of the most brilliant scientists to your local pub to discuss their latest research and findings with you. You don't need any prior knowledge, and this is your chance to meet the people responsible for the future of science (and have a pint with them 🍻). The festival runs over a few days in May every year, but we occasionally run events during other months. My involvement with Pint of Science was to organize the event in Hamilton and coordinate the volunteers in three bars/pubs around the city.
+<a href="https://pintofscience.com/" target="_href">Pint of Science</a> is a non-profit organization that brings some of the most brilliant scientists to your local pub to discuss their latest research and findings with you. You don't need any prior knowledge, and this is your chance to meet the people responsible for the future of science (and have a pint with them 🍻). The festival runs over a few days in May every year, but occasionally run events during other months. Thanassis was involved with Pint of Science by organizing the event in Hamilton and coordinating the volunteers in three bars/pubs around the city.
 
 
 <div class="row justify-content-sm-center">

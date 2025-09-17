@@ -2,11 +2,9 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: classes I've taught
+description: classes Thanassis has taught and currently teaches
 nav: true
 ---
-
-
 <div class="card mt-3">
   <div class="p-3">
     <div class="row">
@@ -39,6 +37,64 @@ nav: true
 </div>
 </div>
 <br>
+
+
+### [Saint Mary's University](https://www.smu.ca/future-students/bsc-programs/physics-program.html)
+---
+
+
+<div class="card mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h4 class="card-title"><a href="https://smu-ca-public.courseleaf.com/undergraduate/courses-az/phys/" target="_blank" rel="noopener noreferrer">Experimental Physics I</a></h4>
+        <h5 class="card-subtitle font-italic">Instructor</h5>
+      </div>
+      <div class="col-sm-2 text-sm-right">
+        <abbr class="badge" style='background-color: var(--global-theme-color);'>
+          PHYS 3600
+        </abbr>
+      </div>
+    </div>
+    <br>
+    <ul class="card-text font-weight-light list-group list-group-flush">
+
+        <p>
+        Students develop the necessary skills to be a successful experimental (astro)physicist. Students assemble labs from advanced experimental equipment including computers and other digital devices, perform the experiment possibly over several weeks, and communicate their results in a scientifically useful fashion.
+        </p>
+
+      </ul>
+</div>
+</div>
+
+<div class="card mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h4 class="card-title"><a href="https://smu-ca-public.courseleaf.com/undergraduate/courses-az/phys/" target="_blank" rel="noopener noreferrer">Electrodynamics</a></h4>
+        <h5 class="card-subtitle font-italic">Instructor</h5>
+      </div>
+      <div class="col-sm-2 text-sm-right">
+        <abbr class="badge" style='background-color: var(--global-theme-color);'>
+          PHYS 4410
+        </abbr>
+      </div>
+    </div>
+    <br>
+    <ul class="card-text font-weight-light list-group list-group-flush">
+
+        <p>
+        This course is a continuation of PHYS 3410, which focused primarily on electro and magnetostatics, and turns to the more general theory of electrodynamics. Topics include Faraday’s law of induction, Maxwell’s equations in vacuo and matter, the Poynting vector, electromagnetic waves, wave guides, scalar and vector potentials, gauge transformations, Lienardt-Wiechart potentials, radiation from moving charges, and relativistic electrodynamics.
+        </p>
+
+
+      </ul>
+</div>
+</div>
+
+
+<br>
+
 
 ### [Technische Universität Darmstadt](https://www.physik.tu-darmstadt.de/fbphysik/index.en.jsp)
 

@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: my academic output
+description: our academic output
 years: [2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016]
 nav: true
 nav_order: 1
@@ -10,156 +10,141 @@ nav_order: 1
 
 ### overview
 ---
-ORCID iD: {% if site.orcid_id %}<a href="https://orcid.org/{{ site.orcid_id }}" target="_blank" title="ORCID"><i class="ai ai-orcid"></i></a>{% endif %} <a href="https://orcid.org/{{ site.orcid_id }}" target="_blank" title="ORCID">{{ site.orcid_id }}</a>
-<br>
 
-<i class="far fa-file-alt"></i> {% bibliography_count -f papers %} journal articles ({% bibliography_count -f papers --query @*[author^=Psaltis]%} first author)
+
+<i class="far fa-file-alt"></i> {% bibliography_count -f papers %} journal articles ({% bibliography_count -f papers --query @*[author^=Psaltis]%} leading)
 
 [Phys. Rev. Lett.](https://prl.aps.org){:target="\_blank"}: {% bibliography_count -f papers --query @*[journal=Physical Review Letters]%} &nbsp; &middot; &nbsp; [Phys. Lett. B](https://www.sciencedirect.com/journal/physics-letters-b){:target="\_blank"}: {% bibliography_count -f papers --query @*[journal=Physics Letters B]%} &nbsp; &middot; &nbsp; [Phys. Rev. C](https://prc.aps.org){:target="\_blank"}: {% bibliography_count -f papers --query @*[journal=Physical Review C]%} &nbsp; &middot; &nbsp; [Astrophys. J](https://iopscience.iop.org/journal/0004-637X){:target="\_blank"}: {% bibliography_count -f papers --query @*[journal=The Astrophysical Journal]%}
 
-<i class="far fa-file-alt"></i> {% bibliography_count -f proceedings %} conference proceedings articles ({% bibliography_count -f proceedings --query @*[author^=Psaltis]%} first author)
-
-<i class="fas fa-book"></i> <a href="https://macsphere.mcmaster.ca/handle/11375/25859" target="_blank" >Ph.D. Thesis</a> &nbsp; &middot; &nbsp; <i class="fas fa-book"></i> <a href="https://doi.org/10.6084/m9.figshare.1257763.v2" target="_blank" >B.Sc. Thesis (in Greek)</a>
+<i class="far fa-file-alt"></i> {% bibliography_count -f proceedings %} conference proceedings articles ({% bibliography_count -f proceedings --query @*[author^=Psaltis]%} leading)
 
 
+<svg viewBox="0 0 450 200" style="width: 100%; height: auto;"></svg>
 
-<svg viewBox="0 0 450 200"></svg>
+<script>
 
+// Set the dimensions and margins of the graph
+const margin = { top: 10, right: 30, bottom: 20, left: 50 },
+      width = 460 - margin.left - margin.right,
+      height = 200 - margin.top - margin.bottom;
 
-<script align="center">
-
-// set the dimensions and margins of the graph
-var margin = {top: 10, right: 30, bottom: 20, left: 50},
-    width = 460 - margin.left - margin.right,
-    height = 200 - margin.top - margin.bottom;
-
-// append the svg object to the body of the page
-var svg = d3.select("svg")
-  .append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
+// Append the svg object to the body of the page
+const svg = d3.select("svg")
+  .attr("width", width + margin.left + margin.right)
+  .attr("height", height + margin.top + margin.bottom)
   .append("g")
-    .attr("transform",
-          "translate(" + margin.left + "," + margin.top + ")");
+  .attr("transform", `translate(${margin.left},${margin.top})`);
 
-// Parse the Data
-d3.csv("{{ site.baseurl }}/assets/csv/data_publications.csv", function(data) {
+// Parse the Data (assuming you’re loading it from a CSV)
+d3.csv("{{ site.baseurl }}/assets/csv/data_publications.csv").then(function(data) {
 
-  // List of subgroups = header of the csv files = soil condition here
-  var subgroups = data.columns.slice(1)
+  // List of subgroups (columns in the CSV except for the first one)
+  const subgroups = data.columns.slice(1);
 
-  // List of groups = species here = value of the first column called group -> I show them on the X axis
-  var groups = d3.map(data, function(d){return(d.group)}).keys()
+  // List of groups (species in this case)
+  const groups = Array.from(new Set(data.map(d => d.group)));
 
   // Add X axis
-  var x = d3.scaleBand()
-      .domain(groups)
-      .range([0, width])
-      .padding([0.2])
+  const x = d3.scaleBand()
+    .domain(groups)
+    .range([0, width])
+    .padding(0.2);
+
   svg.append("g")
-    .attr("transform", "translate(0," + height + ")")
+    .attr("transform", `translate(0,${height})`)
     .call(d3.axisBottom(x).tickSize(0))
     .selectAll("path, line")
-    .style("opacity", 0.0); // Adjust the opacity value
-
-
+    .style("opacity", 0); // Hide axis lines
 
   // Add Y axis
-  var y = d3.scaleLinear()
+  const y = d3.scaleLinear()
     .domain([0, 20])
-    .range([ height, 0 ]);
+    .range([height, 0]);
+
   svg.append("g")
     .call(d3.axisLeft(y).tickValues([0, 5, 10, 15, 20]).tickSize(0))
     .selectAll("path, line")
-    .style("opacity", 0.0); // Adjust the opacity value
+    .style("opacity", 0); // Hide axis lines
 
-  // color palette = one color per subgroup
-  var color = d3.scaleOrdinal()
+  // Color palette for each subgroup
+  const color = d3.scaleOrdinal()
     .domain(subgroups)
-    .range(['#cc0000','#E0E0E0'])
+    .range(['#9D2235','#E0E0E0']);
 
-  //stack the data? --> stack per subgroup
-  var stackedData = d3.stack()
-    .keys(subgroups)
-    (data)
+  // Stack the data per subgroup
+  const stackedData = d3.stack()
+    .keys(subgroups)(data);
 
   // Show the bars
   svg.append("g")
     .selectAll("g")
-    // Enter in the stack data = loop key per key = group per group
     .data(stackedData)
     .enter().append("g")
-      .attr("fill", function(d) { return color(d.key); })
-      .selectAll("rect")
-      // enter a second time = loop subgroup per subgroup to add all rectangles
-      .data(function(d) { return d; })
-      .enter().append("rect")
-        .attr("x", function(d) { return x(d.data.group); })
-        .attr("y", function(d) { return y(d[1]); })
-        .attr("height", function(d) { return y(d[0]) - y(d[1]); })
-        .attr("width",x.bandwidth())
-      // Add mouseover and mouseout events
-        .on("mouseover", function(d) {
-          d3.select(this)
-            .style("opacity", 0.7); // Adjust opacity or add other effects
-          // You can also show tooltips or other information here
+    .attr("fill", d => color(d.key))
+    .selectAll("rect")
+    .data(d => d)
+    .enter().append("rect")
+      .attr("x", d => x(d.data.group))
+      .attr("y", d => y(d[1]))
+      .attr("height", d => y(d[0]) - y(d[1]))
+      .attr("width", x.bandwidth())
+    // Add mouseover and mouseout events
+    .on("mouseover", function(event, d) {
+      d3.select(this).style("opacity", 0.7);
 
-        // Show count label
-          var count = d[1] - d[0];
-          svg.append("text")
-            .attr("class", "count-label")
-            .attr("x", x(d.data.group) + x.bandwidth() / 2)
-            .attr("y", y(d[1]) - 5)
-            .attr("text-anchor", "middle")
-            .text(count);
-          })
-        .on("mouseout", function(d) {
-          d3.select(this)
-            .style("opacity", 1); // Reset to full opacity
-          // You can hide tooltips or reset other changes here
-          // Remove count label
-          svg.selectAll(".count-label").remove();
-          })
-        .on("click", function(d) {
-        // Display count label permanently on click
-        var count = d[1] - d[0];
-        svg.append("text")
-          .attr("class", "count-label click-label")
-          .attr("x", x(d.data.group) + x.bandwidth() / 2)
-          .attr("y", y(d[1]) - 5)
-          .attr("text-anchor", "middle")
-          .text(count);
-        });
+      // Show count label on hover
+      const count = d[1] - d[0];
+      svg.append("text")
+        .attr("class", "count-label")
+        .attr("x", x(d.data.group) + x.bandwidth() / 2)
+        .attr("y", y(d[1]) - 5)
+        .attr("text-anchor", "middle")
+        .text(count);
+    })
+    .on("mouseout", function(event, d) {
+      d3.select(this).style("opacity", 1); // Reset opacity
 
-        // Create a legend
-        var legend = svg.append("g")
-            .attr("class", "legend")
-            .attr("transform", "translate(" + (width - 370) + ",10)");
+      // Remove count label on mouseout
+      svg.selectAll(".count-label").remove();
+    })
+    .on("click", function(event, d) {
+      // Display count label permanently on click
+      const count = d[1] - d[0];
+      svg.append("text")
+        .attr("class", "count-label click-label")
+        .attr("x", x(d.data.group) + x.bandwidth() / 2)
+        .attr("y", y(d[1]) - 5)
+        .attr("text-anchor", "middle")
+        .text(count);
+    });
 
-        // Add legend squares
-        legend.selectAll("legend")
-            .data(subgroups)
-            .enter()
-            .append("rect")
-            .attr("x", 0)
-            .attr("y", function(d, i) { return i * 20; }) // Adjust the spacing as needed
-            .attr("width", 10) // Adjust the square width
-            .attr("height", 10) // Adjust the square height
-            .style("fill", color);
+  // Create a legend
+  const legend = svg.append("g")
+    .attr("class", "legend")
+    .attr("transform", `translate(${width - 370}, 10)`);
 
-        // Add legend labels
-        legend.selectAll("text")
-            .data(subgroups)
-            .enter()
-            .append("text")
-            .attr("x", 20) // Position the label text
-            .attr("y", function(d, i) { return i * 20 + 9; }) // Adjust the vertical position
-            .style("font-size", "12px")
-            .text(function(d) { return d; });
+  // Add legend squares
+  legend.selectAll("legend")
+    .data(subgroups)
+    .enter().append("rect")
+    .attr("x", 0)
+    .attr("y", (d, i) => i * 20) // Adjust vertical spacing
+    .attr("width", 10)
+    .attr("height", 10)
+    .style("fill", color);
 
+  // Add legend labels
+  legend.selectAll("text")
+    .data(subgroups)
+    .enter().append("text")
+    .attr("x", 20)
+    .attr("y", (d, i) => i * 20 + 9) // Adjust vertical position
+    .style("font-size", "12px")
+    .text(d => d);
 
-})
-
+}).catch(function(error) {
+  console.error('Error loading the CSV data:', error);
+});
 
 </script>
 

@@ -37,8 +37,9 @@ Find more about Researchers' Night Hamilton on the social media:
 </div>
 
 ---
-My first experience with Researchers' Night was in 2015, during my first year in graduate school, with an outreach presentation about my research. I enjoyed this experience so much that I decided to join Florence Roullet, the founder of the Hamilton event
-as a coordinator of the event until 2020. Below you can listen to couple of interviews I gave at [CFMU](https://cfmu.ca) to promote Researchers' Night Hamilton:
+Thanassis' first experience with Researchers' Night was in 2015, during his first year in graduate school, with an outreach presentation about his research.
+He enjoyed this experience so much that he decided to join Florence Roullet, the founder of the Hamilton event as a coordinator of the event until 2020.
+Below you can listen to couple of interviews they gave at [CFMU](https://cfmu.ca) to promote Researchers' Night Hamilton:
 
 <audio controls style="width: 100%;">
   <source src="{{ site.baseurl }}/assets/mp3/AlmaMAC_Interview_19.10.2017.mp3" type="audio/mpeg">

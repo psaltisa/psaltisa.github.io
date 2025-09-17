@@ -10,8 +10,8 @@ importance: 1
 	<img src="{{ site.baseurl }}/assets/img/planetarium_logo.png"  height="40%" width="40%">
 </center>
 
-During my graduate studies at McMaster University I produced and presented public and private shows in the [William J. McCallion Planetarium](http://www.physics.mcmaster.ca/planetarium/). Most of the shows were for K-12 students and the general audience. Over five years
-at the William J. McCallion Planetarium I presented live shows to thousands of people of all ages. In addition, I produced three original full-dome interactive shows.
+During his time at McMaster University, Thanassis produced and presented public and private shows in the [William J. McCallion Planetarium](http://www.physics.mcmaster.ca/planetarium/). Most of the shows were for K-12 students and the general audience. Over five years
+at the William J. McCallion Planetarium he presented live shows to thousands of people of all ages. In addition, he produced three original full-dome interactive shows.
 
 <center>
 <video autoplay loop controls width="100%" height="100%"> <source src="{{ site.baseurl }}/assets/vid/planetarium.webm" type="video/webm"></video>

@@ -33,7 +33,7 @@ The main results of this work are that videoconferencing:
 
 Another interesting finding from this work that could explain the lack of creative ideas using videoconferencing tools is our fixation to our partners. The participants in the virtual group spent almost two times more time looking at their partners compared to the in-person one. Our minds are much better in creating creative ideas when we let our senses more free and when we are less focused.
 
-Brucks and Levav’s work is a very interesting and provides some valuable input in a question that many knowledge workers had when the pandemic started: how is [creativity]({{ site.baseurl }}/blog/tag/creativity/) affected by virtual interactions. Next time you have a zoom meeting to come up with a creative idea, maybe you should consider turning off your camera!
+Brucks and Levav’s work is very interesting and provides some valuable input in a question that many knowledge workers had when the pandemic started: how is [creativity]({{ site.baseurl }}/blog/tag/creativity/) affected by virtual interactions. Next time you have a zoom meeting to come up with a creative idea, maybe you should consider turning off your camera!
 
 
 You can also watch below a video produced by Nature regarding the study:

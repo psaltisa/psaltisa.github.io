@@ -17,14 +17,14 @@ importance: 2
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-7 mt-3 mt-md-0">
-        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/skype-a-scientist-1.jpeg" alt="" title=" Answering science questions by students of Robious Middle School" data-zoomable=""/>
+        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/skype-a-scientist-1.jpeg" alt="" title=" Thanassis answering science questions by students of Robious Middle School" data-zoomable=""/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/skype-a-scientist-2.jpeg" alt="" title=" Answering science questions by students of Robious Middle School" data-zoomable=""/>
+        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/skype-a-scientist-2.jpeg" alt="" title=" Thanassis answering science questions by students of Robious Middle School" data-zoomable=""/>
     </div>
 </div>
 <div class="caption">
-      Answering science questions by students of Robious Middle School (January 2020).
+      Thanassis answering science questions by students of Robious Middle School (January 2020).
 </div>
 
 ---

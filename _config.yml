@@ -6,9 +6,9 @@ title: Thanassis Psaltis # the website title (if blank, full name will be used i
 first_name: Thanassis
 middle_name:
 last_name: Psaltis
-email: psaltis.tha@duke.edu
+email: thanassis.psaltis@smu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Postdoctoral Research Scholar at TUNL
+  Assistant Professor of Physics at Saint Mary's University
 footer_text:
 keywords: nuclear-astrophysics, nuclear-physics, astrophysics, science-communication   # add your own keywords or leave empty
 
@@ -75,8 +75,7 @@ publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
 
-contact_note: >
-  You are made of starstuff!
+contact_note: Saint Mary's University is in Mi’kma’ki, the ancestral and unceded territory of the Mi’kmaq People
 
 
 # -----------------------------------------------------------------------------
@@ -126,6 +125,9 @@ collections:
   outreach:
     output: true
     permalink: /outreach/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
 
 news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
 news_limit: 3 # leave blank to include all the news in the `_news` folder

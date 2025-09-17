@@ -20,12 +20,12 @@ to innovation in existing fields or the creation of new ones.
 <i class="fas fa-quote-left"></i> Can art influence science, as science often influences art?
 </blockquote>
 
-In the fall of 2015 I was selected from the [Sciart initiative](http://www.sciartinitiative.org)
+In fall 2017 Thanassis was selected from the [Sciart initiative](http://www.sciartinitiative.org)
 as a Bridge resident. My collaborator was [Matej Vakula](http://vakula.eu/home-en.html),
-a NY based artist with an interest for astrophysics. Due to my involvement with the McCallion Planetarium, we decided
+a NY based artist with an interest for astrophysics. Due to his involvement with the McCallion Planetarium, they decided
 to work on a production of a full-dome movie about nuclear astrophysics, named "The DRAGON theorem", inspired from the
-experiment I was working for my Ph.D. thesis. You can find more about this from an [interview]({% post_url 2017-11-20-TRIUMF-interview %})
-I gave to TRIUMF media team about it.
+experiment Thanassis was working for his Ph.D. thesis. You can find more about this from an [interview]({% post_url 2017-11-20-TRIUMF-interview %})
+he gave to TRIUMF media team about it.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -36,14 +36,15 @@ I gave to TRIUMF media team about it.
     </div>
 </div>
 <div class="caption">
-      Showing Matej the ins and outs of DRAGON. Vancouver, November 2017.
+      Thanassis showing Matej the ins and outs of DRAGON. Vancouver, November 2017.
 </div>
 
-The story explores the evolution of natural philosophy from ancient Greece (Democritus, Heraclitus and others) since the era of Quantum Physics and Theory of Relativity in a non-linear narrative and discusses the existential relationship between knowledge, fundamental research, culture and nature. During the movie, nuclear physics experimental data from TRIUMF laboratory in Vancouver will be manipulated and visualized using Autodesk Maya and ROOT to help the audience becoming aware of their profound connection
+The story explores the evolution of natural philosophy from ancient Greece (Democritus, Heraclitus and others) since the era of Quantum Physics and Theory of Relativity in a non-linear narrative and discusses the existential relationship between knowledge, fundamental research, culture and nature.
+During the movie, nuclear physics experimental data from TRIUMF laboratory in Vancouver will be manipulated and visualized using Autodesk Maya and ROOT to help the audience becoming aware of their profound connection
 with the cosmic web as its living part.
 
-Matej and I were keeping a <a href="http://www.sciartinitiative.org/group-4-matej--thanassis" target="_blank">weekly blog</a>
-where we were discussing our progress and ideas. We are currently working in the production of the movie.
+Matej and Thanassis were keeping a <a href="http://www.sciartinitiative.org/group-4-matej--thanassis" target="_blank">weekly blog</a>
+where they were discussing our progress and ideas.
 
 <p>
 <center>

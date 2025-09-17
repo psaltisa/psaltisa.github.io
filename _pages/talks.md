@@ -14,7 +14,7 @@ nav: true
     </div>
 </div>
 <div class="caption">
-    Presenting at the 17th international symposium on Nuclei in the Cosmos in Daejon, South Korea (2023).
+    Thanassis presenting at the 17th international symposium on Nuclei in the Cosmos in Daejon, South Korea (2023).
 </div>
 
 ### overview
@@ -28,7 +28,9 @@ nav: true
 
 {{ total_invited }} invited talks/posters  &nbsp; &middot; &nbsp; {{ total | minus: total_invited }} contributed talks/posters
 
-<i class="fa fa-desktop"></i> slides &nbsp;| &nbsp; <i class="fa fa-video"></i> recording &nbsp;| &nbsp; <i class="ai ai-figshare"></i> figshare
+<i class="fa fa-video"></i> recording &nbsp;| &nbsp; <i class="ai ai-figshare"></i> figshare
+
+<!-- <i class="fa fa-desktop"></i> slides &nbsp;|  -->
 
 <br>
 
@@ -66,7 +68,7 @@ nav: true
     </div>
 </div>
 <div class="caption">
-    Presenting at the JINA Frontiers in Nuclear Astrophysics conference in South Bend, IN (2022).
+    Thanassis presenting at the JINA Frontiers in Nuclear Astrophysics conference in South Bend, IN (2022).
 </div>
 
 <div class="news">  

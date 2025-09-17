@@ -3,11 +3,13 @@ layout: page
 title: research
 nav: true
 dropdown: true
-children: 
+children:
     - title: about
       permalink: /research/
+    - title: projects
+      permalink: /projects/
     - title: publications
       permalink: /publications/
     - title: presentations
       permalink: /talks/
---- 
+---
