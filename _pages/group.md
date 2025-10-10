@@ -31,8 +31,3 @@ Apart from his research, Thanassis enjoys long-distance running, playing chess a
 
 If you find our [research]({{ site.baseurl }}/projects) interesting and you want to learn more, contact [Thanassis](mailto:{{site.email}})! We'll be thrilled to have you over! 😊
 
-<div class="row justify-content-center">
-    <div class="col-sm mt-2 mt-md-0 text-center">
-     {% include figure.html path="/assets/img/sagan.png" class="img-fluid w-50"  %}
-    </div>
-</div>
