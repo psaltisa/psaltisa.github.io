@@ -714,3 +714,11 @@ progress {
      display: block;
      height: inherit;
  }
+
+ .larger-font {
+    font-size: 1.2rem !important;  /* Ensure font size is applied */
+}
+
+.no-uppercase{
+  text-transform: none !important;
+}

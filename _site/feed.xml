@@ -1,5 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-10-06T11:21:26-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Thanassis Psaltis</title><subtitle>Assistant Professor of Physics at Saint Mary's University
-</subtitle><entry><title type="html">Starry night in Nova Scotia ✨</title><link href="http://localhost:4000/blog/2025/starry-night-NS/" rel="alternate" type="text/html" title="Starry night in Nova Scotia ✨" /><published>2025-08-21T00:00:00-03:00</published><updated>2025-08-21T00:00:00-03:00</updated><id>http://localhost:4000/blog/2025/starry-night-NS</id><content type="html" xml:base="http://localhost:4000/blog/2025/starry-night-NS/"><![CDATA[<center>           
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-12-03T12:59:39-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Thanassis Psaltis</title><subtitle>Assistant Professor of Physics at Saint Mary's University
+</subtitle><entry><title type="html">Canadian Subatomic Physics Long Range Plan</title><link href="http://localhost:4000/blog/2025/CINP-LRP/" rel="alternate" type="text/html" title="Canadian Subatomic Physics Long Range Plan" /><published>2025-11-30T00:00:00-04:00</published><updated>2025-11-30T00:00:00-04:00</updated><id>http://localhost:4000/blog/2025/CINP-LRP</id><content type="html" xml:base="http://localhost:4000/blog/2025/CINP-LRP/"><![CDATA[<p>The Canadian Institute for Nuclear Physics (CINP) has just submitted its Long Range Plan (LRP) for 2027–2034. The document offers a thorough look at the current state of nuclear physics research in Canada and outlines key priorities for the years ahead.</p>
+
+<p>For me, the standout recommendations are clear: increasing the NSERC Subatomic Physics envelope to ensure students and postdocs receive at least a living wage; strengthening support for an inclusive and diverse Canadian nuclear-physics community; and expanding resources for nuclear theory.</p>
+
+<p>You can read the full LRP on the CINP <a href="https://cinp.ca/subatomic-physics-long-range-plan">website</a>.
+Thank you to all the colleagues that contributed to this report!</p>]]></content><author><name></name></author><category term="nuclear-physics" /><summary type="html"><![CDATA[The Canadian Institute for Nuclear Physics (CINP) has just submitted its Long Range Plan (LRP) for 2027–2034. The document offers a thorough look at the current state of nuclear physics research in Canada and outlines key priorities for the years ahead.]]></summary></entry><entry><title type="html">Starry night in Nova Scotia ✨</title><link href="http://localhost:4000/blog/2025/starry-night-NS/" rel="alternate" type="text/html" title="Starry night in Nova Scotia ✨" /><published>2025-08-21T00:00:00-03:00</published><updated>2025-08-21T00:00:00-03:00</updated><id>http://localhost:4000/blog/2025/starry-night-NS</id><content type="html" xml:base="http://localhost:4000/blog/2025/starry-night-NS/"><![CDATA[<center>           
 <video autoplay="" loop="" controls="" width="100%" height="100%"> <source src="/assets/vid/NS_stars.mp4" type="video/mp4" /></video>   
 </center>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Media Sampler 6 - Social media and ultra-processed content</title><link href="http://localhost:4000/blog/2024/media-sampler-6/" rel="alternate" type="text/html" title="Media Sampler 6 - Social media and ultra-processed content" /><published>2024-07-28T00:00:00-03:00</published><updated>2024-07-28T00:00:00-03:00</updated><id>http://localhost:4000/blog/2024/media-sampler-6</id><content type="html" xml:base="http://localhost:4000/blog/2024/media-sampler-6/"><![CDATA[<p><em>“Media Sampler” is a series of posts, where I make a selection of articles, videos and podcasts that I recently came across in the Internets and found interesting!</em></p>
 
@@ -437,49 +442,4 @@ A cosmic tale, of infinite worth.</p>
     </div>
 </center>
 
-<hr />]]></content><author><name></name></author><category term="lists" /><category term="books" /><summary type="html"><![CDATA[It is this time of the year again! Looking back in all the books I have read through this year, I made a list of the five titles that I enjoyed the most. Once again, I failed to include any fiction book in my reading list, but I hope to do that next year. In the following list you will find a diverse cohort of non-fiction titles that covers topics such as Jungian archetypes, science communication and physical exercise. In case you are interested in other book recommendations, you can also check my lists for 2020 and 2021. Enjoy and happy reading!]]></summary></entry><entry><title type="html">Do Zoom meetings make us less creative?</title><link href="http://localhost:4000/blog/2022/creativity-zoom/" rel="alternate" type="text/html" title="Do Zoom meetings make us less creative?" /><published>2022-12-10T00:00:00-04:00</published><updated>2022-12-10T00:00:00-04:00</updated><id>http://localhost:4000/blog/2022/creativity-zoom</id><content type="html" xml:base="http://localhost:4000/blog/2022/creativity-zoom/"><![CDATA[<center>
-    <div class="row justify-content-sm-center">
-        <div class="col-sm mt-2 mt-md-0">
-            <figure>
-
-  <picture>
-    <source media="(max-width: 480px)" srcset="https://blog.zoom.us/wp-content/uploads/2017/11/Screen-Shot-2017-11-16-at-11.35.46-AM-792x418-480.webp" />
-    <source media="(max-width: 800px)" srcset="https://blog.zoom.us/wp-content/uploads/2017/11/Screen-Shot-2017-11-16-at-11.35.46-AM-792x418-800.webp" />
-    <source media="(max-width: 1400px)" srcset="https://blog.zoom.us/wp-content/uploads/2017/11/Screen-Shot-2017-11-16-at-11.35.46-AM-792x418-1400.webp" />
-    <!-- Fallback to the original file -->
-    <img class="img-fluid" src="https://blog.zoom.us/wp-content/uploads/2017/11/Screen-Shot-2017-11-16-at-11.35.46-AM-792x418.png" data-zoomable="" />
-
-  </picture><figcaption class="caption">Large collaborative meetings over Zoom. Image Credit: Zoom blog.</figcaption>
-
-</figure>
-
-        </div>
-    </div>
-</center>
-
-<p>Zoom meetings offered a solution during the COVID-19 pandemic lock-downs to keep in touch with colleagues and family. Nowadays more people than ever are using videoconferencing tools for work. Every week, knowledge workers around the world spend many hours in front of a flat-screen discussing with their collaborators and trying to come up with ideas. How does this new alternative affect the post-pandemic work?</p>
-
-<p>A recent <a href="https://www.nature.com/articles/s41586-022-04643-y">study</a>, published in Nature, by Melanie Brucks from Columbia Business School and Jonathan Levav from Stanford School of Business studied how these tools for virtual collaboration affect creative idea generation. The researchers performed experiments, using more than 600 volunteers who were paired up to perform a creativity task, such as finding alternative uses for a Frisbee. Half of them did that in person, and half over Zoom. The researchers found that the first group had around 20% more creative ideas compared to the virtual group.</p>
-
-<blockquote>
-  <p><i class="fas fa-quote-left"></i> (S)imply being at the same physical place as somebody else, improves idea generation.</p>
-
-  <p>-Melanie Brucks</p>
-</blockquote>
-
-<p>The main results of this work are that videoconferencing:</p>
-<ol>
-  <li>inhibits the production of creative ideas, but</li>
-  <li>it does not affect the effectiveness of idea selection.</li>
-</ol>
-
-<p>Another interesting finding from this work that could explain the lack of creative ideas using videoconferencing tools is our fixation to our partners. The participants in the virtual group spent almost two times more time looking at their partners compared to the in-person one. Our minds are much better in creating creative ideas when we let our senses more free and when we are less focused.</p>
-
-<p>Brucks and Levav’s work is very interesting and provides some valuable input in a question that many knowledge workers had when the pandemic started: how is <a href="/blog/tag/creativity/">creativity</a> affected by virtual interactions. Next time you have a zoom meeting to come up with a creative idea, maybe you should consider turning off your camera!</p>
-
-<p>You can also watch below a video produced by Nature regarding the study:</p>
-<center>
-<div id="video-container">
-<iframe width="70%" height="315" src="https://www.youtube.com/embed/_SK4mcTid10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-</div>
-</center>]]></content><author><name></name></author><category term="article" /><category term="creativity" /><category term="productivity" /><summary type="html"><![CDATA[Large collaborative meetings over Zoom. Image Credit: Zoom blog.]]></summary></entry></feed>
+<hr />]]></content><author><name></name></author><category term="lists" /><category term="books" /><summary type="html"><![CDATA[It is this time of the year again! Looking back in all the books I have read through this year, I made a list of the five titles that I enjoyed the most. Once again, I failed to include any fiction book in my reading list, but I hope to do that next year. In the following list you will find a diverse cohort of non-fiction titles that covers topics such as Jungian archetypes, science communication and physical exercise. In case you are interested in other book recommendations, you can also check my lists for 2020 and 2021. Enjoy and happy reading!]]></summary></entry></feed>

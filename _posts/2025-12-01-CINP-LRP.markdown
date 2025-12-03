@@ -1,0 +1,14 @@
+---
+layout: post
+title:  Canadian Subatomic Physics Long Range Plan
+date:   2025-11-30
+tag: nuclear-physics
+categories:  
+---
+
+The Canadian Institute for Nuclear Physics (CINP) has just submitted its Long Range Plan (LRP) for 2027–2034. The document offers a thorough look at the current state of nuclear physics research in Canada and outlines key priorities for the years ahead.
+
+For me, the standout recommendations are clear: increasing the NSERC Subatomic Physics envelope to ensure students and postdocs receive at least a living wage; strengthening support for an inclusive and diverse Canadian nuclear-physics community; and expanding resources for nuclear theory.
+
+You can read the full LRP on the CINP [website](https://cinp.ca/subatomic-physics-long-range-plan).
+Thank you to all the colleagues that contributed to this report!

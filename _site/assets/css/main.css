@@ -294,6 +294,10 @@ progress::-moz-progress-bar { background-color: var(--global-theme-color); }
 
 .progress-bar { background-color: var(--global-theme-color); width: 0%; display: block; height: inherit; }
 
+.larger-font { font-size: 1.2rem !important; /* Ensure font size is applied */ }
+
+.no-uppercase { text-transform: none !important; }
+
 /******************************************************************************* Style overrides for distill blog posts. */
 d-byline { border-top-color: var(--global-divider-color) !important; }
 
