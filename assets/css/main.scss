@@ -3,16 +3,15 @@
 ---
 @charset "utf-8";
 
+@use "variables" as *;
 // Dimensions
 $max-content-width: {{ site.max_width }};
 
-@import
-  "variables",
-  "themes",
-  "layout",
-  "base",
-  "distill"
-;
+@use "variables";
+@use "themes";
+@use "layout";
+@use "base";
+@use "distill";
 
 
 @media (max-width: 576px) {
