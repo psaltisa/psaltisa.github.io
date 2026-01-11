@@ -25,7 +25,7 @@ pubs: true
         <a href="{{ site.baseurl }}/publications" class="badge" style='background-color: var(--global-theme-color);'>
           Publications
         </a>
-        <a href="{{ site.baseurl }}/presentations" class="badge" style='background-color: var(--global-theme-color);'>
+        <a href="{{ site.baseurl }}/talks" class="badge" style='background-color: var(--global-theme-color);'>
           Presentations
         </a>
       </div>
