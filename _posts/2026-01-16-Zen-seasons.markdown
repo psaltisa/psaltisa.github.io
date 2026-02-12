@@ -2,13 +2,13 @@
 layout: post
 title:  Any season is a good season
 date:   2026-01-16
-tag: philosophy, art
+tag: [philosophy, art]
 categories: article
 ---
 
 <blockquote>
-In spring, hunderds of flowers; in autumn, a harvest moon;
-In summer, a refreshing breeze; in winter, snow will accompany you.
+In spring, hunderds of flowers; in autumn, a harvest moon;<br>
+In summer, a refreshing breeze; in winter, snow will accompany you.<br>
 If useless things do not hang in your mind,
 Any season is a good season for you. <br>
 
