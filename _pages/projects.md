@@ -210,6 +210,8 @@ If you are interested in working with the group, feel free to [contact](mailto:{
 
 - [Japan Society for the Promotion of Science Postdoctoral Fellowships for Research in Japan (JSPS)](https://www.nserc-crsng.gc.ca/Students-Etudiants/PD-NP/JSPS_short-SJPS_court_eng.asp) (¥362,000 per month, round-trip air ticket, and ¥200,000 settling-in allowance)
 
+- [Banting Postdoctoral Fellowships - NSERC](https://banting.fellowships-bourses.gc.ca/en/home-accueil.html) ($70,000 per year for 2 years)
+
 - [Postdoctoral Fellowships - Marie Skłodowska-Curie Actions](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships)
 
 - [Postdoctoral Fellowships - Canadian Institute for Theoretical Astrophysics](https://www.cita.utoronto.ca/opportunities/post-docs/) ($80,000 per year)

@@ -737,7 +737,7 @@ progress::-moz-progress-bar {
 }
 
 .larger-font {
-  font-size: 1.2rem !important; /* Ensure font size is applied */
+  font-size: 1.5rem !important; /* Ensure font size is applied */
 }
 
 .no-uppercase {

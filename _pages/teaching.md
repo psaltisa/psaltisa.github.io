@@ -5,6 +5,46 @@ title: teaching
 description: classes Thanassis has taught and currently teaches
 nav: true
 ---
+
+
+### Nuclear astrophysics lectures ⚛️
+---
+
+<!--
+<div class="card mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h4 class="card-title"><a href="{{ site.baseurl }}/teaching/gamma-beams" target="_blank" rel="noopener noreferrer">Nuclear astrophysics with γ beams</a></h4>
+        <h5 class="card-subtitle font-italic"></h5>
+      </div>
+      <div class="col-sm-2 text-sm-right">
+      </div>
+    </div>
+    <br>
+    <ul class="card-text font-weight-light list-group list-group-flush">
+
+        <p>
+        An introductory lecture on experimental studies using γ beams for nuclear astrophysics for
+        graduate students and postdocs, presented in the <a
+        href="https://agenda.infn.it/event/48509/">13th European Summer School on Experimental Nuclear Astrophysics</a>. <br>
+
+        Topics covered included:
+        p-nuclei and the γ-process, statistical modeling of nuclear reactions, γ-beam production, detectors and observables, from lab cross-section to stellar rates, case study 102Pd+γ at HΙγS (TUNL).
+        </p>
+
+        <p>
+        <i class="fas fa-chalkboard-teacher"></i>&nbsp; <a href="{{
+        site.baseurl }}/teaching/gamma-beams">Lecture notes</a>
+        </p>
+
+      </ul>
+</div>
+</div>
+<br>
+-->
+
+
 <div class="card mt-3">
   <div class="p-3">
     <div class="row">
@@ -22,15 +62,16 @@ nav: true
         An introductory lecture on thermonuclear reaction networks for
         graduate students, presented in the <a
         href="https://sites.google.com/view/fss2023/home">2nd Frontiers summer
-        school in Nuclear Astrophysics</a>. Topics covered included:
+        school in Nuclear Astrophysics</a>.<br>
+
+        Topics covered included:
         thermonuclear reaction rates, forming the reaction network, solving
         the network, energy generation, sensitivity studies using reaction networks.
         </p>
 
         <p>
         <i class="fas fa-chalkboard-teacher"></i>&nbsp; <a href="{{
-        site.baseurl }}/teaching/reaction-networks">Lecture notes</a> |  <i
-        class="fa fa-desktop"></i> <a href="{{ site.baseurl }}/assets/talks/Frontiers-lecture">Lecture slides</a>
+        site.baseurl }}/teaching/reaction-networks">Lecture notes</a>
         </p>
 
       </ul>
@@ -42,6 +83,30 @@ nav: true
 ### [Saint Mary's University](https://www.smu.ca/future-students/bsc-programs/physics-program.html)
 ---
 
+<div class="card mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h4 class="card-title"><a href="https://smu-ca-public.courseleaf.com/undergraduate/courses-az/phys/" target="_blank" rel="noopener noreferrer">Quantum Mechanics I</a></h4>
+        <h5 class="card-subtitle font-italic">Instructor</h5>
+      </div>
+      <div class="col-sm-2 text-sm-right">
+        <abbr class="badge" style='background-color: var(--global-theme-color);'>
+          PHYS 3500
+        </abbr>
+      </div>
+    </div>
+    <br>
+    <ul class="card-text font-weight-light list-group list-group-flush">
+
+        <p>
+        Students build on the foundations set in PHYS 1500. Topics in this course include the (time-independent) Schrodinger equation, one-dimensional potentials, barriers and tunnelling, the Heisenberg Uncertainty Principle, Dirac notation, expectation values, the three-dimensional Schrodinger equation, single-electron atoms, spin, and identical particles.
+        </p>
+
+
+      </ul>
+</div>
+</div>
 
 <div class="card mt-3">
   <div class="p-3">
@@ -63,7 +128,24 @@ nav: true
         Students develop the necessary skills to be a successful experimental (astro)physicist. Students assemble labs from advanced experimental equipment including computers and other digital devices, perform the experiment possibly over several weeks, and communicate their results in a scientifically useful fashion.
         </p>
 
+
+        From anonymous student evaluations:
+        <blockquote>
+        <i class="fas fa-quote-left"></i>&nbsp; Instructor is very easy to talk to and ask questions, very open and makes himself available. Wants everyone to succeed and understand the material being worked on.
+        </blockquote>
+
+        <blockquote>
+        <i class="fas fa-quote-left"></i>&nbsp; Thanassis was an astounding professor. He was very approachable and considerate while very easy to get along with in group discussions during lab time. He was very positive about the course and was great in helping with different ideas and tasks surrounding experiments and more importantly the final project.
+        </blockquote>
+
+        <blockquote>
+        <i class="fas fa-quote-left"></i>&nbsp; Dr. Psaltis (Thanassis) is a very friendly, approachable, and understanding professor. He had office hours frequently and at good times, and was always reachable by email. He made the course very enjoyable! I had somewhat of an interest in experimental physics, and I would say
+        that with the free reign of the student project, I increased my interest quite a lot!
+        </blockquote>
+
       </ul>
+
+
 </div>
 </div>
 
@@ -87,11 +169,45 @@ nav: true
         This course is a continuation of PHYS 3410, which focused primarily on electro and magnetostatics, and turns to the more general theory of electrodynamics. Topics include Faraday’s law of induction, Maxwell’s equations in vacuo and matter, the Poynting vector, electromagnetic waves, wave guides, scalar and vector potentials, gauge transformations, Lienardt-Wiechart potentials, radiation from moving charges, and relativistic electrodynamics.
         </p>
 
+        From anonymous student evaluations:
+        <blockquote>
+        <i class="fas fa-quote-left"></i>&nbsp; The instructor does an amazing job at catering to the students. I have never enjoyed 8:30am classes more than I have in this one...Literally by far the
+        best professor to teach physics... it actually makes sense!
+        </blockquote>
+
+        <blockquote>
+        <i class="fas fa-quote-left"></i>&nbsp; Dr Psaltis was super welcoming and make sure the environment felt comfortable for everyone to share their ideas
+        </blockquote>
+
+
+      </ul>
+
+</div>
+</div>
+
+<div class="card mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h4 class="card-title"><a href="https://smu-ca-public.courseleaf.com/undergraduate/courses-az/phys/" target="_blank" rel="noopener noreferrer">Experimental Physics II</a></h4>
+        <h5 class="card-subtitle font-italic">Instructor</h5>
+      </div>
+      <div class="col-sm-2 text-sm-right">
+        <abbr class="badge" style='background-color: var(--global-theme-color);'>
+          PHYS 4600
+        </abbr>
+      </div>
+    </div>
+    <br>
+    <ul class="card-text font-weight-light list-group list-group-flush">
+
+        <p>
+        This course is designed primarily for honours physics students to study advanced topics in physics and/or astrophysics in the laboratory. Students are responsible for setting up and performing the experiments, writing computer programs to aid the analysis, and preparing and presenting their results in a professional manner. The majority of work will be project-based, each project conceived and built by the students from equipment available in the lab.
+        </p>
 
       </ul>
 </div>
 </div>
-
 
 <br>
 

@@ -7,7 +7,7 @@ date: 2023-05-16
 
 authors:
   - name: Thanassis Psaltis
-    url: "mailto: psaltis.tha@duke.edu"
+    url: "mailto: thanassis.psaltis@smu.ca"
     affiliations:
       name: TUNL & NC State University
 
@@ -83,7 +83,7 @@ interactions, called *network science*.
  <center>  
    <div class="col-sm mt-2 mt-md-0">
         <img
-    src="{{ site.baseurl }}/assets/talks/images/net0.svg"
+    src="{{ site.baseurl }}/assets/img/net0.svg"
     class="img-fluid" data-zoomable="">
 		<div class="caption">
 	A simple network. The nodes are connected with the edges.
@@ -106,7 +106,7 @@ distribution<d-cite key="iliadis2017nuclear, rolfs1988cauldrons"></d-cite>.
  <center>                                                                                       
  <div class="col-sm mt-2 mt-md-0">
     <img class="img-fluid"
-    src="{{ site.baseurl }}/assets/talks/images/net1.svg" data-zoomable="">
+    src="{{ site.baseurl }}/assets/img/net1.svg" data-zoomable="">
 	</div>
 	<div class="caption">
 	A visualization of a nuclear reaction network based on the Reaclib
@@ -158,7 +158,7 @@ energy output.</d-footnote>.
 <center>
   <div class="col-sm mt-2 mt-md-0">
     <img class="img-fluid"
-             src="{{ site.baseurl }}/assets/talks/images/stellar-gas-reactions.svg" data-zoomable="">
+             src="{{ site.baseurl }}/assets/img/stellar-gas-reactions.svg" data-zoomable="">
    </div>
    <div class="caption">
        A visualization of the reactions in the pp-chain.
@@ -188,7 +188,7 @@ of the pp-chain in a pure $p$ gas.
  <div class="row justify-content-sm-center">                                                                                          
         <div class="col-sm mt-2 mt-md-0">
             <img class="img-fluid"
-             src="{{ site.baseurl }}/assets/talks/images/stellar-gas.svg" data-zoomable="">
+             src="{{ site.baseurl }}/assets/img/stellar-gas.svg" data-zoomable="">
 	    </div>
 	    <div class="caption">
 	        A visualization of our stellar gas, made out $\mathrm{^1H}~(p)$.
@@ -790,7 +790,7 @@ species in the pp-chains.
  <center>                                                                                          
         <div class="col-sm mt-2 mt-md-0">
             <img class="img-fluid"
-             src="{{ site.baseurl }}/assets/talks/images/H-burn.svg" data-zoomable="">
+             src="{{ site.baseurl }}/assets/img/H-burn.svg" data-zoomable="">
 	    </div>
 	    <div class="caption">
 	     Time evolution of the mass fractions for the species in the pp-chain example.
@@ -801,7 +801,7 @@ If you look closely, there is an interesting feature in the evolution of $X_p$
 and $X_d$.
 
 ***
-##  Few special cases
+##  A few special cases
 
 In general we just need to solve the rate equation for every species in the
 network, however there are two special cases, where the abundance evolution
@@ -1004,10 +1004,3 @@ solving the network equations is to find the solution of Equation
 If there is one thing you should remember from this lecture, it is the following:
 
 > Nuclear reaction networks are an indispensable tool for a nuclear astrophysicist. Learn how it works and use it to your advantage!
-
-
-<div class="fake-img l-body">
-  <p> <i class="fa fa-desktop"></i><b> For the lecture slides click this link</b><a
-  href='{{base_url}}/assets/talks/Frontiers-lecture' target="_blank"><i class="fas
-  fa-external-link-alt"></i> </a> </p>
-</div>

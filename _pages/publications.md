@@ -58,7 +58,9 @@ d3.csv("{{ site.baseurl }}/assets/csv/data_publications.csv").then(function(data
 
   // Add Y axis
   const y = d3.scaleLinear()
-    .domain([0, 20])
+  .domain([0, d3.max(data, d =>
+  d3.sum(subgroups, key => +d[key])
+  )+2])
     .range([height, 0]);
 
   svg.append("g")
