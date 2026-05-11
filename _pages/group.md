@@ -67,7 +67,7 @@ Shane is a graduate research student working with Drs. Greg Christian and Thanas
 Ella is starting her third year, with a major in Astrophysics and Math. This summer she will be examining old, r-process enriched stars. Outside of school, she enjoys playing piano and going to the gym.
 
 <a href="mailto:ella.jackson@smu.ca"><i class="fas fa-envelope"></i></a> &nbsp; • &nbsp;
-
+<a href="https://github.com/ellakjackson" target="_blank" title="github"><i class="fab fa-github"></i></a> &nbsp; • &nbsp;
 <br>
 <hr>
 

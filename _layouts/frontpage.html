@@ -1,0 +1,20 @@
+<div class="col-lg reduced-gutter">
+  <div class="pad-left">
+    <div class="note">
+      <i class="far fa-file-alt"></i> &nbsp;
+      {% if entry.doi %}
+        <a href="https://doi.org/{{ entry.doi }}" target="_blank">
+      {% endif %}
+      {% assign first_initial = entry.author_array[0].first | slice: 0, 1 %}
+      {{ first_initial }}. {{ entry.author_array[0].last }} <i>et al.</i>,
+      {{ entry.iso }}
+      {% if entry.volume %}<strong>{{ entry.volume }}</strong>,{% endif %}
+      {% if entry.pages %} {{ entry.pages }}{% endif %}
+      ({{ entry.year }})
+      {% if entry.doi %}
+        </a>
+      {% endif %}
+    </div>
+    <div class="bigspacer"></div>
+  </div>
+</div>

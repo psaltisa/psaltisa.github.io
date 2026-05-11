@@ -9,7 +9,7 @@ email: thanassis.psaltis@smu.ca
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Assistant Professor of Physics at Saint Mary's University
 footer_text:
-keywords: nuclear-astrophysics, nuclear-physics, astrophysics, science-communication   # add your own keywords or leave empty
+keywords: nuclear astrophysics, nuclear physics, astrophysics, science communication, stellar nucleosynthesis, supernovae, neutron stars, nuclear reactions, Thanassis Psaltis, Saint Mary's University, SMU, physics research, academic publications, physics professor, astrophysics research, Canadian astrophysics, nuclear data, science outreach   # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -189,7 +189,6 @@ defaults:
 jekyll-minifier:
   exclude: ['robots.txt']
   uglifier_args:
-    harmony: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives

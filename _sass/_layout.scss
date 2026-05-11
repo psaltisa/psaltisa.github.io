@@ -36,6 +36,29 @@ body.sticky-bottom-footer {
   }
 }
 
+.frontpage-pubs .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.frontpage-pubs .col-lg {
+  flex: 1 1 30%;
+  margin: 0 10px;
+}
+
+.frontpage-pubs ol.bibliography {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+.frontpage-pubs ol.bibliography li {
+  flex: 1 1 30%;
+  margin: 0 10px 20px 0;
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+}
 // TODO: redefine content layout.
 
 

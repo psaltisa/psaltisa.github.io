@@ -1,0 +1,7 @@
+<div class="publications publications-year" data-year="{{ include.year }}">
+  <h3>Journal Articles ({{ include.year }})</h3>
+  {% bibliography -f papers -q @*[year={{ include.year }}]* %}
+
+  <h3>Conference Proceedings ({{ include.year }})</h3>
+  {% bibliography -f proceedings -q @*[year={{ include.year }}]* %}
+</div>

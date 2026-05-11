@@ -19,9 +19,20 @@ nav_order: 1
 <i class="far fa-file-alt"></i> {% bibliography_count -f proceedings %} conference proceedings articles ({% bibliography_count -f proceedings --query @*[author^=Psaltis]%} leading)
 
 
-<svg viewBox="0 0 450 200" style="width: 100%; height: auto;"></svg>
+<svg id="publications-chart" viewBox="0 0 450 200" style="width: 100%; height: auto;" role="img" aria-label="Publications per year, split by journal articles and conference proceedings"></svg>
 
 <script>
+
+const publicationData = [
+  {% assign chart_years = page.years | reverse %}
+  {% for y in chart_years %}
+  {
+    group: "{{ y }}",
+    "journal articles": {% bibliography_count -f papers --query @*[year={{ y }}]* %},
+    "conference proceedings": {% bibliography_count -f proceedings --query @*[year={{ y }}]* %}
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+];
 
 // Set the dimensions and margins of the graph
 const margin = { top: 10, right: 30, bottom: 20, left: 50 },
@@ -29,17 +40,17 @@ const margin = { top: 10, right: 30, bottom: 20, left: 50 },
       height = 200 - margin.top - margin.bottom;
 
 // Append the svg object to the body of the page
-const svg = d3.select("svg")
+const svg = d3.select("#publications-chart")
   .attr("width", width + margin.left + margin.right)
   .attr("height", height + margin.top + margin.bottom)
   .append("g")
   .attr("transform", `translate(${margin.left},${margin.top})`);
 
-// Parse the Data (assuming you’re loading it from a CSV)
-d3.csv("{{ site.baseurl }}/assets/csv/data_publications.csv").then(function(data) {
+// Publication counts are generated from papers.bib and proceedings.bib at build time.
+const data = publicationData;
 
-  // List of subgroups (columns in the CSV except for the first one)
-  const subgroups = data.columns.slice(1);
+  // List of subgroups
+  const subgroups = ["journal articles", "conference proceedings"];
 
   // List of groups (species in this case)
   const groups = Array.from(new Set(data.map(d => d.group)));
@@ -110,7 +121,11 @@ d3.csv("{{ site.baseurl }}/assets/csv/data_publications.csv").then(function(data
       svg.selectAll(".count-label").remove();
     })
     .on("click", function(event, d) {
+      const yearButton = document.querySelector('.year-chip[data-year="' + d.data.group + '"]');
+      if (yearButton) yearButton.click();
+
       // Display count label permanently on click
+      svg.selectAll(".click-label").remove();
       const count = d[1] - d[0];
       svg.append("text")
         .attr("class", "count-label click-label")
@@ -144,65 +159,241 @@ d3.csv("{{ site.baseurl }}/assets/csv/data_publications.csv").then(function(data
     .style("font-size", "12px")
     .text(d => d);
 
-}).catch(function(error) {
-  console.error('Error loading the CSV data:', error);
-});
-
 </script>
 
 <br>
 
 
-<!-- Dropdown for selecting year -->
-<div>
-  <label for="year-select">Select a year:</label>
-  <select id="year-select">
-    <option value="">--Select Year--</option>
-    {% for y in page.years %}
-    <option value="{{ y }}">{{ y }}</option>
-    {% endfor %}
-  </select>
-</div>
+<section class="publication-browser" aria-label="Publication browser">
+  <div class="publication-controls">
+    <label for="year-select">Year</label>
+    <select id="year-select">
+      {% for y in page.years %}
+      <option value="{{ y }}">{{ y }}</option>
+      {% endfor %}
+    </select>
 
-<!-- Render all publications but hide them initially -->
-<div id="publications-list">
-  {% for y in page.years %}
-  <div class="publications" data-year="{{ y }}" style="display: none;">
-    <h3>Journal Articles ({{ y }})</h3>
-    {% bibliography -f papers -q @*[year={{y}}]* %}
-
-    <h3>Conference Proceedings ({{ y }})</h3>
-    {% bibliography -f proceedings -q @*[year={{y}}]* %}
+    <div class="year-buttons" aria-label="Publication years">
+      {% for y in page.years %}
+      <button type="button" class="year-chip" data-year="{{ y }}">{{ y }}</button>
+      {% endfor %}
+    </div>
   </div>
-  {% endfor %}
-</div>
+
+  <div class="tag-filter" aria-label="Publication tags">
+    <button type="button" class="tag-chip active" data-tag="all" aria-pressed="true">All</button>
+    <button type="button" class="tag-chip" data-tag="experimental" aria-pressed="false">Experimental</button>
+    <button type="button" class="tag-chip" data-tag="nucleosynthesis" aria-pressed="false">Nucleosynthesis</button>
+    <button type="button" class="tag-chip" data-tag="reaction-rates" aria-pressed="false">Reaction rates</button>
+    <button type="button" class="tag-chip" data-tag="x-ray-bursts" aria-pressed="false">X-ray bursts</button>
+    <button type="button" class="tag-chip" data-tag="classical-nova" aria-pressed="false">Classical nova</button>
+    <button type="button" class="tag-chip" data-tag="supernova" aria-pressed="false">Supernova</button>
+    <button type="button" class="tag-chip" data-tag="theory" aria-pressed="false">Theory</button>
+    <button type="button" class="tag-chip" data-tag="observational" aria-pressed="false">Observational</button>
+  </div>
+
+  <div id="publication-status" class="publication-status" role="status" aria-live="polite"></div>
+  <div id="publications-list" data-base-url="{{ site.baseurl }}"></div>
+</section>
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    var yearSelect = document.getElementById('year-select');
-    var latestYear = yearSelect.options[1].value; // Select the first option after the placeholder
-    yearSelect.value = latestYear;
+    const years = {{ page.years | jsonify }};
+    const cache = {};
+    let activeYear = String(years[0]);
+    let activeTag = 'all';
 
-    // Trigger change event to display the latest year's publications
-    var event = new Event('change');
-    yearSelect.dispatchEvent(event);
-  });
+    const tagRules = {
+      experimental: ['experiment', 'measurement', 'cross section', 'beam', 'detector', 'recoil separator', 'spectroscopy', 'activation'],
+      nucleosynthesis: ['nucleosynthesis', 'abundance', 'abundances'],
+      'reaction-rates': ['reaction rate', 'reaction rates', 'thermonuclear', 'rate uncertainty', 'monte carlo rate'],
+      'x-ray-bursts': ['x-ray burst', 'x-ray bursts', 'xrbs', 'type-i x-ray', 'accreting neutron'],
+      'classical nova': ['classical novae', 'nova explosions'],
+      supernovae: ['supernova', 'supernovae', 'core-collapse', 'ccsne', 'neutrino-driven'],
+      theory: [ 'simulation', 'simulations', 'bayesian', 'network', 'sensitivity study'],
+      observational:['lines', 'stars', 'observation']
+    };
 
-  document.getElementById('year-select').addEventListener('change', function() {
-    var selectedYear = this.value;
+    const tagLabels = {
+      experimental: 'Experimental',
+      nucleosynthesis: 'Nucleosynthesis',
+      'reaction-rates': 'Reaction rates',
+      'x-ray-bursts': 'X-ray bursts',
+      'classical nova': 'Classical nova',
+      supernovae: 'Supernova',
+      theory: 'Theory',
+      observational: 'Observational'
+    };
 
-    // Hide all publication divs
-    var publicationDivs = document.querySelectorAll('#publications-list .publications');
-    publicationDivs.forEach(function(div) {
-      div.style.display = 'none';
-    });
+    const yearSelect = document.getElementById('year-select');
+    const yearButtons = document.querySelectorAll('.year-chip');
+    const tagButtons = document.querySelectorAll('.tag-chip');
+    const list = document.getElementById('publications-list');
+    const status = document.getElementById('publication-status');
+    const baseUrl = list.dataset.baseUrl || '';
+    const loadedScripts = {};
 
-    // Show the selected year's publications
-    if (selectedYear) {
-      var selectedDiv = document.querySelector('#publications-list .publications[data-year="' + selectedYear + '"]');
-      if (selectedDiv) {
-        selectedDiv.style.display = 'block';
+    function publicationUrl(year) {
+      return `${baseUrl}/publications/years/${year}/`;
+    }
+
+    function setStatus(message) {
+      status.textContent = message;
+    }
+
+    function setActiveYear(year) {
+      activeYear = String(year);
+      yearSelect.value = activeYear;
+      yearButtons.forEach(function(button) {
+        const selected = button.dataset.year === activeYear;
+        button.classList.toggle('active', selected);
+        button.setAttribute('aria-pressed', selected ? 'true' : 'false');
+      });
+    }
+
+    function setActiveTag(tag) {
+      activeTag = tag;
+      tagButtons.forEach(function(button) {
+        const selected = button.dataset.tag === activeTag;
+        button.classList.toggle('active', selected);
+        button.setAttribute('aria-pressed', selected ? 'true' : 'false');
+      });
+      filterPublications();
+    }
+
+    function tagsForPublication(item) {
+      const text = item.textContent.toLowerCase();
+      return Object.keys(tagRules).filter(function(tag) {
+        return tagRules[tag].some(function(term) {
+          return text.includes(term);
+        });
+      });
+    }
+
+    function decoratePublications() {
+      list.querySelectorAll('ol.bibliography > li').forEach(function(item) {
+        if (item.dataset.tagsReady) return;
+
+        const tags = tagsForPublication(item);
+        item.dataset.tags = tags.join(' ');
+        item.dataset.tagsReady = 'true';
+
+        if (tags.length) {
+          const tagList = document.createElement('div');
+          tagList.className = 'publication-tags';
+          tags.forEach(function(tag) {
+            const badge = document.createElement('span');
+            badge.className = 'publication-tag';
+            badge.textContent = tagLabels[tag];
+            tagList.appendChild(badge);
+          });
+          item.appendChild(tagList);
+        }
+      });
+    }
+
+    function bindBibliographyToggles() {
+      if (!window.jQuery) return;
+      const $items = $('#publications-list a.abstract, #publications-list a.bibtex');
+      $items.off('click.publicationBrowser').on('click.publicationBrowser', function() {
+        const target = $(this).hasClass('abstract') ? '.abstract.hidden' : '.bibtex.hidden';
+        $(this).parent().parent().find(target).toggleClass('open');
+      });
+    }
+
+    function loadScriptOnce(src, callback) {
+      if (loadedScripts[src]) {
+        if (callback) callback();
+        return;
+      }
+
+      const script = document.createElement('script');
+      script.src = src;
+      script.async = true;
+      script.onload = function() {
+        loadedScripts[src] = true;
+        if (callback) callback();
+      };
+      document.head.appendChild(script);
+    }
+
+    function refreshPublicationBadges() {
+      loadScriptOnce('https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js', function() {
+        if (window._altmetric_embed_init) window._altmetric_embed_init();
+      });
+
+      loadScriptOnce('https://badge.dimensions.ai/badge.js', function() {
+        if (window.__dimensions_embed && window.__dimensions_embed.addBadges) {
+          window.__dimensions_embed.addBadges();
+        }
+      });
+    }
+
+    function filterPublications() {
+      const items = list.querySelectorAll('ol.bibliography > li');
+      let visible = 0;
+
+      items.forEach(function(item) {
+        const show = activeTag === 'all' || item.dataset.tags.split(' ').includes(activeTag);
+        item.hidden = !show;
+        if (show) visible += 1;
+      });
+
+      if (items.length) {
+        setStatus(activeTag === 'all'
+          ? `Showing ${items.length} publication${items.length === 1 ? '' : 's'} from ${activeYear}`
+          : `Showing ${visible} ${tagLabels[activeTag].toLowerCase()} publication${visible === 1 ? '' : 's'} from ${activeYear}`);
       }
     }
+
+    function showYear(year) {
+      setActiveYear(year);
+      if (cache[activeYear]) {
+        list.innerHTML = cache[activeYear];
+        decoratePublications();
+        bindBibliographyToggles();
+        refreshPublicationBadges();
+        filterPublications();
+        return;
+      }
+
+      list.innerHTML = '';
+      setStatus(`Loading ${activeYear} publications...`);
+
+      fetch(publicationUrl(activeYear))
+        .then(function(response) {
+          if (!response.ok) throw new Error('Could not load publications');
+          return response.text();
+        })
+        .then(function(html) {
+          cache[activeYear] = html;
+          list.innerHTML = html;
+          decoratePublications();
+          bindBibliographyToggles();
+          refreshPublicationBadges();
+          filterPublications();
+        })
+        .catch(function() {
+          setStatus(`Sorry, the ${activeYear} publications could not be loaded.`);
+        });
+    }
+
+    yearSelect.addEventListener('change', function() {
+      showYear(this.value);
+    });
+
+    yearButtons.forEach(function(button) {
+      button.addEventListener('click', function() {
+        showYear(this.dataset.year);
+      });
+    });
+
+    tagButtons.forEach(function(button) {
+      button.addEventListener('click', function() {
+        setActiveTag(this.dataset.tag);
+      });
+    });
+
+    showYear(activeYear);
   });
 </script>
