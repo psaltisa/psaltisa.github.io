@@ -58,13 +58,24 @@ _styles: >
 
 ## The origin of p-nuclei, an open question for nuclear astrophysics
 
-A small group of around 35 stable neutron--deficient nuclei with A $\geq$ 74  between selenium (Se) and mercury (Hg) cannot be produced by the two main neutron-capture processes ( s- and r-process).
-These are referred to as p-nuclei and their origin is a long-standing puzzle.
+A small group of around 35 stable neutron--deficient nuclei with A $\geq$ 74  between selenium (Se) and mercury (Hg) cannot be produced by the two main neutron-capture processes (s- and r-process).
+These are referred to as **p-nuclei** and their origin is a long-standing puzzle.
 
 The fact that a distinct process produces these isotopes had been already identified from the early days of our field by both Cameron<d-cite key="cameron1957nuclear"></d-cite> and Burbidge et al.<d-cite key="burbidge1957synthesis"></d-cite>.
 They were referred to as "excluded" nuclei, since they were "shielded" by the s- and the r-process reaction path.
 
-For this reason their solar abundances are around one to two orders of magnitude smaller than the s- and r-counterparts, as shown in the figure below, and no single p-nucleus is the most abundant isotope of
+<center>                                                                          
+       <div class="col-sm mt-2 mt-md-0">
+           <img class="img-fluid"
+            src="{{ site.baseurl }}/assets/img/flow.svg" data-zoomable="">
+     </div>
+     <div class="caption">
+      Section of the nuclear chart relevant to the production of the p-nucleus $^{102}$Pd. All coloured isotopes are stable (with origins form different processes), and the white ones are radioactive. The arrows show the photodisintegration reactions. Note that the p-nuclei cannot be reached by either the s- or r-process, since they are shielded by the stable isotopes of the same element. Figure adapted from <d-cite key="Rauscher2013"></d-cite>.
+      </div>
+</center>
+
+
+For this reason their solar abundances<d-footnote>Note that since p-nuclei are so rare, we have not observed them in other stars other than the Sun.</d-footnote> are around one to two orders of magnitude smaller than the s- and r-counterparts, as shown in the figure below, and no single p-nucleus is the most abundant isotope of
 any element.
 
 
@@ -79,37 +90,67 @@ any element.
 </center>
 
 
-It is generally accepted that the p-nuclei in the solar system have been produced by more than one processes; however their synthesis mechanism is commonly referred to as p-process.
-In the following we shall focus on one scenario operating in massive stars.
+It is generally accepted that the p-nuclei in the solar system have been produced by more than one processes; however their synthesis mechanism is commonly referred to as **p-process**.
+In the following we shall focus on one scenario operating in massive stars called the $\gamma$-process.
 
 
 ## $\gamma$ process nucleosynthesis
-<d-cite key="Pignatari2016"></d-cite>
 
+Core-collapse supernovae (ccSNe) have 
+
+
+<d-cite key="Pignatari2016"></d-cite>
+<d-cite key="Rauscher2013"></d-cite>
 <d-cite key="Roberti2023"></d-cite>
 
 
-<center>                                                                          
+The final abundances depend sensitively on whether a nucleus emits a neutron, proton, or α particle (see the first figure)
+
+More recently, C-O shell mergers in the pre-explosion face as a candidate for the production of the p-nuclei via the $\gamma$ process <d-cite key="Roberti2023, Issa2026"></d-cite>.
+
+In a similar context, rotating massive stars have been proposed as a site for the production of p-nuclei <d-cite key="Choplin2022"></d-cite>
+
+Another viable astrophysical scenario for the production of the p-nuclei is thermonuclear supernovae (type Ia). 
+In this explosion, a white dwarf is disrupted when its mass suprasses the Chandrasekhar limit, while accreting material from a companion star. 
+The production of p-nuclei in type Ia supenovae has been studied in detail in the literature and it strongly depends on the initial composition of the white dwarf
+<d-cite key="Travaglio2011, Battino2020"></d-cite>
+
+$\nu$-process in core-collapse supernovae (citation)
+and $\nu p$-process in proton-rich ejecta in neutrino-driven winds of ccSNe
+
+
+<center>                                                                
        <div class="col-sm mt-2 mt-md-0">
            <img class="img-fluid"
-            src="{{ site.baseurl }}/assets/img/flow.svg" data-zoomable="">
+            src="{{ site.baseurl }}/assets/img/shock.png" zoomable=true>
      </div>
      <div class="caption">
-      A caption
+     shock wave
       </div>
 </center>
 
-<div class="fake-img l-gutter">
-  <p><b>See A. Tsantiri lecture</b></p>
-</div>
+Accreting neutron stars via the rp-process have also been shown to produce p-nuclei, via proton captures instead of photon disintegrations, however it is not clear if they can contribute to the galactic chemical evolution due to extremely large escape velocities from a neutron star surface that hinders andy ejection of material in the interstellar medium<d-footnote>Interestingly, studies that include rotation in the neutron star have shown both a reduced production of p-nuclei but a significantly higher mass ejection than non-rotating models.</d-footnote>
 
 
 
+Despite our ability to reproduce most of the p-nuclei abundances of the solar system to within a factor of 2, there are still a few cases where the $\gamma$-process fails to reproduce in sufficient amounts; notable examples include the light $^{92,94}$Mo, $^{96,98}$Ru, $^{113}$In, $^{115}$Sn, $^{138}La$, $^{180}$Ta that most likely have contributions from other processes.
 
+
+The $\gamma$ process network is vast, involving more than 2000 nuclei (most of them radioactive) with >20,000 reactions! 
+
+temperatures between 2-3.5 GK
 
 ## Theoretical Modeling (Hauser-Feshbach)
 
-TALYS, NON-SMOKER, EMPIRE, SMARAGD and many more!
+Given the size of the network, it is impossible to gain information for all the reactions. 
+For this reason we rely heavily on theoretical estimates of the relevant nuclear reactions. 
+At the intermediate and heavy mass regime, where the nuclear level densities are rather high, we can apply the Hauser-Feshbach model of nuclear reactions to extract cross-sections and reaction rates to be used in nucleosynthesis calculations.
+
+Many codes can perform these calculations, with the most well-known in our community being:
+- TALYS <d-cite key="Koning2023"></d-cite>
+- NON-SMOKER
+- SMARAGD
+- EMPIRE and many more!
 
  Uncertainties propagate to nucleosynthesis predictions!
 
@@ -152,6 +193,13 @@ do calculations between Pd 100 and 104 and grab the decay constant at T=2.5 GK s
 
 
 ## Enter the $\gamma$ beams
+
+
+
+<div class="fake-img l-gutter">
+  <p><b>See A. Tsantiri lecture</b></p>
+</div>
+
 
 ### $\gamma$ beam production techniques
 
