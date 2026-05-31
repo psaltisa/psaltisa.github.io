@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<!-- _layouts/distill.html -->
+<html>
+  <head><!-- Metadata, OpenGraph and Schema.org -->
+
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Nuclear astrophysics with γ beams | Thanassis Psaltis</title>
+    <meta name="author" content="Thanassis  Psaltis" />
+    <meta name="description" content="Lecture notes for the 13th European Summer School on Experimental Nuclear Astrophysics" />
+    <meta name="keywords" content="nuclear astrophysics, nuclear physics, astrophysics, science communication, stellar nucleosynthesis, supernovae, neutron stars, nuclear reactions, Thanassis Psaltis, Saint Mary's University, SMU, physics research, academic publications, physics professor, astrophysics research, Canadian astrophysics, nuclear data, science outreach" />
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<!-- Code Syntax Highlighting -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light" />
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/teaching/gamma-beams">
+
+<!-- Dark Mode-->
+
+
+<!-- Load d3.js and the geo projection plugin -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+     };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+
+    <!-- Distill js -->
+    <script src="/assets/js/distillpub/template.v2.js"></script>
+    <script src="/assets/js/distillpub/transforms.v2.js"></script>
+    <script src="/assets/js/distillpub/overrides.js"></script>
+    
+    <!-- Page/Post style -->
+    <style type="text/css">
+      .fake-img {
+  background: #bbbbbb;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 12px;
+} .fake-img p {
+  font-family: monospace;
+  color: white !important;
+  text-align: left;
+  margin: 12px 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+    </style>
+  </head>
+
+  <d-front-matter>
+    <script async type="text/json">{
+      "title": "Nuclear astrophysics with γ beams",
+      "description": "Lecture notes for the 13th European Summer School on Experimental Nuclear Astrophysics",
+      "published": "June 16, 2026",
+      "authors": [
+        {
+          "author": "Thanassis Psaltis",
+          "authorURL": "mailto: thanassis.psaltis@smu.ca",
+          "affiliations": [
+            {
+              "name": "Saint Mary's University",
+              "url": ""
+            }
+          ]
+        }
+        
+      ],
+      "katex": {
+        "delimiters": [
+          {
+            "left": "$",
+            "right": "$",
+            "display": false
+          },
+          {
+            "left": "$$",
+            "right": "$$",
+            "display": true
+          }
+        ]
+      }
+    }</script>
+  </d-front-matter>
+
+  <body class="fixed-top-nav">
+
+    <!-- Header --><header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      
+      <a class="navbar-brand title font-weight-lighter" href="https://psaltisa.github.io/">
+       Thanassis  <span class="font-weight-bold"> Psaltis</span> 
+      </a>
+      
+      <!-- Navbar Toogle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center full-screen-menu" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              <i class="fa fa-home" aria-hidden="true"></i>
+              
+            </a>
+          </li>
+          <!--
+          <li class="nav-item">
+            <a class="nav-link" href="/assets/pdf/CV_Psaltis.pdf" target="_blank">
+              <i class="ai ai-cv"></i>
+            </a>
+          </li>
+          -->
+          
+          <!-- Blog -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/blog/">
+              blog
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                research
+                
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              
+              
+                <a class="dropdown-item" href="/research/">about</a>
+              
+              
+              
+                <a class="dropdown-item" href="/projects/">projects</a>
+              
+              
+              
+                <a class="dropdown-item" href="/publications/">publications</a>
+              
+              
+              
+                <a class="dropdown-item" href="/talks/">presentations</a>
+              
+              
+              </div>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/group/">
+                group
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/news/">
+                news
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/outreach/">
+                outreach
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/teaching/">
+                teaching
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+
+          <!--
+          
+          -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+        <!-- Scrolling Progress Bar -->
+        <progress id="progress" value="0">
+          <div class="progress-container">
+            <span class="progress-bar"></span>
+          </div>
+        </progress>
+</header>
+
+
+    <!-- Content -->
+    <div class="post distill">
+
+      <d-title>
+        <h1>Nuclear astrophysics with γ beams</h1>
+        <p>Lecture notes for the 13th European Summer School on Experimental Nuclear Astrophysics</p>
+      </d-title>
+
+      <d-byline></d-byline>
+
+      <d-article>
+        <d-contents>
+          <nav class="l-text figcaption">
+          <h3>Contents</h3>
+            <div><a href="#"></a></div>
+            <div><a href="#the-origin-of-p-nuclei-an-open-question-for-nuclear-astrophysics">The origin of p-nuclei, an open question for nuclear astrophysics</a></div>
+            <div><a href="#broader-implications-and-open-questions">Broader implications and open questions</a></div>
+            
+          </nav>
+        </d-contents>
+
+        <h2 id="the-origin-of-p-nuclei-an-open-question-for-nuclear-astrophysics">The origin of p-nuclei, an open question for nuclear astrophysics</h2>
+
+<p>A small group of around 35 stable neutron–deficient nuclei with A $\geq$ 74  between selenium (Se) and mercury (Hg) cannot be produced by the two main neutron-capture processes (s- and r-process).
+These are referred to as <strong>p-nuclei</strong> and their origin is a long-standing puzzle.</p>
+
+<p>The fact that a distinct process produces these isotopes had been already identified from the early days of our field by both Cameron<d-cite key="cameron1957nuclear"></d-cite> and Burbidge et al.<d-cite key="burbidge1957synthesis"></d-cite>.
+They were referred to as “excluded” nuclei, since they were “shielded” by the s- and the r-process reaction path.</p>
+
+<center>                                                                          
+       <div class="col-sm mt-2 mt-md-0">
+           <img class="img-fluid" src="/assets/img/flow.svg" data-zoomable="">
+     </div>
+     <div class="caption">
+      Section of the nuclear chart relevant to the production of the p-nucleus $^{102}$Pd. All coloured isotopes are stable (with origins form different processes), and the white ones are radioactive. The arrows show the photodisintegration reactions. Note that the p-nuclei cannot be reached by either the s- or r-process, since they are shielded by the stable isotopes of the same element. Figure adapted from <d-cite key="Rauscher2013"></d-cite>.
+      </div>
+</center>
+
+<p>For this reason their solar abundances<d-footnote>Note that since p-nuclei are so rare, we have not observed them in other stars other than the Sun.</d-footnote> are around one to two orders of magnitude smaller than the s- and r-counterparts, as shown in the figure below, and no single p-nucleus is the most abundant isotope of
+any element.</p>
+
+<center>                                                                                          
+       <div class="col-sm mt-2 mt-md-0">
+           <img class="img-fluid" src="/assets/img/Arnould-PhysRep-2003.png" zoomable="true">
+     </div>
+     <div class="caption">
+     Solar abundances for s-, r-, and p-nuclei. The figure is adapted from <d-cite key="arnould2003"></d-cite>. The p-nuclei are much more rare compared to the other heavy elements, this is why their origin is so interesting!
+      </div>
+</center>
+
+<p>It is generally accepted that the p-nuclei in the solar system have been produced by more than one processes; however their synthesis mechanism is commonly referred to as <strong>p-process</strong>.
+In the following we shall focus on one scenario operating in massive stars called the $\gamma$-process.</p>
+
+<h2 id="gamma-process-nucleosynthesis">$\gamma$ process nucleosynthesis</h2>
+
+<p>Core-collapse supernovae (ccSNe) have</p>
+
+<d-cite key="Pignatari2016"></d-cite>
+<d-cite key="Rauscher2013"></d-cite>
+<d-cite key="Roberti2023"></d-cite>
+
+<p>The final abundances depend sensitively on whether a nucleus emits a neutron, proton, or α particle (see the first figure)</p>
+
+<p>More recently, C-O shell mergers in the pre-explosion face as a candidate for the production of the p-nuclei via the $\gamma$ process <d-cite key="Roberti2023, Issa2026"></d-cite>.</p>
+
+<p>In a similar context, rotating massive stars have been proposed as a site for the production of p-nuclei <d-cite key="Choplin2022"></d-cite></p>
+
+<p>Another viable astrophysical scenario for the production of the p-nuclei is thermonuclear supernovae (type Ia). 
+In this explosion, a white dwarf is disrupted when its mass suprasses the Chandrasekhar limit, while accreting material from a companion star. 
+The production of p-nuclei in type Ia supenovae has been studied in detail in the literature and it strongly depends on the initial composition of the white dwarf</p>
+<d-cite key="Travaglio2011, Battino2020"></d-cite>
+
+<p>$\nu$-process in core-collapse supernovae (citation)
+and $\nu p$-process in proton-rich ejecta in neutrino-driven winds of ccSNe</p>
+
+<center>                                                                
+       <div class="col-sm mt-2 mt-md-0">
+           <img class="img-fluid" src="/assets/img/shock.png" zoomable="true">
+     </div>
+     <div class="caption">
+     shock wave
+      </div>
+</center>
+
+<p>Accreting neutron stars via the rp-process have also been shown to produce p-nuclei, via proton captures instead of photon disintegrations, however it is not clear if they can contribute to the galactic chemical evolution due to extremely large escape velocities from a neutron star surface that hinders andy ejection of material in the interstellar medium<d-footnote>Interestingly, studies that include rotation in the neutron star have shown both a reduced production of p-nuclei but a significantly higher mass ejection than non-rotating models.</d-footnote></p>
+
+<p>Despite our ability to reproduce most of the p-nuclei abundances of the solar system to within a factor of 2, there are still a few cases where the $\gamma$-process fails to reproduce in sufficient amounts; notable examples include the light $^{92,94}$Mo, $^{96,98}$Ru, $^{113}$In, $^{115}$Sn, $^{138}La$, $^{180}$Ta that most likely have contributions from other processes.</p>
+
+<p>The $\gamma$ process network is vast, involving more than 2000 nuclei (most of them radioactive) with &gt;20,000 reactions!</p>
+
+<p>temperatures between 2-3.5 GK</p>
+
+<h2 id="theoretical-modeling-hauser-feshbach">Theoretical Modeling (Hauser-Feshbach)</h2>
+
+<p>Given the size of the network, it is impossible to gain information for all the reactions. 
+For this reason we rely heavily on theoretical estimates of the relevant nuclear reactions. 
+At the intermediate and heavy mass regime, where the nuclear level densities are rather high, we can apply the Hauser-Feshbach model of nuclear reactions to extract cross-sections and reaction rates to be used in nucleosynthesis calculations.</p>
+
+<p>Many codes can perform these calculations, with the most well-known in our community being:</p>
+<ul>
+  <li>TALYS <d-cite key="Koning2023"></d-cite>
+</li>
+  <li>NON-SMOKER</li>
+  <li>SMARAGD</li>
+  <li>EMPIRE and many more!</li>
+</ul>
+
+<p>Uncertainties propagate to nucleosynthesis predictions!</p>
+
+<ol>
+  <li>optical-model potential (OmMP)</li>
+  <li>$\gamma$-strength function (GSF)</li>
+  <li>nuclear level density (NLD)</li>
+</ol>
+
+<p>In the following example, we have plotted the reaction rates for the three competing reaction channels, $(\gamma,n)$, $(\gamma,p)$, and $(\gamma,\alpha)$. 
+The branching from one isotopic line to the next happens when the proton or the alpha channel is stronger than the neutron.
+Here the branching happens in $^{102}$Pd which is the nucleus we will study in more detail in the following.</p>
+
+<center>                                                                
+       <div class="col-sm mt-2 mt-md-0">
+           <img class="img-fluid" src="/assets/img/branching_point.png" zoomable="true">
+     </div>
+     <div class="caption">
+     Branching points! Figure adapted from <d-cite key="Iliadis2015"></d-cite>
+      </div>
+</center>
+
+<p>do calculations between Pd 100 and 104 and grab the decay constant at T=2.5 GK see the comparison between a, g and p channels</p>
+
+<h2 id="detailed-balance">Detailed balance</h2>
+
+<p>\begin{equation}\label{eq:detailed_balance}
+\langle \sigma v \rangle_{(p,\gamma)} = \frac{(2J_B+1)}{(2J_A+1)} \frac{E_{\gamma}^2}{(m_pc^2 kT)^{3/2}}e^{-Q/(kT)} \langle \sigma v\rangle_{(\gamma, p)}
+\end{equation}</p>
+
+<p>\begin{equation}
+\lambda_\gamma = \frac{8\pi}{h^3 c^2}\int_0^\infty \frac{E_\gamma^2}{e^{E_\gamma/(kT)}-1} \sigma(E_\gamma)dE_\gamma
+\end{equation}</p>
+
+<h2 id="stellar-enhancement-and-partition-functions">Stellar Enhancement and partition functions</h2>
+
+<d-cite key="Rauscher2011"></d-cite>
+
+<h2 id="enter-the-gamma-beams">Enter the $\gamma$ beams</h2>
+
+<div class="fake-img l-gutter">
+  <p><b>See A. Tsantiri lecture</b></p>
+</div>
+
+<h3 id="gamma-beam-production-techniques">$\gamma$ beam production techniques</h3>
+
+<p>bremsstrahlung and laser Compton scattering (LCS) are the two main techniques to produce $\gamma$-beams in the laboratory.</p>
+
+<h3 id="gamma-beam-facilities">$\gamma$ beam facilities</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Facility</th>
+      <th>Energy (MeV)</th>
+      <th>Flux ($\gamma$/s)</th>
+      <th>$\Delta E/E$ (FWHM)</th>
+      <th>Polarization</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HI$\gamma$S (TUNL, USA)</td>
+      <td>1-100</td>
+      <td>$\leq 3 \times 10^{10}$</td>
+      <td>$\sim$3-5%</td>
+      <td>Linear/Circular</td>
+    </tr>
+    <tr>
+      <td>ELI-NP (Romania)</td>
+      <td>0.2-19.5</td>
+      <td>$\sim 2 \times 10^{8}$</td>
+      <td>$\leq$0.5%</td>
+      <td>Linear</td>
+    </tr>
+    <tr>
+      <td>NewSUBARU (Japan)</td>
+      <td>1-35</td>
+      <td>$\sim 10^{7}-10^{8}$</td>
+      <td>$\sim$3%</td>
+      <td>Linear/Polarized</td>
+    </tr>
+    <tr>
+      <td>SLEGS (SSRF, China)</td>
+      <td>0.66-21.7</td>
+      <td>$10^{5}-10^{7}$</td>
+      <td>$\sim$6-18%</td>
+      <td>Linear</td>
+    </tr>
+    <tr>
+      <td>S-DALINAC (Germany)</td>
+      <td>Up to $\sim 30-70$</td>
+      <td>$10^{10}-10^{12}$ (integrated)</td>
+      <td>100% (broad)</td>
+      <td>Unpolarized</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="detectors-and-observables">Detectors and Observables</h3>
+
+<p>photonuclear cross sections as a function of $\gamma$ energy
+charge-particle detection
+neutron-detection (for ($\gamma,n$) reactions)
+TPC (Time-Projection Chambers) or charged particle detectors (silicon)
+angular distributions &amp; polarization effects (NRF Gribble)</p>
+<d-cite key="Gribble2025"></d-cite>
+<d-cite key="Iliadis2021"></d-cite>
+
+<div class="fake-img l-body">
+  <p> <b> <i class="fas fa-quote-left"></i> something I want to emphasize. </b> </p>
+</div>
+
+<p>High Intensity $\gamma$-Ray Source (HI$\gamma$S)
+<a href="https://tunl.duke.edu/research/our-facilities" target="_blank" rel="noopener noreferrer">link</a></p>
+
+<hr>
+
+<d-code block="" language="python">
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.integrate import solve_ivp
+</d-code>
+
+<h2 id="case-study-102pdgamma-at-higammas-tunl">Case study: $^{102}$Pd+$\gamma$ at HI$\gamma$S (TUNL)</h2>
+
+<p>Let us now apply this knowledge using as our guide a recent experiment performed at TUNL using the HI$\gamma$S facility.</p>
+
+<p>$^{102}$Pd is one of the p-nuclei</p>
+
+<p>This experiment aimed to measure the ($\gamma,x$) reactions on $^{102}$Pd which is one of the p-nuclei.
+The setup consisted of the SIDAR array  which were able to detect protons and alpha particles from the ($\gamma, p$) and ($\gamma, \alpha$) channels.</p>
+
+<p>Is the $^{102}$Pd a proper target to study using a $\gamma$-beam? Which is its g.s. contribution $X_0$?</p>
+
+<p>The experimental data provide important information to constrain the theoretical models in the A=100-110 mass range and improve our predictions of nucleosynthesis</p>
+
+<blockquote>
+  <p>this is a quote!</p>
+</blockquote>
+
+<d-cite key="Zilges2022"></d-cite>
+<d-cite key="LaCognata2017"></d-cite>
+<d-cite key="Balabanski2023"></d-cite>
+<d-cite key="Utsunomiya2006"></d-cite>
+
+<h2 id="from-lab-cross-sections-to-stellar-rates">From Lab Cross Sections to Stellar Rates</h2>
+
+<h2 id="broader-implications-and-open-questions">Broader implications and open questions</h2>
+
+
+      </d-article>
+
+      <d-appendix>
+        <d-footnote-list></d-footnote-list>
+        <d-citation-list></d-citation-list>
+      </d-appendix>
+
+      <d-bibliography src="/assets/bibliography/gamma-beams.bib"></d-bibliography>
+</div>
+
+    <!-- Footer -->
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    
+    
+  </div>
+</footer>
+
+
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KZRHMS2Y02"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ window.dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-KZRHMS2Y02');
+  </script>
+    
+
+<!-- Scrolling Progress Bar -->
+<script type="text/javascript">
+  /*
+   * This JavaScript code has been adapted from the article 
+   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
+   * published on the website https://css-tricks.com on the 7th of May, 2014.
+   * Couple of changes were made to the original code to make it compatible 
+   * with the `al-foio` theme.
+   */
+  const progressBar = $("#progress");
+  /*
+   * We set up the bar after all elements are done loading.
+   * In some cases, if the images in the page are larger than the intended
+   * size they'll have on the page, they'll be resized via CSS to accomodate
+   * the desired size. This mistake, however, breaks the computations as the
+   * scroll size is computed as soon as the elements finish loading.
+   * To account for this, a minimal delay was introduced before computing the
+   * values.
+   */
+  window.onload = function () {
+    setTimeout(progressBarSetup, 50);
+  };
+  /*
+   * We set up the bar according to the browser.
+   * If the browser supports the progress element we use that.
+   * Otherwise, we resize the bar thru CSS styling
+   */
+  function progressBarSetup() {
+    if ("max" in document.createElement("progress")) {
+      initializeProgressElement();
+      $(document).on("scroll", function() {
+        progressBar.attr({ value: getCurrentScrollPosition() });
+      });
+      $(window).on("resize", initializeProgressElement);
+    } else {
+      resizeProgressBar();
+      $(document).on("scroll", resizeProgressBar);
+      $(window).on("resize", resizeProgressBar);
+    }
+  }
+  /*
+   * The vertical scroll position is the same as the number of pixels that
+   * are hidden from view above the scrollable area. Thus, a value > 0 is
+   * how much the user has scrolled from the top
+   */
+  function getCurrentScrollPosition() {
+    return $(window).scrollTop();
+  }
+
+  function initializeProgressElement() {
+    let navbarHeight = $("#navbar").outerHeight(true);
+    $("body").css({ "padding-top": navbarHeight });
+    $("progress-container").css({ "padding-top": navbarHeight });
+    progressBar.css({ top: navbarHeight });
+    progressBar.attr({
+      max: getDistanceToScroll(),
+      value: getCurrentScrollPosition(),
+    });
+  }
+  /*
+   * The offset between the html document height and the browser viewport
+   * height will be greater than zero if vertical scroll is possible.
+   * This is the distance the user can scroll
+   */
+  function getDistanceToScroll() {
+    return $(document).height() - $(window).height();
+  }
+
+  function resizeProgressBar() {
+    progressBar.css({ width: getWidthPercentage() + "%" });
+  }
+  // The scroll ratio equals the percentage to resize the bar
+  function getWidthPercentage() {
+    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+  }
+</script>
+
+  </body>
+</html>
