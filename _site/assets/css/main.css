@@ -107,6 +107,13 @@ body.sticky-bottom-footer {
   display: flex;
 }
 
+/* Mobile */
+@media (max-width: 768px) {
+  .frontpage-pubs ol.bibliography li {
+    flex: 1 1 100%;
+    margin-right: 0;
+  }
+}
 /******************************************************************************
  * Publications
  ******************************************************************************/
