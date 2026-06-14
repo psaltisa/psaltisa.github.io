@@ -10,7 +10,6 @@ nav: true
 ### Nuclear astrophysics lectures ⚛️
 ---
 
-<!--
 <div class="card mt-3">
   <div class="p-3">
     <div class="row">
@@ -25,8 +24,7 @@ nav: true
     <ul class="card-text font-weight-light list-group list-group-flush">
 
         <p>
-        An introductory lecture on experimental studies using γ beams for nuclear astrophysics for
-        graduate students and postdocs, presented in the <a
+        An introductory lecture on experimental studies using γ beams for nuclear astrophysics for graduate students and postdocs, presented in the <a
         href="https://agenda.infn.it/event/48509/">13th European Summer School on Experimental Nuclear Astrophysics</a>. <br>
 
         Topics covered included:
@@ -35,14 +33,14 @@ nav: true
 
         <p>
         <i class="fas fa-chalkboard-teacher"></i>&nbsp; <a href="{{
-        site.baseurl }}/teaching/gamma-beams">Lecture notes</a>
+        site.baseurl }}/teaching/gamma-beams">Lecture notes</a> &nbsp; • &nbsp; <i class="fab fa-github"></i> <a href="https://github.com/psaltisa/gamma-beams">Github repository</a>
         </p>
 
       </ul>
 </div>
 </div>
 <br>
--->
+
 
 
 <div class="card mt-3">
