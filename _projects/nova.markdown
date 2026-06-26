@@ -2,7 +2,7 @@
 layout: page
 title: Nova explosions
 description:
-img: https://www.adlerplanetarium.org/wp-content/uploads/Artboard-2-1.png
+img: https://scitechdaily.com/images/GK-Persei-Mini-Supernova-Explosion-Could-Have-Big-Impact-777x605.jpg
 importance: 2
 ---
 
