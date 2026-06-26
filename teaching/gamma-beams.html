@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<!-- _layouts/distill.html -->
+<html>
+  <head><!-- Metadata, OpenGraph and Schema.org -->
+
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Nuclear astrophysics with γ beams | Thanassis Psaltis</title>
+    <meta name="author" content="Thanassis  Psaltis" />
+    <meta name="description" content="Lecture notes for the 13th European Summer School on Experimental Nuclear Astrophysics" />
+    <meta name="keywords" content="nuclear astrophysics, nuclear physics, astrophysics, science communication, stellar nucleosynthesis, supernovae, neutron stars, nuclear reactions, Thanassis Psaltis, Saint Mary's University, SMU, physics research, academic publications, physics professor, astrophysics research, Canadian astrophysics, nuclear data, science outreach" />
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<!-- Code Syntax Highlighting -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light" />
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/teaching/gamma-beams">
+
+<!-- Dark Mode-->
+
+
+<!-- Load d3.js and the geo projection plugin -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+     };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+
+    <!-- Distill js -->
+    <script src="/assets/js/distillpub/template.v2.js"></script>
+    <script src="/assets/js/distillpub/transforms.v2.js"></script>
+    <script src="/assets/js/distillpub/overrides.js"></script>
+    
+    <!-- Page/Post style -->
+    <style type="text/css">
+      .fake-img {
+  background: #bbbbbb;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 12px;
+} .fake-img p {
+  font-family: monospace;
+  color: white !important;
+  text-align: left;
+  margin: 12px 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+    </style>
+  </head>
+
+  <d-front-matter>
+    <script async type="text/json">{
+      "title": "Nuclear astrophysics with γ beams",
+      "description": "Lecture notes for the 13th European Summer School on Experimental Nuclear Astrophysics",
+      "published": "June 16, 2026",
+      "authors": [
+        {
+          "author": "Thanassis Psaltis",
+          "authorURL": "mailto: thanassis.psaltis@smu.ca",
+          "affiliations": [
+            {
+              "name": "Saint Mary's University",
+              "url": ""
+            }
+          ]
+        }
+        
+      ],
+      "katex": {
+        "delimiters": [
+          {
+            "left": "$",
+            "right": "$",
+            "display": false
+          },
+          {
+            "left": "$$",
+            "right": "$$",
+            "display": true
+          }
+        ]
+      }
+    }</script>
+  </d-front-matter>
+
+  <body class="fixed-top-nav">
+
+    <!-- Header --><header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      
+      <a class="navbar-brand title font-weight-lighter" href="https://psaltisa.github.io/">
+       Thanassis  <span class="font-weight-bold"> Psaltis</span> 
+      </a>
+      
+      <!-- Navbar Toogle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center full-screen-menu" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              <i class="fa fa-home" aria-hidden="true"></i>
+              
+            </a>
+          </li>
+          <!--
+          <li class="nav-item">
+            <a class="nav-link" href="/assets/pdf/CV_Psaltis.pdf" target="_blank">
+              <i class="ai ai-cv"></i>
+            </a>
+          </li>
+          -->
+          
+          <!-- Blog -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/blog/">
+              blog
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                research
+                
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              
+              
+                <a class="dropdown-item" href="/research/">about</a>
+              
+              
+              
+                <a class="dropdown-item" href="/projects/">projects</a>
+              
+              
+              
+                <a class="dropdown-item" href="/publications/">publications</a>
+              
+              
+              
+                <a class="dropdown-item" href="/talks/">presentations</a>
+              
+              
+              </div>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/group/">
+                group
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/news/">
+                news
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/outreach/">
+                outreach
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/teaching/">
+                teaching
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+
+          <!--
+          
+          -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+        <!-- Scrolling Progress Bar -->
+        <progress id="progress" value="0">
+          <div class="progress-container">
+            <span class="progress-bar"></span>
+          </div>
+        </progress>
+</header>
+
+
+    <!-- Content -->
+    <div class="post distill">
+
+      <d-title>
+        <h1>Nuclear astrophysics with γ beams</h1>
+        <p>Lecture notes for the 13th European Summer School on Experimental Nuclear Astrophysics</p>
+      </d-title>
+
+      <d-byline></d-byline>
+
+      <d-article>
+        <d-contents>
+          <nav class="l-text figcaption">
+          <h3>Contents</h3>
+            <div><a href="#"></a></div>
+            <div><a href="#the-origin-of-p-nuclei-an-open-question-for-nuclear-astrophysics">The origin of p-nuclei, an open question for nuclear astrophysics</a></div>
+            <div><a href="#how-to-produce-the-p-nuclei">How to produce the p-nuclei</a></div>
+            <div><a href="#the-nuclear-physics-of-the-gamma-process">The nuclear physics of the $\gamma$-process</a></div>
+            <ul>
+              <li><a href="#the-hauser-feshbach-hf-statistical-model">The Hauser-Feshbach (HF) statistical model</a></li>
+              <li><a href="#detailed-balance-connecting-forward-and-reverse-reactions">Detailed balance- Connecting forward and reverse reactions</a></li>
+              <li><a href="#stellar-enhancement-and-partition-functions">Stellar enhancement and partition functions</a></li>
+              
+            </ul>
+<div><a href="#why-gamma-beam-experiments-matter">Why $\gamma$-beam experiments matter</a></div>
+            <div><a href="#gamma-ray-beam-production-techniques">$\gamma$-ray beam production techniques</a></div>
+            <div><a href="#case-study-102-pd-gamma-at-hi-gamma-s-tunl">Case study- $^{102}$Pd+$\gamma$ at HI$\gamma$S (TUNL)</a></div>
+            <ul>
+              <li><a href="#why-102-pd">Why $^{102}$Pd?</a></li>
+              <li><a href="#experimental-setup">Experimental setup</a></li>
+              <li><a href="#model-expectations">Model expectations</a></li>
+              <li><a href="#results-and-interpretation">Results and interpretation</a></li>
+              
+            </ul>
+<div><a href="#broader-implications-and-open-questions">Broader implications and open questions</a></div>
+            <ul>
+              <li><a href="#key-open-questions-in-the-%CE%B3-process">Key open questions in the γ-process</a></li>
+              <li><a href="#future-perspectives">Future perspectives</a></li>
+              
+            </ul>
+<div><a href="#conclusions">Conclusions</a></div>
+            
+          </nav>
+        </d-contents>
+
+        <div class="fake-img l-body">
+  <p> <b> A companion Jupyter notebook can be found in <a href="https://github.com/psaltisa/gamma-beams" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a> and <a target="_blank" href="https://colab.research.google.com/github/psaltisa/gamma-beams/blob/main/notebook.ipynb" rel="noopener noreferrer">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></b></p>
+</div>
+
+<h2 id="the-origin-of-p-nuclei-an-open-question-for-nuclear-astrophysics">The origin of p-nuclei, an open question for nuclear astrophysics</h2>
+
+<p>A small group of around 35 stable neutron–deficient nuclei with A $\geq$ 74 between selenium (Se) and mercury (Hg) cannot be produced by the two main neutron-capture processes (s- and r-process).
+These are referred to as <strong>p-nuclei</strong> and their origin is a long-standing puzzle.</p>
+
+<p>The fact that a distinct process produces these isotopes had been already identified from the early days of our field by both Cameron<d-cite key="cameron1957nuclear"></d-cite> and Burbidge et al.<d-cite key="burbidge1957synthesis"></d-cite>. They were referred to as “excluded” nuclei, since they were “shielded” by the s- and the r-process reaction path.</p>
+
+<center>                                                                          
+       <div class="col-sm mt-2 mt-md-0">
+           <img class="img-fluid" src="/assets/img/flow.png" data-zoomable="">
+     </div>
+     <div class="caption">
+      Section of the nuclear chart relevant to the production of the p-nucleus $^{102}$Pd. All coloured isotopes are stable (with origins form different processes), and the white ones are radioactive. The arrows show the photodisintegration reactions. Note that the p-nuclei cannot be reached by either the s- or r-process, since they are shielded by the stable isotopes of the same element. Figure adapted from <d-cite key="Rauscher2013"></d-cite>.
+      </div>
+</center>
+
+<p>For this reason their solar abundances<d-footnote>Note that since p-nuclei are so rare, we have not observed them in other stars other than the Sun.</d-footnote> are around one to two orders of magnitude smaller than the s- and r-counterparts, as shown in the figure below, and no single p-nucleus is the most abundant isotope of
+any element.</p>
+
+<center>                                                                                          
+       <div class="col-sm mt-2 mt-md-0">
+           <img class="img-fluid" src="/assets/img/Arnould-PhysRep-2003.png" zoomable="true">
+     </div>
+     <div class="caption">
+     Solar abundances for s-, r-, and p-nuclei. The figure is adapted from <d-cite key="arnould2003"></d-cite>. The p-nuclei are much more rare compared to the other heavy elements, this is why their origin is so interesting!
+      </div>
+</center>
+
+<p>It is generally accepted that the p-nuclei in the solar system have been produced by more than one processes; however their synthesis mechanism is commonly referred to as <strong>p-process</strong>.
+In the following we shall focus on one scenario operating in massive stars called the $\gamma$-process.</p>
+
+<h2 id="how-to-produce-the-p-nuclei">How to produce the p-nuclei</h2>
+
+<p>Core-collapse supernovae (ccSNe) explosions are the last evolutionary stage of massive stars with $M \sim 8~M_{\odot}$.
+During the explosion, the shock-wave that propagates towards the outer layers of the star induces the production of p-nuclei through <em>photodisintegration</em> reactions.
+For this reason, this scenario is referred to as $\gamma$-process<d-cite key="Rauscher2013, Pignatari2016, Roberti2023"></d-cite>.</p>
+
+<div class="fake-img l-body">
+  <p> <b> The $\gamma$ process network is vast, involving more than 2,000 nuclei (most of them radioactive) with &gt;20,000 reactions!
+ </b> </p>
+</div>
+
+<p>The initial seeds are isotopes produced previously during the s-process in the AGB phase of the massive star, or even r-process isotopes that polluted the nebula that produced the massive star. For this reason, knowing this seed distribution accurately (and the neutron-producing reactions!) is a key uncertainty in $\gamma$-process modeling.</p>
+<div class="fake-img l-gutter">
+  <p><b>See lectures by M. Busso and M. Pignatari</b></p>
+</div>
+
+<p>As we can see from the top figure, the main drivers of the $\gamma$-process are $(\gamma,n)$, $(\gamma,p)$ and $(\gamma,\alpha)$ reactions.
+Of importance are the branching points, where the flow moves to lower mass isotopes.
+In this cases, the competition between $(\gamma,n)$ and the other two channels can change the reaction flow, and eventually the final p-nuclei abundances.</p>
+
+<p>In the $\gamma$–process each mass region is produced at a different peak temperature: intermediate mass p–nuclei (A~ 92–136) are produced at $T \sim 2.5 − 3$ GK while the heavy p–nuclei (A &gt; 140) at $T &lt; 2.5$ GK.
+For this reason it is important to have a good understanding of the temperature and density profiles of the shock wave as it propagates through the outer layers of the star, which is still a major uncertainty in $\gamma$-process modeling.</p>
+
+<center>                                                                
+       <div class="col-sm mt-2 mt-md-0">
+           <img class="img-fluid" src="/assets/img/shock.png" zoomable="true">
+     </div>
+     <div class="caption">
+     1D shock wave profiles from different radii of an exploding star <d-cite key="rapp2006apj"></d-cite>. Note that the peak temperature decreases as the shock moves outward, losing energy due to the interaction with the free-falling outer layers.
+      </div>
+</center>
+
+<p>More recently, C-O shell mergers in the pre-explosion phase have been proposed as a candidate for the production of the p-nuclei <d-cite key="Roberti2023, Issa2026"></d-cite>.
+In a similar context, rotating massive stars have been proposed as a site for the production of p-nuclei <d-cite key="Choplin2022"></d-cite>.</p>
+
+<p>ccSNe are also hosts for two additional processes that produce a small subset of the p-nuclei via reactions that involve neutrinos. The $\nu$-process has been shown to produce some rare species, such as $^{152}$Gd, $^{164}$Er, $^{180}$Ta <d-cite key="Heger2005"></d-cite> while the $\nu p$-process in the proton-rich ejecta of the neutrino-driven ejecta (close to the stellar remnant) can produce the light p-nuclei <d-cite key="Frohlich2006"></d-cite>. Nevertheless, the latter scenario is still very sensitive to the astrophysical conditions and the underlying nuclear physics input.</p>
+
+<p>Another viable astrophysical environment for the production of the p-nuclei is thermonuclear supernovae (type Ia).
+In this explosion, a white dwarf is disrupted when its mass surpasses the Chandrasekhar limit, while accreting material from a companion star.
+The production of p-nuclei in type Ia supernovae has been studied in detail in the literature and it strongly depends on the initial composition of the white dwarf <d-cite key="Travaglio2011, Battino2020"></d-cite></p>
+
+<p>Accreting neutron stars via the rp-process have also been shown to produce p-nuclei, via proton captures instead of photon disintegrations, however it is not clear if they can contribute to the galactic chemical evolution due to extremely large escape velocities from a neutron star surface that hinder any ejection of material into the interstellar medium<d-footnote>Interestingly, studies that include rotation in the neutron star have shown both a reduced production of p-nuclei but a significantly higher mass ejection than non-rotating models.</d-footnote>.</p>
+
+<p>Despite our ability to reproduce most of the p-nuclei abundances of the solar system to within a factor of 2, there are still a few cases where the $\gamma$-process fails to reproduce in sufficient amounts; notable examples include the light $^{92,94}$Mo, $^{96,98}$Ru, $^{113}$In, $^{115}$Sn, $^{138}$La, $^{180}$Ta that most likely have contributions from other processes<d-cite key="Roberti2023"></d-cite>.</p>
+
+<h2 id="the-nuclear-physics-of-the-gamma-process">The nuclear physics of the $\gamma$-process</h2>
+
+<h3 id="the-hauser-feshbach-hf-statistical-model">The Hauser-Feshbach (HF) statistical model</h3>
+
+<p>Given the vast size of the $\gamma$-process network (&gt;2,000 nuclei), we cannot directly measure all the relevant reactions at the temperatures of interest.
+Thankfully, theoretical calculations bridge this gap.
+The <strong>Hauser-Feshbach (HF) model</strong> is the standard approach for calculating photodisintegration (and radiative capture) cross sections in the intermediate- to heavy-mass regime where level densities are high.</p>
+
+<p>In a photodisintegration reaction, a $\gamma$-ray is absorbed by a nucleus, forming a <strong>compound nucleus</strong> in an excited state.
+The compound nucleus then decays through one or more exit channels (neutron, proton, alpha emission, or $\gamma$-ray emission) <em>independently</em> of how it was formed.
+The assumption that the compound nucleus “forgets” its formation mechanism underlies the HF model.</p>
+
+<p>The HF model expresses the cross section as:</p>
+
+<p>\begin{equation}
+\sigma(E) = \pi \hbar^2 \sum_{J,\pi} g(J^\pi) \frac{T_\mathrm{in}(E) T_\mathrm{out}(E)}{T_\mathrm{tot}(E)}
+\end{equation}</p>
+
+<p>where:</p>
+<ul>
+  <li>$g(J^\pi)$ is the density of states (or transmission coefficient weighting) for angular momentum $J$ and parity $\pi$</li>
+  <li>$T_\mathrm{in}(E)$ is the <strong>transmission coefficient</strong> for the entrance channel (photon absorption)</li>
+  <li>$T_\mathrm{tot}(E)$ is the total transmission (sum over all competing channels, <em>e.g.</em> proton, neutron and alpha)</li>
+</ul>
+
+<p>Each output is weighted by its own transmission coefficient, which depends on the <strong>nuclear level density (NLD)</strong> and <strong>$\gamma$-ray strength function ($\gamma$SF)</strong>, which are the three main sources of uncertainty in HF predictions:</p>
+
+<ol>
+  <li>
+    <p><strong>Optical-model potential (OMP):</strong> The complex potential describing nucleon scattering in the nucleus. Different parameterizations (e.g., Koning–Delaroche, RIPL-3) can differ by factors of 2–3 in transmission coefficients, especially for neutrons.</p>
+  </li>
+  <li>
+    <p><strong>$\gamma$-ray strength function ($\gamma$SF):</strong> The probability for a nucleus to emit (or absorb) a photon at a given energy. The $\gamma$SF is constrained by photon scattering experiments (NRF), but extrapolation to higher energies carries large uncertainties. Different models (<em>e.g.</em>, Lorentzian, Brink-Axel, microscopic) can differ significantly.</p>
+  </li>
+  <li>
+    <p><strong>Nuclear level density (NLD):</strong> The number of available quantum states per unit energy. For low excitation energies, individual levels are resolved; at higher energies (where the $\gamma$-process operates), the density grows rapidly.
+The NLD is often parameterized by Fermi-gas models, with parameters that differ between codes.</p>
+  </li>
+</ol>
+
+<p>As you can imagine, the uncertainties in these three ingredients propagate to the predicted thermonuclear reaction rates, and as a result to the final $\gamma$-process abundance predictions through nucleosynthesis calculations.
+A factor of 2 error in a single reaction rate can alter the final p-nucleus abundances by orders of magnitude at branching points <d-cite key="Rauscher2013"></d-cite>.</p>
+<div class="fake-img l-gutter">
+  <p><b>See lecture by A. Tsantiri</b></p>
+</div>
+
+<p>Many codes can perform these calculations, with the most well-known in our community being:</p>
+<ul>
+  <li>TALYS <d-cite key="Koning2023"></d-cite>
+</li>
+  <li>NON-SMOKER (SMARAGD)</li>
+  <li>EMPIRE</li>
+</ul>
+
+<p>For the first two, you can access database results for different reactions in <a href="https://nucastro.org/interface_expl.html" target="_blank" rel="noopener noreferrer">NON-SMOKERweb</a> and <a href="https://nds.iaea.org/relnsd/talys/talys.html" target="_blank" rel="noopener noreferrer">TALYS world</a>.</p>
+
+<p>Let us now explore how we can use these theoretical nuclear physics calculations to study the $\gamma$-process.
+In the following example, we have plotted the reaction rates for the three competing reaction channels, $(\gamma,n)$, $(\gamma,p)$, and $(\gamma,\alpha)$ in the palladium isotopic hain.
+The branching from one isotopic line to the next happens when the proton or the alpha channel is stronger than the neutron.
+Here the branching happens in $^{102}$Pd which is the nucleus we will study in more detail in the following.
+Note that we haven’t included any uncertainties in these calculations, meaning that the branching point might change if we change the nuclear physics input, which is why experiments are so important to constrain the models.</p>
+
+<center>                                                                
+       <div class="col-sm mt-2 mt-md-0">
+           <img class="img-fluid" src="/assets/img/branching_point.png" zoomable="true">
+     </div>
+     <div class="caption">
+     Branching points in the palladium (Pd) isotopic chain. Figure adapted from <d-cite key="iliadis2017nuclear"></d-cite>. The $(\gamma,\alpha)$ channel dominates in $A=102$. All calculations were made using the TALYS code<d-cite key="Koning2023"></d-cite> with the default settings.
+      </div>
+</center>
+
+<h3 id="detailed-balance--connecting-forward-and-reverse-reactions">Detailed balance- Connecting forward and reverse reactions</h3>
+
+<p>The detailed balance principle allows us to extract photodisintegration cross sections from radiative capture data. For a reaction $A + a \leftrightarrow B + b$, detailed balance relates the forward reaction rate to the reverse:</p>
+
+<p>\begin{equation}\label{eq:detailed_balance}
+\langle \sigma v \rangle_{(p,\gamma)} = \frac{(2J_B+1)}{(2J_A+1)} \frac{E_{\gamma}^2}{(m_pc^2 kT)^{3/2}}e^{-Q/(kT)} \langle \sigma v\rangle_{(\gamma, p)}
+\end{equation}</p>
+
+<p>Here, $Q = (m_A + m_p - m_B - m_\gamma)c^2$ is the Q-value (negative for endothermic reactions). The temperature dependence $T^{-3/2}$ reflects the thermal distribution of particles in the plasma (Maxwell-Boltzmann). The spin factors $(2J+1)$ account for the different quantum states available in each channel.</p>
+
+<p>At higher temperatures, the exponential factor $e^{-Q/(kT)}$ grows, making the photodisintegration rate larger compared to radiative capture. This is why the $\gamma$-process is efficient in core-collapse supernovae, where temperatures exceed GK!</p>
+
+<h3 id="stellar-enhancement-and-partition-functions">Stellar enhancement and partition functions</h3>
+
+<p>In the astrophysical environment, nuclei are not confined to their ground states. Thermal excitation populates excited levels, and the <em>effective</em> cross section seen in a stellar plasma depends on:</p>
+
+<ul>
+  <li>
+    <p><strong>Partition function:</strong> The fraction of nuclei in excited states is given by the partition function:
+ \begin{equation}
+ G(T) = \sum_i (2J_i+1) e^{-E_i/(kT)}
+ \end{equation}
+ where the sum runs over all accessible excited levels. At low $T$, only the ground state contributes; at high $T$, many levels are populated.</p>
+  </li>
+  <li>
+    <p><strong>Stellar enhancement factor:</strong> The ratio of the stellar rate to the ground-state rate is approximately:
+ \begin{equation}
+ \frac{\langle \sigma v \rangle_\star}{\langle \sigma v \rangle_{g.s.}} \approx \frac{\sum_i (2J_i+1) \sigma_i(T) e^{-E_i/(kT)}}{(2J_{g.s.}+1)\sigma_{g.s.}(T)}
+ \end{equation}</p>
+  </li>
+</ul>
+
+<p>Different excited states have different spins and resonance strengths. A measurement targeting only the ground state can miss significant contributions from excited levels. This is particularly important near energy thresholds, where ground-state contributions might be suppressed but excited-state contributions could be substantial <d-cite key="Rauscher2011"></d-cite>.</p>
+
+<p>For more details on how to calculate partition functions and apply them to astrophysical rates, see <d-cite key="Rauscher2011"></d-cite> and <d-cite key="iliadis2017nuclear"></d-cite>.</p>
+
+<center>                                                                
+       <div class="col-sm mt-2 mt-md-0">
+           <img class="img-fluid" src="/assets/img/excited.png" zoomable="true">
+     </div>
+     <div class="caption">
+     The difference between reactions in the lab and in teh star. In the latter case, we have contributions from excited states that can significantly enhance the reaction rate. Figure adapted from <d-cite key="iliadis2017nuclear"></d-cite>.
+      </div>
+</center>
+
+<h2 id="why-gamma-beam-experiments-matter">Why $\gamma$-beam experiments matter</h2>
+
+<p>As we have discussed already, the $\gamma$-process network is vast (&gt;2,000 nuclei, &gt;20,000 reactions), making it impossible to measure all reaction rates directly. For photodisintegration reactions (the reverse of radiative capture), direct measurements are particularly challenging, but very important.</p>
+<div class="fake-img l-gutter">
+  <p><b>See lectures by G. Gyürky and  A. Tsantiri</b></p>
+</div>
+
+<p>Typically, we can use the time-reversal symmetry of nuclear interactions to get the photodisintegration rates. If we measure the <em>forward</em> reaction (e.g., $p + ^{101}\mathrm{Rh} \rightarrow \gamma + ^{102}\mathrm{Pd}$)<d-footnote>In this case the target would be radioactive, which makes the "forward" reaction also challenging!</d-footnote>, we can extract the <em>reverse</em> photodisintegration rate via detailed balance. This is why $\gamma$-beam experiments on the ground states of unstable nuclei produced in reactions like $(p,\gamma)$ are crucial.</p>
+
+<p>In stellar environments, nuclei exist in excited states due to the high temperatures. The competition between different exit channels—$(\gamma,n)$ vs. $(\gamma,p)$ vs. $(\gamma,\alpha)$—depends sensitively on <em>where</em> the compound nucleus has strength (resonances). Monoenergetic $\gamma$-beams allow us to scan through these resonances systematically.</p>
+
+<p>The HF model relies on inputs like the optical-model potential, $\gamma$-ray strength function, and nuclear level density. By measuring cross sections at energies relevant to the $\gamma$-process, we can constrain these inputs and reduce uncertainties in theoretical predictions.</p>
+
+<div class="fake-img l-body">
+  <p> <b> $\gamma$-beam experiments DO NOT provide the full stellar rate, but are used to constrain the HF model inputs!
+ </b> </p>
+</div>
+
+<h2 id="gamma-ray-beam-production-techniques">$\gamma$-ray beam production techniques</h2>
+
+<p>Two main techniques are used to produce intense monochromatic $\gamma$-ray beams:</p>
+
+<p><strong>Bremsstrahlung radiation:</strong>
+A high-energy electron beam strikes a high-Z target, producing a continuous spectrum of photons via Coulomb deceleration in the nuclear field. The spectrum is broad, requiring post-acceleration collimation to select a narrow energy band.</p>
+
+<p>Advantages:</p>
+<ul>
+  <li>Simple, robust technique</li>
+  <li>High integrated flux in broad energy range</li>
+</ul>
+
+<p>Disadvantages:</p>
+<ul>
+  <li>Energy resolution typically 100% (very broad)</li>
+  <li>Only a small fraction of photons end up in the selected energy window</li>
+</ul>
+
+<p><strong>Compton backscattering:</strong>
+A low-energy laser photon is scattered off a relativistic electron beam. By tuning the electron energy and collision geometry, one can produce nearly monochromatic photons via the Compton formula:
+\begin{equation}
+E_\gamma = E_e \left(1 - \cos\theta\right) \frac{2E_\mathrm{laser}}{m_e c^2} / \left[1 + \frac{2E_e}{m_e c^2}(1-\cos\theta)\right]
+\end{equation}</p>
+
+<p>Advantages:</p>
+<ul>
+  <li>Excellent energy resolution (&lt; 1% FWHM)</li>
+  <li>Tunable beam energy by adjusting electron energy</li>
+  <li>Narrow energy spread allows threshold measurements</li>
+</ul>
+
+<p>Disadvantages:</p>
+<ul>
+  <li>More complex infrastructure (linac + laser + collision geometry)</li>
+  <li>Lower absolute photon flux compared to bremsstrahlung</li>
+  <li>Higher operational cost</li>
+</ul>
+
+<h3 id="major-gamma-ray-beam-facilities-worldwide">Major $\gamma$-ray beam facilities worldwide</h3>
+
+<p>The following table summarizes the key facilities used for photonuclear research in astrophysics:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Facility</th>
+      <th>Country</th>
+      <th>Energy Range (MeV)</th>
+      <th>Flux ($\gamma$/s)</th>
+      <th>$\Delta E/E$ (FWHM)</th>
+      <th>Polarization</th>
+      <th>Technique</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HI$\gamma$S (TUNL)</td>
+      <td>USA</td>
+      <td>1–100</td>
+      <td>$\leq 3 \times 10^{10}$</td>
+      <td>3–5%</td>
+      <td>Linear/Circular</td>
+      <td>Compton backscattering</td>
+    </tr>
+    <tr>
+      <td>ELI-NP</td>
+      <td>Romania</td>
+      <td>0.2–19.5</td>
+      <td>$\sim 2 \times 10^{8}$</td>
+      <td>$\leq$0.5%</td>
+      <td>Linear</td>
+      <td>Laser Compton Scattering</td>
+    </tr>
+    <tr>
+      <td>NewSUBARU</td>
+      <td>Japan</td>
+      <td>1–35</td>
+      <td>$\sim 10^{7}$–$10^{8}$</td>
+      <td>$\sim$3%</td>
+      <td>Linear/Pol.</td>
+      <td>Laser Compton Scattering</td>
+    </tr>
+    <tr>
+      <td>S-DALINAC</td>
+      <td>Germany</td>
+      <td>5–70</td>
+      <td>$10^{10}$–$10^{12}$ (integrated)</td>
+      <td>~100% (broad)</td>
+      <td>Unpolarized</td>
+      <td>Bremsstrahlung</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The choice of facility depends on the physics questions:</p>
+<ul>
+  <li>
+<strong>High flux, broad energy range:</strong> S-DALINAC or HI$\gamma$S for measuring integrated cross sections</li>
+  <li>
+<strong>Excellent energy resolution:</strong> ELI-NP for threshold measurements and nuclear resonance fluorescence (NRF)</li>
+  <li>
+<strong>Polarization studies:</strong> HI$\gamma$S for studying angular distributions and multipole decomposition</li>
+</ul>
+
+<h3 id="detectors-and-observables">Detectors and Observables</h3>
+
+<p>To extract astrophysical information from $\gamma$-beam experiments, we need to measure:</p>
+
+<ul>
+  <li>
+    <p><strong>Photonuclear cross sections $\sigma(E_\gamma)$ as a function of energy:</strong>
+ Direct measurement of the reaction probability is the primary goal. By scanning the $\gamma$ energy across the relevant range (typically MeV–tens of MeV), one can identify resonances and measure threshold behavior. For the $\gamma$-process, typical threshold energies are 5–20 MeV (corresponding to the negative Q-values)<d-cite key="Utsunomiya2006"></d-cite>.</p>
+  </li>
+  <li>
+<strong>Particle detection:</strong> The outgoing nuclei and/or neutrons from $(\gamma,n)$, $(\gamma,p)$, and $(\gamma,\alpha)$ reactions must be detected with:
+    <ul>
+      <li>
+<strong>Silicon detectors</strong> for charged particles: Excellent energy and position resolution; provides particle identification via $\Delta E$–$E$ techniques</li>
+      <li>
+<strong>Neutron detectors:</strong> Scintillators or time-projection chambers (TPCs) for measuring neutron energies and multiplicities</li>
+      <li>
+<strong>CdZnTe or similar:</strong> Fast timing for coincidence measurements to identify multi-nucleon ejection</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Angular distributions $\frac{d\sigma}{d\Omega}$:</strong>
+ The angular distribution of outgoing particles constrains the multipolarity (E1, E2, M1, etc.) of the $\gamma$-ray interaction. This provides nuclear structure information beyond just the cross section magnitude <d-cite key="Iliadis2021"></d-cite>.</p>
+  </li>
+  <li>
+<strong>Nuclear resonance fluorescence (NRF):</strong>
+ When a $\gamma$ ray elastically scatters off a nucleus, it reveals the position and width of excited states. NRF is particularly useful for identifying low-lying resonances that feed the ground state <d-cite key="Gribble2025, Zilges2022"></d-cite>; this is crucial for understanding stellar enhancement factors.</li>
+</ul>
+
+<p><strong>Example: The SIDAR array at HIγS</strong> <d-cite key="Munch2020"></d-cite> uses silicon detector rings to measure the energy and angle of protons and alpha particles. By reconstructing the missing energy, one can extract the neutron binding energy and identify which reaction channel (p, α, or n ejection) occurred.</p>
+
+<hr>
+
+<h2 id="case-study--102pdgamma-at-higammas-tunl">Case study- $^{102}$Pd+$\gamma$ at HI$\gamma$S (TUNL)</h2>
+
+<center>                                                                
+       <div class="col-sm mt-2 mt-md-0">
+           <img class="img-fluid" src="/assets/img/higs.png" zoomable="true">
+     </div>
+     <div class="caption">
+     Layout of the <a href="https://tunl.duke.edu/research/our-facilities" target="_blank" rel="noopener noreferrer">HIγS</a> facility at TUNL<d-cite key="Weller2009"></d-cite>. The HI$\gamma$S facility uses Compton backscattering to produce intense, polarized $\gamma$-beams.
+      </div>
+</center>
+
+<h3 id="why-102pd">Why $^{102}$Pd?</h3>
+
+<p>$^{102}$Pd is one of the ~35 p-nuclei and plays a crucial role in $\gamma$-process nucleosynthesis for several reasons: At this nucleus, the reaction flow branches between $(\gamma,n)$ leading to $^{101}$Pd and $(\gamma,p)$ leading to $^{101}$Rh (or  $(\gamma,\alpha)$). The competition between these two channels directly affects whether the reaction flow continues to lighter p-nuclei or remains in the Pd isotope chain.</p>
+
+<p>The solar system abundances of light p-nuclei (including Pd and Rh isotopes) are difficult to reproduce with standard $\gamma$-process models. Understanding the branching at $^{102}$Pd is essential for solving this discrepancy.</p>
+
+<p>The ($\gamma,p$) reaction to $^{101}$Rh has $Q = -7.81$ MeV (endothermic). This threshold is within the energy range of modern $\gamma$-beam facilities like HIγS (up to 100 MeV), making direct measurements feasible.</p>
+
+<p>$^{102}$Pd is a stable nucleus with a long half-life, so it can be produced as a pure target without complications from radioactive decay.</p>
+
+<p><strong>Astrophysical relevance:</strong> In core-collapse supernovae, $^{102}$Pd experiences peak temperatures of ~2.5–3 GK. At these temperatures, the thermal population of excited states in $^{102}$Pd affects the branching ratio. Direct measurements constrain the ground-state contribution, which can then be extrapolated to excited states using nuclear models.</p>
+
+<h3 id="experimental-setup">Experimental setup</h3>
+
+<p>The recent $^{102}$Pd$(\gamma,x)$ experiment (where x = p and α) at HIγS utilized:</p>
+
+<ul>
+  <li>
+    <p><strong>$\gamma$-ray beam:</strong> Monochromatic, collimated beam produced via Compton backscattering. The beam is scanned from slightly above the threshold (~10 MeV) up to ~19 MeV to map out the excitation function.</p>
+  </li>
+  <li>
+    <p><strong>Target:</strong> A thin $^{102}$Pd 78% enriched target (1.8 mg/cm$^2$ thickness) positioned at the center of the detector array.</p>
+  </li>
+  <li>
+<strong>Silicon Detector Array (SIDAR):</strong> <d-cite key="Munch2020"></d-cite>
+    <ul>
+      <li>Multiple silicon detectors arranged in rings around the target (~38% of 4π coverage)</li>
+      <li>Measures the energy and angle of outgoing protons and alpha particles</li>
+      <li>Energy resolution: ~100 keV (dominated by target thickness)</li>
+      <li>Angular resolution: ~2.5° (allows extraction of angular distributions if desired)</li>
+    </ul>
+  </li>
+  <li>
+<strong>Detector logic:</strong> A charged particle is identified by:
+    <ul>
+      <li>Its energy loss in the silicon ($dE/dx$, related to charge and mass)</li>
+      <li>Its residual energy after passing through the detector</li>
+      <li>The combination determines whether it’s a proton, alpha, or heavier fragment</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Measured quantities:</strong></p>
+<ul>
+  <li>Differential cross section $\frac{d\sigma}{dE_\gamma}$ for ($\gamma,p$) and ($\gamma,\alpha$) as functions of $E_\gamma$</li>
+  <li>Angular distributions $\frac{d\sigma}{d\Omega}$ (if measured with sufficient angular resolution)</li>
+  <li>Total $\gamma$-induced reaction cross sections by integrating over angles</li>
+</ul>
+
+<center>                                                                
+       <div class="col-sm mt-2 mt-md-0">
+           <img class="img-fluid" src="/assets/img/sidar.png" zoomable="true">
+     </div>
+     <div class="caption">
+     Schematic of the silicon detector array (SIDAR) <d-cite key="Munch2020"></d-cite>.
+      </div>
+</center>
+
+<h3 id="model-expectations">Model expectations</h3>
+
+<p>Before the experiment, theoretical predictions (using TALYS) made specific predictions for the cross sections. The predictions depended on the choice of nuclear physics inputs that we discussed previously (OMP, $\gamma$SF and NLD).</p>
+
+<p>Typical HF predictions:</p>
+<ul>
+  <li>($\gamma,p$) cross section: ~1–10 mb near 10 MeV above threshold</li>
+  <li>($\gamma,\alpha$) cross section: Smaller (~0.1–1 mb) but non-negligible</li>
+</ul>
+
+<p><strong>Uncertainties:</strong> HF predictions for this nucleus carry typical uncertainties of factors of 2–3 (sometimes more) due to the nuclear physics inputs. This is why direct measurements are essential.</p>
+
+<h3 id="results-and-interpretation">Results and interpretation</h3>
+
+<p>The experimental data (provided in the companion notebook as <code class="language-plaintext highlighter-rouge">pd102gp.dat</code>) show the ($\gamma,p$) cross section as a function of $\gamma$-energy. Key observations include the threshold behavior, the energy dependance and its comparison with the the HF predictions. The cross section rises sharply above the 7.81 MeV threshold, reaching peak values of a few millibarns at ~10 MeV. The opening of the neutron channel at ~10.5 MeV is not as pronounced as expercted. Above ~15 MeV, the cross section behavior seems to flatten out. We can now use the measured cross sections to constrain the HF model inputs. If the measurement differs from theory, it suggests that one or more of the OMP, GSF, or NLD parameters needs refinement.</p>
+
+<p><strong>How does this feed back to nucleosynthesis?</strong></p>
+
+<p>Using the measured cross section $\sigma(E_\gamma)$ and detailed balance, one can calculate the stellar reaction rate:</p>
+
+<p>\begin{equation}
+\lambda_\gamma = \frac{8\pi}{h^3 c^2}\int_0^\infty \frac{E_\gamma^2}{e^{E_\gamma/(kT)}-1} \sigma(E_\gamma) \, dE_\gamma
+\end{equation}</p>
+
+<p>This integral weights the cross section by the thermal photon distribution (Planck function). At high stellar temperatures (T = 2–3 GK, relevant for the $\gamma$-process), the Planck function shifts weight to higher energies, emphasizing the cross section above ~15 MeV.</p>
+
+<p>The updated rates, combined with the competing ($\gamma,n$) rates, determine the branching ratio in the astrophysical environment. This directly predicts the final abundance of $^{101}$Rh vs. the flux of nuclei progressing toward lighter p-nuclei. The notebook guides you through this calculation step by step.</p>
+
+<h2 id="broader-implications-and-open-questions">Broader implications and open questions</h2>
+
+<h3 id="key-open-questions-in-the-γ-process">Key open questions in the γ-process</h3>
+
+<ul>
+  <li>
+<strong>Light p-nuclei discrepancy:</strong> Standard $\gamma$-process calculations struggle to reproduce the observed abundances of light p-nuclei (A ~ 90–120). This may indicate:
+    <ul>
+      <li>Missing physics in the supernova models (e.g., rotation, magnetic fields, 3D effects)</li>
+      <li>Contributions from alternative sites (e.g., C–O shell mergers, νp-process)</li>
+      <li>Systematic uncertainties in nuclear reaction rates that haven’t been fully explored</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Role of excited-state contributions:</strong> Most direct measurements target ground states. The contribution of excited states at astrophysical temperatures remains poorly constrained.</p>
+  </li>
+  <li>
+    <p><strong>The importance of (γ,α) reactions:</strong> While ($\gamma,n$) dominates the reaction
+flow, ($\gamma,\alpha$) channels can open up new reaction paths or suppress certain isotopes. Precise measurements of ($\gamma,\alpha$) cross sections are still lacking for many nuclei.</p>
+  </li>
+  <li>
+<strong>Rare isotope beams:</strong> Many reaction for the $\gamma$-process involve unstable isotopes. Next-generation facilities (<em>e.g.</em>, FRIB, GSI-FAIR) have very recently started to perform experiments on radioactive beams, allowing direct measurements on unstable nuclei <d-cite key="Dellmann2025,Tsantiri2025"></d-cite>.</li>
+</ul>
+
+<h3 id="future-perspectives">Future perspectives</h3>
+
+<p>Some ideas about the future directions in our field regarding the $\gamma$-process:</p>
+
+<ul>
+  <li>
+<strong>New generation of $\gamma$-ray sources:</strong>
+    <ul>
+      <li>Higher intensity beams (increased flux by orders of magnitude)</li>
+      <li>Improved energy resolution for better threshold studies</li>
+      <li>Wider energy ranges to probe different astrophysical regimes</li>
+      <li>Improved polarization capabilities for nuclear structure studies</li>
+    </ul>
+  </li>
+  <li>
+<strong>Advanced detector technologies:</strong>
+    <ul>
+      <li>Fast, large-volume TPCs for neutron detection and energy reconstruction</li>
+      <li>$\gamma$-ray spectrometers for coincident photon detection</li>
+    </ul>
+  </li>
+  <li>
+<strong>Collaboration with astrophysical observations:</strong>
+    <ul>
+      <li>Solar abundances still set strong constraints on nucleosynthesis models</li>
+      <li>Meteoritic data (presolar grains, isotope anomalies) provide complementary evidence</li>
+      <li>Astronomical observations (s-process abundances in AGB stars, r-process signatures in neutron star mergers)</li>
+    </ul>
+  </li>
+  <li>
+<strong>Bridging theory and experiment:</strong>
+    <ul>
+      <li>Uncertainty quantification to propagate nuclear physics uncertainties through nucleosynthesis</li>
+      <li>Bayesian approaches to constraining reaction rates from multiple experimental inputs</li>
+      <li>Integrated frameworks combining nuclear physics, hydrodynamics, and observational constraints</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="conclusions">Conclusions</h2>
+
+<p>The $\gamma$-process remains a fundamental open problem in nuclear astrophysics. Understanding where the p-nuclei come from requires inputs from different perspectives: state-of-the-art astrophysical modeling, careful nuclear measurements with $\gamma$-beams (or capture reactions), and theoretical nuclear physics to extrapolate beyond what we can measure. Each piece contributes to piecing together this complex cosmic puzzle.</p>
+
+<p>Feel free to play with the companion notebook and get some hands-on experience with the data analysis and calculations that lie at the heart of this field. By working through the detailed balance calculations and rate conversions, you will gain insight into how laboratory measurements can help us understand the origin of the elements in the cosmos.</p>
+
+      </d-article>
+
+      <d-appendix>
+        <d-footnote-list></d-footnote-list>
+        <d-citation-list></d-citation-list>
+      </d-appendix>
+
+      <d-bibliography src="/assets/bibliography/gamma-beams.bib"></d-bibliography>
+</div>
+
+    <!-- Footer -->
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    
+    
+  </div>
+</footer>
+
+
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KZRHMS2Y02"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ window.dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-KZRHMS2Y02');
+  </script>
+    
+
+<!-- Scrolling Progress Bar -->
+<script type="text/javascript">
+  /*
+   * This JavaScript code has been adapted from the article 
+   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
+   * published on the website https://css-tricks.com on the 7th of May, 2014.
+   * Couple of changes were made to the original code to make it compatible 
+   * with the `al-foio` theme.
+   */
+  const progressBar = $("#progress");
+  /*
+   * We set up the bar after all elements are done loading.
+   * In some cases, if the images in the page are larger than the intended
+   * size they'll have on the page, they'll be resized via CSS to accomodate
+   * the desired size. This mistake, however, breaks the computations as the
+   * scroll size is computed as soon as the elements finish loading.
+   * To account for this, a minimal delay was introduced before computing the
+   * values.
+   */
+  window.onload = function () {
+    setTimeout(progressBarSetup, 50);
+  };
+  /*
+   * We set up the bar according to the browser.
+   * If the browser supports the progress element we use that.
+   * Otherwise, we resize the bar thru CSS styling
+   */
+  function progressBarSetup() {
+    if ("max" in document.createElement("progress")) {
+      initializeProgressElement();
+      $(document).on("scroll", function() {
+        progressBar.attr({ value: getCurrentScrollPosition() });
+      });
+      $(window).on("resize", initializeProgressElement);
+    } else {
+      resizeProgressBar();
+      $(document).on("scroll", resizeProgressBar);
+      $(window).on("resize", resizeProgressBar);
+    }
+  }
+  /*
+   * The vertical scroll position is the same as the number of pixels that
+   * are hidden from view above the scrollable area. Thus, a value > 0 is
+   * how much the user has scrolled from the top
+   */
+  function getCurrentScrollPosition() {
+    return $(window).scrollTop();
+  }
+
+  function initializeProgressElement() {
+    let navbarHeight = $("#navbar").outerHeight(true);
+    $("body").css({ "padding-top": navbarHeight });
+    $("progress-container").css({ "padding-top": navbarHeight });
+    progressBar.css({ top: navbarHeight });
+    progressBar.attr({
+      max: getDistanceToScroll(),
+      value: getCurrentScrollPosition(),
+    });
+  }
+  /*
+   * The offset between the html document height and the browser viewport
+   * height will be greater than zero if vertical scroll is possible.
+   * This is the distance the user can scroll
+   */
+  function getDistanceToScroll() {
+    return $(document).height() - $(window).height();
+  }
+
+  function resizeProgressBar() {
+    progressBar.css({ width: getWidthPercentage() + "%" });
+  }
+  // The scroll ratio equals the percentage to resize the bar
+  function getWidthPercentage() {
+    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+  }
+</script>
+
+  </body>
+</html>
