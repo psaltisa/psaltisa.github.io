@@ -6,7 +6,10 @@ description: what we are currently working on
 nav: true
 ---
 
-Below you can find a non-exhaustive list of projects our research group has been working on.
+Our group studies how uncertain nuclear reactions shape the observable fingerprints of stellar explosions.
+The projects below connect astrophysical environments, measurements with stable and radioactive isotopes in the lab, evaluations of thermonuclear reaction rates, and stellar abundance observations into one research program: identify the important nuclear physics, measure it, and test the consequences in nucleosynthesis models.
+
+Each theme includes possible entry points for students, selected scientific output and the facilities or methods that make the work possible.
 
 <div class="projects grid">
 
@@ -66,7 +69,7 @@ Below you can find a non-exhaustive list of projects our research group has been
     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
       <div class="card-body">
       You are lucky that SMU has a few people working in nuclear astrophysics!
-      In addition to me, you can also work with <a href="https://www.ap.smu.ca/~gchristian/">Prof. Christian</a> on experimental studies.
+      In addition to Thanassis, you can also work with <a href="https://www.ap.smu.ca/~gchristian/">Prof. Christian</a> on experimental studies.
       </div>
     </div>
   </div>
@@ -80,7 +83,7 @@ Below you can find a non-exhaustive list of projects our research group has been
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
       <div class="card-body">
-      Of course! There are many projects for students at all levels, from first-year to senior undergraduates.
+      Of course! There are many projects for students at all levels, from first year to senior undergraduates.
       You can also apply for Fellowships to partially support you (see below).
       </div>
     </div>
@@ -151,7 +154,7 @@ Below you can find a non-exhaustive list of projects our research group has been
     </div>
     <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
       <div class="card-body">
-        I am currently not hiring postdocs, but if you are interested in any of the Fellowships below, I would be happy to support you and your proposed project!
+        We are currently not hiring postdocs, but if you are interested in any of the Fellowships below, we would be happy to support you and your proposed project!
       </div>
     </div>
   </div>
@@ -174,10 +177,10 @@ Below you can find a non-exhaustive list of projects our research group has been
 <br>
 
 ## Research fellowships for students and postdocs
-<hr>
+
 
 ### Undergraduate students
-
+<hr>
 
 - [CINP Undergraduate Research Scholarship](https://cinp.ca/cinp-undergraduate-research-scholarships-urs-2025-competition) ($6,000 stipend for 16 weeks, in addition to at least another $4,000 and travel support)
 
@@ -187,33 +190,33 @@ Below you can find a non-exhaustive list of projects our research group has been
 
 - [First-Year Undergraduate Research Awards](https://www.smu.ca/research/student-research-opportunities.html) ($6,700 for 12 weeks)
 
-For the last three awards, the application deadline is **February 20, 2026**.
+<!--
+For the last three awards, the application deadline is **February 23, 2027**.
 If you are interested in working with the group, feel free to [contact](mailto:{{site.email}}) in advance.
-
+-->
 
 ### Graduate students
-
+<hr>
 - [NSERC Canada Graduate Research Scholarship (Ph.D)](https://www.nserc-crsng.gc.ca/Students-Etudiants/PG-CS/cgrsd-besrd_eng.asp)  ($40,000 per year for 3 years)
 
 - [NSERC Canada Graduate Research Scholarship (M.Sc.)](https://www.nserc-crsng.gc.ca/Students-Etudiants/PG-CS/cgrsm-besrm_eng.asp)  ($27,000 for 12 months)
 
 - [CINP Graduate Fellowship](https://cinp.ca/cinp-graduate-fellowship) ($15,000)
 
-- [Mitacs Globalink Research
-  Award](https://www.mitacs.ca/our-programs/globalink-research-award/) ($6,000-$12,000
-  for a 12-48 week internships abroad or at SMU
+- [Mitacs Globalink Research Award](https://www.mitacs.ca/our-programs/globalink-research-award/) ($6,000-$12,000 for a 12-48 week internships abroad or at SMU)
 
 - [Durland Scholarships in Graduate Research](https://www.smu.ca/durlandscholarships/index.html) ($10,000 for M.Sc. and $15,000 for Ph.D.)
   This is a SMU entrance renewable (for 2 and 3 years respectively) designed to attract top research students.
 
 ### Postdoctoral fellows
+<hr>
 
-- [Japan Society for the Promotion of Science Postdoctoral Fellowships for Research in Japan (JSPS)](https://www.nserc-crsng.gc.ca/Students-Etudiants/PD-NP/JSPS_short-SJPS_court_eng.asp) (¥362,000 per month, round-trip air ticket, and ¥200,000 settling-in allowance)
-
-- [Banting Postdoctoral Fellowships - NSERC](https://banting.fellowships-bourses.gc.ca/en/home-accueil.html) ($70,000 per year for 2 years)
-
-- [Postdoctoral Fellowships - Marie Skłodowska-Curie Actions](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships)
+- [Canada Postdoctoral Research Award - NSERC](https://nserc-crsng.canada.ca/en/funding-opportunity/canada-postdoctoral-research-award-program) ($70,000 per year for 2 years)
 
 - [Postdoctoral Fellowships - Canadian Institute for Theoretical Astrophysics](https://www.cita.utoronto.ca/opportunities/post-docs/) ($80,000 per year)
 
 - [Mitacs Globalink Research Award](https://www.mitacs.ca/our-programs/globalink-research-award/) ($6,000-$12,000 for a 12-48 week internships abroad or at SMU)
+
+- [Postdoctoral Fellowships - Marie Skłodowska-Curie Actions](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships)
+
+- [Japan Society for the Promotion of Science Postdoctoral Fellowships for Research in Japan (JSPS)](https://www.nserc-crsng.gc.ca/Students-Etudiants/PD-NP/JSPS_short-SJPS_court_eng.asp) (¥362,000 per month, round-trip air ticket, and ¥200,000 settling-in allowance)
