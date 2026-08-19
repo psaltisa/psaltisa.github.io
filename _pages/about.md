@@ -67,11 +67,7 @@ pubs: true
 <br>
 
 <div class="row justify-content-sm-center">
-    <img class="img-fluid" src="{{ site.baseurl }}/assets/img/casa.webp"
-alt="Supernova remnant image" />
-</div>
-<div class="caption">
-     The Cassiopeia A supernova remnant, captured by NASA's James Webb Space Telescope in near-infrared light. This is the aftermath of a massive star’s explosion about 340 years ago, its expanding cloud of gas and dust still glowing with the energy of that cosmic blast. Image credit: NASA, ESA, CSA, STScI, Danny Milisavljevic (Purdue University), Ilse De Looze (UGent), Tea Temim (Princeton University)
+{% include figure.html path="/assets/img/group_2026.jpg" width="57%" class="img-fluid" zoomable=true caption="Summer 2026. From left to right: Ella Jackson, Shane Gervais, Spencer Reyno, Thanassis Psaltis, Luka Radulovic."%}
 </div>
 
 The carbon in your DNA, the oxygen you are breathing, and the indium in the computer screen you are using right now—all were forged during the lives and explosive deaths of stars.

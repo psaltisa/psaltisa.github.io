@@ -39,6 +39,14 @@ nav: true
     }
 </style>
 
+<div class="row justify-content-sm-center">
+    <img class="img-fluid" src="{{ site.baseurl }}/assets/img/casa.webp"
+alt="Supernova remnant image" />
+</div>
+<div class="caption">
+     The Cassiopeia A supernova remnant, captured by NASA's James Webb Space Telescope in near-infrared light. This is the aftermath of a massive star’s explosion about 340 years ago, its expanding cloud of gas and dust still glowing with the energy of that cosmic blast. Image credit: NASA, ESA, CSA, STScI, Danny Milisavljevic (Purdue University), Ilse De Looze (UGent), Tea Temim (Princeton University)
+</div>
+
 In our research in nuclear astrophysics, we take a **systems approach** to understanding how the elements are made in the Cosmos.
 We begin by identifying the most important nuclear processes that shape the evolution of stars and stellar explosions, using **nucleosynthesis calculations** based on advanced stellar models.
 To probe these critical reactions, we carry out **experiments with radioactive ion beams** at leading facilities around the world.
