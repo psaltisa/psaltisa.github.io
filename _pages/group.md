@@ -85,6 +85,7 @@ Ella is starting her third year, with a major in Astrophysics and Math. This sum
 Luka is a fourth-year Physics major and he will be starting his thesis project this summer in nuclear astrophysics, focusing on reactions involved in supernova explosions. Outside of research, he enjoys a variety of outdoor activities such as hiking and skiing, and he regularly plays sports like basketball and goes running.
 
 <a href="mailto:luka.radulovic@smu.ca"><i class="fas fa-envelope"></i></a> &nbsp; • &nbsp;
+<a href="https://orcid.org/0009-0005-3692-4859" target="_blank" title="ORCID"><i class="ai ai-orcid"></i></a> &nbsp; • &nbsp;
 <a href="https://github.com/lradulovic" target="_blank" title="github"><i class="fab fa-github"></i></a>
 
 <br>

@@ -5,8 +5,14 @@
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" target="_blank">
       {% endif %}
-      {% assign first_initial = entry.author_array[0].first | slice: 0, 1 %}
-      {{ first_initial }}. {{ entry.author_array[0].last }} <i>et al.</i>,
+      {% assign author_count = entry.author_array | size %}
+      {% assign first_author = entry.author_array[0] %}
+      {% assign first_initial = first_author.first | slice: 0, 1 %}
+      {% if author_count > 1 %}
+        {{ first_initial }}. {{ first_author.last }} <i>et al.</i>,
+      {% else %}
+        {{ first_initial }}. {{ first_author.last }},
+      {% endif %}
       {{ entry.iso }}
       {% if entry.volume %}<strong>{{ entry.volume }}</strong>,{% endif %}
       {% if entry.pages %} {{ entry.pages }}{% endif %}
