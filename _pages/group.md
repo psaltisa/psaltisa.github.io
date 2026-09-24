@@ -88,7 +88,6 @@ Luka is a fourth-year Physics major and he will be starting his thesis project t
 <a href="https://orcid.org/0009-0005-3692-4859" target="_blank" title="ORCID"><i class="ai ai-orcid"></i></a> &nbsp; • &nbsp;
 <a href="https://github.com/lradulovic" target="_blank" title="github"><i class="fab fa-github"></i></a>
 
-<br>
 <hr>
 
 ## Spencer Reyno <small>(he/him)</small>
@@ -101,3 +100,18 @@ Spencer is a fourth-year student at Saint Mary's University pursuing his honours
 <a href="https://orcid.org/0009-0000-0588-6697" target="_blank" title="ORCID"><i class="ai ai-orcid"></i></a> &nbsp; • &nbsp;
 <a href="https://github.com/The-Spencer" target="_blank" title="github"><i class="fab fa-github"></i></a> &nbsp; • &nbsp;
 <a href="https://www.linkedin.com/in/spencer-reyno-a17696394/" target="_blank" title="github"><i class="fab fa-linkedin"></i></a>
+
+
+<hr>
+
+## Alexey Skitikov
+<div class="profile float-left">
+    <img class="img-fluid rounded-circle" src="{{ site.baseurl }}/assets/img/group/Alex.png" />
+</div>
+
+Alexey is an Honours Computer Science student at Saint Mary's University, minoring in Mathematics. He is developing a C++ Monte Carlo driver for WinNet, a Fortran nuclear reaction network code, to run large-scale reaction-rate sensitivity studies. Outside of research, he is interested in FPGA design and low-latency systems, and enjoys bouldering.
+
+<a href="mailto:Alexey.Skitiko@smu.ca"><i class="fas fa-envelope"></i></a> &nbsp; • &nbsp;
+<a href="https://github.com/lexciel" target="_blank" title="github"><i class="fab fa-github"></i></a>
+
+<hr>
