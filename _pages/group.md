@@ -66,7 +66,7 @@ Apart from his research, Thanassis enjoys long-distance running, playing chess a
           </p>
 
           <p class="card-text">
-           Our group investigates how nuclear reactions shape the production of elements in stars and stellar explosions. We combine experiments with stable and radioactive ion beams, nuclear reaction modelling, computational nucleosynthesis and astronomical observations to understand environments such as supernovae and classical novae.
+           Our group investigates how nuclear reactions shape the production of elements in stars and stellar explosions. We combine experiments with stable and radioactive ion beams, nuclear reaction modelling, computational astrophysics and astronomical observations to understand environments such as supernovae and classical novae.
           </p>
 
           <h6 class="card-title mt-4">Research opportunities</h6>
@@ -76,8 +76,8 @@ Apart from his research, Thanassis enjoys long-distance running, playing chess a
           </p>
 
           <ul class="card-text">
-            <li><strong>Experimental nuclear astrophysics:</strong> Connecting nucleosynthesis models to measurements of astrophysically important nuclear reactions, including experiments at facilities such as TRIUMF (Canada), Argonne National Laboratory (USA), and RIKEN (Japan).</li>
-            <li><strong>Nuclear reaction rates and uncertainties:</strong> Studying how uncertainties in nuclear properties affect astrophysical nucleosynthesis predictions and identifying priorities for future experimental campaigns.</li>
+            <li><strong>Experimental nuclear astrophysics:</strong> Connecting nucleosynthesis models to measurements of astrophysically important nuclear reactions at facilities such as TRIUMF (Canada), Argonne National Laboratory (USA) and RIKEN (Japan).</li>
+            <li><strong>Nuclear reaction rates and uncertainties:</strong> Studying how uncertainties in nuclear properties affect nucleosynthesis predictions and identifying priorities for future experimental campaigns.</li>
             <li><strong>Nucleosynthesis in stellar explosions:</strong> Modelling the production of heavy elements in supernovae and neutrino-driven outflows, and investigating the origin of abundance patterns observed in metal-poor stars.</li>
             <li><strong>Presolar grains and stellar nucleosynthesis:</strong> Using isotopic signatures preserved in stardust grains to investigate the conditions and nuclear reactions responsible for element production.</li>
           </ul>
@@ -89,7 +89,7 @@ Apart from his research, Thanassis enjoys long-distance running, playing chess a
           <h6 class="card-title mt-4">What we are looking for</h6>
 
           <p class="card-text">
-            Applicants should have, or be completing, a B.Sc. in Physics, Astrophysics or a related discipline, and meet the admission requirements for the M.Sc. programs in Astronomy or Applied Science at Saint Mary's University (minimum GPA of 3.00/4.3). 
+            Applicants should have, or be completing, a B.Sc. in Physics, Astrophysics or a related discipline, and meet the admission requirements for the M.Sc. programs in Astronomy or Applied Science at Saint Mary's University (minimum GPA of 3.00/4.3).
           </p>
 
           <p class="card-text">
@@ -115,7 +115,7 @@ Apart from his research, Thanassis enjoys long-distance running, playing chess a
 
           <ul class="card-text">
             <li>a brief introduction and description of their research interests,</li>
-            <li>a CV, and</li>
+            <li>a CV and</li>
             <li>an unofficial undergraduate transcript.</li>
           </ul>
 
